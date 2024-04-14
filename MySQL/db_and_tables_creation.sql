@@ -2,15 +2,22 @@ CREATE DATABASE IF NOT EXISTS ZOO;
 
 use ZOO;
 
-DROP TABLE IF EXISTS animal_image;
-DROP TABLE IF EXISTS habitat_image;
 DROP TABLE IF EXISTS opening_hours;
-DROP TABLE IF EXISTS service;
 DROP TABLE IF EXISTS review;
+DROP TABLE IF EXISTS zoo_service;
+DROP TABLE IF EXISTS species_habitat;
+DROP TABLE IF EXISTS habitat_image;
+DROP TABLE IF EXISTS animal_image;
+DROP TABLE IF EXISTS vet_visit;
 DROP TABLE IF EXISTS animal;
+DROP TABLE IF EXISTS health;
 DROP TABLE IF EXISTS species;
+DROP TABLE IF EXISTS size_unit;
+DROP TABLE IF EXISTS weight_unit;
 DROP TABLE IF EXISTS diet;
 DROP TABLE IF EXISTS habitat;
+DROP TABLE IF EXISTS user_table;
+DROP TABLE IF EXISTS role_table;
 
 CREATE TABLE opening_hours (
 	id TINYINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -33,13 +40,12 @@ CREATE TABLE zoo_service (
 	id TINYINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     service_name VARCHAR(150),
     service_description TEXT,
-    service_full_price TINYINT UNSIGNED,
-    service_child_price TINYINT UNSIGNED,
-    service_special_price TINYINT UNSIGNED
+    service_full_price FLOAT,
+    service_child_price FLOAT
 );
 
 CREATE TABLE diet (
-	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	id TINYINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     diet_name VARCHAR(50)
 );
 
@@ -49,18 +55,34 @@ CREATE TABLE habitat (
     habitat_description TEXT    
 );
 
+CREATE TABLE size_unit (
+	id TINYINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    unit_name VARCHAR(20),
+    unit_abbr VARCHAR(2)
+    );
+
+CREATE TABLE weight_unit (
+	id TINYINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    unit_name VARCHAR(20),
+    unit_abbr VARCHAR(2)    
+);
+
 CREATE TABLE species (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     species_name VARCHAR(150),
     scientific_name VARCHAR(150),
     species_description TEXT,
-    size_infos VARCHAR(150),
-    weight_infos VARCHAR(150),  
-    lifespan TINYINT,
-    species_diet_id INT,
-    species_habitat_id INT,
+    male_max_size FLOAT,
+    female_max_size FLOAT,
+    male_max_weight FLOAT,
+    female_max_weight FLOAT,
+    size_unit TINYINT,
+    weight_unit TINYINT,
+    lifespan TINYINT UNSIGNED,
+    species_diet_id TINYINT,
     FOREIGN KEY (species_diet_id) REFERENCES diet(id),
-    FOREIGN KEY (species_habitat_id) REFERENCES habitat(id)
+    FOREIGN KEY (size_unit) REFERENCES size_unit(id),
+    FOREIGN KEY (weight_unit) REFERENCES weight_unit(id)
 );
 
 CREATE TABLE species_habitat (
@@ -79,12 +101,31 @@ CREATE TABLE habitat_image (
     FOREIGN KEY (habitat_id) REFERENCES habitat(id) ON DELETE CASCADE
 );
 
+CREATE TABLE health (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    health_state VARCHAR(20)
+);
+
 CREATE TABLE animal (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     animal_name VARCHAR(50) UNIQUE,
     is_male BOOLEAN,
     animal_species INT,
-    FOREIGN KEY (animal_species) REFERENCES species(id)
+    health INT,
+    FOREIGN KEY (animal_species) REFERENCES species(id),
+    FOREIGN KEY (health) REFERENCES health(id)
+);
+
+CREATE TABLE role_table (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    role_name VARCHAR(20)
+);
+
+CREATE TABLE user_table (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    role_id INT NOT NULL,
+    FOREIGN KEY (role_id) REFERENCES role_table(id)
 );
 
 CREATE TABLE animal_image (
@@ -93,3 +134,17 @@ CREATE TABLE animal_image (
     animal_id INT NOT NULL,    
     FOREIGN KEY (animal_id) REFERENCES animal(id) ON DELETE CASCADE
 );
+
+CREATE TABLE vet_visit(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    food VARCHAR(200) NOT NULL,
+    food_weight FLOAT NOT NULL,
+    visit_date DATE NOT NULL,
+    observations TEXT,
+    animal_id INT,
+    vet_id INT,
+    FOREIGN KEY (animal_id) REFERENCES animal(id),
+    FOREIGN KEY (vet_id) REFERENCES user_table(id)
+);
+
+
