@@ -139,12 +139,14 @@ CREATE TABLE vet_visit(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     food VARCHAR(200) NOT NULL,
     food_weight FLOAT NOT NULL,
+    weight_unit TINYINT, 
     visit_date DATE NOT NULL,
     observations TEXT,
     animal_id INT,
     vet_id INT,
     FOREIGN KEY (animal_id) REFERENCES animal(id),
-    FOREIGN KEY (vet_id) REFERENCES user_table(id)
+    FOREIGN KEY (vet_id) REFERENCES user_table(id),
+    FOREIGN KEY (weight_unit) REFERENCES weight_unit(id)
 );
 
 
