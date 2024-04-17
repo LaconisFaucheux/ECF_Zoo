@@ -2,7 +2,7 @@
 {
     public class Health
     {
-        public byte Id { get; set; }
+        public int Id { get; set; }
         public string State { get; set; } = string.Empty;
     }
 }

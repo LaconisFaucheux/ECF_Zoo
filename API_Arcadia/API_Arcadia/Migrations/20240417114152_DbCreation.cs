@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace API_Arcadia.Data.Migrations
+namespace API_Arcadia.Migrations
 {
     /// <inheritdoc />
     public partial class DbCreation : Migration
@@ -15,7 +15,8 @@ namespace API_Arcadia.Data.Migrations
                 name: "Diets",
                 columns: table => new
                 {
-                    Id = table.Column<byte>(type: "tinyint", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
@@ -41,7 +42,8 @@ namespace API_Arcadia.Data.Migrations
                 name: "Healths",
                 columns: table => new
                 {
-                    Id = table.Column<byte>(type: "tinyint", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     State = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
@@ -56,10 +58,10 @@ namespace API_Arcadia.Data.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DayOfWeek = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    MorningOpening = table.Column<TimeOnly>(type: "time", nullable: false),
-                    MorningClosing = table.Column<TimeOnly>(type: "time", nullable: false),
-                    AfternoonOpening = table.Column<TimeOnly>(type: "time", nullable: false),
-                    AfternoonClosing = table.Column<TimeOnly>(type: "time", nullable: false)
+                    MorningOpening = table.Column<TimeOnly>(type: "time", nullable: true),
+                    MorningClosing = table.Column<TimeOnly>(type: "time", nullable: true),
+                    AfternoonOpening = table.Column<TimeOnly>(type: "time", nullable: true),
+                    AfternoonClosing = table.Column<TimeOnly>(type: "time", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -86,7 +88,8 @@ namespace API_Arcadia.Data.Migrations
                 name: "SizeUnits",
                 columns: table => new
                 {
-                    Id = table.Column<byte>(type: "tinyint", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Abbr = table.Column<string>(type: "nvarchar(2)", maxLength: 2, nullable: false)
                 },
@@ -99,7 +102,8 @@ namespace API_Arcadia.Data.Migrations
                 name: "WeightUnits",
                 columns: table => new
                 {
-                    Id = table.Column<byte>(type: "tinyint", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Abbr = table.Column<string>(type: "nvarchar(2)", maxLength: 2, nullable: false)
                 },
@@ -116,8 +120,8 @@ namespace API_Arcadia.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FullPrice = table.Column<float>(type: "real", nullable: false),
-                    ChildPrice = table.Column<float>(type: "real", nullable: false)
+                    FullPrice = table.Column<float>(type: "real", nullable: true),
+                    ChildPrice = table.Column<float>(type: "real", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -154,13 +158,13 @@ namespace API_Arcadia.Data.Migrations
                     ScientificName = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MaleMaxSize = table.Column<float>(type: "real", nullable: false),
-                    FemaleMaxSize = table.Column<float>(type: "real", nullable: false),
+                    FemaleMaxSize = table.Column<float>(type: "real", nullable: true),
                     MaleMaxWeight = table.Column<float>(type: "real", nullable: false),
-                    FemaleMaxWeight = table.Column<float>(type: "real", nullable: false),
-                    IdSizeUnit = table.Column<byte>(type: "tinyint", nullable: false),
-                    IdWeightUnit = table.Column<byte>(type: "tinyint", nullable: false),
+                    FemaleMaxWeight = table.Column<float>(type: "real", nullable: true),
+                    IdSizeUnit = table.Column<int>(type: "int", nullable: false),
+                    IdWeightUnit = table.Column<int>(type: "int", nullable: false),
                     Lifespan = table.Column<byte>(type: "tinyint", nullable: false),
-                    IdDiet = table.Column<byte>(type: "tinyint", nullable: false)
+                    IdDiet = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -192,7 +196,7 @@ namespace API_Arcadia.Data.Migrations
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     IsMale = table.Column<bool>(type: "bit", nullable: false),
                     IdSpecies = table.Column<int>(type: "int", nullable: false),
-                    IdHealth = table.Column<byte>(type: "tinyint", nullable: false)
+                    IdHealth = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -262,7 +266,7 @@ namespace API_Arcadia.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Food = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     FoodWeight = table.Column<float>(type: "real", nullable: false),
-                    IdWeightUnit = table.Column<byte>(type: "tinyint", nullable: false),
+                    IdWeightUnit = table.Column<int>(type: "int", nullable: false),
                     VisitDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Observations = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdAnimal = table.Column<int>(type: "int", nullable: false),

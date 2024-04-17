@@ -4,19 +4,16 @@ using API_Arcadia.Models.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace API_Arcadia.Data.Migrations
+namespace API_Arcadia.Migrations
 {
     [DbContext(typeof(ContextArcadia))]
-    [Migration("20240416133146_DbCreation")]
-    partial class DbCreation
+    partial class ContextArcadiaModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -33,8 +30,8 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte>("IdHealth")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdHealth")
+                        .HasColumnType("int");
 
                     b.Property<int>("IdSpecies")
                         .HasColumnType("int");
@@ -81,8 +78,11 @@ namespace API_Arcadia.Data.Migrations
 
             modelBuilder.Entity("API_Arcadia.Models.Diet", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -141,8 +141,11 @@ namespace API_Arcadia.Data.Migrations
 
             modelBuilder.Entity("API_Arcadia.Models.Health", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("State")
                         .IsRequired()
@@ -162,10 +165,10 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<TimeOnly>("AfternoonClosing")
+                    b.Property<TimeOnly?>("AfternoonClosing")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("AfternoonOpening")
+                    b.Property<TimeOnly?>("AfternoonOpening")
                         .HasColumnType("time");
 
                     b.Property<string>("DayOfWeek")
@@ -173,10 +176,10 @@ namespace API_Arcadia.Data.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
-                    b.Property<TimeOnly>("MorningClosing")
+                    b.Property<TimeOnly?>("MorningClosing")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("MorningOpening")
+                    b.Property<TimeOnly?>("MorningOpening")
                         .HasColumnType("time");
 
                     b.HasKey("Id");
@@ -214,8 +217,11 @@ namespace API_Arcadia.Data.Migrations
 
             modelBuilder.Entity("API_Arcadia.Models.SizeUnit", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Abbr")
                         .IsRequired()
@@ -244,20 +250,20 @@ namespace API_Arcadia.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("FemaleMaxSize")
+                    b.Property<float?>("FemaleMaxSize")
                         .HasColumnType("real");
 
-                    b.Property<float>("FemaleMaxWeight")
+                    b.Property<float?>("FemaleMaxWeight")
                         .HasColumnType("real");
 
-                    b.Property<byte>("IdDiet")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdDiet")
+                        .HasColumnType("int");
 
-                    b.Property<byte>("IdSizeUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdSizeUnit")
+                        .HasColumnType("int");
 
-                    b.Property<byte>("IdWeightUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdWeightUnit")
+                        .HasColumnType("int");
 
                     b.Property<byte>("Lifespan")
                         .HasColumnType("tinyint");
@@ -326,8 +332,8 @@ namespace API_Arcadia.Data.Migrations
                     b.Property<int?>("IdVet")
                         .HasColumnType("int");
 
-                    b.Property<byte>("IdWeightUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdWeightUnit")
+                        .HasColumnType("int");
 
                     b.Property<string>("Observations")
                         .IsRequired()
@@ -347,8 +353,11 @@ namespace API_Arcadia.Data.Migrations
 
             modelBuilder.Entity("API_Arcadia.Models.WeightUnit", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Abbr")
                         .IsRequired()
@@ -373,14 +382,14 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<float>("ChildPrice")
+                    b.Property<float?>("ChildPrice")
                         .HasColumnType("real");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("FullPrice")
+                    b.Property<float?>("FullPrice")
                         .HasColumnType("real");
 
                     b.Property<string>("Name")

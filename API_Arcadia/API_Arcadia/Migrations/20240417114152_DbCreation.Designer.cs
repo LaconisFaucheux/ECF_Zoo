@@ -4,16 +4,19 @@ using API_Arcadia.Models.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace API_Arcadia.Data.Migrations
+namespace API_Arcadia.Migrations
 {
     [DbContext(typeof(ContextArcadia))]
-    partial class ContextArcadiaModelSnapshot : ModelSnapshot
+    [Migration("20240417114152_DbCreation")]
+    partial class DbCreation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,8 +33,8 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte>("IdHealth")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdHealth")
+                        .HasColumnType("int");
 
                     b.Property<int>("IdSpecies")
                         .HasColumnType("int");
@@ -50,7 +53,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdSpecies");
 
-                    b.ToTable("Animals", (string)null);
+                    b.ToTable("Animals");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.AnimalImage", b =>
@@ -73,13 +76,16 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdAnimal");
 
-                    b.ToTable("AnimalImages", (string)null);
+                    b.ToTable("AnimalImages");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Diet", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -88,7 +94,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Diets", (string)null);
+                    b.ToTable("Diets");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Habitat", b =>
@@ -110,7 +116,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Habitats", (string)null);
+                    b.ToTable("Habitats");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.HabitatImage", b =>
@@ -133,13 +139,16 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdHabitat");
 
-                    b.ToTable("HabitatImages", (string)null);
+                    b.ToTable("HabitatImages");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Health", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("State")
                         .IsRequired()
@@ -148,7 +157,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Healths", (string)null);
+                    b.ToTable("Healths");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.OpeningHour", b =>
@@ -159,10 +168,10 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<TimeOnly>("AfternoonClosing")
+                    b.Property<TimeOnly?>("AfternoonClosing")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("AfternoonOpening")
+                    b.Property<TimeOnly?>("AfternoonOpening")
                         .HasColumnType("time");
 
                     b.Property<string>("DayOfWeek")
@@ -170,15 +179,15 @@ namespace API_Arcadia.Data.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
-                    b.Property<TimeOnly>("MorningClosing")
+                    b.Property<TimeOnly?>("MorningClosing")
                         .HasColumnType("time");
 
-                    b.Property<TimeOnly>("MorningOpening")
+                    b.Property<TimeOnly?>("MorningOpening")
                         .HasColumnType("time");
 
                     b.HasKey("Id");
 
-                    b.ToTable("OpeningHours", (string)null);
+                    b.ToTable("OpeningHours");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Review", b =>
@@ -206,13 +215,16 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Reviews", (string)null);
+                    b.ToTable("Reviews");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.SizeUnit", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Abbr")
                         .IsRequired()
@@ -226,7 +238,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SizeUnits", (string)null);
+                    b.ToTable("SizeUnits");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Species", b =>
@@ -241,20 +253,20 @@ namespace API_Arcadia.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("FemaleMaxSize")
+                    b.Property<float?>("FemaleMaxSize")
                         .HasColumnType("real");
 
-                    b.Property<float>("FemaleMaxWeight")
+                    b.Property<float?>("FemaleMaxWeight")
                         .HasColumnType("real");
 
-                    b.Property<byte>("IdDiet")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdDiet")
+                        .HasColumnType("int");
 
-                    b.Property<byte>("IdSizeUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdSizeUnit")
+                        .HasColumnType("int");
 
-                    b.Property<byte>("IdWeightUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdWeightUnit")
+                        .HasColumnType("int");
 
                     b.Property<byte>("Lifespan")
                         .HasColumnType("tinyint");
@@ -283,7 +295,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdWeightUnit");
 
-                    b.ToTable("Speciess", (string)null);
+                    b.ToTable("Speciess");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.SpeciesHabitat", b =>
@@ -298,7 +310,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdSpecies");
 
-                    b.ToTable("SpeciesHabitats", (string)null);
+                    b.ToTable("SpeciesHabitats");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.VetVisit", b =>
@@ -323,8 +335,8 @@ namespace API_Arcadia.Data.Migrations
                     b.Property<int?>("IdVet")
                         .HasColumnType("int");
 
-                    b.Property<byte>("IdWeightUnit")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("IdWeightUnit")
+                        .HasColumnType("int");
 
                     b.Property<string>("Observations")
                         .IsRequired()
@@ -339,13 +351,16 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasIndex("IdWeightUnit");
 
-                    b.ToTable("VetVisits", (string)null);
+                    b.ToTable("VetVisits");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.WeightUnit", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Abbr")
                         .IsRequired()
@@ -359,7 +374,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("WeightUnits", (string)null);
+                    b.ToTable("WeightUnits");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.ZooService", b =>
@@ -370,14 +385,14 @@ namespace API_Arcadia.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<float>("ChildPrice")
+                    b.Property<float?>("ChildPrice")
                         .HasColumnType("real");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("FullPrice")
+                    b.Property<float?>("FullPrice")
                         .HasColumnType("real");
 
                     b.Property<string>("Name")
@@ -387,7 +402,7 @@ namespace API_Arcadia.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ZooServices", (string)null);
+                    b.ToTable("ZooServices");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.Animal", b =>

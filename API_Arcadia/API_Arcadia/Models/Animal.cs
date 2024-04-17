@@ -6,6 +6,6 @@
         public string Name { get; set; } = string.Empty;
         public bool IsMale { get; set; }
         public int IdSpecies { get; set; }
-        public byte IdHealth { get; set; }
+        public int IdHealth { get; set; }
     }
 }
