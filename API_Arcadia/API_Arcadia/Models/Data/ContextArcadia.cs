@@ -33,8 +33,8 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(a => a.Id);
                 entity.Property(a => a.Name).HasMaxLength(50);
 
-                entity.HasOne<Species>().WithMany().HasForeignKey(a => a.IdSpecies).OnDelete(DeleteBehavior.Restrict);
-                entity.HasOne<Health>().WithMany().HasForeignKey(a => a.IdHealth).OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(a => a.SpeciesData).WithMany().HasForeignKey(a => a.IdSpecies).OnDelete(DeleteBehavior.Restrict);
+                entity.HasOne(a => a.HealthData).WithMany().HasForeignKey(a => a.IdHealth).OnDelete(DeleteBehavior.NoAction);
             });
 
             modelBuilder.Entity<AnimalImage>(entity =>
@@ -42,7 +42,7 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(ai => ai.Id);
                 entity.Property(ai => ai.Slug).HasMaxLength(150);
 
-                entity.HasOne<Animal>().WithMany().HasForeignKey(ai => ai.IdAnimal);
+                entity.HasOne<Animal>().WithMany(a => a.Pics).HasForeignKey(ai => ai.IdAnimal);
             });
 
             modelBuilder.Entity<Diet>(entity =>

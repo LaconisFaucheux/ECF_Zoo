@@ -1,5 +1,7 @@
 
+using API_Arcadia.Interfaces;
 using API_Arcadia.Models.Data;
+using API_Arcadia.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Arcadia
@@ -13,7 +15,11 @@ namespace API_Arcadia
             string? connect1 = builder.Configuration.GetConnectionString("ArcadiaConnect");
 
             // Add services to the container.
-            builder.Services.AddDbContext<ContextArcadia>(opt => opt.UseSqlServer(connect1));
+            builder.Services.AddDbContext<ContextArcadia>(opt => opt.UseSqlServer(connect1).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+
+            //Business Services
+            builder.Services.AddScoped<IAnimalService, AnimalService>();
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

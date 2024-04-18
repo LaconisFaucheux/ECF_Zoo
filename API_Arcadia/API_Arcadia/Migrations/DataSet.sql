@@ -11,7 +11,7 @@ INSERT INTO OpeningHours (DayOfWeek, MorningOpening, MorningClosing, AfternoonOp
 
 INSERT INTO Healths (State)
     VALUES
-        ('En bonne santé'), ('malade');
+        ('En bonne santé'), ('Malade');
         
 INSERT INTO ZooServices (Name, Description, FullPrice, ChildPrice)
 	VALUES
@@ -85,3 +85,22 @@ INSERT INTO Animals (Name, IdSpecies, IdHealth, IsMale)
         ('Anansi', 5, 1, 1), ('Ishtar', 5, 1, 0),
         ('Thot', 6, 1, 1), ('Alex', 6, 1, 0),
         ('Kerchak', 7, 1, 1), ('Coco', 7, 1, 0);
+
+INSERT INTO AnimalImages (Slug, IdAnimal)
+    VALUES
+        ('le_lion1.png', 1), ('le_lion2.png', 2),
+        ('l_orang_outan1.png', 3), ('l_orang_outan2.png', 4),
+        ('la_pantere1.png', 5), ('la_pantere2.png', 6),
+        ('la_loutre1.png', 7), ('la_loutre2.png', 8),
+        ('le_rhino1.png', 9), ('le_rhino2.png', 10),
+        ('le_heron1.png', 11), ('le_heron2.png', 12),
+        ('le_gorille1.png', 13), ('le_gorille2.png', 14)
+
+INSERT INTO VetVisits (Food, FoodWeight, IdWeightUnit, VisitDate, Observations, IdAnimal, IdVet)
+    VALUES
+        ('Antilope', 600, 1, '2024-01-21 10:12:28.456', 'RAS Karadoc est en grande forme', 1, 1),
+        ('Antilope', 550, 1, '2024-01-21 11:04:28.456', 'RAS Mevanwi est en grande forme', 2, 1),
+        ('Coktail de fruits', 700, 1, '2024-02-15 09:15:12.789', 'Bohort est docile et aime la compagnie', 3, 1),
+        ('Coktail de fruits', 400, 1, '2024-02-15 09:15:12.789', 'Berlewen est en parfaite santé', 3, 1),
+        ('Chevreuil', 550, 1, '2024-03-21 11:04:28.456', 'Ecorchure sur la patte avant droite, à surveiller', 5, 1),
+        ('Chevreuil', 450, 1, '2024-03-22 10:04:28.456', 'RAS Coya est en grande forme', 6, 1);
