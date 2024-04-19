@@ -56,7 +56,7 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(h => h.Id);
                 entity.Property(h => h.Name).HasMaxLength(100);
 
-                entity.HasMany<Species>().WithMany().UsingEntity<SpeciesHabitat>(
+                entity.HasMany<Species>().WithMany(s => s.habitats).UsingEntity<SpeciesHabitat>(
                     l => l.HasOne<Species>().WithMany().HasForeignKey(sh => sh.IdSpecies),
                     r => r.HasOne<Habitat>().WithMany().HasForeignKey(sh => sh.IdHabitat));
             });
@@ -66,7 +66,7 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(hi => hi.Id);
                 entity.Property(hi => hi.Slug).HasMaxLength(150);
 
-                entity.HasOne<Habitat>().WithMany().HasForeignKey(hi => hi.IdHabitat);
+                entity.HasOne<Habitat>().WithMany(h => h.Pics).HasForeignKey(hi => hi.IdHabitat);
             });
 
             modelBuilder.Entity<Health>(entity =>
@@ -100,9 +100,9 @@ namespace API_Arcadia.Models.Data
                 entity.Property(s => s.Name).HasMaxLength(150);
                 entity.Property(s => s.ScientificName).HasMaxLength(150);
 
-                entity.HasOne<Diet>().WithMany().HasForeignKey(s => s.IdDiet).OnDelete(DeleteBehavior.Restrict);
-                entity.HasOne<SizeUnit>().WithMany().HasForeignKey(s => s.IdSizeUnit).OnDelete(DeleteBehavior.NoAction);
-                entity.HasOne<WeightUnit>().WithMany().HasForeignKey(s => s.IdWeightUnit).OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(s => s.diet).WithMany().HasForeignKey(s => s.IdDiet).OnDelete(DeleteBehavior.Restrict);
+                entity.HasOne(s => s.sizeUnit).WithMany().HasForeignKey(s => s.IdSizeUnit).OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(s => s.weightUnit).WithMany().HasForeignKey(s => s.IdWeightUnit).OnDelete(DeleteBehavior.NoAction);
             });
 
             modelBuilder.Entity<SpeciesHabitat>(entity =>
