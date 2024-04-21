@@ -10,7 +10,7 @@
 
         //nav props
         public virtual List<AnimalImage> Pics { get; set; } = new();
-        public virtual Species SpeciesData { get; set; } = null!;
-        public virtual Health HealthData { get; set; } = null!;
+        public virtual Species SpeciesData { get; set; } = new();
+        public virtual Health HealthData { get; set; } = new();
     }
 }

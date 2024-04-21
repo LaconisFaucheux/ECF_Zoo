@@ -8,5 +8,7 @@ namespace API_Arcadia.Interfaces
         Task<List<Animal>> GetAnimals();
 
         Task<Animal?> GetAnimal(int id);
+
+        Task<Animal> PostAnimal(Animal animal);
     }
 }

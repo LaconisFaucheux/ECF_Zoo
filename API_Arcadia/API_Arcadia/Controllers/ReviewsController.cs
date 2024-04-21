@@ -81,7 +81,7 @@ namespace API_Arcadia.Controllers
             _context.Reviews.Add(review);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetReview", new { id = review.Id }, review);
+            return CreatedAtAction(nameof(GetReview), new { id = review.Id }, review);
         }
 
         // DELETE: api/Reviews/5

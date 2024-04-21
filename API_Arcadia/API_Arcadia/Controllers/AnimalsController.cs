@@ -75,16 +75,15 @@ namespace API_Arcadia.Controllers
         //    return NoContent();
         //}
 
-        //// POST: api/Animals
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Animal>> PostAnimal(Animal animal)
-        //{
-        //    _context.Animals.Add(animal);
-        //    await _context.SaveChangesAsync();
+        // POST: api/Animals
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<Animal>> PostAnimal(Animal animal)
+        {
+            Animal a =  await _animalServ.PostAnimal(animal);
 
-        //    return CreatedAtAction("GetAnimal", new { id = animal.Id }, animal);
-        //}
+            return CreatedAtAction(nameof(GetAnimal), new { id = animal.Id }, a);
+        }
 
         //// DELETE: api/Animals/5
         //[HttpDelete("{id}")]

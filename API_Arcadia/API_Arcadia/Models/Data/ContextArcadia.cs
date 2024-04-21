@@ -115,8 +115,8 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(vv => vv.Id);
                 entity.Property(vv => vv.Food).HasMaxLength(200);
 
-                entity.HasOne<Animal>().WithMany().HasForeignKey(vv => vv.IdAnimal);
-                entity.HasOne<WeightUnit>().WithMany().HasForeignKey(vv => vv.IdWeightUnit).OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(vv => vv.animal).WithMany().HasForeignKey(vv => vv.IdAnimal);
+                entity.HasOne(vv => vv.foodWeightUnit).WithMany().HasForeignKey(vv => vv.IdWeightUnit).OnDelete(DeleteBehavior.NoAction);
             });
 
             modelBuilder.Entity<WeightUnit>(entity =>

@@ -16,9 +16,9 @@
         public int IdDiet { get; set; }
 
         //nav props
-        public virtual SizeUnit sizeUnit { get; set; } = null!;
-        public virtual WeightUnit weightUnit { get; set; } = null!;
-        public virtual Diet diet { get; set; } = null!;
+        public virtual SizeUnit sizeUnit { get; set; } = new();
+        public virtual WeightUnit weightUnit { get; set; } = new();
+        public virtual Diet diet { get; set; } = new();
         public virtual List<Habitat> habitats { get; set; } = new();
     }
 }

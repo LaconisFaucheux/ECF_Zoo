@@ -10,5 +10,9 @@
         public string Observations { get; set; } = string.Empty;
         public int IdAnimal { get; set; }
         public int? IdVet { get; set; }
+
+        //nav prop
+        public virtual Animal animal { get; set; } = null!;
+        public virtual WeightUnit foodWeightUnit { get; set; } = null!;
     }
 }

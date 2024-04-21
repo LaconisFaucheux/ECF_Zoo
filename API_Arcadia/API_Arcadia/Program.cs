@@ -21,6 +21,7 @@ namespace API_Arcadia
             builder.Services.AddScoped<IAnimalService, AnimalService>();
             builder.Services.AddScoped<IHabitatService, HabitatService>();
             builder.Services.AddScoped<ISpeciesService, SpeciesService>();
+            builder.Services.AddScoped<IVetVisitService, VetVisitService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

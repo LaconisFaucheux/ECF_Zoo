@@ -516,3 +516,15 @@ C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\API_Arcadia.staticwebassets.runtime.json
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.JSInterop.dll
