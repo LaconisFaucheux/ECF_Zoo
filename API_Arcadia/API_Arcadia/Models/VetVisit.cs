@@ -12,7 +12,7 @@
         public int? IdVet { get; set; }
 
         //nav prop
-        public virtual Animal animal { get; set; } = null!;
-        public virtual WeightUnit foodWeightUnit { get; set; } = null!;
+        public virtual Animal animal { get; set; } = new();
+        public virtual WeightUnit foodWeightUnit { get; set; } = new();
     }
 }

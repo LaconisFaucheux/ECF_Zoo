@@ -73,32 +73,34 @@ namespace API_Arcadia.Controllers
             return NoContent();
         }
 
+        //No need for put or delete request: Anyway admin will only have to update already existing opening hours for each day
+
         // POST: api/OpeningHours
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<OpeningHour>> PostOpeningHour(OpeningHour openingHour)
-        {
-            _context.OpeningHours.Add(openingHour);
-            await _context.SaveChangesAsync();
+        //[HttpPost]
+        //public async Task<ActionResult<OpeningHour>> PostOpeningHour(OpeningHour openingHour)
+        //{
+        //    _context.OpeningHours.Add(openingHour);
+        //    await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOpeningHour", new { id = openingHour.Id }, openingHour);
-        }
+        //    return CreatedAtAction("GetOpeningHour", new { id = openingHour.Id }, openingHour);
+        //}
 
         // DELETE: api/OpeningHours/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteOpeningHour(int id)
-        {
-            var openingHour = await _context.OpeningHours.FindAsync(id);
-            if (openingHour == null)
-            {
-                return NotFound();
-            }
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteOpeningHour(int id)
+        //{
+        //    var openingHour = await _context.OpeningHours.FindAsync(id);
+        //    if (openingHour == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _context.OpeningHours.Remove(openingHour);
-            await _context.SaveChangesAsync();
+        //    _context.OpeningHours.Remove(openingHour);
+        //    await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         private bool OpeningHourExists(int id)
         {

@@ -31,5 +31,18 @@ namespace API_Arcadia.Services
                       select s;
             return await req.FirstOrDefaultAsync();
         }
+
+        public async Task<Species> PostSpecies(Species species)
+        {
+            species.diet = null!;
+            species.weightUnit = null!;
+            species.sizeUnit = null!;
+            species.habitats = null!;
+
+            _context.Speciess.Add(species);
+            await _context.SaveChangesAsync();
+
+            return species;
+        }
     }
 }

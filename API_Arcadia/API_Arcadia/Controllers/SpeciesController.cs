@@ -74,16 +74,16 @@ namespace API_Arcadia.Controllers
         //    return NoContent();
         //}
 
-        //// POST: api/Species
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Species>> PostSpecies(Species species)
-        //{
-        //    _context.Speciess.Add(species);
-        //    await _context.SaveChangesAsync();
+        // POST: api/Species
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<Species>> PostSpecies(Species species)
+        {
+            Species s = await _ServiceSpec.PostSpecies(species);
+            
 
-        //    return CreatedAtAction("GetSpecies", new { id = species.Id }, species);
-        //}
+            return CreatedAtAction(nameof(GetSpecies), new { id = species.Id }, species);
+        }
 
         //// DELETE: api/Species/5
         //[HttpDelete("{id}")]

@@ -3,54 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\habitatimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\habitatimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\controllers\\speciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\controllers\\speciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\services\\vetvisitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\services\\vetvisitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\services\\speciesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\services\\speciesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.Animals.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\repo\\api_arcadia\\api_arcadia\\models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,185 +33,69 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HabitatImage.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\HabitatImage.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Models\\HabitatImage.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\HabitatImage.cs",
-              "RelativeToolTip": "API_Arcadia\\Models\\HabitatImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:04:57.505Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.HabitatImages [Donn\u00E9es]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
-              "ToolTip": "dbo.HabitatImages [Donn\u00E9es]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-21T14:04:44.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Habitat.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Habitat.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Models\\Habitat.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Habitat.cs",
-              "RelativeToolTip": "API_Arcadia\\Models\\Habitat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:03:58.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VetVisitService.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\VetVisitService.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Services\\VetVisitService.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\VetVisitService.cs",
-              "RelativeToolTip": "API_Arcadia\\Services\\VetVisitService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:52:23.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpeciesService.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\SpeciesService.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Services\\SpeciesService.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\SpeciesService.cs",
-              "RelativeToolTip": "API_Arcadia\\Services\\SpeciesService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:52:12.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.Animals [Donn\u00E9es]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.Animals.sql",
-              "ToolTip": "dbo.Animals [Donn\u00E9es]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-21T13:47:38.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Species.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Species.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Models\\Species.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Species.cs",
-              "RelativeToolTip": "API_Arcadia\\Models\\Species.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBMAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:42:19.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAnimalService.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Interfaces\\IAnimalService.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Interfaces\\IAnimalService.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Interfaces\\IAnimalService.cs",
-              "RelativeToolTip": "API_Arcadia\\Interfaces\\IAnimalService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:36:44.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnimalService.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\AnimalService.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Services\\AnimalService.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\AnimalService.cs",
-              "RelativeToolTip": "API_Arcadia\\Services\\AnimalService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:34:39.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AnimalsController.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeDocumentMoniker": "API_Arcadia\\Controllers\\AnimalsController.cs",
               "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeToolTip": "API_Arcadia\\Controllers\\AnimalsController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwGUAAAALAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFQAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:26:28.856Z",
+              "WhenOpened": "2024-04-21T18:14:56.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Animal.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Models\\Animal.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Animal.cs",
-              "RelativeToolTip": "API_Arcadia\\Models\\Animal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "DocumentIndex": 0,
+              "Title": "SpeciesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\SpeciesController.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Controllers\\SpeciesController.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\SpeciesController.cs",
+              "RelativeToolTip": "API_Arcadia\\Controllers\\SpeciesController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:29:28.032Z",
+              "WhenOpened": "2024-04-21T18:13:29.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Models\\Review.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Review.cs",
-              "RelativeToolTip": "API_Arcadia\\Models\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Species.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Species.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Models\\Species.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Models\\Species.cs",
+              "RelativeToolTip": "API_Arcadia\\Models\\Species.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAywAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T13:10:19.672Z",
+              "WhenOpened": "2024-04-21T18:10:04.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "API_Arcadia\\Controllers\\ReviewsController.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "API_Arcadia\\Controllers\\ReviewsController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFMAAAA0AAAA",
+              "DocumentIndex": 3,
+              "Title": "AnimalService.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\AnimalService.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Services\\AnimalService.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\AnimalService.cs",
+              "RelativeToolTip": "API_Arcadia\\Services\\AnimalService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T12:59:05.613Z",
+              "WhenOpened": "2024-04-21T18:09:50.296Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1706,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpeciesService.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\SpeciesService.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Services\\SpeciesService.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\Services\\SpeciesService.cs",
+              "RelativeToolTip": "API_Arcadia\\Services\\SpeciesService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:52:12.23Z",
+              "EditorCaption": ""
             }
           ]
         }
