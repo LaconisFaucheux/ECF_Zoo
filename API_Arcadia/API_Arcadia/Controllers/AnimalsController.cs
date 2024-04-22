@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Interfaces;
+using API_Arcadia.Migrations;
 
 namespace API_Arcadia.Controllers
 {
@@ -78,11 +79,18 @@ namespace API_Arcadia.Controllers
         // POST: api/Animals
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Animal>> PostAnimal(Animal animal)
+        public async Task<ActionResult<Animal>> PostAnimal([FromForm] AnimalDTO animal)
         {
-            Animal a =  await _animalServ.PostAnimal(animal);
-
-            return CreatedAtAction(nameof(GetAnimal), new { id = animal.Id }, a);
+            try
+            {
+                Animal a = await _animalServ.PostAnimal(animal);
+                return CreatedAtAction(nameof(GetAnimal), new { id = animal.Id }, a);
+            }
+            catch (DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
         }
 
         //// DELETE: api/Animals/5

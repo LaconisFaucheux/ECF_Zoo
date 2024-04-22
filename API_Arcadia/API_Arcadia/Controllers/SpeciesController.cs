@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Interfaces;
+using API_Arcadia.Migrations;
 
 namespace API_Arcadia.Controllers
 {
@@ -77,12 +78,18 @@ namespace API_Arcadia.Controllers
         // POST: api/Species
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Species>> PostSpecies(Species species)
+        public async Task<ActionResult<Species>> PostSpecies([FromForm] SpeciesDTO species)
         {
-            Species s = await _ServiceSpec.PostSpecies(species);
-            
-
-            return CreatedAtAction(nameof(GetSpecies), new { id = species.Id }, species);
+            try
+            {
+                Species s = await _ServiceSpec.PostSpecies(species);
+                return CreatedAtAction(nameof(GetSpecies), new { id = s.Id }, s);
+            }
+            catch (DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
         }
 
         //// DELETE: api/Species/5

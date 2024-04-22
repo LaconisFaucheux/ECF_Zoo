@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using API_Arcadia.Migrations;
 
 namespace API_Arcadia.Controllers
 {
@@ -78,10 +79,18 @@ namespace API_Arcadia.Controllers
         [HttpPost]
         public async Task<ActionResult<ZooService>> PostZooService(ZooService zooService)
         {
-            _context.ZooServices.Add(zooService);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.ZooServices.Add(zooService);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetZooService", new { id = zooService.Id }, zooService);
+            }
+            catch(DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
 
-            return CreatedAtAction("GetZooService", new { id = zooService.Id }, zooService);
         }
 
         // DELETE: api/ZooServices/5

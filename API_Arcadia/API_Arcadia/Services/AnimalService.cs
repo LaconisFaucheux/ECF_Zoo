@@ -41,16 +41,45 @@ namespace API_Arcadia.Services
         }
 
         // POST: api/Animals
-        public async Task<Animal> PostAnimal(Animal animal)
+        public async Task<Animal> PostAnimal(AnimalDTO animal)
         {
-            animal.HealthData = null!;
-            animal.SpeciesData = null!;
-            animal.Pics = null!;
+            Animal a = new Animal
+            {
+                Name = animal.Name,
+                IsMale = animal.IsMale,
+                IdSpecies = animal.IdSpecies,
+                IdHealth = animal.IdHealth
+            };
 
-            _context.Animals.Add(animal);
+            foreach (var image in animal.images)
+            {
+                if (image != null)
+                {
+                    var fileExtension = Path.GetExtension(image.FileName);
+                    string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
+                    string storagePath = Path.Combine("Assets\\Images\\Animals", fileName);
+                    using (var stream = new FileStream(storagePath, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
+
+                    var animalImage = new AnimalImage
+                    {
+                        Slug = storagePath,
+                        IdAnimal = animal.Id
+                    };
+
+                    a.Pics.Add(animalImage);
+                }
+            }
+
+            a.HealthData = null!;
+            a.SpeciesData = null!;
+
+            _context.Animals.Add(a);
             await _context.SaveChangesAsync();
 
-            return animal;
+            return a;
         }
     }
 }

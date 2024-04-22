@@ -1,4 +1,5 @@
 ﻿using API_Arcadia.Models;
+using API_Arcadia.Models.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,6 @@ namespace API_Arcadia.Interfaces
 
         Task<Species?> GetSpeciesById(int id);
 
-        Task<Species> PostSpecies(Species species);
+        Task<Species> PostSpecies(SpeciesDTO species);
     }
 }

@@ -73,7 +73,7 @@ namespace API_Arcadia.Controllers
             return NoContent();
         }
 
-        //No need for put or delete request: Anyway admin will only have to update already existing opening hours for each day
+        //No need for post or delete request: Anyway admin will only have to update already existing opening hours for each day
 
         // POST: api/OpeningHours
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

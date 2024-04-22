@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Interfaces;
+using API_Arcadia.Migrations;
 
 namespace API_Arcadia.Controllers
 {
@@ -74,16 +75,22 @@ namespace API_Arcadia.Controllers
         //    return NoContent();
         //}
 
-        //// POST: api/VetVisits
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<VetVisit>> PostVetVisit(VetVisit vetVisit)
-        //{
-        //    _ServiceVetV.VetVisits.Add(vetVisit);
-        //    await _ServiceVetV.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetVetVisit", new { id = vetVisit.Id }, vetVisit);
-        //}
+        // POST: api/VetVisits
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
+        public async Task<ActionResult<VetVisit>> PostVetVisit(VetVisit vetVisit)
+        {
+            try
+            {
+                await _ServiceVetV.PostVetVisit(vetVisit);
+                return CreatedAtAction("GetVetVisit", new { id = vetVisit.Id }, vetVisit);
+            }
+            catch(DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
+        }
 
         //// DELETE: api/VetVisits/5
         //[HttpDelete("{id}")]

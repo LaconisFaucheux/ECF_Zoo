@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using API_Arcadia.Migrations;
 
 namespace API_Arcadia.Controllers
 {
@@ -78,10 +79,19 @@ namespace API_Arcadia.Controllers
         [HttpPost]
         public async Task<ActionResult<Review>> PostReview(Review review)
         {
-            _context.Reviews.Add(review);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Reviews.Add(review);
+                await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetReview), new { id = review.Id }, review);
+                return CreatedAtAction(nameof(GetReview), new { id = review.Id }, review);
+            }
+            catch (DbUpdateException e) 
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
+
         }
 
         // DELETE: api/Reviews/5

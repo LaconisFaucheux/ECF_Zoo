@@ -32,17 +32,44 @@ namespace API_Arcadia.Services
             return await req.FirstOrDefaultAsync();
         }
 
-        public async Task<Species> PostSpecies(Species species)
+        public async Task<Species> PostSpecies(SpeciesDTO species)
         {
-            species.diet = null!;
-            species.weightUnit = null!;
-            species.sizeUnit = null!;
-            species.habitats = null!;
+            Species s = new Species
+            {
+                Name = species.Name,
+                ScientificName = species.ScientificName,
+                Description = species.Description,
+                MaleMaxSize = species.MaleMaxSize,
+                FemaleMaxSize = species.FemaleMaxSize,
+                MaleMaxWeight = species.MaleMaxWeight,
+                FemaleMaxWeight = species.FemaleMaxWeight,
+                IdSizeUnit = species.IdSizeUnit,
+                IdWeightUnit = species.IdWeightUnit,
+                Lifespan = species.Lifespan,
+                IdDiet = species.IdDiet,
+                diet = null!,
+                weightUnit = null!,
+                sizeUnit = null!
+            };
 
-            _context.Speciess.Add(species);
+            _context.Speciess.Add(s);
             await _context.SaveChangesAsync();
 
-            return species;
+
+            foreach (int hid in species.habitats)
+            {
+                var h = await _context.Habitats.FindAsync(hid);
+
+                if (h != null)
+                {
+                    s.habitats.Add(h);
+                }                
+            }
+
+
+            await _context.SaveChangesAsync();
+
+            return s;
         }
     }
 }

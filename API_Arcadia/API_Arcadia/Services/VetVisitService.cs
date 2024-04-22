@@ -1,6 +1,7 @@
 ﻿using API_Arcadia.Interfaces;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Arcadia.Services
@@ -60,6 +61,17 @@ namespace API_Arcadia.Services
         public async Task<List<VetVisit>> GetVetVisits()
         {
             return await _context.VetVisits.ToListAsync();
+        }
+
+        public async Task<VetVisit> PostVetVisit(VetVisit vetVisit)
+        {
+            vetVisit.animal = null!;
+            vetVisit.foodWeightUnit = null!;
+
+            _context.VetVisits.Add(vetVisit);
+            await _context.SaveChangesAsync();
+
+            return vetVisit;    
         }
     }
 }

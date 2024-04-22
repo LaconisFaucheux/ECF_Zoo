@@ -1,4 +1,5 @@
 ﻿using API_Arcadia.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API_Arcadia.Interfaces
 {
@@ -8,5 +9,7 @@ namespace API_Arcadia.Interfaces
         Task<List<VetVisit>> GetVetVisits();
 
         Task<VetVisit?> GetVetVisit(int id);
+
+        Task<VetVisit> PostVetVisit(VetVisit vetVisit);
     }
 }

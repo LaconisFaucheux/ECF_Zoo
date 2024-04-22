@@ -1,4 +1,5 @@
 ﻿using API_Arcadia.Models;
+using API_Arcadia.Models.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Arcadia.Interfaces
@@ -9,6 +10,6 @@ namespace API_Arcadia.Interfaces
 
         Task<Animal?> GetAnimal(int id);
 
-        Task<Animal> PostAnimal(Animal animal);
+        Task<Animal> PostAnimal(AnimalDTO animal);
     }
 }
