@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "SixLabors.ImageSharp": "3.1.4",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -1719,6 +1720,14 @@
           }
         }
       },
+      "SixLabors.ImageSharp/3.1.4": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.4.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -2950,6 +2959,13 @@
       "sha512": "sha512-ypnSvEtpNGo48bAWn95J1oHChycCXcevFSbn53fqzLxlXFSZP7dawu8p/7mHAfGufZQSV2sBpW80XQGIfXO8kQ==",
       "path": "nuget.versioning/6.9.1",
       "hashPath": "nuget.versioning.6.9.1.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFIdxgGDA5iYkUMRFOze7BGLcdpoLFbR+a20kc1W7NepvzU7ejtxtWOg9RvgG7kb9tBoJ3ONYOK6kLil/dgF1w==",
+      "path": "sixlabors.imagesharp/3.1.4",
+      "hashPath": "sixlabors.imagesharp.3.1.4.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

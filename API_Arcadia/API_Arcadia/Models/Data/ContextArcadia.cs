@@ -41,6 +41,7 @@ namespace API_Arcadia.Models.Data
             {
                 entity.HasKey(ai => ai.Id);
                 entity.Property(ai => ai.Slug).HasMaxLength(150);
+                entity.Property(hi => hi.MiniSlug).HasMaxLength(150); 
 
                 entity.HasOne<Animal>().WithMany(a => a.Pics).HasForeignKey(ai => ai.IdAnimal);
             });
@@ -65,6 +66,7 @@ namespace API_Arcadia.Models.Data
             {
                 entity.HasKey(hi => hi.Id);
                 entity.Property(hi => hi.Slug).HasMaxLength(150);
+                entity.Property(hi => hi.MiniSlug).HasMaxLength(150);
 
                 entity.HasOne<Habitat>().WithMany(h => h.Pics).HasForeignKey(hi => hi.IdHabitat);
             });

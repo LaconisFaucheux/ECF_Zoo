@@ -93,21 +93,22 @@ namespace API_Arcadia.Controllers
             }
         }
 
-        //// DELETE: api/Animals/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteAnimal(int id)
-        //{
-        //    var animal = await _context.Animals.FindAsync(id);
-        //    if (animal == null)
-        //    {
-        //        return NotFound();
-        //    }
+        // DELETE: api/Animals/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAnimal(int id)
+        {
 
-        //    _context.Animals.Remove(animal);
-        //    await _context.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
+            try
+            {
+                await _animalServ.DeleteAnimal(id);
+                return NoContent();
+            }
+            catch (DbUpdateException e) 
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
+        }
 
         //private bool AnimalExists(int id)
         //{

@@ -16,10 +16,7 @@ namespace API_Arcadia
 
             // Add services to the container.
             builder.Services.AddDbContext<ContextArcadia>(
-                opt => opt
-                .UseSqlServer(connect1)
-                .UseQueryTrackingBehavior(QueryTrackingBehavior.TrackAll)
-                );
+                opt => opt.UseSqlServer(connect1));
 
             //Business Services
             builder.Services.AddScoped<IAnimalService, AnimalService>();

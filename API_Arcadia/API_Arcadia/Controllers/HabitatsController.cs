@@ -93,21 +93,21 @@ namespace API_Arcadia.Controllers
             }
         }
 
-        //// DELETE: api/Habitats/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteHabitat(int id)
-        //{
-        //    var habitat = await _context.Habitats.FindAsync(id);
-        //    if (habitat == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Habitats.Remove(habitat);
-        //    await _context.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
+        // DELETE: api/Habitats/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteHabitat(int id)
+        {
+            try
+            {
+                await _ServiceHab.DeleteHabitat(id);
+                return NoContent();
+            }
+            catch (DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
+        }
 
         //private bool HabitatExists(int id)
         //{

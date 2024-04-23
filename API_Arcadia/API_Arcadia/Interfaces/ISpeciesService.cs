@@ -12,5 +12,7 @@ namespace API_Arcadia.Interfaces
         Task<Species?> GetSpeciesById(int id);
 
         Task<Species> PostSpecies(SpeciesDTO species);
+
+        Task DeleteSpecies(int id);
     }
 }

@@ -64,5 +64,26 @@ namespace API_Arcadia.Services
 
             return h;
         }
+
+        public async Task DeleteHabitat(int id)
+        {
+            var habitat = await _context.Habitats.FindAsync(id); 
+
+            if (habitat != null)
+            {
+                var req = from hi in _context.HabitatImages
+                          where (hi.IdHabitat == habitat.Id)
+                          select hi;
+                List<HabitatImage> images = await req.ToListAsync();
+                foreach (var image in images)
+                {
+                    File.Delete(image.Slug);
+                }
+
+                _context.Habitats.Remove(habitat);
+            }
+
+            await _context.SaveChangesAsync();
+        }
     }
 }

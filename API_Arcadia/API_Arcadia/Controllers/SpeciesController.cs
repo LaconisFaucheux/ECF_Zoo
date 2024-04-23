@@ -92,21 +92,21 @@ namespace API_Arcadia.Controllers
             }
         }
 
-        //// DELETE: api/Species/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteSpecies(int id)
-        //{
-        //    var species = await _context.Speciess.FindAsync(id);
-        //    if (species == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Speciess.Remove(species);
-        //    await _context.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
+        // DELETE: api/Species/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteSpecies(int id)
+        {
+            try
+            {
+                await _ServiceSpec.DeleteSpecies(id);
+                return NoContent();
+            }
+            catch (DbUpdateException e)
+            {
+                ProblemDetails pb = e.ConvertToProblemDetails();
+                return Problem(pb.Detail, null, pb.Status, pb.Title);
+            }
+        }
 
         //private bool SpeciesExists(int id)
         //{

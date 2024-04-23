@@ -1,6 +1,7 @@
 ﻿using API_Arcadia.Interfaces;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Arcadia.Services
@@ -70,6 +71,16 @@ namespace API_Arcadia.Services
             await _context.SaveChangesAsync();
 
             return s;
+        }
+
+        public async Task DeleteSpecies(int id)
+        {
+            var species = await _context.Speciess.FindAsync(id);
+            if (species != null)
+            {
+                _context.Remove(species);
+            }
+            await _context.SaveChangesAsync();
         }
     }
 }

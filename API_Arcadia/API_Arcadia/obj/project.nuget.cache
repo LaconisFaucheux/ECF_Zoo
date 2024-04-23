@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8+RDY0DZnWmKQ1TTccnYkX4qaI7P1E21yrPLQuOq6TPPeHJyRl1OwtHSPWaGS+9+NXW1cHGrLJiHlTS4WOgveA==",
+  "dgSpecHash": "CKDD/tPCYjl8km+O2NfvSiKtd/Lfdlq+SoLqXu3OUDeCp8GgTIrxx1k2I2IjYXuexKmzy9913O43Yv/O2uSs+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\API_Arcadia.csproj",
   "expectedPackageFiles": [
@@ -135,6 +135,7 @@
     "C:\\Users\\Lacon\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\Lacon\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

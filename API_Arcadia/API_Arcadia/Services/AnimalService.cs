@@ -40,7 +40,6 @@ namespace API_Arcadia.Services
             return await req.FirstOrDefaultAsync();
         }
 
-        // POST: api/Animals
         public async Task<Animal> PostAnimal(AnimalDTO animal)
         {
             Animal a = new Animal
@@ -57,15 +56,20 @@ namespace API_Arcadia.Services
                 {
                     var fileExtension = Path.GetExtension(image.FileName);
                     string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
+                    string fileNameMini = $"{DateTime.Now.Ticks}_{animal.Name}_mini{fileExtension}";
                     string storagePath = Path.Combine("Assets\\Images\\Animals", fileName);
+                    string storagePathMini = Path.Combine("Assets\\Images\\Animals", fileNameMini);
                     using (var stream = new FileStream(storagePath, FileMode.Create))
                     {
                         await image.CopyToAsync(stream);
                     }
 
+                    Utils.ResizeImage(storagePath, storagePathMini, 50, 50);
+
                     var animalImage = new AnimalImage
                     {
                         Slug = storagePath,
+                        MiniSlug = storagePathMini,
                         IdAnimal = animal.Id
                     };
 
@@ -80,6 +84,27 @@ namespace API_Arcadia.Services
             await _context.SaveChangesAsync();
 
             return a;
+        }
+
+        public async Task DeleteAnimal(int id)
+        {
+            var animal = await _context.Animals.FindAsync(id);
+
+            if (animal != null)
+            {
+                var req = from ai in _context.AnimalImages
+                          where (ai.IdAnimal == animal.Id)
+                          select ai;
+                List<AnimalImage> images = await req.ToListAsync();
+                foreach (var image in images)
+                {
+                    File.Delete(image.Slug);
+                }
+
+                _context.Animals.Remove(animal);
+            }
+
+            await _context.SaveChangesAsync();
         }
     }
 }
