@@ -3,6 +3,7 @@ using API_Arcadia.Interfaces;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Services;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace API_Arcadia
 {
@@ -23,6 +24,14 @@ namespace API_Arcadia
             builder.Services.AddScoped<IHabitatService, HabitatService>();
             builder.Services.AddScoped<ISpeciesService, SpeciesService>();
             builder.Services.AddScoped<IVetVisitService, VetVisitService>();
+
+            //Serilog
+            var logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(builder.Configuration)
+                .Enrich.FromLogContext()
+                .CreateLogger();
+            builder.Logging.ClearProviders();
+            builder.Logging.AddSerilog(logger);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

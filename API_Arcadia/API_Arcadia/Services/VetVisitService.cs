@@ -15,6 +15,21 @@ namespace API_Arcadia.Services
             _context = context;
         }
 
+        public async Task DeleteVetVisit(int id)
+        {
+            var vv = await _context.VetVisits.FindAsync(id);
+
+            if (vv != null)
+            {
+                _context.Remove(vv);
+            }
+            else
+            {
+                throw new DbUpdateConcurrencyException();
+            }
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<VetVisit?> GetVetVisit(int id)
         {
             var req = from vv in _context.VetVisits                        

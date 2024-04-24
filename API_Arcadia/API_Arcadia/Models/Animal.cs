@@ -1,4 +1,6 @@
-﻿namespace API_Arcadia.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace API_Arcadia.Models
 {
     public class Animal
     {

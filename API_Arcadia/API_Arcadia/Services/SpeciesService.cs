@@ -80,6 +80,10 @@ namespace API_Arcadia.Services
             {
                 _context.Remove(species);
             }
+            else
+            {
+                throw new DbUpdateConcurrencyException();
+            }
             await _context.SaveChangesAsync();
         }
     }

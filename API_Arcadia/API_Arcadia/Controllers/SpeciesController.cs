@@ -17,10 +17,12 @@ namespace API_Arcadia.Controllers
     public class SpeciesController : ControllerBase
     {
         private readonly ISpeciesService _ServiceSpec;
+        private readonly ILogger<SpeciesController> _logger;
 
-        public SpeciesController(ISpeciesService ServiceSpec)
+        public SpeciesController(ISpeciesService ServiceSpec, ILogger<SpeciesController> logger)
         {
             _ServiceSpec = ServiceSpec;
+            _logger = logger;
         }
 
         // GET: api/Species
@@ -87,8 +89,7 @@ namespace API_Arcadia.Controllers
             }
             catch (DbUpdateException e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse(e, species, _logger);
             }
         }
 
@@ -101,10 +102,9 @@ namespace API_Arcadia.Controllers
                 await _ServiceSpec.DeleteSpecies(id);
                 return NoContent();
             }
-            catch (DbUpdateException e)
+            catch (Exception e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse<Species>(e, null, _logger);
             }
         }
 

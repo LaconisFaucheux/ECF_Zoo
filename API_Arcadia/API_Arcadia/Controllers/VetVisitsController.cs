@@ -17,10 +17,12 @@ namespace API_Arcadia.Controllers
     public class VetVisitsController : ControllerBase
     {
         private readonly IVetVisitService _ServiceVetV;
+        private readonly ILogger<VetVisitsController> _logger;
 
-        public VetVisitsController(IVetVisitService ServiceVetV)
+        public VetVisitsController(IVetVisitService ServiceVetV, ILogger<VetVisitsController> logger)
         {
             _ServiceVetV = ServiceVetV;
+            _logger = logger;
         }
 
         // GET: api/VetVisits
@@ -85,28 +87,26 @@ namespace API_Arcadia.Controllers
                 await _ServiceVetV.PostVetVisit(vetVisit);
                 return CreatedAtAction("GetVetVisit", new { id = vetVisit.Id }, vetVisit);
             }
-            catch(DbUpdateException e)
+            catch (DbUpdateException e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse(e, vetVisit, _logger);
             }
         }
 
-        //// DELETE: api/VetVisits/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteVetVisit(int id)
-        //{
-        //    var vetVisit = await _ServiceVetV.VetVisits.FindAsync(id);
-        //    if (vetVisit == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _ServiceVetV.VetVisits.Remove(vetVisit);
-        //    await _ServiceVetV.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
+        // DELETE: api/VetVisits/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteVetVisit(int id)
+        {
+            try
+            {
+                await _ServiceVetV.DeleteVetVisit(id);
+                return NoContent();
+            }
+            catch (Exception e)
+            {
+                return this.CustomErrorResponse<VetVisit>(e, null, _logger);
+            }
+        }
 
         //private bool VetVisitExists(int id)
         //{

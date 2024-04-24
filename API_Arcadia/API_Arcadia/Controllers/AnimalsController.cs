@@ -17,10 +17,12 @@ namespace API_Arcadia.Controllers
     public class AnimalsController : ControllerBase
     {
         private readonly IAnimalService _animalServ;
+        private readonly ILogger<AnimalsController> _logger;
 
-        public AnimalsController(IAnimalService animalServ)
+        public AnimalsController(IAnimalService animalServ, ILogger<AnimalsController> logger)
         {
             _animalServ = animalServ;
+            _logger = logger;
         }
 
         // GET: api/Animals
@@ -86,10 +88,9 @@ namespace API_Arcadia.Controllers
                 Animal a = await _animalServ.PostAnimal(animal);
                 return CreatedAtAction(nameof(GetAnimal), new { id = animal.Id }, a);
             }
-            catch (DbUpdateException e)
+            catch (Exception e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse(e, animal, _logger);
             }
         }
 
@@ -100,13 +101,16 @@ namespace API_Arcadia.Controllers
 
             try
             {
-                await _animalServ.DeleteAnimal(id);
+                int delCode = await _animalServ.DeleteAnimal(id);
+                if (delCode == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Animals'");
+                }
                 return NoContent();
             }
-            catch (DbUpdateException e) 
+            catch (Exception e) 
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse<Animal>(e, null, _logger);
             }
         }
 

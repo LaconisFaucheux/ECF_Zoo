@@ -16,10 +16,12 @@ namespace API_Arcadia.Controllers
     public class ReviewsController : ControllerBase
     {
         private readonly ContextArcadia _context;
+        private readonly ILogger<ReviewsController> _logger;
 
-        public ReviewsController(ContextArcadia context)
+        public ReviewsController(ContextArcadia context, ILogger<ReviewsController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: api/Reviews

@@ -12,6 +12,6 @@ namespace API_Arcadia.Interfaces
 
         Task<Animal> PostAnimal(AnimalDTO animalDTO);
 
-        Task DeleteAnimal(int id);
+        Task<int> DeleteAnimal(int id);
     }
 }

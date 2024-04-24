@@ -529,3 +529,13 @@ C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arc
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\obj\Debug\net8.0\API_Arcadia.genruntimeconfig.cache
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\obj\Debug\net8.0\ref\API_Arcadia.dll
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\REPO\API_Arcadia\API_Arcadia\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Serilog.Sinks.File.dll

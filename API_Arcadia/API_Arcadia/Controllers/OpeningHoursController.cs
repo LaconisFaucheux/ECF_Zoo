@@ -15,10 +15,12 @@ namespace API_Arcadia.Controllers
     public class OpeningHoursController : ControllerBase
     {
         private readonly ContextArcadia _context;
+        private readonly ILogger<OpeningHoursController> _logger;
 
-        public OpeningHoursController(ContextArcadia context)
+        public OpeningHoursController(ContextArcadia context, ILogger<OpeningHoursController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: api/OpeningHours

@@ -17,10 +17,12 @@ namespace API_Arcadia.Controllers
     public class HabitatsController : ControllerBase
     {
         private readonly IHabitatService _ServiceHab;
+        private readonly ILogger<HabitatsController> _logger;
 
-        public HabitatsController(IHabitatService serviceHab)
+        public HabitatsController(IHabitatService serviceHab, ILogger<HabitatsController> logger)
         {
             _ServiceHab = serviceHab;
+            _logger = logger;
         }
 
         // GET: api/Habitats
@@ -88,8 +90,7 @@ namespace API_Arcadia.Controllers
             }
             catch (DbUpdateException e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse(e, habitat, _logger);
             }
         }
 
@@ -102,10 +103,9 @@ namespace API_Arcadia.Controllers
                 await _ServiceHab.DeleteHabitat(id);
                 return NoContent();
             }
-            catch (DbUpdateException e)
+            catch (Exception e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse<Habitat>(e, null, _logger);
             }
         }
 

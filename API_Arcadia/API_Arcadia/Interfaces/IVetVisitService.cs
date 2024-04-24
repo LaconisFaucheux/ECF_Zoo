@@ -11,5 +11,7 @@ namespace API_Arcadia.Interfaces
         Task<VetVisit?> GetVetVisit(int id);
 
         Task<VetVisit> PostVetVisit(VetVisit vetVisit);
+
+        Task DeleteVetVisit(int id);
     }
 }

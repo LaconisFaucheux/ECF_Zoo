@@ -16,10 +16,12 @@ namespace API_Arcadia.Controllers
     public class ZooServicesController : ControllerBase
     {
         private readonly ContextArcadia _context;
+        private readonly ILogger<ZooServicesController> _logger;
 
-        public ZooServicesController(ContextArcadia context)
+        public ZooServicesController(ContextArcadia context, ILogger<ZooServicesController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: api/ZooServices
