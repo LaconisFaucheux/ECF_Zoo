@@ -47,36 +47,27 @@ namespace API_Arcadia.Controllers
             return Ok(animal);
         }
 
-        //// PUT: api/Animals/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutAnimal(int id, Animal animal)
-        //{
-        //    if (id != animal.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+        // PUT: api/Animals/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAnimal(int id, [FromForm]AnimalDTO animal)
+        {
+            if (id != animal.Id)
+            {
+                return BadRequest();
+            }
 
-        //    _context.Entry(animal).State = EntityState.Modified;
+            try
+            {
+                await _animalServ.UpdateAnimal(id, animal);
+            }
+            catch (Exception e)
+            {
+                return this.CustomErrorResponse<Animal>(e, null, _logger);
+            }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!AnimalExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+            return NoContent();
+        }
 
         // POST: api/Animals
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -86,7 +77,7 @@ namespace API_Arcadia.Controllers
             try
             {
                 Animal a = await _animalServ.PostAnimal(animal);
-                return CreatedAtAction(nameof(GetAnimal), new { id = animal.Id }, a);
+                return CreatedAtAction(nameof(GetAnimal), new { id = a.Id }, a);
             }
             catch (Exception e)
             {
@@ -113,10 +104,5 @@ namespace API_Arcadia.Controllers
                 return this.CustomErrorResponse<Animal>(e, null, _logger);
             }
         }
-
-        //private bool AnimalExists(int id)
-        //{
-        //    return _context.Animals.Any(e => e.Id == id);
-        //}
     }
 }

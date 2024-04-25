@@ -14,5 +14,7 @@ namespace API_Arcadia.Interfaces
         Task<Habitat> PostHabitat(HabitatDTO habitat);
 
         Task DeleteHabitat(int id);
+
+        Task<int> UpdateHabitat(int id, HabitatDTO habitat);
     }
 }

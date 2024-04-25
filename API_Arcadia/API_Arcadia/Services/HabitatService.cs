@@ -37,38 +37,39 @@ namespace API_Arcadia.Services
                 Description = habitat.Description
             };
 
-            _context.Habitats.Add(h);
-            await _context.SaveChangesAsync();
-
-            foreach (var image in habitat.image)
+            foreach (var image in habitat.images)
             {
                 if (image != null)
                 {
-                    var fileExtension = Path.GetExtension(image.FileName);
-                    string fileName = $"{DateTime.Now.Ticks}_{habitat.Name}{fileExtension}";
-                    string fileNameMini = $"{DateTime.Now.Ticks}_{habitat.Name}_mini{fileExtension}";
-                    string storagePath = Path.Combine("Assets\\Images\\Habitats", fileName);
-                    string storagePathMini = Path.Combine("Assets\\Images\\Habitats", fileNameMini);
-                    using (var stream = new FileStream(storagePath, FileMode.Create))
+                    //var fileExtension = Path.GetExtension(image.FileName);
+                    //string fileName = $"{DateTime.Now.Ticks}_{habitat.Name}{fileExtension}";
+                    //string fileNameMini = $"{DateTime.Now.Ticks}_{habitat.Name}_mini{fileExtension}";
+                    //string storagePath = Path.Combine("Assets\\Images\\Habitats", fileName);
+                    //string storagePathMini = Path.Combine("Assets\\Images\\Habitats", fileNameMini);
+                    //using (var stream = new FileStream(storagePath, FileMode.Create))
+                    //{
+                    //    await image.CopyToAsync(stream);
+                    //}
+
+                    //Utils.ResizeImage(storagePath, storagePathMini, 50, 50);                    
+
+                    //var habitatImage = new HabitatImage
+                    //{
+                    //    Slug = storagePath,
+                    //    MiniSlug = storagePathMini,
+                    //    IdHabitat = habitat.Id
+                    //};
+
+                    var hi = await Utils.UploadImage<HabitatImage>(image, "Habitats", h.Name, h.Id);
+                    if (hi != null)
                     {
-                        await image.CopyToAsync(stream);
+                        h.Pics.Add(hi);
                     }
-
-                    Utils.ResizeImage(storagePath, storagePathMini, 50, 50);
-
-                    //TODO voir pour refactoriser l'upload d'images. méthode avec <T>HabitatImage en retour + ajout de l'IdHabitat ici?
-
-                    var habitatImage = new HabitatImage
-                    {
-                        Slug = storagePath,
-                        MiniSlug = storagePathMini,
-                        IdHabitat = habitat.Id
-                    };
-
-                    h.Pics.Add(habitatImage);
+                    
                 }
             }
-
+            _context.Habitats.Add(h);
+            await _context.SaveChangesAsync();
             return h;
         }
 
@@ -95,6 +96,50 @@ namespace API_Arcadia.Services
             }
 
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<int> UpdateHabitat(int id, HabitatDTO habitat)
+        {
+
+            var req = from a in _context.Habitats
+                        .Include(a => a.Pics)
+                      where a.Id == id
+                      select a;
+            Habitat? dbHabitat = await req.FirstOrDefaultAsync();
+
+            if (dbHabitat == null) return 0;
+
+            dbHabitat.Name = habitat.Name;
+            dbHabitat.Description = habitat.Description;
+
+            foreach (var imageId in habitat.deletedImages)
+            {
+                var req2 = from ai in _context.HabitatImages
+                           where ai.Id == imageId && ai.IdHabitat == dbHabitat.Id
+                           select ai;
+                var pic = await req2.FirstOrDefaultAsync();
+
+                if (pic != null)
+                {
+                    File.Delete(pic.Slug);
+                    File.Delete(pic.MiniSlug);
+                    dbHabitat.Pics.Remove(pic);
+                }
+            }
+
+            foreach (var image in habitat.images)
+            {
+                if (image != null)
+                {
+                    var hi = await Utils.UploadImage<HabitatImage>(image, "Habitats", dbHabitat.Name, dbHabitat.Id);
+                    if (hi != null)
+                    {
+                        dbHabitat.Pics.Add(hi);
+                    }
+                }
+            }
+            _context.Entry(dbHabitat).State = EntityState.Modified;
+            return await _context.SaveChangesAsync();
         }
     }
 }

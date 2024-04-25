@@ -41,38 +41,56 @@ namespace API_Arcadia
         }
 
 
+        public static async Task<T?> UploadImage<T>(
+            IFormFile image, 
+            string folderName, 
+            string entityName, 
+            int entityId ) where T:class
+        {
+            string[] SupportedExtensions = [".jpg", ".jpeg", ".png"];
+            var fileExtension = Path.GetExtension(image.FileName);
 
-        //TODO T = Animal ou Habitat, U = HabitatImage ou AnimalImage? A creuser!
-        //public async static U UploadImage<T, U>(IFormFile image, T entity)
-        //{
-        //    var t = typeof(T).Name;
-        //    var fileExtension = Path.GetExtension(image.FileName);
-        //    string storagePath = string.Empty;
-        //    string storagePathMini = string.Empty;
-        //    string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
-        //    string fileNameMini = $"{DateTime.Now.Ticks}_{animal.Name}_mini{fileExtension}";
+            if (!SupportedExtensions.Contains(fileExtension))
+            {
+                throw new InvalidImageContentException("Format d'image non supporté");
+            }
 
-        //    switch (t.ToLower())
-        //    {
-        //        case "animal":
-        //            storagePath = Path.Combine("Assets\\Images\\Animals", fileName);
-        //            storagePathMini = Path.Combine("Assets\\Images\\Animals", fileNameMini);
-        //            string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
-        //            string fileNameMini = $"{DateTime.Now.Ticks}_{animal.Name}_mini{fileExtension}";
+            string fileName = $"{DateTime.Now.Ticks}_{entityName}{fileExtension}";
+            string fileNameMini = $"{DateTime.Now.Ticks}_{entityName}_mini{fileExtension}";
+            string storagePath = Path.Combine("Assets\\Images\\", folderName, fileName);
+            string storagePathMini = Path.Combine("Assets\\Images\\", folderName, fileNameMini);
+            using (var stream = new FileStream(storagePath, FileMode.Create))
+            {
+                await image.CopyToAsync(stream);
+            }
 
-        //            break;
-        //    }
+            Utils.ResizeImage(storagePath, storagePathMini, 300, 300);
 
-            
-
-
-        //    using (var stream = new FileStream(storagePath, FileMode.Create))
-        //    {
-        //        await image.CopyToAsync(stream);
-        //    }
-
-        //    Utils.ResizeImage(storagePath, storagePathMini, 50, 50);
-        //}
+            if (typeof(T) == typeof(AnimalImage))
+            {
+                var animalImage = new AnimalImage
+                {
+                    Slug = storagePath,
+                    MiniSlug = storagePathMini,
+                    IdAnimal = entityId
+                };
+                return animalImage as T;
+            }
+            else if (typeof(T) == typeof(HabitatImage))
+            {
+                var habitatImage = new HabitatImage
+                {
+                    Slug = storagePath,
+                    MiniSlug = storagePathMini,
+                    IdHabitat = entityId
+                };
+                return habitatImage as T;
+            }
+            else
+            {
+                return null;
+            }
+        }
 
         public static void DeleteImage()
         {

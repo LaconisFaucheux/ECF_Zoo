@@ -86,5 +86,10 @@ namespace API_Arcadia.Services
             }
             await _context.SaveChangesAsync();
         }
+
+        public Task<int> UpdateSpecies(int id, SpeciesDTO species)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

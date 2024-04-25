@@ -20,6 +20,7 @@ namespace API_Arcadia.Services
         {
             var req = from a in _context.Animals
                       .Include(a => a.Pics)
+                      .Include(a => a.SpeciesData)
                       where a != null
                       select a;
 
@@ -63,35 +64,40 @@ namespace API_Arcadia.Services
             a.HealthData = null!;
             a.SpeciesData = null!;
 
-            _context.Animals.Add(a);
-            await _context.SaveChangesAsync();
-
             foreach (var image in animal.images)
             {
                 if (image != null)
-                {//TODO: ajOUter vérification de l'extension
-                    var fileExtension = Path.GetExtension(image.FileName);
-                    string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
-                    string fileNameMini = $"{DateTime.Now.Ticks}_{animal.Name}_mini{fileExtension}";
-                    string storagePath = Path.Combine("Assets\\Images\\Animals", fileName);
-                    string storagePathMini = Path.Combine("Assets\\Images\\Animals", fileNameMini);
-                    using (var stream = new FileStream(storagePath, FileMode.Create))
+                {
+                    //var fileExtension = Path.GetExtension(image.FileName);
+                    //string fileName = $"{DateTime.Now.Ticks}_{animal.Name}{fileExtension}";
+                    //string fileNameMini = $"{DateTime.Now.Ticks}_{animal.Name}_mini{fileExtension}";
+                    //string storagePath = Path.Combine("Assets\\Images\\Animals", fileName);
+                    //string storagePathMini = Path.Combine("Assets\\Images\\Animals", fileNameMini);
+                    //using (var stream = new FileStream(storagePath, FileMode.Create))
+                    //{
+                    //    await image.CopyToAsync(stream);
+                    //}
+
+                    //Utils.ResizeImage(storagePath, storagePathMini, 50, 50);
+
+                    //var animalImage = new AnimalImage
+                    //{
+                    //    Slug = storagePath,
+                    //    MiniSlug = storagePathMini,
+                    //    IdAnimal = animal.Id
+                    //};
+
+                    var ai = await Utils.UploadImage<AnimalImage>(image, "Animals", a.Name, a.Id);
+                    if (ai != null)
                     {
-                        await image.CopyToAsync(stream);
+                        a.Pics.Add(ai);
                     }
-
-                    Utils.ResizeImage(storagePath, storagePathMini, 50, 50);
-
-                    var animalImage = new AnimalImage
-                    {
-                        Slug = storagePath,
-                        MiniSlug = storagePathMini,
-                        IdAnimal = animal.Id
-                    };
-
-                    a.Pics.Add(animalImage);
+                    
                 }
+
             }
+            _context.Animals.Add(a);
+            await _context.SaveChangesAsync();
 
             return a;
         }
@@ -120,6 +126,51 @@ namespace API_Arcadia.Services
             //    throw new DbUpdateConcurrencyException();
             //}
             
+            return await _context.SaveChangesAsync();
+        }
+
+        public async Task<int> UpdateAnimal(int id, AnimalDTO animal)
+        {
+            var req = from a in _context.Animals
+                        .Include(a => a.Pics)
+                      where a.Id == id
+                      select a;
+            Animal? dbAnimal = await req.FirstOrDefaultAsync();
+
+            if (dbAnimal == null) return 0;
+
+            dbAnimal.Name = animal.Name;
+            dbAnimal.IsMale = animal.IsMale;
+            dbAnimal.IdSpecies = animal.IdSpecies;
+            dbAnimal.IdHealth = animal.IdHealth;
+
+            foreach (var imageId in animal.deletedImages)
+            {
+                var req2 = from ai in _context.AnimalImages
+                           where ai.Id == imageId && ai.IdAnimal == dbAnimal.Id
+                           select ai;
+                var pic = await req2.FirstOrDefaultAsync();
+
+                if (pic != null)
+                {
+                    File.Delete(pic.Slug);
+                    File.Delete(pic.MiniSlug);
+                    dbAnimal.Pics.Remove(pic);
+                }                
+            }
+
+            foreach (var image in animal.images)
+            {
+                if (image != null)
+                {
+                    var ai = await Utils.UploadImage<AnimalImage>(image, "Animals", dbAnimal.Name, dbAnimal.Id);
+                    if (ai != null)
+                    {
+                        dbAnimal.Pics.Add(ai);
+                    }
+                }
+            }
+            _context.Entry(dbAnimal).State = EntityState.Modified;
             return await _context.SaveChangesAsync();
         }
     }

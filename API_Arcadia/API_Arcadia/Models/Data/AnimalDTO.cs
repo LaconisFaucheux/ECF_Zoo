@@ -9,7 +9,9 @@
         public int IdHealth { get; set; }
 
         //DTO specific props
-        public List<IFormFile?> images {  get; set; } = new();
+        public List<IFormFile?> images {  get; set; } = new(); //si POST: liste des images associées. Si PUT: liste des images ajoutées
+        public List<int> deletedImages { get; set; } = new(); // là dedans le front doit envoyer la liste des images supprimées par le user
         
+
     }
 }

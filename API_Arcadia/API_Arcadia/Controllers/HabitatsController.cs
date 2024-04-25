@@ -46,36 +46,27 @@ namespace API_Arcadia.Controllers
             return habitat;
         }
 
-        //// PUT: api/Habitats/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutHabitat(int id, Habitat habitat)
-        //{
-        //    if (id != habitat.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+        // PUT: api/Habitats/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutHabitat(int id, HabitatDTO habitat)
+        {
+            if (id != habitat.Id)
+            {
+                return BadRequest();
+            }
 
-        //    _context.Entry(habitat).State = EntityState.Modified;
+            try
+            {
+                await _ServiceHab.UpdateHabitat(id, habitat);
+            }
+            catch (Exception e)
+            {
+                return this.CustomErrorResponse<Animal>(e, null, _logger);
+            }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!HabitatExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+            return NoContent();
+        }
 
         // POST: api/Habitats
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

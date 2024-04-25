@@ -7,6 +7,7 @@
         public string Description { get; set; } = string.Empty;
 
         //DTO specific prop
-        public List<IFormFile?> image { get; set; } = new();
+        public List<IFormFile?> images { get; set; } = new();
+        public List<int> deletedImages { get; set; } = new();   
     }
 }
