@@ -1,4 +1,5 @@
-﻿using System;
+﻿//testé OK 26/04/2024
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -46,36 +47,31 @@ namespace API_Arcadia.Controllers
             return species;
         }
 
-        //// PUT: api/Species/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutSpecies(int id, Species species)
-        //{
-        //    if (id != species.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+        // PUT: api/Species/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutSpecies(int id, [FromForm]SpeciesDTO species)
+        {
+            if (id != species.Id)
+            {
+                return BadRequest();
+            }
 
-        //    _context.Entry(species).State = EntityState.Modified;
+            try
+            {
+                var updateResult = await _ServiceSpec.UpdateSpecies(id, species);
+                if (updateResult == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Species'");
+                }
+            }
+            catch (Exception e)
+            {
+                return this.CustomErrorResponse<Animal>(e, null, _logger);
+            }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!SpeciesExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+            return NoContent();
+        }
 
         // POST: api/Species
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

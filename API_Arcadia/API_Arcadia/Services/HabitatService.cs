@@ -85,7 +85,8 @@ namespace API_Arcadia.Services
                 List<HabitatImage> images = await req.ToListAsync();
                 foreach (var image in images)
                 {
-                    File.Delete(image.Slug);
+                    if (!String.IsNullOrWhiteSpace(image.Slug)) File.Delete(image.Slug);
+                    if (!String.IsNullOrWhiteSpace(image.MiniSlug)) File.Delete(image.MiniSlug);
                 }
 
                 _context.Habitats.Remove(habitat);
@@ -121,9 +122,9 @@ namespace API_Arcadia.Services
 
                 if (pic != null)
                 {
-                    File.Delete(pic.Slug);
-                    File.Delete(pic.MiniSlug);
-                    dbHabitat.Pics.Remove(pic);
+                    if (!String.IsNullOrEmpty(pic.Slug)) File.Delete(pic.Slug);
+                    if (!String.IsNullOrEmpty(pic.MiniSlug)) File.Delete(pic.MiniSlug);
+                    //dbHabitat.Pics.Remove(pic);
                 }
             }
 

@@ -36,6 +36,9 @@ namespace API_Arcadia.Services
                         .Include(vv => vv.foodWeightUnit)
                         .Include(vv => vv.animal)
                             .ThenInclude(a => a.SpeciesData)
+                                .ThenInclude(sd => sd.diet)
+                        .Include(vv => vv.animal)
+                            .ThenInclude(a => a.HealthData)
                       where vv.Id == id
                       select new
                       {
@@ -46,7 +49,9 @@ namespace API_Arcadia.Services
                           vv.VisitDate,
                           vv.Observations,
                           vv.animal,
-                          SpeciesName = vv.animal.SpeciesData.Name
+                          SpeciesName = vv.animal.SpeciesData.Name,
+                          SpeciesDiet = vv.animal.SpeciesData.diet,
+                          HealthData = vv.animal.HealthData
                       };
             var VetVisitData = await req.FirstOrDefaultAsync();
 
@@ -65,10 +70,13 @@ namespace API_Arcadia.Services
                 Observations = VetVisitData.Observations,
                 animal = VetVisitData.animal
             };
+            vetVisit.animal.HealthData = VetVisitData.HealthData;
             vetVisit.animal.SpeciesData = new Species
             {
-                Name = VetVisitData.SpeciesName
+                Name = VetVisitData.SpeciesName,
+                diet = VetVisitData.SpeciesDiet
             };
+
 
             return vetVisit;
         }
@@ -78,15 +86,57 @@ namespace API_Arcadia.Services
             return await _context.VetVisits.ToListAsync();
         }
 
-        public async Task<VetVisit> PostVetVisit(VetVisit vetVisit)
+        public async Task<VetVisit> PostVetVisit(VetVisitDTO vetVisit)
         {
-            vetVisit.animal = null!;
-            vetVisit.foodWeightUnit = null!;
+            VetVisit vv = new()
+            {
+                Food = vetVisit.Food,
+                FoodWeight = vetVisit.FoodWeight,
+                IdWeightUnit = vetVisit.IdWeightUnit,
+                VisitDate = vetVisit.VisitDate,
+                Observations = vetVisit.Observations,
+                IdAnimal = vetVisit.IdAnimal
+            };
+            vv.animal = null!;
+            vv.foodWeightUnit = null!;
 
-            _context.VetVisits.Add(vetVisit);
+            var involvedAnimal = await _context.Animals.FindAsync(vv.IdAnimal);
+            if (involvedAnimal != null)
+            {
+                involvedAnimal.IdHealth = vetVisit.healthId;
+            }
+            else 
+            {
+                throw new DbUpdateConcurrencyException();
+            }           
+
+            _context.VetVisits.Add(vv);
             await _context.SaveChangesAsync();
 
-            return vetVisit;    
+            return vv;    
+        }
+
+        public async Task<int> UpdateVetVisit(int id, VetVisitDTO vetVisit)
+        {
+            var req = from vv in _context.VetVisits
+                      .Include( vv => vv.animal)
+                      where vv.Id == id
+                      select vv;
+            var currentVetVisit = await req.FirstOrDefaultAsync();
+
+            if (currentVetVisit == null) return 0;
+
+            currentVetVisit.Food = vetVisit.Food;
+            currentVetVisit.FoodWeight = vetVisit.FoodWeight;
+            currentVetVisit.IdWeightUnit = vetVisit.IdWeightUnit;
+            currentVetVisit.VisitDate = vetVisit.VisitDate;
+            currentVetVisit.Observations = vetVisit.Observations;
+            currentVetVisit.IdAnimal = vetVisit.IdAnimal;
+             
+            currentVetVisit.animal.IdHealth = vetVisit.healthId;
+
+            _context.Entry(currentVetVisit).State = EntityState.Modified;
+            return await _context.SaveChangesAsync();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//testé OK 26/04/2024
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -59,7 +60,11 @@ namespace API_Arcadia.Controllers
 
             try
             {
-                await _animalServ.UpdateAnimal(id, animal);
+                var updateResult = await _animalServ.UpdateAnimal(id, animal);
+                if (updateResult == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Animals'");
+                }
             }
             catch (Exception e)
             {

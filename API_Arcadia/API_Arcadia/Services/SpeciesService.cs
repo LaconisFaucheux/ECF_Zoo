@@ -3,6 +3,8 @@ using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System;
 
 namespace API_Arcadia.Services
 {
@@ -87,9 +89,43 @@ namespace API_Arcadia.Services
             await _context.SaveChangesAsync();
         }
 
-        public Task<int> UpdateSpecies(int id, SpeciesDTO species)
+        public async Task<int> UpdateSpecies(int id, SpeciesDTO species)
         {
-            throw new NotImplementedException();
+            var req = from s in _context.Speciess
+                      .Include(s => s.habitats)
+                      where s.Id == id
+                      select s;
+            var dbSpecies = await req.FirstOrDefaultAsync();
+
+            if (dbSpecies == null) return 0;
+
+            dbSpecies.Name              = String.IsNullOrEmpty(species.Name) ? dbSpecies.Name : species.Name; //vraiment utile ?
+            dbSpecies.ScientificName    = String.IsNullOrEmpty(species.ScientificName) ? dbSpecies.ScientificName : species.ScientificName;
+            dbSpecies.Description       = String.IsNullOrEmpty(species.Description) ? dbSpecies.Description : species.Description;
+            dbSpecies.MaleMaxSize       = species.MaleMaxSize ;
+            dbSpecies.FemaleMaxSize     = species.FemaleMaxSize ;
+            dbSpecies.MaleMaxWeight     = species.MaleMaxWeight ;
+            dbSpecies.FemaleMaxWeight   = species.FemaleMaxWeight ;
+            dbSpecies.IdSizeUnit        = species.IdSizeUnit ;
+            dbSpecies.IdWeightUnit      = species.IdWeightUnit ;
+            dbSpecies.Lifespan          = species.Lifespan ;
+            dbSpecies.IdDiet            = species.IdDiet ;
+
+            if(species.habitats.Count() > 0)
+            {
+                dbSpecies.habitats.Clear();
+                foreach (var hid in species.habitats)
+                {
+                    var habitat = await _context.Habitats.FindAsync(hid);
+                    if (habitat != null)
+                    {
+                        dbSpecies.habitats.Add(habitat);
+                    }                    
+                }
+            }
+
+            _context.Entry(dbSpecies).State = EntityState.Modified;
+            return await _context.SaveChangesAsync();            
         }
     }
 }

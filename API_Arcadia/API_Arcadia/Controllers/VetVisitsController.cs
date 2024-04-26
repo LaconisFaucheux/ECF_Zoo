@@ -1,4 +1,5 @@
-﻿using System;
+﻿//test OK 26/04/2024
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -46,41 +47,36 @@ namespace API_Arcadia.Controllers
             return vetVisit;
         }
 
-        //// PUT: api/VetVisits/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutVetVisit(int id, VetVisit vetVisit)
-        //{
-        //    if (id != vetVisit.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+        // PUT: api/VetVisits/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutVetVisit(int id, [FromForm]VetVisitDTO vetVisit)
+        {
+            if (id != vetVisit.Id)
+            {
+                return BadRequest();
+            }
 
-        //    _ServiceVetV.Entry(vetVisit).State = EntityState.Modified;
+            try
+            {
+                var updateResult = await _ServiceVetV.UpdateVetVisit(id, vetVisit);
+                if (updateResult == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'VetVisits'");
+                }
+            }
+            catch (Exception e)
+            {
+                return this.CustomErrorResponse<Animal>(e, null, _logger);
+            }
 
-        //    try
-        //    {
-        //        await _ServiceVetV.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!VetVisitExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+            return NoContent();
+        }
 
         // POST: api/VetVisits
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<VetVisit>> PostVetVisit(VetVisit vetVisit)
+        public async Task<ActionResult<VetVisit>> PostVetVisit([FromForm]VetVisitDTO vetVisit)
         {
             try
             {

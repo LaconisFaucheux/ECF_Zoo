@@ -1,4 +1,5 @@
-﻿using System;
+﻿//testé OK 26/04/2024
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -58,7 +59,11 @@ namespace API_Arcadia.Controllers
 
             try
             {
-                await _ServiceHab.UpdateHabitat(id, habitat);
+                var updateResult = await _ServiceHab.UpdateHabitat(id, habitat);
+                if (updateResult == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Habitats'");
+                }
             }
             catch (Exception e)
             {

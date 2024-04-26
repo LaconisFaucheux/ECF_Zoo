@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xjpkr2cLgzvJMGrEhaPRSrpnz1eSTbXgOu1hsQI4IBo=",
+  "Hash": "C2xDmbxYTLfvZvWyLW6dPDVf8nXBB48QHDuhuUm/xPk=",
   "Source": "API_Arcadia",
   "BasePath": "_content/API_Arcadia",
   "Mode": "Default",
@@ -47,10 +47,10 @@
       "OriginalItemSpec": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
+      "Identity": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
       "SourceId": "API_Arcadia",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "API_Arcadia.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\REPO\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
     }
   ]
 }

@@ -91,10 +91,5 @@ namespace API_Arcadia
                 return null;
             }
         }
-
-        public static void DeleteImage()
-        {
-
-        }
     }
 }
