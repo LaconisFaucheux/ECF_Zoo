@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\api_arcadia\\api_arcadia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\api_arcadia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Program.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Program.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Program.cs",
+              "RelativeToolTip": "API_Arcadia\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T14:53:57.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API_Arcadia",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\API_Arcadia.csproj",
+              "RelativeDocumentMoniker": "API_Arcadia\\API_Arcadia.csproj",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\API_Arcadia.csproj",
+              "RelativeToolTip": "API_Arcadia\\API_Arcadia.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-27T14:50:15.76Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "IdentityServerHost\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "IdentityServerHost\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:58:41.701Z",
+              "EditorCaption": ""
             }
           ]
         },
