@@ -824,3 +824,4 @@ C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj\Debug\net8.0\API_Arcadia.genruntimeconfig.cache
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj\Debug\net8.0\ref\API_Arcadia.dll
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
