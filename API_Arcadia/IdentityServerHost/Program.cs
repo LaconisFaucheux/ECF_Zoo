@@ -43,11 +43,11 @@ namespace IdentityServerHost
             AllowedGrantTypes = GrantTypes.Code,
 
             // Urls auxquelles envoyer les jetons
-            RedirectUris = { "https://localhost:6001/signin-oidc" },
+            RedirectUris = { "https://localhost:7189/signin-oidc" },
             // Urls de redirection apr�s d�connexion
-            PostLogoutRedirectUris = { "https://localhost:6001/signout-callback-oidc" },
+            PostLogoutRedirectUris = { "https://localhost:7189/signout-callback-oidc" },
             // Url pour envoyer une demande de d�connexion au serveur d'identit�
-            FrontChannelLogoutUri = "https://localhost:6001/signout-oidc",
+            FrontChannelLogoutUri = "https://localhost:7189/signout-oidc",
 
             // Etendues d'API autoris�es
             AllowedScopes = { "openid", "profile" },

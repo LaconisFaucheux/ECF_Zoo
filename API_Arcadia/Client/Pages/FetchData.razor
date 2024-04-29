@@ -1,0 +1,90 @@
+﻿@page "/fetchdata"
+@using BlazorWasm.Shared
+@using System.Text.Json;
+@inject HttpClient Http
+
+@attribute [Authorize]
+
+<PageTitle>Test API Arcadia</PageTitle>
+
+<h1>Test de l'API Arcadia</h1>
+
+<p>Requête GET sur le point de terminaison <code>api/Animals/3</code></p>
+
+@if (reponse == null)
+{
+   <p><em>Loading...</em></p>
+}
+else
+{
+   <h5>Résultat :</h5>
+   <h5>Nom :</h5> 
+   <pre>@reponse.Name</pre>
+}
+
+@code {
+    private Animal? reponse;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //try
+        //{
+            reponse = await Http.GetFromJsonAsync<Animal>("/Animals/5");
+         //reponse = JsonSerializer.Serialize(JsonDocument.Parse(reponse),
+           //          new JsonSerializerOptions { WriteIndented = true });
+      //}
+      // catch (HttpRequestException e)
+      // {
+      //    reponse = e.Message;
+      // }
+   }
+}
+
+
+
+
+
+@* 
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+    }
+} *@

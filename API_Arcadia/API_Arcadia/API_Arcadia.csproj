@@ -26,4 +26,8 @@
     <Folder Include="Assets\Images\Habitats\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="BlazorWasm.Server.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,605 @@
+2024-04-29 10:39:52.224 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 10:39:52.443 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 10:39:52.444 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 10:39:52.446 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 10:39:52.446 +02:00  INF  Hosting environment: Development
+2024-04-29 10:39:52.447 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 10:39:53.162 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 10:39:53.368 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 209.0172ms
+2024-04-29 10:39:53.390 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 10:39:53.390 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 10:39:53.396 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.539ms
+2024-04-29 10:39:53.437 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4043ms
+2024-04-29 10:39:53.549 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 10:39:53.662 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.2379ms
+2024-04-29 10:40:01.155 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-04-29 10:40:01.164 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-29 10:40:01.167 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-04-29 10:40:01.167 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 401 0 null 12.8007ms
+2024-04-29 11:22:28.072 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 11:22:28.587 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 11:22:28.588 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 11:22:28.590 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 11:22:28.591 +02:00  INF  Hosting environment: Development
+2024-04-29 11:22:28.591 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 11:22:29.132 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 11:22:29.402 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 273.918ms
+2024-04-29 11:22:29.413 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 11:22:29.419 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7782ms
+2024-04-29 11:22:29.426 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 11:22:29.463 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9059ms
+2024-04-29 11:22:29.578 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 11:22:29.683 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.4794ms
+2024-04-29 14:29:57.696 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 14:29:57.997 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 14:29:57.998 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 14:29:58.000 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 14:29:58.001 +02:00  INF  Hosting environment: Development
+2024-04-29 14:29:58.002 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 14:29:58.837 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 14:29:59.140 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 306.887ms
+2024-04-29 14:29:59.171 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 14:29:59.180 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 14:29:59.188 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13757 application/javascript; charset=utf-8 16.7899ms
+2024-04-29 14:29:59.289 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.9606ms
+2024-04-29 14:29:59.342 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 14:29:59.485 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.3752ms
+2024-04-29 15:13:04.001 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:13:04.253 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:13:04.254 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:13:04.256 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:13:04.257 +02:00  INF  Hosting environment: Development
+2024-04-29 15:13:04.258 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:13:05.624 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:13:05.821 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 201.9845ms
+2024-04-29 15:13:05.840 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:13:05.846 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13757 application/javascript; charset=utf-8 5.3084ms
+2024-04-29 15:13:05.849 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:13:05.880 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.263ms
+2024-04-29 15:13:05.952 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:13:06.069 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.3481ms
+2024-04-29 15:13:37.934 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:13:38.202 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:13:38.203 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:13:38.206 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:13:38.207 +02:00  INF  Hosting environment: Development
+2024-04-29 15:13:38.208 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:18:41.085 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:18:41.309 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:18:41.310 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:18:41.312 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:18:41.313 +02:00  INF  Hosting environment: Development
+2024-04-29 15:18:41.314 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:22:24.030 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:22:24.606 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:22:24.609 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:22:24.614 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:22:24.615 +02:00  INF  Hosting environment: Development
+2024-04-29 15:22:24.627 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:22:25.470 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:22:25.923 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 458.3136ms
+2024-04-29 15:22:25.992 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:22:25.992 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:22:26.020 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 27.9578ms
+2024-04-29 15:22:26.046 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.0256ms
+2024-04-29 15:22:26.124 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:22:26.251 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 128.1437ms
+2024-04-29 15:28:16.993 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:28:17.417 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:28:17.418 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:28:17.420 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:28:17.420 +02:00  INF  Hosting environment: Development
+2024-04-29 15:28:17.421 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:28:17.973 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:28:18.213 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 242.4283ms
+2024-04-29 15:28:18.224 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:28:18.230 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.3214ms
+2024-04-29 15:28:18.237 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:28:18.265 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3324ms
+2024-04-29 15:28:18.330 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:28:18.419 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.0269ms
+2024-04-29 15:29:47.380 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:29:47.609 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:29:47.610 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:29:47.613 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:29:47.615 +02:00  INF  Hosting environment: Development
+2024-04-29 15:29:47.615 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:30:14.397 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:30:14.640 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:30:14.641 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:30:14.643 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:30:14.644 +02:00  INF  Hosting environment: Development
+2024-04-29 15:30:14.645 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:30:15.468 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:30:15.718 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 253.9751ms
+2024-04-29 15:30:15.739 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:30:15.750 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.4351ms
+2024-04-29 15:30:15.757 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:30:15.925 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.665ms
+2024-04-29 15:30:16.077 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:30:16.522 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 445.4563ms
+2024-04-29 15:30:59.402 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:30:59.654 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:30:59.656 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:30:59.658 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:30:59.659 +02:00  INF  Hosting environment: Development
+2024-04-29 15:30:59.660 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:31:00.627 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:31:00.935 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 312.2461ms
+2024-04-29 15:31:00.973 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:31:00.973 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:31:00.989 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.9034ms
+2024-04-29 15:31:01.181 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 204.2065ms
+2024-04-29 15:31:01.279 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:31:01.551 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.1314ms
+2024-04-29 15:32:29.314 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:32:29.556 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:32:29.557 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:32:29.559 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:32:29.560 +02:00  INF  Hosting environment: Development
+2024-04-29 15:32:29.561 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:32:30.236 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:32:30.593 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 360.1135ms
+2024-04-29 15:32:30.714 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:32:30.748 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:32:30.757 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.0933ms
+2024-04-29 15:32:30.784 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.9742ms
+2024-04-29 15:32:30.993 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:32:31.102 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.0933ms
+2024-04-29 15:39:25.963 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:39:26.207 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:39:26.208 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:39:26.211 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:39:26.212 +02:00  INF  Hosting environment: Development
+2024-04-29 15:39:26.213 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:39:26.999 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:39:27.278 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 283.3852ms
+2024-04-29 15:39:27.309 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:39:27.322 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:39:27.388 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 68.6215ms
+2024-04-29 15:39:27.888 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 578.8991ms
+2024-04-29 15:39:27.943 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:39:28.074 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.1319ms
+2024-04-29 15:49:33.086 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:49:33.325 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:49:33.326 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:49:33.328 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:49:33.329 +02:00  INF  Hosting environment: Development
+2024-04-29 15:49:33.330 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:49:34.560 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:49:34.819 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 264.3067ms
+2024-04-29 15:49:34.832 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:49:34.839 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.5396ms
+2024-04-29 15:49:34.848 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:49:34.882 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.0193ms
+2024-04-29 15:49:34.955 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:52:01.724 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 15:52:01.952 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 15:52:01.954 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 15:52:01.957 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 15:52:01.959 +02:00  INF  Hosting environment: Development
+2024-04-29 15:52:01.960 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 15:52:03.253 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 15:52:03.517 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 268.6717ms
+2024-04-29 15:52:03.550 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 15:52:03.558 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 15:52:03.589 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 36.3756ms
+2024-04-29 15:52:03.684 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.6829ms
+2024-04-29 15:52:04.090 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 15:52:04.225 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.3545ms
+2024-04-29 16:02:48.803 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 16:02:49.007 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 16:02:49.009 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 16:02:49.011 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 16:02:49.011 +02:00  INF  Hosting environment: Development
+2024-04-29 16:02:49.012 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 16:02:50.563 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 16:02:50.873 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 314.0408ms
+2024-04-29 16:02:50.924 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 16:02:50.932 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 16:02:50.933 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.2834ms
+2024-04-29 16:02:50.992 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.1519ms
+2024-04-29 16:02:51.176 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 16:02:51.308 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.4577ms
+2024-04-29 16:07:11.295 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 16:07:11.558 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 16:07:11.560 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 16:07:11.563 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 16:07:11.565 +02:00  INF  Hosting environment: Development
+2024-04-29 16:07:11.566 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 16:07:12.477 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 16:07:12.840 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 367.4064ms
+2024-04-29 16:07:12.865 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 16:07:12.881 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 16.1569ms
+2024-04-29 16:07:12.887 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 16:07:13.089 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 201.8878ms
+2024-04-29 16:07:13.196 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 16:07:13.432 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.7961ms
+2024-04-29 16:09:15.506 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 16:09:15.752 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 16:09:15.753 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 16:09:15.756 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 16:09:15.757 +02:00  INF  Hosting environment: Development
+2024-04-29 16:09:15.757 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 16:09:16.447 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 16:09:16.750 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 308.129ms
+2024-04-29 16:09:16.791 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 16:09:16.791 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 16:09:16.802 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.2903ms
+2024-04-29 16:09:16.835 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.7328ms
+2024-04-29 16:09:17.336 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 16:09:17.480 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.9583ms
+2024-04-29 16:09:56.281 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 16:09:56.529 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 16:09:56.530 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 16:09:56.533 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 16:09:56.534 +02:00  INF  Hosting environment: Development
+2024-04-29 16:09:56.536 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 16:09:57.004 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 16:09:57.351 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 351.0642ms
+2024-04-29 16:09:57.405 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 16:09:57.411 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.3052ms
+2024-04-29 16:09:57.419 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 16:09:57.457 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.6105ms
+2024-04-29 16:09:57.533 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 19:19:13.300 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 19:19:13.513 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 19:19:13.518 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 19:19:13.520 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 19:19:13.521 +02:00  INF  Hosting environment: Development
+2024-04-29 19:19:13.522 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 20:31:17.121 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 20:31:17.374 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 20:31:17.375 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 20:31:17.378 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 20:31:17.379 +02:00  INF  Hosting environment: Development
+2024-04-29 20:31:17.380 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 20:31:17.738 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 20:31:18.023 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 287.2217ms
+2024-04-29 20:31:18.144 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 20:31:18.144 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 20:31:18.152 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.5815ms
+2024-04-29 20:31:18.317 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 173.2218ms
+2024-04-29 20:31:18.387 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 20:31:18.583 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.5321ms
+2024-04-29 20:34:26.544 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 20:34:26.643 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 20:34:26.645 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 20:34:26.648 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 20:34:26.650 +02:00  INF  Hosting environment: Development
+2024-04-29 20:34:26.651 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 20:34:27.197 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 20:34:27.347 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 150.9943ms
+2024-04-29 20:34:27.389 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 20:34:27.395 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7724ms
+2024-04-29 20:34:27.400 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 20:34:27.435 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.5181ms
+2024-04-29 20:34:27.546 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 20:34:27.659 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.8598ms
+2024-04-29 20:35:02.120 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 20:35:02.302 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 20:35:02.304 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 20:35:02.307 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 20:35:02.308 +02:00  INF  Hosting environment: Development
+2024-04-29 20:35:02.309 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 20:35:02.760 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 20:35:03.100 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 343.3483ms
+2024-04-29 20:35:03.145 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 20:35:03.150 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 20:35:03.154 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.5389ms
+2024-04-29 20:35:03.185 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.7199ms
+2024-04-29 20:35:03.262 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 20:35:03.370 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.7977ms
+2024-04-29 20:43:26.153 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 20:43:26.464 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 20:43:26.465 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 20:43:26.467 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 20:43:26.468 +02:00  INF  Hosting environment: Development
+2024-04-29 20:43:26.468 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 20:43:27.007 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 20:43:27.251 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 248.4318ms
+2024-04-29 20:43:27.309 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 20:43:27.310 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 20:43:27.316 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.2592ms
+2024-04-29 20:43:27.344 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.5661ms
+2024-04-29 20:43:27.444 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 20:43:27.571 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.8143ms
+2024-04-29 22:12:19.620 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:12:19.841 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:12:19.842 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:12:19.845 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:12:19.846 +02:00  INF  Hosting environment: Development
+2024-04-29 22:12:19.846 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:12:20.475 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:12:20.821 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 348.2452ms
+2024-04-29 22:12:20.864 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:12:20.874 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.8029ms
+2024-04-29 22:12:20.876 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:12:21.039 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.1754ms
+2024-04-29 22:12:21.124 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:12:21.331 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 207.0323ms
+2024-04-29 22:13:49.436 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:13:49.668 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:13:49.670 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:13:49.673 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:13:49.674 +02:00  INF  Hosting environment: Development
+2024-04-29 22:13:49.675 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:13:50.008 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:13:50.291 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 287.4653ms
+2024-04-29 22:13:50.329 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:13:50.335 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.9081ms
+2024-04-29 22:13:50.340 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:13:50.370 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.0016ms
+2024-04-29 22:13:50.436 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:13:50.549 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.2342ms
+2024-04-29 22:14:21.722 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:14:21.929 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:14:21.931 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:14:21.933 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:14:21.934 +02:00  INF  Hosting environment: Development
+2024-04-29 22:14:21.935 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:14:22.440 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:14:22.677 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 242.5618ms
+2024-04-29 22:14:22.716 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:14:22.716 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:14:22.747 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 31.358ms
+2024-04-29 22:14:22.784 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.0264ms
+2024-04-29 22:14:22.844 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:14:22.957 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.7201ms
+2024-04-29 22:17:46.663 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:17:47.033 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:17:47.037 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:17:47.042 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:17:47.048 +02:00  INF  Hosting environment: Development
+2024-04-29 22:17:47.048 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:17:47.775 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:17:48.034 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 263.5492ms
+2024-04-29 22:17:48.049 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:17:48.054 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.4432ms
+2024-04-29 22:17:48.059 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:17:48.089 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8482ms
+2024-04-29 22:17:48.163 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:17:48.271 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.4707ms
+2024-04-29 22:18:49.639 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/3 - null null
+2024-04-29 22:18:49.737 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:18:49.754 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 22:18:50.628 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-04-29 22:18:50.925 +02:00  INF  Executed DbCommand (44ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 22:18:51.040 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Animal'.
+2024-04-29 22:18:51.062 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 1303.4982ms
+2024-04-29 22:18:51.063 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:18:51.068 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/3 - 200 null application/json; charset=utf-8 1430.9933ms
+2024-04-29 22:19:34.323 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:19:34.715 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:19:34.719 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:19:34.725 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:19:34.731 +02:00  INF  Hosting environment: Development
+2024-04-29 22:19:34.737 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:19:35.360 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:19:35.545 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 194.2636ms
+2024-04-29 22:19:35.574 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:19:35.580 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:19:35.591 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 16.3832ms
+2024-04-29 22:19:35.637 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.9154ms
+2024-04-29 22:19:35.709 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:19:35.871 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 162.261ms
+2024-04-29 22:28:13.453 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:28:13.742 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:28:13.745 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:28:13.747 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:28:13.749 +02:00  INF  Hosting environment: Development
+2024-04-29 22:28:13.749 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:28:14.239 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:28:14.532 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 297.8479ms
+2024-04-29 22:28:14.612 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:28:14.616 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:28:14.623 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.7501ms
+2024-04-29 22:28:14.654 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0105ms
+2024-04-29 22:28:14.737 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:28:14.854 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.1077ms
+2024-04-29 22:28:37.798 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/1 - null null
+2024-04-29 22:28:37.908 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:28:37.923 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 22:28:38.795 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-04-29 22:28:39.076 +02:00  INF  Executed DbCommand (43ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 22:28:39.100 +02:00  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-29 22:28:39.115 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 1187.5963ms
+2024-04-29 22:28:39.116 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:28:39.121 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/1 - 404 null application/problem+json; charset=utf-8 1323.4415ms
+2024-04-29 22:29:01.305 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/1 - null null
+2024-04-29 22:29:01.310 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:29:01.311 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 22:29:01.327 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 22:29:01.329 +02:00  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-29 22:29:01.330 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 17.6977ms
+2024-04-29 22:29:01.331 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:29:01.332 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/1 - 404 null application/problem+json; charset=utf-8 26.7711ms
+2024-04-29 22:29:10.862 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-04-29 22:29:10.867 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-29 22:29:10.871 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-04-29 22:29:10.872 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 401 0 null 10.182ms
+2024-04-29 22:30:36.826 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 22:30:37.040 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 22:30:37.042 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 22:30:37.044 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 22:30:37.046 +02:00  INF  Hosting environment: Development
+2024-04-29 22:30:37.047 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 22:30:37.706 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 22:30:37.996 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 295.4486ms
+2024-04-29 22:30:38.043 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 22:30:38.043 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 22:30:38.050 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.8097ms
+2024-04-29 22:30:38.084 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.2426ms
+2024-04-29 22:30:38.190 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 22:30:38.322 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.3864ms
+2024-04-29 22:30:55.109 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/5 - null null
+2024-04-29 22:30:55.202 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:30:55.218 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 22:30:55.981 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-04-29 22:30:56.265 +02:00  INF  Executed DbCommand (47ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 22:30:56.389 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Animal'.
+2024-04-29 22:30:56.411 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 1188.601ms
+2024-04-29 22:30:56.412 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 22:30:56.418 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/5 - 200 null application/json; charset=utf-8 1309.0373ms
+2024-04-29 23:03:56.325 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 23:03:56.720 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 23:03:56.721 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 23:03:56.724 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 23:03:56.725 +02:00  INF  Hosting environment: Development
+2024-04-29 23:03:56.726 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 23:03:57.650 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 23:03:57.926 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 280.4099ms
+2024-04-29 23:03:57.959 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 23:03:57.967 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.7258ms
+2024-04-29 23:03:57.977 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 23:03:58.020 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1572ms
+2024-04-29 23:03:58.168 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 23:03:58.323 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 156.036ms
+2024-04-29 23:04:16.890 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/5 - null null
+2024-04-29 23:04:16.987 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 23:04:17.003 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 23:04:17.820 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-04-29 23:04:18.099 +02:00  INF  Executed DbCommand (44ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 23:04:18.216 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Animal'.
+2024-04-29 23:04:18.238 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 1231.0001ms
+2024-04-29 23:04:18.239 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 23:04:18.245 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/5 - 200 null application/json; charset=utf-8 1354.6108ms
+2024-04-29 23:07:14.806 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-29 23:07:15.071 +02:00  INF  Now listening on: https://localhost:7015
+2024-04-29 23:07:15.104 +02:00  INF  Now listening on: http://localhost:5131
+2024-04-29 23:07:15.108 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-29 23:07:15.110 +02:00  INF  Hosting environment: Development
+2024-04-29 23:07:15.113 +02:00  INF  Content root path: C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-04-29 23:07:15.663 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-04-29 23:07:15.929 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 270.8911ms
+2024-04-29 23:07:15.954 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-29 23:07:15.961 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.834ms
+2024-04-29 23:07:15.961 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-04-29 23:07:15.999 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.723ms
+2024-04-29 23:07:16.073 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-04-29 23:07:16.200 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.4894ms
+2024-04-29 23:07:37.342 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/5 - null null
+2024-04-29 23:07:37.445 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 23:07:37.461 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-04-29 23:07:38.274 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-04-29 23:07:38.556 +02:00  INF  Executed DbCommand (46ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name], [t0].[Id0], [t0].[IdHabitat0], [t0].[MiniSlug], [t0].[Slug]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name], [h1].[Id] AS [Id0], [h1].[IdHabitat] AS [IdHabitat0], [h1].[MiniSlug], [h1].[Slug]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+    LEFT JOIN [HabitatImages] AS [h1] ON [h0].[Id] = [h1].[IdHabitat]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id]
+2024-04-29 23:07:38.675 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Animal'.
+2024-04-29 23:07:38.697 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 1231.5399ms
+2024-04-29 23:07:38.698 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-04-29 23:07:38.704 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/5 - 200 null application/json; charset=utf-8 1361.8568ms

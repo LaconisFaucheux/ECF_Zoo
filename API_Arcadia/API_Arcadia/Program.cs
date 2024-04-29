@@ -74,7 +74,6 @@ namespace API_Arcadia
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
