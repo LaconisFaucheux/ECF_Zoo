@@ -22,3 +22,15 @@ C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\refint\BlazorWasm.Shared.dll
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.pdb
 C:\Users\Lacon\OneDrive\Documents\1_DOCUMENTS\4_COURS\STUDI\ECF_Zoo\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\ref\BlazorWasm.Shared.dll
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\bin\Debug\net8.0\BlazorWasm.Shared.deps.json
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\bin\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\bin\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.AssemblyInfoInputs.cache
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.AssemblyInfo.cs
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.sourcelink.json
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.dll
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\refint\BlazorWasm.Shared.dll
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\BlazorWasm.Shared.pdb
+C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\Shared\obj\Debug\net8.0\ref\BlazorWasm.Shared.dll

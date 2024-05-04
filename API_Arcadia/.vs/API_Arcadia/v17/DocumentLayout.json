@@ -1,94 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\",
+  "WorkspaceRootPath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\client\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.AnimalImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\desktop\\dev\\ecf_zoo\\api_arcadia\\client\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|solutionrelative:client\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\zooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\zooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\weightunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\weightunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\vetvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\vetvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\specieshabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\specieshabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\sizeunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\sizeunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\openinghour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\openinghour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\habitatimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\habitatimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\diet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\diet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\animalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\animalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\shared\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E29C08-D1B1-46F7-86DB-18D131389F1B}|Shared\\BlazorWasm.Shared.csproj|solutionrelative:shared\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\onedrive\\documents\\1_documents\\4_cours\\studi\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,311 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.AnimalImages [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.AnimalImages.sql",
+              "ToolTip": "dbo.AnimalImages [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-04T21:51:55.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ZooService.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\ZooService.cs",
-              "RelativeDocumentMoniker": "Shared\\ZooService.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\ZooService.cs",
-              "RelativeToolTip": "Shared\\ZooService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:58:00.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeightUnit.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\WeightUnit.cs",
-              "RelativeDocumentMoniker": "Shared\\WeightUnit.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\WeightUnit.cs",
-              "RelativeToolTip": "Shared\\WeightUnit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:47.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VetVisit.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\VetVisit.cs",
-              "RelativeDocumentMoniker": "Shared\\VetVisit.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\VetVisit.cs",
-              "RelativeToolTip": "Shared\\VetVisit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:36.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SpeciesHabitat.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\SpeciesHabitat.cs",
-              "RelativeDocumentMoniker": "Shared\\SpeciesHabitat.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\SpeciesHabitat.cs",
-              "RelativeToolTip": "Shared\\SpeciesHabitat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:33.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Species.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Species.cs",
-              "RelativeDocumentMoniker": "Shared\\Species.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Species.cs",
-              "RelativeToolTip": "Shared\\Species.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:28.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FetchData.razor",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\FetchData.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\FetchData.razor",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\FetchData.razor",
               "RelativeToolTip": "Client\\Pages\\FetchData.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAbAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:26:54.262Z",
+              "WhenOpened": "2024-05-04T16:43:44.817Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SizeUnit.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\SizeUnit.cs",
-              "RelativeDocumentMoniker": "Shared\\SizeUnit.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\SizeUnit.cs",
-              "RelativeToolTip": "Shared\\SizeUnit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:16.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Review.cs",
-              "RelativeDocumentMoniker": "Shared\\Review.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Review.cs",
-              "RelativeToolTip": "Shared\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:08.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OpeningHour.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\OpeningHour.cs",
-              "RelativeDocumentMoniker": "Shared\\OpeningHour.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\OpeningHour.cs",
-              "RelativeToolTip": "Shared\\OpeningHour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:57:03.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Health.cs",
-              "RelativeDocumentMoniker": "Shared\\Health.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Health.cs",
-              "RelativeToolTip": "Shared\\Health.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:57.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HabitatImage.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\HabitatImage.cs",
-              "RelativeDocumentMoniker": "Shared\\HabitatImage.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\HabitatImage.cs",
-              "RelativeToolTip": "Shared\\HabitatImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:52.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Habitat.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Habitat.cs",
-              "RelativeDocumentMoniker": "Shared\\Habitat.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Habitat.cs",
-              "RelativeToolTip": "Shared\\Habitat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:46.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Diet.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Diet.cs",
-              "RelativeDocumentMoniker": "Shared\\Diet.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Diet.cs",
-              "RelativeToolTip": "Shared\\Diet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:41.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AnimalImage.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\AnimalImage.cs",
-              "RelativeDocumentMoniker": "Shared\\AnimalImage.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\AnimalImage.cs",
-              "RelativeToolTip": "Shared\\AnimalImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:34.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Animal.cs",
-              "RelativeDocumentMoniker": "Shared\\Animal.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\Animal.cs",
-              "RelativeToolTip": "Shared\\Animal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:55:24.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "IdentityServerHost\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "IdentityServerHost\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:26:16.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "IdentityServerHost\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Index.cshtml",
-              "RelativeToolTip": "IdentityServerHost\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:25:49.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "IdentityServerHost\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Pages\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "IdentityServerHost\\Pages\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:25:15.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "IdentityServerHost\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Properties\\launchSettings.json",
-              "RelativeToolTip": "IdentityServerHost\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-29T20:08:47.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\appsettings.json",
-              "RelativeDocumentMoniker": "IdentityServerHost\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\appsettings.json",
-              "RelativeToolTip": "IdentityServerHost\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-29T20:08:39.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\appsettings.json",
-              "RelativeToolTip": "Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-29T20:07:52.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:05:05.763Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

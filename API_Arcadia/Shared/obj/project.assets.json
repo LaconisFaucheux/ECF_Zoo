@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
       "projectName": "BlazorWasm.Shared",
-      "projectPath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
+      "projectPath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
       "packagesPath": "C:\\Users\\Lacon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lacon\\OneDrive\\Documents\\1_DOCUMENTS\\4_COURS\\STUDI\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

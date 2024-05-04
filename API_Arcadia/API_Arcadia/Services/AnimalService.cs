@@ -28,7 +28,7 @@ namespace API_Arcadia.Services
             l = await req.ToListAsync();
 
             return l;
-            //inclure le SlugMini dans AnimalImage pour tous les animaux
+            // TODO inclure le SlugMini dans AnimalImage pour tous les animaux
         }
 
         public async Task<Animal?> GetAnimal(int id)
@@ -45,10 +45,23 @@ namespace API_Arcadia.Services
                             .ThenInclude(sd => sd.diet)
                         .Include(a => a.SpeciesData)
                             .ThenInclude(sd => sd.habitats)
-                                .ThenInclude(h => h.Pics)
+                                .ThenInclude(h => h.Pics)                         
                       where a.Id == id
                       select a;
-            return await req.FirstOrDefaultAsync();
+            Animal? animal = await req.FirstOrDefaultAsync();
+
+            //if (animal != null)
+            //animal.Image = File.ReadAllBytes(animal.Pics[0].MiniSlug);
+            //if (animal != null)
+            //{
+            //    foreach (var p in animal.Pics)
+            //    {
+            //        FileStream file = File.Open(p.MiniSlug, FileMode.Open);
+            //        animal.Images.Add(file);
+            //    }
+            //}
+            return animal;
+
         }
 
         public async Task<Animal> PostAnimal(AnimalDTO animal)

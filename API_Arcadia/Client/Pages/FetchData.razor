@@ -11,40 +11,73 @@
 
 <p>Requête GET sur le point de terminaison <code>api/Animals/3</code></p>
 
-@if (reponse == null)
+@if (animal == null)
 {
-   <p><em>Loading...</em></p>
+    <p><em>Loading...</em></p>
 }
 else
 {
-   <h5>Résultat :</h5>
-   <h5>Nom :</h5> 
-   <pre>@reponse.Name</pre>
-}
+    <h5>Résultat :</h5>
 
-@code {
-    private Animal? reponse;
+    <div class="d-flex flex-row flex-wrap align-content-center mx-auto">
+
+        @foreach (Animal a in animal)
+        {
+            <div class="card m-2" style="width: 18rem;">
+                <img src="@ImageSrc[a.Name]" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">@a.Name</h4>
+                    <h6 class="card-title">@a.SpeciesData.Name</h6>
+                    <p class="card-text"><em>@a.SpeciesData.ScientificName</em></p>
+                    <a href="#" class="btn btn-primary">Modifier</a>
+                </div>
+            </div>
+        }
+
+@*         <div class="card m-2" style="width: 18rem;">
+            <img src="@ImageSrc" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">@animal.Name</h4>
+                <h6 class="card-title">@animal.SpeciesData.Name</h6>
+                <p class="card-text"><em>@animal.SpeciesData.ScientificName</em></p>
+                <a href="#" class="btn btn-primary">Modifier</a>
+            </div>
+        </div> *@
+    </div>
+
+    @code {
+    // private Animal[]? animal; // voir Arcadia/Models/Animal.cs
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     animal = await Http.GetFromJsonAsync<Animal[]>("/Animals");
+    // }
+
+    private Animal[]? animal; // voir Arcadia/Models/Animal.cs
+    private Dictionary<string, string> ImageSrc = new();//faire un dictionnaire avec le nom de l'animal en clé et l'URL en value pour itérer sur tous les animaux
 
     protected override async Task OnInitializedAsync()
     {
-        //try
-        //{
-            reponse = await Http.GetFromJsonAsync<Animal>("/Animals/5");
-         //reponse = JsonSerializer.Serialize(JsonDocument.Parse(reponse),
-           //          new JsonSerializerOptions { WriteIndented = true });
-      //}
-      // catch (HttpRequestException e)
-      // {
-      //    reponse = e.Message;
-      // }
-   }
+        animal = await Http.GetFromJsonAsync<Animal[]>("/Animals");
+        if (animal != null)
+        {
+            foreach (var a in animal)
+            {
+                ImageSrc.Add(a.Name, $"https://localhost:7015/{a.Pics[0].Slug}");
+            }
+        }
+
+
+
+    }
+}
 }
 
 
 
 
 
-@* 
+@*
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast</h1>

@@ -40,6 +40,7 @@ namespace API_Arcadia
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
             //Ajoute le service d'authentication par jeton JWT
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -58,6 +59,7 @@ namespace API_Arcadia
                 //Spécifie que TOUT utilsateur doitêtre authentifié par défaut
                 options.FallbackPolicy = new AuthorizationPolicyBuilder()
                     .RequireAuthenticatedUser()
+                    //.RequireAssertion(context => true)
                     .Build();
             });
 
@@ -71,6 +73,8 @@ namespace API_Arcadia
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 

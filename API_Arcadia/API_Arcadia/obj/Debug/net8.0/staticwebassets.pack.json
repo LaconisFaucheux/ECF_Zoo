@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638496697522786650_Mufasa.png",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638496697522786650_Mufasa.png"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638496697522786783_Mufasa_mini.png",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638496697522786783_Mufasa_mini.png"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638496697525081425_Mufasa.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638496697525081425_Mufasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638496697525081545_Mufasa_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638496697525081545_Mufasa_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638497288718754028_Montagne_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638497288718754028_Montagne_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638497288721083404_Montagne_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638497288721083404_Montagne_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638497289050047856_Montagnertyu_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638497289050047856_Montagnertyu_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\Habitats\\638497289050862221_Montagnertyu_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\Habitats\\638497289050862221_Montagnertyu_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693869536018_Mufasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693869536822_Mufasa_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693873204536_Mufasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693873204641_Mufasa_mini.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API_Arcadia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API_Arcadia.props",
+      "PackagePath": "build\\API_Arcadia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API_Arcadia.props",
+      "PackagePath": "buildMultiTargeting\\API_Arcadia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API_Arcadia.props",
+      "PackagePath": "buildTransitive\\API_Arcadia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

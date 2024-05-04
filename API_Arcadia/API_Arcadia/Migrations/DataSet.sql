@@ -82,7 +82,7 @@ INSERT INTO SpeciesHabitats (IdSpecies, IdHabitat)
         
 INSERT INTO Animals (Name, IdSpecies, IdHealth, IsMale)
     VALUES
-        ('Karadoc', 1, 1, 1), ('Mevanwi', 1, 1, 0),
+        ('Mufasa', 1, 1, 1), ('Sarabi', 1, 1, 0),
         ('Bohort', 2, 1, 1), ('Berlewen', 2, 1, 0),
         ('Lancelot', 3, 1, 1), ('Coya', 3, 1, 0),
         ('Arthur', 4, 1, 1), ('Guenièvre', 4, 1, 0),
@@ -90,15 +90,16 @@ INSERT INTO Animals (Name, IdSpecies, IdHealth, IsMale)
         ('Thot', 6, 1, 1), ('Alex', 6, 1, 0),
         ('Kerchak', 7, 1, 1), ('Coco', 7, 1, 0);
 
-INSERT INTO AnimalImages (Slug, IdAnimal)
+INSERT INTO AnimalImages (Slug, MiniSlug, IdAnimal)
     VALUES
-        ('le_lion1.png', 1), ('le_lion2.png', 2),
-        ('l_orang_outan1.png', 3), ('l_orang_outan2.png', 4),
-        ('la_pantere1.png', 5), ('la_pantere2.png', 6),
-        ('la_loutre1.png', 7), ('la_loutre2.png', 8),
-        ('le_rhino1.png', 9), ('le_rhino2.png', 10),
-        ('le_heron1.png', 11), ('le_heron2.png', 12),
-        ('le_gorille1.png', 13), ('le_gorille2.png', 14)
+        ('images/animals/638496693869536018_Mufasa.jpg', 'images/animals/638496693869536822_Mufasa_mini.jpg', 1), 
+        ('images/animals/638496693873204536_Mufasa.jpg', 'images/animals/638496693873204641_Mufasa_mini.jpg', 2),
+        ('images/animals/l_orang_outan1.jpg', 'x', 3), ('images/animals/l_orang_outan2.jpg', 'x', 4),
+        ('images/animals/la_pantere1.jpg', 'x', 5), ('images/animals/la_pantere2.jpg', 'x', 6),
+        ('images/animals/la_loutre1.jpg', 'x', 7), ('images/animals/la_loutre2.jpg', 'x', 8),
+        ('images/animals/le_rhino1.jpeg', 'x', 9), ('images/animals/le_rhino2.jpg', 'x', 10),
+        ('images/animals/le_heron1.jpg', 'x', 11), ('images/animals/le_heron2.jpg', 'x', 12),
+        ('images/animals/le_gorille1.jpg', 'x', 13), ('images/animals/le_gorille2.jpg', 'x', 14)
 
 INSERT INTO VetVisits (Food, FoodWeight, IdWeightUnit, VisitDate, Observations, IdAnimal, IdVet)
     VALUES

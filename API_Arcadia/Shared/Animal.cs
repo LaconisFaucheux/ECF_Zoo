@@ -14,5 +14,6 @@ namespace BlazorWasm.Shared
         public virtual List<AnimalImage> Pics { get; set; } = new();
         public virtual Species SpeciesData { get; set; } = new();
         public virtual Health HealthData { get; set; } = new();
+        //public virtual byte[]? Image { get; set; } = null;
     }
 }

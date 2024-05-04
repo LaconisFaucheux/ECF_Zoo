@@ -57,8 +57,8 @@ namespace API_Arcadia
 
             string fileName = $"{DateTime.Now.Ticks}_{entityName}{fileExtension}";
             string fileNameMini = $"{DateTime.Now.Ticks}_{entityName}_mini{fileExtension}";
-            string storagePath = Path.Combine("Assets\\Images\\", folderName, fileName);
-            string storagePathMini = Path.Combine("Assets\\Images\\", folderName, fileNameMini);
+            string storagePath = Path.Combine("wwwroot", "Images", folderName, fileName);
+            string storagePathMini = Path.Combine("wwwroot", "Images", folderName, fileNameMini);
             using (var stream = new FileStream(storagePath, FileMode.Create))
             {
                 await image.CopyToAsync(stream);
