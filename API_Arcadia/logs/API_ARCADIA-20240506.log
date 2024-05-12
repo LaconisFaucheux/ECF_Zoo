@@ -1,0 +1,681 @@
+2024-05-06 18:43:09.110 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 18:43:09.384 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 18:43:09.385 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 18:43:09.388 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 18:43:09.390 +02:00  INF  Hosting environment: Development
+2024-05-06 18:43:09.391 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 18:43:10.994 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 18:43:11.523 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 535.1963ms
+2024-05-06 18:43:11.564 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 18:43:11.575 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.7975ms
+2024-05-06 18:43:11.576 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 18:43:11.643 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.142ms
+2024-05-06 18:43:11.754 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 18:43:11.922 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.1227ms
+2024-05-06 18:43:32.997 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:43:33.112 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:43:33.131 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:43:34.457 +02:00  INF  Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:43:34.571 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:43:34.604 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1467.7655ms
+2024-05-06 18:43:34.608 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:43:34.620 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1623.7208ms
+2024-05-06 18:43:34.823 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-05-06 18:43:34.823 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - null null
+2024-05-06 18:43:34.823 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-05-06 18:43:34.824 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - null null
+2024-05-06 18:43:34.824 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - null null
+2024-05-06 18:43:34.830 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - null null
+2024-05-06 18:43:34.830 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-05-06 18:43:34.835 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - null null
+2024-05-06 18:43:34.838 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - null null
+2024-05-06 18:43:34.846 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - null null
+2024-05-06 18:43:34.849 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - null null
+2024-05-06 18:43:34.852 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - null null
+2024-05-06 18:43:34.855 +02:00  INF  The file /images/animals/638496693869536018_Mufasa.jpg was not modified
+2024-05-06 18:43:34.857 +02:00  INF  The file /images/animals/la_panthere1.jpg was not modified
+2024-05-06 18:43:34.857 +02:00  INF  The file /images/animals/la_panthere2.jpg was not modified
+2024-05-06 18:43:34.857 +02:00  INF  The file /images/animals/la_loutre1.jpg was not modified
+2024-05-06 18:43:34.857 +02:00  INF  The file /images/animals/l_orang_outan1.jpg was not modified
+2024-05-06 18:43:34.859 +02:00  INF  The file /images/animals/le_rhino1.jpeg was not modified
+2024-05-06 18:43:34.860 +02:00  INF  The file /images/animals/638496693873204536_Mufasa.jpg was not modified
+2024-05-06 18:43:34.862 +02:00  INF  The file /images/animals/l_orang_outan2.jpg was not modified
+2024-05-06 18:43:34.863 +02:00  INF  The file /images/animals/la_loutre2.jpg was not modified
+2024-05-06 18:43:34.865 +02:00  INF  The file /images/animals/le_heron1.jpg was not modified
+2024-05-06 18:43:34.867 +02:00  INF  The file /images/animals/le_gorille1.jpg was not modified
+2024-05-06 18:43:34.868 +02:00  INF  The file /images/animals/le_rhino2.jpg was not modified
+2024-05-06 18:43:34.869 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 304 null image/jpeg 46.1003ms
+2024-05-06 18:43:34.870 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - 304 null image/jpeg 46.1431ms
+2024-05-06 18:43:34.870 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - 304 null image/jpeg 47.0912ms
+2024-05-06 18:43:34.871 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - 304 null image/jpeg 47.0723ms
+2024-05-06 18:43:34.872 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 304 null image/jpeg 48.4375ms
+2024-05-06 18:43:34.873 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - 304 null image/jpeg 42.7427ms
+2024-05-06 18:43:34.873 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 304 null image/jpeg 43.3257ms
+2024-05-06 18:43:34.874 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - 304 null image/jpeg 39.4137ms
+2024-05-06 18:43:34.875 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - 304 null image/jpeg 36.8823ms
+2024-05-06 18:43:34.876 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - 304 null image/jpeg 30.3164ms
+2024-05-06 18:43:34.876 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - 304 null image/jpeg 27.4377ms
+2024-05-06 18:43:34.877 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - 304 null image/jpeg 24.9199ms
+2024-05-06 18:43:34.879 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - null null
+2024-05-06 18:43:34.881 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - null null
+2024-05-06 18:43:34.912 +02:00  INF  The file /images/animals/le_heron2.jpg was not modified
+2024-05-06 18:43:34.914 +02:00  INF  The file /images/animals/le_gorille2.jpg was not modified
+2024-05-06 18:43:34.914 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - 304 null image/jpeg 34.9624ms
+2024-05-06 18:43:34.915 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - 304 null image/jpeg 34.0012ms
+2024-05-06 18:45:05.182 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:45:05.189 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:45:05.190 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:45:05.216 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:45:05.221 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:45:05.225 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 28.8722ms
+2024-05-06 18:45:05.229 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:45:05.231 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 48.2834ms
+2024-05-06 18:45:43.123 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 18:45:43.438 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 18:45:43.439 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 18:45:43.443 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 18:45:43.445 +02:00  INF  Hosting environment: Development
+2024-05-06 18:45:43.446 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 18:45:43.991 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 18:45:44.334 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 351.4915ms
+2024-05-06 18:45:44.350 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 18:45:44.358 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.314ms
+2024-05-06 18:45:44.371 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 18:45:44.413 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.4576ms
+2024-05-06 18:45:44.517 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 18:45:44.683 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 166.0497ms
+2024-05-06 18:46:05.206 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:46:05.336 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:46:05.350 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:46:06.695 +02:00  INF  Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:46:06.854 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:46:06.905 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1550.1503ms
+2024-05-06 18:46:06.908 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:46:06.917 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1710.9264ms
+2024-05-06 18:48:40.327 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 18:48:40.612 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 18:48:40.614 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 18:48:40.619 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 18:48:40.620 +02:00  INF  Hosting environment: Development
+2024-05-06 18:48:40.622 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 18:48:41.286 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 18:48:41.565 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 286.5459ms
+2024-05-06 18:48:41.609 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 18:48:41.613 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 18:48:41.616 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.8011ms
+2024-05-06 18:48:41.651 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.6729ms
+2024-05-06 18:48:41.760 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 18:48:41.924 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.1377ms
+2024-05-06 18:49:10.533 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:49:10.671 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:49:10.686 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:49:11.912 +02:00  INF  Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:49:12.035 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:49:12.069 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1376.9742ms
+2024-05-06 18:49:12.071 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:49:12.080 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1547.3589ms
+2024-05-06 18:50:18.544 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:50:18.551 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:50:18.552 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:50:18.575 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:50:18.579 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:50:18.615 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 31.6969ms
+2024-05-06 18:50:18.617 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:50:18.618 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 74.3999ms
+2024-05-06 18:50:48.538 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:50:48.542 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:50:48.543 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:50:48.593 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:50:48.598 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:50:48.600 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 55.2982ms
+2024-05-06 18:50:48.605 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:50:48.607 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 68.3897ms
+2024-05-06 18:51:05.993 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 18:51:06.301 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 18:51:06.303 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 18:51:06.306 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 18:51:06.308 +02:00  INF  Hosting environment: Development
+2024-05-06 18:51:06.309 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 18:51:07.227 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 18:51:07.484 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 260.6862ms
+2024-05-06 18:51:07.522 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 18:51:07.531 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.8965ms
+2024-05-06 18:51:07.531 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 18:51:07.576 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.3486ms
+2024-05-06 18:51:07.723 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 18:51:07.922 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 199.184ms
+2024-05-06 18:51:28.602 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:51:28.724 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:51:28.738 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:51:29.930 +02:00  INF  Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:51:30.043 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:51:30.079 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1336.0468ms
+2024-05-06 18:51:30.081 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:51:30.092 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1490.7637ms
+2024-05-06 18:55:15.048 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 18:55:15.361 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 18:55:15.362 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 18:55:15.365 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 18:55:15.365 +02:00  INF  Hosting environment: Development
+2024-05-06 18:55:15.366 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 18:55:16.237 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 18:55:16.586 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 354.3119ms
+2024-05-06 18:55:16.604 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 18:55:16.611 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.0934ms
+2024-05-06 18:55:16.625 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 18:55:16.668 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2838ms
+2024-05-06 18:55:16.772 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 18:55:16.915 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.2127ms
+2024-05-06 18:55:38.181 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 18:55:38.317 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:55:38.333 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 18:55:39.518 +02:00  INF  Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 18:55:39.624 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 18:55:39.662 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1323.4554ms
+2024-05-06 18:55:39.663 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 18:55:39.675 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1493.5677ms
+2024-05-06 19:01:38.190 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:01:38.494 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:01:38.496 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:01:38.498 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:01:38.500 +02:00  INF  Hosting environment: Development
+2024-05-06 19:01:38.501 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:01:39.146 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 19:01:39.445 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 306.5028ms
+2024-05-06 19:01:39.478 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 19:01:39.487 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.3493ms
+2024-05-06 19:01:39.495 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 19:01:39.536 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.9816ms
+2024-05-06 19:01:39.635 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 19:01:39.771 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.754ms
+2024-05-06 19:01:58.641 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 19:01:58.774 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:01:58.791 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 19:02:00.110 +02:00  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 19:02:00.274 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 19:02:00.304 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1508.8504ms
+2024-05-06 19:02:00.306 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:02:00.313 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1672.7227ms
+2024-05-06 19:02:52.869 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:02:52.983 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:02:52.986 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:02:52.988 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:02:52.989 +02:00  INF  Hosting environment: Development
+2024-05-06 19:02:52.989 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:03:05.427 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:03:05.697 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:03:05.698 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:03:05.701 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:03:05.703 +02:00  INF  Hosting environment: Development
+2024-05-06 19:03:05.704 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:03:06.654 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 19:03:07.050 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 399.2392ms
+2024-05-06 19:03:07.077 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 19:03:07.084 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 19:03:07.139 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 63.9833ms
+2024-05-06 19:03:07.200 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.2967ms
+2024-05-06 19:03:07.383 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 19:03:07.609 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 226.3748ms
+2024-05-06 19:03:25.678 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 19:03:25.807 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:03:25.823 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 19:03:27.127 +02:00  INF  Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 19:03:27.283 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 19:03:27.315 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1487.1455ms
+2024-05-06 19:03:27.316 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:03:27.324 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1646.6061ms
+2024-05-06 19:04:15.799 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:04:16.075 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:04:16.076 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:04:16.079 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:04:16.081 +02:00  INF  Hosting environment: Development
+2024-05-06 19:04:16.082 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:04:17.344 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 19:04:17.768 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 429.7285ms
+2024-05-06 19:04:17.821 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 19:04:17.832 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.4208ms
+2024-05-06 19:04:17.855 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 19:04:17.908 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.17ms
+2024-05-06 19:04:18.026 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 19:04:18.173 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.5537ms
+2024-05-06 19:04:34.807 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 19:04:34.940 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:04:34.959 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 19:04:36.223 +02:00  INF  Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 19:04:36.377 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 19:04:36.410 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1446.8876ms
+2024-05-06 19:04:36.412 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:04:36.420 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1613.3539ms
+2024-05-06 19:05:19.258 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:05:19.548 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:05:19.549 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:05:19.553 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:05:19.555 +02:00  INF  Hosting environment: Development
+2024-05-06 19:05:19.556 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:05:20.303 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 19:05:20.560 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 262.8869ms
+2024-05-06 19:05:20.614 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 19:05:20.614 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 19:05:20.625 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.8218ms
+2024-05-06 19:05:20.692 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.8074ms
+2024-05-06 19:05:20.891 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 19:05:21.141 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 255.2669ms
+2024-05-06 19:05:41.961 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 19:05:42.102 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:05:42.120 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 19:05:43.415 +02:00  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 19:05:43.568 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 19:05:43.601 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1476.4674ms
+2024-05-06 19:05:43.605 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:05:43.616 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1655.2911ms
+2024-05-06 19:06:28.234 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 19:06:28.527 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 19:06:28.528 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 19:06:28.533 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 19:06:28.534 +02:00  INF  Hosting environment: Development
+2024-05-06 19:06:28.536 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 19:06:29.774 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 19:06:30.221 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 458.1994ms
+2024-05-06 19:06:30.264 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 19:06:30.277 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.0384ms
+2024-05-06 19:06:30.287 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 19:06:30.331 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.5024ms
+2024-05-06 19:06:30.443 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 19:06:30.569 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.624ms
+2024-05-06 19:06:53.938 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 19:06:54.078 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:06:54.098 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 19:06:55.481 +02:00  INF  Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 19:06:55.608 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 19:06:55.648 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1542.9661ms
+2024-05-06 19:06:55.650 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 19:06:55.659 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1721.6516ms
+2024-05-06 22:26:26.611 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:26:26.914 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:26:26.915 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:26:26.917 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:26:26.918 +02:00  INF  Hosting environment: Development
+2024-05-06 22:26:26.919 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:26:28.781 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:26:29.798 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 1023.9798ms
+2024-05-06 22:26:29.964 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:26:29.978 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.2783ms
+2024-05-06 22:26:30.008 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:26:30.190 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 182.4387ms
+2024-05-06 22:26:30.484 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:26:30.717 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.5433ms
+2024-05-06 22:26:53.495 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:26:53.638 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:26:53.655 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:26:55.128 +02:00  INF  Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:26:55.254 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:26:55.297 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1635.9522ms
+2024-05-06 22:26:55.299 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:26:55.313 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1815.5931ms
+2024-05-06 22:29:30.472 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:29:30.767 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:29:30.768 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:29:30.776 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:29:30.777 +02:00  INF  Hosting environment: Development
+2024-05-06 22:29:30.778 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:29:31.518 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:29:31.819 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 307.6283ms
+2024-05-06 22:29:31.832 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:29:31.851 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:29:31.857 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 24.6599ms
+2024-05-06 22:29:31.916 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9978ms
+2024-05-06 22:29:32.269 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:29:32.551 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 281.5227ms
+2024-05-06 22:30:02.580 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:30:02.724 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:30:02.741 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:30:04.122 +02:00  INF  Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:30:04.245 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:30:04.282 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1536.6776ms
+2024-05-06 22:30:04.284 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:30:04.293 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1715.904ms
+2024-05-06 22:31:21.312 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:31:21.637 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:31:21.638 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:31:21.641 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:31:21.643 +02:00  INF  Hosting environment: Development
+2024-05-06 22:31:21.644 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:31:22.550 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:31:22.960 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 416.3275ms
+2024-05-06 22:31:22.989 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:31:23.034 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 44.728ms
+2024-05-06 22:31:23.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:31:23.162 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.6069ms
+2024-05-06 22:31:23.563 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:31:23.723 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.2503ms
+2024-05-06 22:31:53.700 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:31:53.844 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:31:53.860 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:31:55.252 +02:00  INF  Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:31:55.406 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:31:55.446 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1579.9761ms
+2024-05-06 22:31:55.447 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:31:55.455 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1754.988ms
+2024-05-06 22:38:11.778 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:38:12.061 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:38:12.062 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:38:12.065 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:38:12.066 +02:00  INF  Hosting environment: Development
+2024-05-06 22:38:12.067 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:38:12.543 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:38:12.911 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 372.006ms
+2024-05-06 22:38:12.947 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:38:12.957 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.6717ms
+2024-05-06 22:38:12.958 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:38:12.999 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.0671ms
+2024-05-06 22:38:13.099 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:38:13.257 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.0407ms
+2024-05-06 22:38:31.932 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:38:32.060 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:38:32.075 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:38:33.350 +02:00  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:38:33.468 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:38:33.501 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1422.1897ms
+2024-05-06 22:38:33.503 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:38:33.513 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1581.028ms
+2024-05-06 22:39:23.987 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:39:24.267 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:39:24.268 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:39:24.272 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:39:24.273 +02:00  INF  Hosting environment: Development
+2024-05-06 22:39:24.274 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:39:25.061 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:39:25.322 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 267.8876ms
+2024-05-06 22:39:25.371 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:39:25.371 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:39:25.387 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 16.5719ms
+2024-05-06 22:39:25.418 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.1412ms
+2024-05-06 22:39:25.540 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:39:25.698 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.6ms
+2024-05-06 22:39:51.709 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:39:51.826 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:39:51.844 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:39:53.193 +02:00  INF  Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:39:53.344 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:39:53.380 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1531.1654ms
+2024-05-06 22:39:53.382 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:39:53.396 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1687.717ms
+2024-05-06 22:44:36.488 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:44:37.041 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:44:37.043 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:44:37.050 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:44:37.053 +02:00  INF  Hosting environment: Development
+2024-05-06 22:44:37.054 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:44:38.168 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:44:38.652 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 492.8132ms
+2024-05-06 22:44:38.700 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:44:38.717 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.1907ms
+2024-05-06 22:44:38.741 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:44:38.858 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.4582ms
+2024-05-06 22:44:39.150 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:44:39.571 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 421.8539ms
+2024-05-06 22:45:11.769 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:45:11.997 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:45:12.022 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:45:14.310 +02:00  INF  Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:45:14.552 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:45:14.653 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2622.03ms
+2024-05-06 22:45:14.655 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:45:14.671 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2903.1983ms
+2024-05-06 22:48:14.635 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:48:15.093 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:48:15.095 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:48:15.100 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:48:15.105 +02:00  INF  Hosting environment: Development
+2024-05-06 22:48:15.107 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:48:15.986 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:48:16.397 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 418.0228ms
+2024-05-06 22:48:16.439 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:48:16.450 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.548ms
+2024-05-06 22:48:16.451 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:48:16.523 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.797ms
+2024-05-06 22:48:16.734 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:48:17.043 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 309.9007ms
+2024-05-06 22:48:48.549 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:48:48.764 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:48:48.789 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:48:51.043 +02:00  INF  Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:48:51.290 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:48:51.357 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2558.3982ms
+2024-05-06 22:48:51.364 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:48:51.379 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2833.6724ms
+2024-05-06 22:51:49.779 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:51:50.282 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:51:50.284 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:51:50.290 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:51:50.292 +02:00  INF  Hosting environment: Development
+2024-05-06 22:51:50.294 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:51:51.390 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:51:51.800 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 416.9968ms
+2024-05-06 22:51:51.918 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:51:51.919 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:51:51.945 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 26.1197ms
+2024-05-06 22:51:52.068 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.6313ms
+2024-05-06 22:51:52.355 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:51:52.714 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 359.3063ms
+2024-05-06 22:52:26.543 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:52:26.766 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:52:26.797 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:52:29.121 +02:00  INF  Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:52:29.334 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:52:29.436 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2626.759ms
+2024-05-06 22:52:29.459 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:52:29.482 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2940.7094ms
+2024-05-06 22:54:36.770 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:54:36.784 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:54:36.786 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:54:36.821 +02:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:54:36.830 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:54:36.836 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 45.902ms
+2024-05-06 22:54:36.839 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:54:36.842 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 75.7187ms
+2024-05-06 22:55:11.283 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:55:11.748 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:55:11.751 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:55:11.756 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:55:11.760 +02:00  INF  Hosting environment: Development
+2024-05-06 22:55:11.763 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:55:12.713 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:55:13.176 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 473.5203ms
+2024-05-06 22:55:13.244 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:55:13.251 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:55:13.262 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 18.5871ms
+2024-05-06 22:55:13.318 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.4136ms
+2024-05-06 22:55:13.516 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:55:13.735 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.5814ms
+2024-05-06 22:55:41.029 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:55:41.248 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:55:41.278 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:55:43.539 +02:00  INF  Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:55:43.795 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:55:43.869 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2583.6995ms
+2024-05-06 22:55:43.872 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:55:43.885 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2856.1398ms
+2024-05-06 22:57:54.775 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 22:57:55.354 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 22:57:55.356 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 22:57:55.363 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 22:57:55.365 +02:00  INF  Hosting environment: Development
+2024-05-06 22:57:55.367 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 22:57:56.035 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 22:57:56.536 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 511.5219ms
+2024-05-06 22:57:56.579 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 22:57:56.589 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.6773ms
+2024-05-06 22:57:56.601 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 22:57:56.668 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.9039ms
+2024-05-06 22:57:56.892 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 22:57:57.127 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.7042ms
+2024-05-06 22:58:27.745 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 22:58:27.961 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:58:27.986 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 22:58:30.246 +02:00  INF  Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 22:58:30.513 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 22:58:30.576 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2582.9296ms
+2024-05-06 22:58:30.579 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 22:58:30.595 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2851.1965ms
+2024-05-06 23:00:11.194 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 23:00:11.588 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 23:00:11.590 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 23:00:11.596 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 23:00:11.598 +02:00  INF  Hosting environment: Development
+2024-05-06 23:00:11.601 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 23:00:12.673 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 23:00:13.350 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 683.169ms
+2024-05-06 23:00:13.409 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 23:00:13.410 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 23:00:13.457 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 49.123ms
+2024-05-06 23:00:13.587 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.7004ms
+2024-05-06 23:00:13.978 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 23:00:14.398 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 420.312ms
+2024-05-06 23:00:37.617 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 23:00:38.052 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-06 23:00:38.054 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-06 23:00:38.059 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-06 23:00:38.062 +02:00  INF  Hosting environment: Development
+2024-05-06 23:00:38.064 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEV\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-06 23:00:39.238 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-06 23:00:39.675 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 448.0696ms
+2024-05-06 23:00:39.717 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-06 23:00:39.728 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.6491ms
+2024-05-06 23:00:39.736 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-06 23:00:39.811 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.4709ms
+2024-05-06 23:00:40.121 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-06 23:00:40.440 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 319.4315ms
+2024-05-06 23:01:03.596 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-06 23:01:03.799 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 23:01:03.831 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-06 23:01:06.055 +02:00  INF  Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-06 23:01:06.301 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-06 23:01:06.379 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 2528.8276ms
+2024-05-06 23:01:06.383 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-06 23:01:06.400 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 2804.4034ms
