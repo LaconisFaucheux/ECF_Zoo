@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Migrations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API_Arcadia.Controllers
 {
@@ -27,13 +28,26 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Reviews
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Review>>> GetReviews()
+        {
+            var req = from r in _context.Reviews
+                      where r.IsValidated
+                      select r;
+
+            return await req.ToListAsync();
+        }
+
+        [HttpGet("unfiltered")]
+        [Authorize(Policy = "ReadUnfilteredReviews")]
+        public async Task<ActionResult<IEnumerable<Review>>> GetUnfilteredReviews()
         {
             return await _context.Reviews.ToListAsync();
         }
 
         // GET: api/Reviews/5
         [HttpGet("{id}")]
+        [Authorize(Policy = "ReadUnfilteredReviews")]
         public async Task<ActionResult<Review>> GetReview(int id)
         {
             var review = await _context.Reviews.FindAsync(id);
@@ -49,6 +63,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Reviews/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "UpdateReview")]
         public async Task<IActionResult> PutReview(int id, Review review)
         {
             if (id != review.Id)
@@ -80,6 +95,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Reviews
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<Review>> PostReview(Review review)
         {
             try
@@ -99,6 +115,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Reviews/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "DeleteReview")]
         public async Task<IActionResult> DeleteReview(int id)
         {
             var review = await _context.Reviews.FindAsync(id);

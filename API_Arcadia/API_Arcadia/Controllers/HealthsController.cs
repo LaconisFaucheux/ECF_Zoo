@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API_Arcadia.Controllers
 {
@@ -23,6 +24,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Healths
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Health>>> GetHealths()
         {
             return await _context.Healths.ToListAsync();
@@ -30,6 +32,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Healths/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Health>> GetHealth(int id)
         {
             var health = await _context.Healths.FindAsync(id);
@@ -45,6 +48,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Healths/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "UpdateHealth")]
         public async Task<IActionResult> PutHealth(int id, Health health)
         {
             if (id != health.Id)
@@ -76,6 +80,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Healths
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Policy = "CreateHealth")]
         public async Task<ActionResult<Health>> PostHealth(Health health)
         {
             _context.Healths.Add(health);
@@ -86,6 +91,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Healths/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "DeleteHealth")]
         public async Task<IActionResult> DeleteHealth(int id)
         {
             var health = await _context.Healths.FindAsync(id);

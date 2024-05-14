@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj": {}
+    "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj": {
+    "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
+        "projectUniqueName": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
         "projectName": "IdentityServerHost",
-        "projectPath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
+        "projectPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
         "packagesPath": "C:\\Users\\Lacon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\obj\\",
+        "outputPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qsIvTITjDYY508YnWbzIyfDxiK7Hkh0J6jJj4SL00PQ66HDfiYJ3BisAPexUUO9ofYtkUZlbiZx/PohXKAwd2A==",
+  "dgSpecHash": "22ezC04WH5bvBVSNrT+GEpsPPmfpxvadWBTa6aQ3c+SGsx60IBYS8gGqDPU6Cy4292EBTsnOcBegpXF+WFdPgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Shared\\BlazorWasm.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

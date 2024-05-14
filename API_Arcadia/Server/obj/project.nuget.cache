@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pCcIDzBY+9T3a678n17ALIfgPIAFLHnjPpZR2bn9xjoCfai5zvFW9kv6gYvnlrsEMyXqkLVJ7gSvjsbrzp49Q==",
+  "dgSpecHash": "dLISsnoz7CZaib3YwGMyFw/YCQlUPU8EWLIVgwvOzxqNh5pwWLm/A58NShS9C96TzYM1wMCBbNQz1tHrnGE7uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Server\\BlazorWasm.Server.csproj",
+  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\BlazorWasm.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lacon\\.nuget\\packages\\duende.accesstokenmanagement\\2.1.0\\duende.accesstokenmanagement.2.1.0.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\duende.accesstokenmanagement.openidconnect\\2.1.0\\duende.accesstokenmanagement.openidconnect.2.1.0.nupkg.sha512",

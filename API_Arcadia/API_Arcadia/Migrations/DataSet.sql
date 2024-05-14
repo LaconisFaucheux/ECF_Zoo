@@ -95,7 +95,7 @@ INSERT INTO AnimalImages (Slug, MiniSlug, IdAnimal)
         ('images/animals/638496693869536018_Mufasa.jpg', 'images/animals/638496693869536822_Mufasa_mini.jpg', 1), 
         ('images/animals/638496693873204536_Mufasa.jpg', 'images/animals/638496693873204641_Mufasa_mini.jpg', 2),
         ('images/animals/l_orang_outan1.jpg', 'x', 3), ('images/animals/l_orang_outan2.jpg', 'x', 4),
-        ('images/animals/la_pantere1.jpg', 'x', 5), ('images/animals/la_pantere2.jpg', 'x', 6),
+        ('images/animals/la_panthere1.jpg', 'x', 5), ('images/animals/la_panthere2.jpg', 'x', 6),
         ('images/animals/la_loutre1.jpg', 'x', 7), ('images/animals/la_loutre2.jpg', 'x', 8),
         ('images/animals/le_rhino1.jpeg', 'x', 9), ('images/animals/le_rhino2.jpg', 'x', 10),
         ('images/animals/le_heron1.jpg', 'x', 11), ('images/animals/le_heron2.jpg', 'x', 12),

@@ -10,6 +10,7 @@ using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Interfaces;
 using API_Arcadia.Migrations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API_Arcadia.Controllers
 {
@@ -28,6 +29,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Animals
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Animal>>> GetAnimals()
         {        
             var animals = await _animalServ.GetAnimals();
@@ -36,6 +38,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Animals/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Animal>> GetAnimal(int id)
         {
             var animal = await _animalServ.GetAnimal(id);
@@ -51,6 +54,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Animals/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "UpdateAnimal")]
         public async Task<IActionResult> PutAnimal(int id, [FromForm]AnimalDTO animal)
         {
             if (id != animal.Id)
@@ -77,6 +81,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Animals
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Policy = "CreateAnimal")]
         public async Task<ActionResult<Animal>> PostAnimal([FromForm] AnimalDTO animal)
         {
             try
@@ -92,6 +97,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Animals/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "DeleteAnimal")]
         public async Task<IActionResult> DeleteAnimal(int id)
         {
 

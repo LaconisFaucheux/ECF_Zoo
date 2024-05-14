@@ -100,7 +100,7 @@ namespace API_Arcadia.Services
                     //    IdAnimal = animal.Id
                     //};
 
-                    var ai = await Utils.UploadImage<AnimalImage>(image, "Animals", a.Name, a.Id);
+                    var ai = await Utils.UploadImage<AnimalImage>(image, "animals", a.Name, a.Id);
                     if (ai != null)
                     {
                         a.Pics.Add(ai);

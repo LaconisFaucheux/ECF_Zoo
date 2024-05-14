@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API_Arcadia.Controllers
 {
@@ -26,6 +27,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/OpeningHours
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<OpeningHour>>> GetOpeningHours()
         {
             return await _context.OpeningHours.ToListAsync();
@@ -33,6 +35,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/OpeningHours/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<OpeningHour>> GetOpeningHour(int id)
         {
             var openingHour = await _context.OpeningHours.FindAsync(id);
@@ -48,6 +51,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/OpeningHours/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "ModifHoraires")]
         public async Task<IActionResult> PutOpeningHour(int id, OpeningHour openingHour)
         {
             if (id != openingHour.Id)

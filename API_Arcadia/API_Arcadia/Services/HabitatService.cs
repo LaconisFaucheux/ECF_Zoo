@@ -60,7 +60,7 @@ namespace API_Arcadia.Services
                     //    IdHabitat = habitat.Id
                     //};
 
-                    var hi = await Utils.UploadImage<HabitatImage>(image, "Habitats", h.Name, h.Id);
+                    var hi = await Utils.UploadImage<HabitatImage>(image, "habitats", h.Name, h.Id);
                     if (hi != null)
                     {
                         h.Pics.Add(hi);

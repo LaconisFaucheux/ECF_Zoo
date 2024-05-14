@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cYDFW5s3Yr4A4RV/JGrhG/D05tVDluxgVlGfdhIvwww2i0o3tUfSfptmXp4iiVT3TbvXbjGCejVimvtdzuhzqQ==",
+  "dgSpecHash": "7Vy61962VlRXXkXT79ykxs1NjiCC77AYBobV41cI/Vx/tJjO60eyxSXBhq2Atq1cUpos4KqLYxJ6mJ0wp73Pcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEV\\ECF_Zoo\\API_Arcadia\\Client\\BlazorWasm.Client.csproj",
+  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\BlazorWasm.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.4\\microsoft.aspnetcore.authorization.8.0.4.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.4\\microsoft.aspnetcore.components.8.0.4.nupkg.sha512",

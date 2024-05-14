@@ -102,8 +102,6 @@ app.MapRemoteBffApiEndpoint("/Diets", builder.Configuration["ApiUrl"] + "Diets")
        .RequireAccessToken(TokenType.User);
 app.MapRemoteBffApiEndpoint("/Habitats", builder.Configuration["ApiUrl"] + "Habitats")
        .RequireAccessToken(TokenType.User);
-app.MapRemoteBffApiEndpoint("/Images", builder.Configuration["ApiUrl"] + "Images")
-       .RequireAccessToken(TokenType.User);
 
 app.MapFallbackToFile("index.html");
 

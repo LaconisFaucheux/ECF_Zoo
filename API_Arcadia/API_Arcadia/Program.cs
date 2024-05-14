@@ -61,6 +61,45 @@ namespace API_Arcadia
                     .RequireAuthenticatedUser()
                     //.RequireAssertion(context => true)
                     .Build();
+
+                #region AUTHORIZATION POLICIES
+
+                options.AddPolicy("ModifHoraires", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("CreateAnimal", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateAnimal", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteAnimal", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("CreateDiet", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateDiet", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteDiet", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("CreateHabitat", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateHabitat", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteHabitat", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("CreateHealth", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateHealth", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteHealth", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("ReadUnfilteredReviews", p => p.RequireClaim("Fonction", "Administrateur", "Employe"));
+                options.AddPolicy("UpdateReview", p => p.RequireClaim("Fonction", "Administrateur", "Employe"));
+                options.AddPolicy("DeleteReview", p => p.RequireClaim("Fonction", "Administrateur", "Employe"));
+
+                options.AddPolicy("CreateSpecies", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateSpecies", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteSpecies", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                options.AddPolicy("CreateVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+                options.AddPolicy("ReadVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+                options.AddPolicy("UpdateVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+                options.AddPolicy("DeleteVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+
+                options.AddPolicy("CreateZooService", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateZooService", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteZooService", p => p.RequireClaim("Fonction", "Administrateur"));
+
+                #endregion
             });
 
             var app = builder.Build();

@@ -27,14 +27,14 @@
     <None Include="wwwroot\images\animals\638496693869536822_Mufasa_mini.jpg" />
     <None Include="wwwroot\images\animals\638496693873204536_Mufasa.jpg" />
     <None Include="wwwroot\images\animals\638496693873204641_Mufasa_mini.jpg" />
-    <None Include="wwwroot\images\Habitats\638496697522786650_Mufasa.png" />
-    <None Include="wwwroot\images\Habitats\638496697522786783_Mufasa_mini.png" />
-    <None Include="wwwroot\images\Habitats\638496697525081425_Mufasa.jpg" />
-    <None Include="wwwroot\images\Habitats\638496697525081545_Mufasa_mini.jpg" />
-    <None Include="wwwroot\images\Habitats\638497288718754028_Montagne_mini.jpg" />
-    <None Include="wwwroot\images\Habitats\638497288721083404_Montagne_mini.jpg" />
-    <None Include="wwwroot\images\Habitats\638497289050047856_Montagnertyu_mini.jpg" />
-    <None Include="wwwroot\images\Habitats\638497289050862221_Montagnertyu_mini.jpg" />
+    <None Include="wwwroot\images\habitats\638496697522786650_Mufasa.png" />
+    <None Include="wwwroot\images\habitats\638496697522786783_Mufasa_mini.png" />
+    <None Include="wwwroot\images\habitats\638496697525081425_Mufasa.jpg" />
+    <None Include="wwwroot\images\habitats\638496697525081545_Mufasa_mini.jpg" />
+    <None Include="wwwroot\images\habitats\638497288718754028_Montagne_mini.jpg" />
+    <None Include="wwwroot\images\habitats\638497288721083404_Montagne_mini.jpg" />
+    <None Include="wwwroot\images\habitats\638497289050047856_Montagnertyu_mini.jpg" />
+    <None Include="wwwroot\images\habitats\638497289050862221_Montagnertyu_mini.jpg" />
   </ItemGroup>
 
 </Project>
