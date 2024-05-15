@@ -50,7 +50,7 @@ namespace API_Arcadia
                      options.TokenValidationParameters.ValidateAudience = false;
 
                      //Tolérance sur la validité du jeton (à modifier/supprimer (par défaut c'est 5 min) à la mise en prod pour que l'API accepte des tokens dépassés de quelques min)
-                     options.TokenValidationParameters.ClockSkew = TimeSpan.Zero;
+                     //options.TokenValidationParameters.ClockSkew = TimeSpan.Zero;
                  });
 
             //ajoute le service d'autorisation

@@ -39,6 +39,7 @@ builder.Services.AddAuthentication(options =>
         options.Scope.Add("openid");
         options.Scope.Add("profile");
         //options.Scope.Add("api");
+        options.Scope.Add("arcadmin");
         options.Scope.Add("offline_access");
 
 

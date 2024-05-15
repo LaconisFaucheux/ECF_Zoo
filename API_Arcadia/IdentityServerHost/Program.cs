@@ -30,31 +30,36 @@ namespace IdentityServerHost
 
                 // Cr�e des identit�s
                 .AddInMemoryIdentityResources(new IdentityResource[] {
-         new IdentityResources.OpenId(),
-         new IdentityResources.Profile(),
+                    new IdentityResources.OpenId(),
+                    new IdentityResources.Profile(),
+                })
+
+                // Crée une étendue d'API "entreprise" et lui associe la revendication Fonction
+                .AddInMemoryApiScopes(new ApiScope[] {
+                    new ApiScope("arcadmin", new[] { "Fonction" })
                 })
 
                 // Configure une appli cliente
                 .AddInMemoryClients(new Client[] {
-         new Client
-         {
-            ClientId = "Client1",
-            ClientSecrets = { new Secret("Secret1".Sha256()) },
-            AllowedGrantTypes = GrantTypes.Code,
+                    new Client
+                    {
+                       ClientId = "Client1",
+                       ClientSecrets = { new Secret("Secret1".Sha256()) },
+                       AllowedGrantTypes = GrantTypes.Code,
 
-            // Urls auxquelles envoyer les jetons
-            RedirectUris = { "https://localhost:7189/signin-oidc" },
-            // Urls de redirection apr�s d�connexion
-            PostLogoutRedirectUris = { "https://localhost:7189/signout-callback-oidc" },
-            // Url pour envoyer une demande de d�connexion au serveur d'identit�
-            FrontChannelLogoutUri = "https://localhost:7189/signout-oidc",
+                       // Urls auxquelles envoyer les jetons
+                       RedirectUris = { "https://localhost:7189/signin-oidc" },
+                       // Urls de redirection apr�s d�connexion
+                       PostLogoutRedirectUris = { "https://localhost:7189/signout-callback-oidc" },
+                       // Url pour envoyer une demande de d�connexion au serveur d'identit�
+                       FrontChannelLogoutUri = "https://localhost:7189/signout-oidc",
 
-            // Etendues d'API autoris�es
-            AllowedScopes = { "openid", "profile" },
+                       // Etendues d'API autoris�es
+                       AllowedScopes = { "openid", "profile", "arcadmin" },
 
-            // Autorise le client � utiliser un jeton d'actualisation
-            AllowOfflineAccess = true
-         }
+                       // Autorise le client � utiliser un jeton d'actualisation
+                       AllowOfflineAccess = true
+                    }
                 })
                 // Indique d'utiliser ASP.Net Core Identity pour la gestion des profils et revendications
                 .AddAspNetIdentity<ArcadiaUser>();

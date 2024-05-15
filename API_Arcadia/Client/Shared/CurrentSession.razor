@@ -1,3 +1,5 @@
+@inject HttpClient Http
+
 <AuthorizeView>
     <Authorized>
         <dl>
@@ -7,8 +9,29 @@
                 <dd>@claim.Value</dd>
             }
         </dl>
+
+        <div style="display:grid; grid-template-columns:800px; grid-gap: 1rem;">
+
+            <h5>jwt encodé</h5>
+            <textarea rows="4">@jetonEncode</textarea>
+
+            <h5>jwt décodé</h5>
+            <textarea class="mb-5" rows="8">@jetonDecode</textarea>
+        </div>
+
     </Authorized>
     <NotAuthorized>
         <h3>No session</h3>
     </NotAuthorized>
 </AuthorizeView>
+
+@code {
+    private string? jetonEncode;
+    private string? jetonDecode;
+
+    protected override async Task OnInitializedAsync()
+    {
+        jetonEncode = await Http.GetStringAsync("Infos/EncodedToken");
+        jetonDecode = await Http.GetStringAsync("Infos/DecodedToken");
+    }
+}

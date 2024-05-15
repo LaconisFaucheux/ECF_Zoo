@@ -1,27 +1,62 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorWasm</a>
+        <a class="navbar-brand" href="">ArcAdmin</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
-
+@* https://kordamp.org/ikonli/cheat-sheet-openiconic.html *@
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="#" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-dashboard" aria-hidden="true"></span> Dashboard
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Les Animaux
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-people" aria-hidden="true"></span> Utilisateurs
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="animals">
+                <span class="oi oi-star" aria-hidden="true"></span> Les Animaux
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Les Espèces
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="habitats">
+                <span class="oi oi-globe" aria-hidden="true"></span> Les Habitats
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-euro" aria-hidden="true"></span> Les Services
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-chat" aria-hidden="true"></span> Les Avis
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-clock" aria-hidden="true"></span> Les Horaires
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="oi oi-pulse" aria-hidden="true"></span> Rapports Vétérinaires
             </NavLink>
         </div>
     </nav>

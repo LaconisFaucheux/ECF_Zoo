@@ -1379,3 +1379,5 @@ C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj
 C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj\Debug\net8.0\API_Arcadia.pdb
 C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj\Debug\net8.0\API_Arcadia.genruntimeconfig.cache
 C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia\obj\Debug\net8.0\ref\API_Arcadia.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\API_Arcadia\bin\Debug\net8.0\System.ClientModel.dll

@@ -17,7 +17,15 @@ namespace API_Arcadia.Services
 
         public async Task<List<Habitat>> GetHabitats()
         {
-            return await _context.Habitats.ToListAsync();
+            var req = from h in _context.Habitats
+                      .Include(a => a.Pics)
+                      where h != null
+                      select h;
+
+            List<Habitat> l = new List<Habitat>();
+            l = await req.ToListAsync();
+
+            return l;
         }
 
         public async Task<Habitat?> GetHabitat(int id)
