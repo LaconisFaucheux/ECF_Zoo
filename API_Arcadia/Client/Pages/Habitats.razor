@@ -53,6 +53,9 @@ else
         {
             <div class="card m-2" style="width: 18rem; overflow:hidden;">
                 <img src="@ImageSrc[h.Name]" class="card-img-top" alt="Photo de @h.Name" style="height: 200px; object-fit:cover;">
+                <button type="button" class="btn btn-danger position-absolute top-0 end-0 m-2 rounded-circle">
+                    <span aria-hidden="true">X</span>
+                </button>
                 <div class="card-body">
                     <h4 class="card-title">@Utils.Capitalize1stLetter(h.Name)</h4>
                     <a href="#" class="btn btn-primary">Modifier</a>
@@ -60,6 +63,7 @@ else
             </div>
         }
     </div>
+    //TODO : Créer un composant modal avec qui s'adaptera à chaque page avec des paramètres et qui sera déclenché par un clic sur Modifier ou Crée ou Supprimer
 
 }
 

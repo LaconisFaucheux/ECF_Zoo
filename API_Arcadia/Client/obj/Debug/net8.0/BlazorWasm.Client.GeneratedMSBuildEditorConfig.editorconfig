@@ -38,12 +38,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Pages/Species.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2llcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/CurrentSession.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1cnJlbnRTZXNzaW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/RedirectToLogin.razor]
