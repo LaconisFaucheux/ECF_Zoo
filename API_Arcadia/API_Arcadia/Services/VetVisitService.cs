@@ -32,7 +32,7 @@ namespace API_Arcadia.Services
 
         public async Task<VetVisit?> GetVetVisit(int id)
         {
-            var req = from vv in _context.VetVisits                        
+            var req = from vv in _context.VetVisits
                         .Include(vv => vv.foodWeightUnit)
                         .Include(vv => vv.animal)
                             .ThenInclude(a => a.SpeciesData)
@@ -83,7 +83,14 @@ namespace API_Arcadia.Services
 
         public async Task<List<VetVisit>> GetVetVisits()
         {
-            return await _context.VetVisits.ToListAsync();
+            var req = from vv in _context.VetVisits
+            .Include(vv => vv.animal)
+            .Include(vv => vv.animal)
+                .ThenInclude(a => a.HealthData)
+                      where vv != null
+                      select vv;
+
+            return await req.ToListAsync();
         }
 
         public async Task<VetVisit> PostVetVisit(VetVisitDTO vetVisit)
@@ -105,21 +112,21 @@ namespace API_Arcadia.Services
             {
                 involvedAnimal.IdHealth = vetVisit.healthId;
             }
-            else 
+            else
             {
                 throw new DbUpdateConcurrencyException();
-            }           
+            }
 
             _context.VetVisits.Add(vv);
             await _context.SaveChangesAsync();
 
-            return vv;    
+            return vv;
         }
 
         public async Task<int> UpdateVetVisit(int id, VetVisitDTO vetVisit)
         {
             var req = from vv in _context.VetVisits
-                      .Include( vv => vv.animal)
+                      .Include(vv => vv.animal)
                       where vv.Id == id
                       select vv;
             var currentVetVisit = await req.FirstOrDefaultAsync();
@@ -132,7 +139,7 @@ namespace API_Arcadia.Services
             currentVetVisit.VisitDate = vetVisit.VisitDate;
             currentVetVisit.Observations = vetVisit.Observations;
             currentVetVisit.IdAnimal = vetVisit.IdAnimal;
-             
+
             currentVetVisit.animal.IdHealth = vetVisit.healthId;
 
             _context.Entry(currentVetVisit).State = EntityState.Modified;

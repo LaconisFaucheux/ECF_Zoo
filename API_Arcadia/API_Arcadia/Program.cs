@@ -90,10 +90,10 @@ namespace API_Arcadia
                 options.AddPolicy("UpdateSpecies", p => p.RequireClaim("Fonction", "Administrateur"));
                 options.AddPolicy("DeleteSpecies", p => p.RequireClaim("Fonction", "Administrateur"));
 
-                options.AddPolicy("CreateVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+                options.AddPolicy("CreateVetVisit", p => p.RequireClaim("Fonction", "Veterinaire"));
                 options.AddPolicy("ReadVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
-                options.AddPolicy("UpdateVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
-                options.AddPolicy("DeleteVetVisit", p => p.RequireClaim("Fonction", "Administrateur", "Veterinaire"));
+                options.AddPolicy("UpdateVetVisit", p => p.RequireClaim("Fonction", "Veterinaire"));
+                options.AddPolicy("DeleteVetVisit", p => p.RequireClaim("Fonction", "Veterinaire"));
 
                 options.AddPolicy("CreateZooService", p => p.RequireClaim("Fonction", "Administrateur"));
                 options.AddPolicy("UpdateZooService", p => p.RequireClaim("Fonction", "Administrateur"));

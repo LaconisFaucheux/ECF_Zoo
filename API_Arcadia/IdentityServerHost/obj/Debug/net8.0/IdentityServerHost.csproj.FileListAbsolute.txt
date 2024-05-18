@@ -1186,3 +1186,5 @@ C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\IdentityServerHost\obj\Deb
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\IdentityServerHost\obj\Debug\net8.0\IdentityServerHost.genruntimeconfig.cache
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\IdentityServerHost\obj\Debug\net8.0\ref\IdentityServerHost.dll
 C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\IdentityServerHost\bin\Debug\net8.0\keys\is-signing-key-77ADD7B2AF3A9A4CA27F05A8005A7639.json
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\IdentityServerHost\bin\Debug\net8.0\keys\is-signing-key-77ADD7B2AF3A9A4CA27F05A8005A7639.json
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\IdentityServerHost\bin\Debug\net8.0\keys\is-signing-key-B077FB5EFA0DD60F092B6D403A1D8C8E.json

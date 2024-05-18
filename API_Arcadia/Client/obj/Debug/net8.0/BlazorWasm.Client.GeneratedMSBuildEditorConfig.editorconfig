@@ -13,63 +13,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorWasm.Client
 build_property.RootNamespace = BlazorWasm.Client
-build_property.ProjectDir = C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\Client\
+build_property.ProjectDir = C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\Client
+build_property.MSBuildProjectDirectory = C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/App.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Pages/Animals.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Animals.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Pages/Habitats.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Habitats.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGFiaXRhdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Pages/Index.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Horaires.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYWlyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Pages/Species.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/LoadingPageAnimation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hZGluZ1BhZ2VBbmltYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/RapportVeterinaire.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFwcG9ydFZldGVyaW5haXJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Reviews.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/Species.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2llcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/CurrentSession.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/ZooServices.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWm9vU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/CurrentSession.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1cnJlbnRTZXNzaW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/LoginDisplay.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/Modal.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/RedirectToLogin.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/SurveyPrompt.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/_Imports.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/MainLayout.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5ohn487roi
 
-[C:/Users/n.frotey/Documents/PERSO/ECF_Zoo/API_Arcadia/Client/Shared/NavMenu.razor]
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-g3huf3b18w

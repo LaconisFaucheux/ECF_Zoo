@@ -98,6 +98,7 @@ namespace IdentityServerHost
             app.MapRazorPages();
 
             app.Run();
+
         }
     }
 }

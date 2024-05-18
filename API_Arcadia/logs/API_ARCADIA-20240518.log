@@ -1,0 +1,155 @@
+2024-05-18 14:53:22.343 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 14:53:22.661 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 14:53:22.663 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 14:53:22.665 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 14:53:22.666 +02:00  INF  Hosting environment: Development
+2024-05-18 14:53:22.667 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 14:53:23.383 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 14:53:23.671 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 293.0613ms
+2024-05-18 14:53:23.710 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 14:53:23.720 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.4887ms
+2024-05-18 14:53:23.724 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 14:53:24.032 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 308.3945ms
+2024-05-18 14:53:24.078 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 14:53:24.322 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 244.0473ms
+2024-05-18 14:53:48.358 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-18 14:53:48.450 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 14:53:48.463 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-18 14:53:49.542 +02:00  INF  Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-18 14:53:49.637 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:53:49.664 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1196.9564ms
+2024-05-18 14:53:49.665 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 14:53:49.670 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1312.5194ms
+2024-05-18 14:53:49.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-05-18 14:53:49.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-05-18 14:53:49.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - null null
+2024-05-18 14:53:49.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - null null
+2024-05-18 14:53:49.802 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-05-18 14:53:49.805 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - null null
+2024-05-18 14:53:49.805 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - null null
+2024-05-18 14:53:49.809 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - null null
+2024-05-18 14:53:49.817 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - null null
+2024-05-18 14:53:49.825 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - null null
+2024-05-18 14:53:49.832 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - null null
+2024-05-18 14:53:49.837 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - null null
+2024-05-18 14:53:49.840 +02:00  INF  The file /images/animals/l_orang_outan1.jpg was not modified
+2024-05-18 14:53:49.840 +02:00  INF  The file /images/animals/la_panthere2.jpg was not modified
+2024-05-18 14:53:49.840 +02:00  INF  The file /images/animals/638496693873204536_Mufasa.jpg was not modified
+2024-05-18 14:53:49.840 +02:00  INF  The file /images/animals/638496693869536018_Mufasa.jpg was not modified
+2024-05-18 14:53:49.840 +02:00  INF  The file /images/animals/la_loutre2.jpg was not modified
+2024-05-18 14:53:49.842 +02:00  INF  The file /images/animals/la_panthere1.jpg was not modified
+2024-05-18 14:53:49.844 +02:00  INF  The file /images/animals/l_orang_outan2.jpg was not modified
+2024-05-18 14:53:49.845 +02:00  INF  The file /images/animals/le_gorille2.jpg was not modified
+2024-05-18 14:53:49.847 +02:00  INF  The file /images/animals/la_loutre1.jpg was not modified
+2024-05-18 14:53:49.848 +02:00  INF  The file /images/animals/le_gorille1.jpg was not modified
+2024-05-18 14:53:49.849 +02:00  INF  The file /images/animals/le_heron1.jpg was not modified
+2024-05-18 14:53:49.852 +02:00  INF  The file /images/animals/le_heron2.jpg was not modified
+2024-05-18 14:53:49.853 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 304 null image/jpeg 51.6847ms
+2024-05-18 14:53:49.853 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - 304 null image/jpeg 51.4537ms
+2024-05-18 14:53:49.853 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 304 null image/jpeg 51.6174ms
+2024-05-18 14:53:49.854 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 304 null image/jpeg 52.946ms
+2024-05-18 14:53:49.854 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - 304 null image/jpeg 53.2143ms
+2024-05-18 14:53:49.855 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - 304 null image/jpeg 49.5022ms
+2024-05-18 14:53:49.855 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - 304 null image/jpeg 50.0709ms
+2024-05-18 14:53:49.856 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - 304 null image/jpeg 47.2161ms
+2024-05-18 14:53:49.856 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - 304 null image/jpeg 40.0488ms
+2024-05-18 14:53:49.857 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - 304 null image/jpeg 33.2913ms
+2024-05-18 14:53:49.857 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - 304 null image/jpeg 25.6694ms
+2024-05-18 14:53:49.858 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - 304 null image/jpeg 20.7269ms
+2024-05-18 14:53:49.859 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - null null
+2024-05-18 14:53:49.861 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - null null
+2024-05-18 14:53:49.866 +02:00  INF  The file /images/animals/le_rhino2.jpg was not modified
+2024-05-18 14:53:49.874 +02:00  INF  The file /images/animals/le_rhino1.jpeg was not modified
+2024-05-18 14:53:49.891 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - 304 null image/jpeg 29.959ms
+2024-05-18 14:53:49.892 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - 304 null image/jpeg 32.6156ms
+2024-05-18 14:53:52.284 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Species - null null
+2024-05-18 14:53:52.288 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.SpeciesController.GetSpeciess (API_Arcadia)'
+2024-05-18 14:53:52.291 +02:00  INF  Route matched with {action = "GetSpeciess", controller = "Species"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Species]]] GetSpeciess() on controller API_Arcadia.Controllers.SpeciesController (API_Arcadia).
+2024-05-18 14:53:52.310 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Speciess] AS [s]
+2024-05-18 14:53:52.314 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Species, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:53:52.319 +02:00  INF  Executed action API_Arcadia.Controllers.SpeciesController.GetSpeciess (API_Arcadia) in 26.3974ms
+2024-05-18 14:53:52.320 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.SpeciesController.GetSpeciess (API_Arcadia)'
+2024-05-18 14:53:52.321 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Species - 200 null application/json; charset=utf-8 37.9302ms
+2024-05-18 14:53:54.943 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Habitats - null null
+2024-05-18 14:53:54.946 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.HabitatsController.GetHabitats (API_Arcadia)'
+2024-05-18 14:53:54.950 +02:00  INF  Route matched with {action = "GetHabitats", controller = "Habitats"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Habitat]]] GetHabitats() on controller API_Arcadia.Controllers.HabitatsController (API_Arcadia).
+2024-05-18 14:53:54.996 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[Id], [h].[Description], [h].[Name], [h0].[Id], [h0].[IdHabitat], [h0].[MiniSlug], [h0].[Slug]
+FROM [Habitats] AS [h]
+LEFT JOIN [HabitatImages] AS [h0] ON [h].[Id] = [h0].[IdHabitat]
+ORDER BY [h].[Id]
+2024-05-18 14:53:55.007 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Habitat, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:53:55.009 +02:00  INF  Executed action API_Arcadia.Controllers.HabitatsController.GetHabitats (API_Arcadia) in 58.5337ms
+2024-05-18 14:53:55.011 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.HabitatsController.GetHabitats (API_Arcadia)'
+2024-05-18 14:53:55.012 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Habitats - 200 null application/json; charset=utf-8 69.3101ms
+2024-05-18 14:53:55.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - null null
+2024-05-18 14:53:55.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - null null
+2024-05-18 14:53:55.048 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - null null
+2024-05-18 14:53:55.050 +02:00  INF  The file /images/habitats/Jungle.jpg was not modified
+2024-05-18 14:53:55.051 +02:00  INF  The file /images/habitats/Marais.jpg was not modified
+2024-05-18 14:53:55.052 +02:00  INF  The file /images/habitats/Savane.jpg was not modified
+2024-05-18 14:53:55.053 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - 304 null image/jpeg 5.501ms
+2024-05-18 14:53:55.053 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - 304 null image/jpeg 6.0358ms
+2024-05-18 14:53:55.054 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - 304 null image/jpeg 6.4498ms
+2024-05-18 14:54:02.055 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/ZooServices - null null
+2024-05-18 14:54:02.057 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.ZooServicesController.GetZooServices (API_Arcadia)'
+2024-05-18 14:54:02.059 +02:00  INF  Route matched with {action = "GetZooServices", controller = "ZooServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.ZooService]]] GetZooServices() on controller API_Arcadia.Controllers.ZooServicesController (API_Arcadia).
+2024-05-18 14:54:02.068 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [z].[Id], [z].[ChildPrice], [z].[Description], [z].[FullPrice], [z].[Name]
+FROM [ZooServices] AS [z]
+2024-05-18 14:54:02.076 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.ZooService, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:54:02.078 +02:00  INF  Executed action API_Arcadia.Controllers.ZooServicesController.GetZooServices (API_Arcadia) in 17.7289ms
+2024-05-18 14:54:02.080 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.ZooServicesController.GetZooServices (API_Arcadia)'
+2024-05-18 14:54:02.081 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/ZooServices - 200 null application/json; charset=utf-8 26.293ms
+2024-05-18 14:54:11.854 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Reviews/unfiltered - null null
+2024-05-18 14:54:11.859 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.ReviewsController.GetUnfilteredReviews (API_Arcadia)'
+2024-05-18 14:54:11.862 +02:00  INF  Route matched with {action = "GetUnfilteredReviews", controller = "Reviews"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Review]]] GetUnfilteredReviews() on controller API_Arcadia.Controllers.ReviewsController (API_Arcadia).
+2024-05-18 14:54:11.869 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Content], [r].[IsValidated], [r].[Note], [r].[Pseudo]
+FROM [Reviews] AS [r]
+2024-05-18 14:54:11.875 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Review, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:54:11.878 +02:00  INF  Executed action API_Arcadia.Controllers.ReviewsController.GetUnfilteredReviews (API_Arcadia) in 15.2038ms
+2024-05-18 14:54:11.880 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.ReviewsController.GetUnfilteredReviews (API_Arcadia)'
+2024-05-18 14:54:11.880 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Reviews/unfiltered - 200 null application/json; charset=utf-8 26.5632ms
+2024-05-18 14:54:24.463 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/OpeningHours - null null
+2024-05-18 14:54:24.466 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia)'
+2024-05-18 14:54:24.470 +02:00  INF  Route matched with {action = "GetOpeningHours", controller = "OpeningHours"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.OpeningHour]]] GetOpeningHours() on controller API_Arcadia.Controllers.OpeningHoursController (API_Arcadia).
+2024-05-18 14:54:24.479 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[AfternoonClosing], [o].[AfternoonOpening], [o].[DayOfWeek], [o].[MorningClosing], [o].[MorningOpening]
+FROM [OpeningHours] AS [o]
+2024-05-18 14:54:24.491 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.OpeningHour, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:54:24.499 +02:00  INF  Executed action API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia) in 27.473ms
+2024-05-18 14:54:24.500 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia)'
+2024-05-18 14:54:24.501 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/OpeningHours - 200 null application/json; charset=utf-8 37.8294ms
+2024-05-18 14:54:33.005 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/VetVisits - null null
+2024-05-18 14:54:33.007 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.VetVisitsController.GetVetVisits (API_Arcadia)'
+2024-05-18 14:54:33.010 +02:00  INF  Route matched with {action = "GetVetVisits", controller = "VetVisits"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.VetVisit]]] GetVetVisits() on controller API_Arcadia.Controllers.VetVisitsController (API_Arcadia).
+2024-05-18 14:54:33.024 +02:00  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Food], [v].[FoodWeight], [v].[IdAnimal], [v].[IdVet], [v].[IdWeightUnit], [v].[Observations], [v].[VisitDate], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id], [h].[State]
+FROM [VetVisits] AS [v]
+INNER JOIN [Animals] AS [a] ON [v].[IdAnimal] = [a].[Id]
+INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+2024-05-18 14:54:33.039 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.VetVisit, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:54:33.045 +02:00  INF  Executed action API_Arcadia.Controllers.VetVisitsController.GetVetVisits (API_Arcadia) in 33.7859ms
+2024-05-18 14:54:33.046 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.VetVisitsController.GetVetVisits (API_Arcadia)'
+2024-05-18 14:54:33.047 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/VetVisits - 200 null application/json; charset=utf-8 42.2626ms
+2024-05-18 14:54:48.844 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-18 14:54:48.850 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 14:54:48.851 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-18 14:54:48.856 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-18 14:54:48.860 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 14:54:48.862 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 9.8448ms
+2024-05-18 14:54:48.863 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 14:54:48.865 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 20.3585ms

@@ -1,0 +1,77 @@
+﻿@page "/services"
+@using BlazorWasm.Shared
+@using System.Text.Json;
+@inject HttpClient Http
+
+@attribute [Authorize]
+
+<PageTitle>Tous les animaux</PageTitle>
+
+<h1>Les Services</h1>
+
+@if (service == null)
+{
+    <LoadingPageAnimation />
+}
+else if (service.Count() == 0)
+{
+    <div class="d-flex flex-column">
+        <p class="text-center m-5 fs-3 fst-italic">Aucun service n'existe dans votre zoo!</p>
+        <div class="card mx-auto" style="width: 18rem; overflow:hidden; height:15rem;">
+            <div class="card-body">
+                <h4 class="card-title">Création</h4>
+                <p class="card-text"><em>Cliquez sur Ajouter pour ouvrir le menu de création de service</em></p>
+                <a href="#" class="btn btn-primary">Ajouter</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="d-flex justify-content-center align-items-center flex-wrap">
+        <div class="d-flex flex-column">
+            <div class="card mx-auto" style="width: 18rem; overflow:hidden; height:15rem;">
+                <div class="card-body">
+                    <h4 class="card-title">Création</h4>
+                    <p class="card-text"><em>Cliquez sur Ajouter pour ouvrir le menu de création de service</em></p>
+                    <a href="#" class="btn btn-primary">Ajouter</a>
+                </div>
+            </div>
+        </div>
+
+        @foreach (BlazorWasm.Shared.ZooService zs in service)
+        {
+            <div class="card m-2" style="width: 18rem; overflow:hidden; height:15rem;">
+                <button type="button" class="btn btn-danger position-absolute top-0 end-0 m-2 rounded-circle">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <div class="card-body">
+                    <h4 class="card-title">@zs.Name</h4>
+                    <p class="card-text"><em>@zs.Description</em></p>
+                    @if (zs.FullPrice == 0)
+                    {
+                        <p><em>Gratuit</em></p>
+                    }
+                    else if (zs.FullPrice != null)
+                    {
+                        <p>
+                            Tarif: <span class="text-start">@zs.FullPrice</span>
+                            Tarif enfant: <span class="text-end">@zs.ChildPrice</span>
+                        </p>
+                    }
+
+                    <a href="#" class="btn btn-primary">Modifier</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private BlazorWasm.Shared.ZooService[]? service;
+
+    protected override async Task OnInitializedAsync()
+    {
+        service = await Http.GetFromJsonAsync<BlazorWasm.Shared.ZooService[]>("/ZooServices");
+    }
+}

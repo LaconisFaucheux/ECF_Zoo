@@ -11,16 +11,7 @@
 
     @if (animal == null)
 {
-	<div class="d-flex flex-column align-items-center justify-content-center">
-		<div class="d-flex flex-row">
-			<div class="spinner-grow text-primary m-2" role="status"></div>
-			<div class="spinner-grow text-success m-2" role="status"></div>
-		</div>
-		<div class="d-flex flex-ro5">
-			<div class="spinner-grow text-danger m-2" role="status"></div>
-			<div class="spinner-grow text-warning m-2" role="status"></div>
-		</div>
-	</div>
+	<LoadingPageAnimation/>
 }
 else if (animal.Count() == 0)
 {
@@ -65,14 +56,12 @@ else
 			</div>
 		}
 	</div>
-	<Modal id="maModal" class=""/>
 }
 
 @code {
 
 	private Animal[]? animal;
 	private Dictionary<string, string> ImageSrc = new();
-	private Modal? modalRef;
 
 	private bool isModalVisible = false;
 

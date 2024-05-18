@@ -5,8 +5,61 @@
 
 @attribute [Authorize] 
 
-<h3>Species</h3>
+<PageTitle>Toutes les espèces</PageTitle>
+
+<h1>Toutes les espèces</h1>
+
+    @if (species == null)
+{
+	<LoadingPageAnimation />
+}
+else if (species.Count() == 0)
+{
+	<div class="d-flex flex-column">
+		<p class="text-center m-5 fs-3 fst-italic">Aucune espèce n'existe dans votre zoo!</p>
+		<div class="card mx-auto" style="width: 18rem; overflow:hidden; height:12rem;">
+			<div class="card-body">
+				<h4 class="card-title">Création</h4>
+				<p class="card-text"><em>Cliquez sur Ajouter pour ouvrir le menu de création d'animal</em></p>
+				<a href="#" class="btn btn-primary">Ajouter</a>
+			</div>
+		</div>
+	</div>
+}
+else
+{
+	<div class="d-flex justify-content-center align-items-center flex-wrap">
+
+		<div class="card m-2" style="width: 18rem; overflow:hidden; height:12rem;">
+			<div class="card-body">
+				<h4 class="card-title">Création</h4>
+				<p class="card-text"><em>Cliquez sur Ajouter pour ouvrir le menu de création d'espèce</em></p>
+				<a href="#" class="btn btn-primary">Ajouter</a>
+			</div>
+		</div>
+
+		@foreach (BlazorWasm.Shared.Species s in species)
+		{
+			<div class="card m-2" style="width: 18rem; overflow:hidden; height:12rem;">				
+				<button type="button" class="btn btn-danger position-absolute top-0 end-0 m-2 rounded-circle">
+					<span aria-hidden="true">X</span>
+				</button>
+				<div class="card-body align-content-end">
+					<h4 class="card-title">@s.Name</h4>
+					<p class="card-text"><em>@s.ScientificName</em></p>
+					<a href="#" class="btn btn-primary">Modifier</a>
+				</div>
+			</div>
+		}
+	</div>
+}
 
 @code {
+	private BlazorWasm.Shared.Species[]? species;
+
+    protected override async Task OnInitializedAsync()
+    {
+		species = await Http.GetFromJsonAsync<BlazorWasm.Shared.Species[]>("/Species");
+    }
 
 }

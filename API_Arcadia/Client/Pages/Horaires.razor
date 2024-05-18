@@ -1,0 +1,54 @@
+﻿@page "/opening-hours"
+@using BlazorWasm.Shared
+@using System.Text.Json;
+@inject HttpClient Http
+
+@attribute [Authorize]
+
+<h1>Horaires</h1>
+
+@if (horaires == null)
+{
+    <LoadingPageAnimation />
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Jour</th>
+                <th scope="col">Ouverture matin</th>
+                <th scope="col">Fermeture matin</th>
+                <th scope="col">Ouverture après-midi</th>
+                <th scope="col">Fermeture après-midi</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (OpeningHour oh in horaires)
+            {
+
+                <tr>
+                    <td class="text-center">@oh.DayOfWeek</td>
+                    <td class="text-center">@oh.MorningOpening</td>
+                    <td class="text-center">@oh.MorningClosing</td>
+                    <td class="text-center">@oh.AfternoonOpening</td>
+                    <td class="text-center">@oh.AfternoonClosing</td>
+                    <td><a href="#" class="btn btn-warning">Mettre à jour</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+@code {
+    private OpeningHour[]? horaires;
+
+    protected override async Task OnInitializedAsync()
+    {
+        horaires = await Http.GetFromJsonAsync<OpeningHour[]>("/OpeningHours");
+    }
+
+}

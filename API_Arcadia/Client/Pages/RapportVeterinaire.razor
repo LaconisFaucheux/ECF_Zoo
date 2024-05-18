@@ -1,0 +1,41 @@
+﻿@page "/rapports"
+@using BlazorWasm.Shared
+@using System.Text.Json;
+@inject HttpClient Http
+
+@attribute [Authorize]
+
+<h1 class="mb-4">Rapports Veterinaires</h1>
+
+@if (rapports == null)
+{
+    <LoadingPageAnimation/>
+}
+else if (rapports.Count() == 0)
+{
+    <p><em>Il n'y a pas de rapport vétérinaire disponible</em></p>
+}
+else
+{
+    @foreach (VetVisit r in rapports)
+    {
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title">@r.animal.Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@r.animal.HealthData.State</h6>
+                <p class="card-text">@r.Observations</p>
+                <a href="#" class="btn btn-primary">Développer</a>                
+            </div>
+        </div>
+    }
+}
+
+@code {
+    private VetVisit[]? rapports;
+
+    protected override async Task OnInitializedAsync()
+    {
+        rapports = await Http.GetFromJsonAsync<VetVisit[]>("/VetVisits");
+    }
+
+}

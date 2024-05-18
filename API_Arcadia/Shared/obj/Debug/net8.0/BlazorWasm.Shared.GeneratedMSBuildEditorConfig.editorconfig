@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = BlazorWasm.Shared
-build_property.ProjectDir = C:\Users\n.frotey\Documents\PERSO\ECF_Zoo\API_Arcadia\Shared\
+build_property.ProjectDir = C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

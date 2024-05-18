@@ -103,6 +103,18 @@ app.MapRemoteBffApiEndpoint("/Diets", builder.Configuration["ApiUrl"] + "Diets")
        .RequireAccessToken(TokenType.User);
 app.MapRemoteBffApiEndpoint("/Habitats", builder.Configuration["ApiUrl"] + "Habitats")
        .RequireAccessToken(TokenType.User);
+app.MapRemoteBffApiEndpoint("/Species", builder.Configuration["ApiUrl"] + "Species")
+       .RequireAccessToken(TokenType.User);
+app.MapRemoteBffApiEndpoint("/ZooServices", builder.Configuration["ApiUrl"] + "ZooServices")
+       .RequireAccessToken(TokenType.User);
+app.MapRemoteBffApiEndpoint("/Reviews", builder.Configuration["ApiUrl"] + "Reviews")
+       .RequireAccessToken(TokenType.User);
+app.MapRemoteBffApiEndpoint("/OpeningHours", builder.Configuration["ApiUrl"] + "OpeningHours")
+   .RequireAccessToken(TokenType.User);
+app.MapRemoteBffApiEndpoint("/VetVisits", builder.Configuration["ApiUrl"] + "VetVisits")
+   .RequireAccessToken(TokenType.User);
+
+//TODO : Mapper ici les appels à l'api IdentityServerHost pour le CRUD sur les Users
 
 app.MapFallbackToFile("index.html");
 

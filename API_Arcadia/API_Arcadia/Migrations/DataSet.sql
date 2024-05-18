@@ -22,7 +22,20 @@ INSERT INTO ZooServices (Name, Description, FullPrice, ChildPrice)
 INSERT INTO Reviews (Pseudo, Content, IsValidated, Note)
 	VALUES
 		('Robert de Boron', 'Le parc est agréable, bien ombragé, idéal pour les promenades avec les enfants. D''autre part les animaux y semblent heureux et en bonne santé!', 1, 5),
-		('Geoffroy de Monmouth', 'Super zoo!', 0, 5);
+		('Geoffroy de Monmouth', 'Super zoo!', 0, 5),
+        ('Albator', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Arthur', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Meleagant', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Johnny', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Edward', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Emilia', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Wilhelm', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 0, 4),
+        ('Subaru', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 1, 4),
+        ('Rem', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 1, 4),
+        ('Ram', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 1, 4),
+        ('Roswaal', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada laoreet tellus at cursus. Phasellus felis est, malesuada eget neque quis, efficitur convallis tellus. Donec pretium sapien at sapien consectetur egestas. Aliquam dignissim malesuada imperdiet. Nulla scelerisque sollicitudin ornare.', 1, 4);
+
+
 
 INSERT INTO Diets (Name)
     VALUES
@@ -31,10 +44,6 @@ INSERT INTO Diets (Name)
 INSERT INTO Habitats (Name, Description)
     VALUES
       ('savane', 'descriptif de la savane'), ('jungle', 'Descriptif de la jungle'), ('marais', 'Descriptif des marais');
-
-INSERT INTO HabitatImages (Slug, IdHabitat)
-    VALUES
-        ('savane.png', 1), ('jungle.png', 2), ('marais.png', 3);
       
 INSERT INTO SizeUnits (Name, Abbr) 
 	VALUES
@@ -100,6 +109,12 @@ INSERT INTO AnimalImages (Slug, MiniSlug, IdAnimal)
         ('images/animals/le_rhino1.jpeg', 'x', 9), ('images/animals/le_rhino2.jpg', 'x', 10),
         ('images/animals/le_heron1.jpg', 'x', 11), ('images/animals/le_heron2.jpg', 'x', 12),
         ('images/animals/le_gorille1.jpg', 'x', 13), ('images/animals/le_gorille2.jpg', 'x', 14)
+
+INSERT INTO HabitatImages (Slug, MiniSlug, IdHabitat)
+    VALUES
+        ('images/habitats/Savane.jpg', 'x', 1),
+        ('images/habitats/Jungle.jpg', 'x', 2),
+        ('images/habitats/Marais.jpg', 'x', 3);
 
 INSERT INTO VetVisits (Food, FoodWeight, IdWeightUnit, VisitDate, Observations, IdAnimal, IdVet)
     VALUES

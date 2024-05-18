@@ -1,0 +1,84 @@
+﻿@page "/review"
+@using BlazorWasm.Shared
+@using System.Text.Json;
+@inject HttpClient Http
+
+@attribute [Authorize]
+
+<PageTitle>Tous les avis</PageTitle>
+
+<h1>Les Avis</h1>
+
+<div class="row">
+    <div id="unfiltered_reviews" class="border rounded col mx-2 mt-3 overflow-scroll" style="height:50rem;">
+        <h5 class="text-center m-2">Avis non validés</h5>
+        @if (pendingReviews == null)
+        {
+            <LoadingPageAnimation/>
+        }
+        else if (pendingReviews.Count() == 0)
+        {
+            <p>Aucun avis en attente de validation</p>
+        }
+        else
+        {
+            @foreach (Review r in pendingReviews)
+            {
+                <div class="card m-3" >
+                    <div class="card-body">
+                        <h5 class="card-title">@r.Note / 5</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@r.Pseudo</h6>
+                        <p class="card-text">@r.Content</p>
+                        <a href="#" class="btn btn-success">Valider</a>
+                        <a href="#" class="btn btn-danger">Refuser</a>
+                    </div>
+                </div>
+
+            }
+        }
+    </div>
+    <div id="validated_reviews" class="border rounded col mx-2 mt-3 overflow-scroll" style="height:50rem;">
+        <h5 class="text-center m-2">Avis validés</h5>
+        @if (validatedReviews == null)
+        {
+            <LoadingPageAnimation />
+        }
+        else if (validatedReviews.Count() == 0)
+        {
+            <p>Aucun avis en attente de validation</p>
+        }
+        else
+        {
+            @foreach (Review r in validatedReviews)
+            {
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@r.Note / 5</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@r.Pseudo</h6>
+                        <p class="card-text">@r.Content</p>
+                        <a href="#" class="btn btn-danger">Supprimer</a>
+                    </div>
+                </div>
+
+            }
+        }
+    </div>
+</div>
+
+@code {
+    private Review[]? validatedReviews;
+    private Review[]? pendingReviews;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var reviews = await Http.GetFromJsonAsync<Review[]>("/Reviews/unfiltered");
+
+        if(reviews != null)
+        {
+            validatedReviews = reviews.Where(r => r.IsValidated).ToArray();
+            pendingReviews = reviews.Where(r => !r.IsValidated).ToArray();
+        }
+        
+    }
+
+}
