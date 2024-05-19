@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using BlazorWasm.Client;
 using BlazorWasm.Client.BFF;
 using Microsoft.AspNetCore.Components.Authorization;

@@ -1,0 +1,83 @@
+﻿@page "/users"
+@using BlazorWasm.Shared
+@using System.Text.Json
+@using System.Net
+@inject HttpClient Http
+@inject AuthenticationStateProvider asp
+
+@attribute [Authorize]
+
+<PageTitle>Gestion des utilisateurs</PageTitle>
+
+<h3>Gestion des utilisateurs</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+else if(users == null)
+{
+    <LoadingPageAnimation/>
+}
+else
+{
+    <a href="" class="btn btn-success mt-4">Nouvel utilisateur</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" class="text-center">Email</th>
+                <th scope="col" class="text-center">Rôles</th>                
+                <th scope="col" class="text-center">Détails</th>
+                <th scope="col" class="text-center">Supprimer</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (UserDTO u in users)
+            {
+
+                <tr>
+                    <td class="text-center">@u.Email</td>
+                    <td class="text-center">
+                        @foreach(ClaimDTO c in u.Claims)
+                        {
+                            <span class="m-1">@c.Value</span>
+                        }
+                    </td>
+                    <td class="text-center"><a href="#" class="btn btn-primary">Détails</a></td>
+                    <td class="text-center"><a href="#" class="btn btn-danger">Supprimer</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+
+
+
+@code {
+    private UserDTO[]? users;
+    private string errorMessage = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            users = await Http.GetFromJsonAsync<UserDTO[]>("/User");
+        }
+        catch (HttpRequestException ex)
+        {
+            if (ex.StatusCode == HttpStatusCode.Forbidden)
+            {
+                errorMessage = "Vous n'avez pas les autorisations nécessaires pour consulter la liste des utilisateurs.";
+            }
+            else
+            {
+                // Gérer les autres types d'erreurs HTTP
+                errorMessage = "Une erreur est survenue lors de la récupération des utilisateurs.";
+            }
+        }
+    }
+
+}

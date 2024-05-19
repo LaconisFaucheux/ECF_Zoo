@@ -1,8 +1,11 @@
 using Duende.IdentityServer.Models;
+using IdentityServerHost.Controllers;
 using IdentityServerHost.Data;
 using IdentityServerHost.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace IdentityServerHost
 {
@@ -21,6 +24,8 @@ namespace IdentityServerHost
 
             builder.Services.AddDefaultIdentity<ArcadiaUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddControllers();
 
             builder.Services.AddRazorPages();
 
@@ -58,7 +63,9 @@ namespace IdentityServerHost
                        AllowedScopes = { "openid", "profile", "arcadmin" },
 
                        // Autorise le client � utiliser un jeton d'actualisation
-                       AllowOfflineAccess = true
+                       AllowOfflineAccess = true,
+                       // Configuration pour inclure les revendications de rôle dans le token
+                       AlwaysIncludeUserClaimsInIdToken = true
                     }
                 })
                 // Indique d'utiliser ASP.Net Core Identity pour la gestion des profils et revendications
@@ -70,6 +77,31 @@ namespace IdentityServerHost
                 options.AddFilter("Duende", LogLevel.Debug);
             });
 
+            builder.Services.AddAuthorization(options =>
+            {
+                //Spécifie que TOUT utilsateur doitêtre authentifié par défaut
+                options.FallbackPolicy = new AuthorizationPolicyBuilder()
+                    .RequireAuthenticatedUser()
+                    //.RequireAssertion(context => true)
+                    .Build();
+
+                options.AddPolicy("CreateUser", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("ReadUser", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("UpdateUser", p => p.RequireClaim("Fonction", "Administrateur"));
+                options.AddPolicy("DeleteUser", p => p.RequireClaim("Fonction", "Administrateur"));
+            });
+
+            // Ajout de la configuration CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("MyPolicy", builder =>
+                {
+                    builder.WithOrigins("https://localhost:7189")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
+                });
+            });
 
             var app = builder.Build();
 
@@ -90,12 +122,17 @@ namespace IdentityServerHost
 
             app.UseRouting();
 
+            // Application de la politique CORS
+            app.UseCors("MyPolicy");
+
             //ajoute le middleware d'authentification IdentityServer dane le pipeline
+
             app.UseIdentityServer();
 
             app.UseAuthorization();
 
             app.MapRazorPages();
+            app.MapControllers();
 
             app.Run();
 

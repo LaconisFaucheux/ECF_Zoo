@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2llcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/UserManagementPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlck1hbmFnZW1lbnRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lacon/Desktop/DEVELOPPEMENT/ECF_Zoo/ECF_Zoo/API_Arcadia/Client/Pages/ZooServices.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWm9vU2VydmljZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

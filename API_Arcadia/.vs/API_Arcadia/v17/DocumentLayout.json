@@ -7,12 +7,48 @@
       "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\identityserverhost\\identityserverhost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{98B6BA69-EFB8-425D-9B0C-1E5AC621BD0B}|IdentityServerHost\\IdentityServerHost.csproj|solutionrelative:identityserverhost\\identityserverhost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\client\\pages\\usermanagementpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|solutionrelative:client\\pages\\usermanagementpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\client\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|solutionrelative:client\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\server\\controllers\\infoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F1D698-A23D-4310-8C47-E4BB7415185B}|Server\\BlazorWasm.Server.csproj|solutionrelative:server\\controllers\\infoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\client\\pages\\animals.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CC9A9C5-16B7-496D-91EE-220EADB50495}|Client\\BlazorWasm.Client.csproj|solutionrelative:client\\pages\\animals.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8808E7B1-B2B3-4608-9CCC-AE7780A0184F}|API_Arcadia\\API_Arcadia.csproj|solutionrelative:api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +58,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Program.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Program.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Program.cs",
+              "RelativeToolTip": "API_Arcadia\\Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAuwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:15:44.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:31:58.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Client\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Client\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T14:22:27.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T14:21:57.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T14:21:50.055Z"
             },
             {
               "$type": "Document",
@@ -36,36 +132,82 @@
               "RelativeDocumentMoniker": "IdentityServerHost\\Program.cs",
               "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Program.cs",
               "RelativeToolTip": "IdentityServerHost\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwI0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:52:04.201Z",
+              "WhenOpened": "2024-05-19T13:08:18.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "IdentityServerHost\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\Controllers\\UserController.cs",
               "RelativeToolTip": "IdentityServerHost\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:21:30.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T12:41:52.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Animals.razor",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\Animals.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Animals.razor",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\Animals.razor",
+              "RelativeToolTip": "Client\\Pages\\Animals.razor",
+              "ViewState": "AQIAADQAAAAAAAAAAAAYwEoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T12:22:28.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "API_Arcadia\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "API_Arcadia\\Controllers\\AnimalsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:12:30.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InfosController.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Controllers\\InfosController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\InfosController.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Controllers\\InfosController.cs",
+              "RelativeToolTip": "Server\\Controllers\\InfosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:56:03.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserManagementPage.razor",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\UserManagementPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\UserManagementPage.razor",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Client\\Pages\\UserManagementPage.razor",
+              "RelativeToolTip": "Client\\Pages\\UserManagementPage.razor",
+              "ViewState": "AQIAACYAAAAAAAAAAAAowEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T11:14:22.001Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IdentityServerHost",
-              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
-              "RelativeDocumentMoniker": "IdentityServerHost\\IdentityServerHost.csproj",
-              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\IdentityServerHost\\IdentityServerHost.csproj",
-              "RelativeToolTip": "IdentityServerHost\\IdentityServerHost.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T12:20:30.321Z",
-              "EditorCaption": ""
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:01:26.507Z"
             }
           ]
         },

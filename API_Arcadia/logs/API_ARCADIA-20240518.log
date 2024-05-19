@@ -153,3 +153,520 @@ ORDER BY [a].[Id], [s].[Id]
 2024-05-18 14:54:48.862 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 9.8448ms
 2024-05-18 14:54:48.863 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
 2024-05-18 14:54:48.865 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 20.3585ms
+2024-05-18 15:05:51.314 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:05:51.643 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:05:51.645 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:05:51.647 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:05:51.648 +02:00  INF  Hosting environment: Development
+2024-05-18 15:05:51.649 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:05:52.282 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:05:52.507 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 230.6069ms
+2024-05-18 15:05:52.533 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:05:52.538 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.9925ms
+2024-05-18 15:05:52.543 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:05:53.075 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 532.2332ms
+2024-05-18 15:05:53.115 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:05:53.262 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.5662ms
+2024-05-18 15:19:27.205 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:19:27.439 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:19:27.444 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:19:27.447 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:19:27.450 +02:00  INF  Hosting environment: Development
+2024-05-18 15:19:27.452 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:19:27.986 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:19:28.293 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 312.4454ms
+2024-05-18 15:19:28.322 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:19:28.330 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.6225ms
+2024-05-18 15:19:28.389 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:19:28.434 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0339ms
+2024-05-18 15:19:28.533 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:19:28.653 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.0309ms
+2024-05-18 15:21:12.768 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:21:12.949 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:21:12.951 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:21:12.953 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:21:12.953 +02:00  INF  Hosting environment: Development
+2024-05-18 15:21:12.954 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:21:13.509 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:21:13.751 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 245.76ms
+2024-05-18 15:21:13.819 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:21:13.819 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:21:13.828 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.471ms
+2024-05-18 15:21:13.862 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.7688ms
+2024-05-18 15:21:13.921 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:21:14.025 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.3887ms
+2024-05-18 15:24:52.528 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:24:52.703 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:24:52.704 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:24:52.706 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:24:52.706 +02:00  INF  Hosting environment: Development
+2024-05-18 15:24:52.707 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:24:53.480 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:24:53.668 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 192.4768ms
+2024-05-18 15:24:53.706 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:24:53.706 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:24:53.720 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.0054ms
+2024-05-18 15:24:53.773 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.5604ms
+2024-05-18 15:24:53.851 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:24:54.082 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 231.4764ms
+2024-05-18 15:27:24.409 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:27:24.602 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:27:24.602 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:27:24.605 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:27:24.605 +02:00  INF  Hosting environment: Development
+2024-05-18 15:27:24.606 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:27:25.194 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:27:25.460 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 269.012ms
+2024-05-18 15:27:25.506 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:27:25.506 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:27:25.515 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.2758ms
+2024-05-18 15:27:25.542 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.7862ms
+2024-05-18 15:27:25.596 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:27:25.698 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.8681ms
+2024-05-18 15:34:45.373 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:34:45.545 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:34:45.546 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:34:45.548 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:34:45.549 +02:00  INF  Hosting environment: Development
+2024-05-18 15:34:45.550 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:34:46.349 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:34:46.598 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 253.7627ms
+2024-05-18 15:34:46.646 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:34:46.646 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:34:46.656 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.4548ms
+2024-05-18 15:34:46.710 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.6589ms
+2024-05-18 15:34:46.814 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:34:47.105 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.7068ms
+2024-05-18 15:43:54.682 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 15:43:54.860 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 15:43:54.861 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 15:43:54.863 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 15:43:54.863 +02:00  INF  Hosting environment: Development
+2024-05-18 15:43:54.864 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 15:43:55.576 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 15:43:55.781 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 209.6737ms
+2024-05-18 15:43:55.835 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 15:43:55.835 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 15:43:55.851 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.3543ms
+2024-05-18 15:43:55.877 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.3898ms
+2024-05-18 15:43:55.960 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 15:43:56.087 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.2108ms
+2024-05-18 16:08:45.123 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:08:45.414 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:08:45.415 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:08:45.417 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:08:45.417 +02:00  INF  Hosting environment: Development
+2024-05-18 16:08:45.418 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:08:46.036 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:08:46.287 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 257.7974ms
+2024-05-18 16:08:46.321 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:08:46.322 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:08:46.327 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2934ms
+2024-05-18 16:08:46.353 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0354ms
+2024-05-18 16:08:46.416 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:08:46.523 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.6726ms
+2024-05-18 16:19:03.361 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:19:03.883 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:19:03.884 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:19:03.887 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:19:03.889 +02:00  INF  Hosting environment: Development
+2024-05-18 16:19:03.890 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:19:04.550 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:19:04.767 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 222.3654ms
+2024-05-18 16:19:04.825 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:19:04.825 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:19:04.836 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.7517ms
+2024-05-18 16:19:04.896 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.7347ms
+2024-05-18 16:19:04.952 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:19:05.182 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 230.0065ms
+2024-05-18 16:27:00.376 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:27:00.581 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:27:00.583 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:27:00.585 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:27:00.586 +02:00  INF  Hosting environment: Development
+2024-05-18 16:27:00.587 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:27:01.367 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:27:01.582 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 219.2593ms
+2024-05-18 16:27:01.627 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:27:01.633 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6964ms
+2024-05-18 16:27:01.635 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:27:01.664 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4396ms
+2024-05-18 16:27:01.732 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:27:01.859 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.2863ms
+2024-05-18 16:28:15.964 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:28:16.368 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:28:16.369 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:28:16.372 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:28:16.375 +02:00  INF  Hosting environment: Development
+2024-05-18 16:28:16.381 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:28:16.802 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:28:17.143 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 346.9597ms
+2024-05-18 16:28:17.230 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:28:17.230 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:28:17.241 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.8741ms
+2024-05-18 16:28:17.270 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9876ms
+2024-05-18 16:28:17.341 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:28:17.445 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.0132ms
+2024-05-18 16:34:50.968 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:34:51.206 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:34:51.207 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:34:51.210 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:34:51.211 +02:00  INF  Hosting environment: Development
+2024-05-18 16:34:51.211 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:34:52.048 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:34:52.280 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 236.9529ms
+2024-05-18 16:34:52.321 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:34:52.323 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:34:52.330 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.2909ms
+2024-05-18 16:34:52.939 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 616.4151ms
+2024-05-18 16:34:52.984 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:34:53.231 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 247.4713ms
+2024-05-18 16:53:15.009 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:53:15.215 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:53:15.217 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:53:15.219 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:53:15.221 +02:00  INF  Hosting environment: Development
+2024-05-18 16:53:15.221 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:53:15.837 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:53:16.135 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 300.6496ms
+2024-05-18 16:53:16.181 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:53:16.186 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.5768ms
+2024-05-18 16:53:16.199 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:53:16.231 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.8331ms
+2024-05-18 16:53:16.312 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:53:16.444 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.6539ms
+2024-05-18 16:54:32.815 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:54:32.997 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:54:32.998 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:54:33.000 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:54:33.001 +02:00  INF  Hosting environment: Development
+2024-05-18 16:54:33.002 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:54:33.640 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:54:33.861 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 224.1525ms
+2024-05-18 16:54:33.929 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:54:33.935 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:54:33.935 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6868ms
+2024-05-18 16:54:33.983 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3657ms
+2024-05-18 16:54:34.062 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:54:34.176 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.9508ms
+2024-05-18 16:56:57.706 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:56:57.883 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:56:57.884 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:56:57.886 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:56:57.887 +02:00  INF  Hosting environment: Development
+2024-05-18 16:56:57.888 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:56:58.493 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:56:58.736 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 247.3657ms
+2024-05-18 16:56:58.773 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:56:58.778 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.1424ms
+2024-05-18 16:56:58.787 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:56:58.822 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9028ms
+2024-05-18 16:56:58.903 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:56:59.010 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.7496ms
+2024-05-18 16:59:55.293 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 16:59:55.510 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 16:59:55.511 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 16:59:55.514 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 16:59:55.515 +02:00  INF  Hosting environment: Development
+2024-05-18 16:59:55.515 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 16:59:56.013 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 16:59:56.258 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 250.7625ms
+2024-05-18 16:59:56.315 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 16:59:56.316 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 16:59:56.321 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2818ms
+2024-05-18 16:59:56.351 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9257ms
+2024-05-18 16:59:56.435 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 16:59:56.550 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.9923ms
+2024-05-18 17:01:24.919 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 17:01:25.106 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 17:01:25.107 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 17:01:25.109 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 17:01:25.110 +02:00  INF  Hosting environment: Development
+2024-05-18 17:01:25.110 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 17:01:25.655 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 17:01:25.879 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 228.0012ms
+2024-05-18 17:01:25.952 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 17:01:25.952 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 17:01:25.963 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.3484ms
+2024-05-18 17:01:25.995 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.9912ms
+2024-05-18 17:01:26.078 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 17:01:26.180 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.6399ms
+2024-05-18 17:02:27.762 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-18 17:02:27.861 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 17:02:27.874 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-18 17:02:28.867 +02:00  INF  Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-18 17:02:28.956 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 17:02:28.981 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1102.8208ms
+2024-05-18 17:02:28.983 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 17:02:28.989 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1228.5167ms
+2024-05-18 17:03:39.993 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 17:03:40.211 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 17:03:40.212 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 17:03:40.216 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 17:03:40.218 +02:00  INF  Hosting environment: Development
+2024-05-18 17:03:40.219 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 17:03:40.847 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 17:03:41.087 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 243.3394ms
+2024-05-18 17:03:41.145 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 17:03:41.151 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.7639ms
+2024-05-18 17:03:41.157 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 17:03:41.195 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0603ms
+2024-05-18 17:03:41.287 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 17:03:41.388 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.1481ms
+2024-05-18 17:15:03.908 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 17:15:03.927 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 18.8205ms
+2024-05-18 17:15:03.970 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 17:15:03.970 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 17:15:03.977 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.1001ms
+2024-05-18 17:15:03.984 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7101ms
+2024-05-18 17:15:04.023 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 17:15:04.043 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.146ms
+2024-05-18 19:47:25.338 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 19:47:25.351 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 12.9103ms
+2024-05-18 19:47:47.221 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 19:47:47.413 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 19:47:47.415 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 19:47:47.417 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 19:47:47.418 +02:00  INF  Hosting environment: Development
+2024-05-18 19:47:47.419 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 19:47:48.253 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 19:47:48.505 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 257.1324ms
+2024-05-18 19:47:48.544 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 19:47:48.544 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 19:47:48.559 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.9599ms
+2024-05-18 19:47:48.584 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.3181ms
+2024-05-18 19:47:48.626 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 19:47:48.731 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.203ms
+2024-05-18 19:50:04.228 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 19:50:04.430 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 19:50:04.431 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 19:50:04.434 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 19:50:04.435 +02:00  INF  Hosting environment: Development
+2024-05-18 19:50:04.436 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 19:50:05.127 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 19:50:05.369 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 245.5509ms
+2024-05-18 19:50:05.420 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 19:50:05.420 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 19:50:05.425 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6502ms
+2024-05-18 19:50:05.455 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.638ms
+2024-05-18 19:50:05.544 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 19:50:05.648 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.5846ms
+2024-05-18 20:11:55.496 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 20:11:55.782 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 20:11:55.783 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 20:11:55.786 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 20:11:55.787 +02:00  INF  Hosting environment: Development
+2024-05-18 20:11:55.788 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 20:11:56.370 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:11:56.614 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 247.8256ms
+2024-05-18 20:11:56.670 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:11:56.671 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:11:56.679 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.0326ms
+2024-05-18 20:11:56.714 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.6275ms
+2024-05-18 20:11:56.782 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:11:56.910 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 128.6695ms
+2024-05-18 20:13:29.577 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:13:29.596 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 19.272ms
+2024-05-18 20:13:29.651 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:13:29.651 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:13:29.658 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.3213ms
+2024-05-18 20:13:29.667 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0328ms
+2024-05-18 20:13:29.715 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:13:29.740 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.8501ms
+2024-05-18 20:14:36.872 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:14:36.884 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 12.0235ms
+2024-05-18 20:14:36.928 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:14:36.928 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:14:36.932 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7522ms
+2024-05-18 20:14:36.942 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.8985ms
+2024-05-18 20:14:36.980 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:14:36.996 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5561ms
+2024-05-18 20:15:03.194 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:15:03.203 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 9.3771ms
+2024-05-18 20:15:03.236 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:15:03.237 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:15:03.239 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.0408ms
+2024-05-18 20:15:03.251 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7556ms
+2024-05-18 20:15:03.297 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:15:03.309 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6096ms
+2024-05-18 20:21:20.744 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:21:20.756 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 11.258ms
+2024-05-18 20:21:20.799 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:21:20.799 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:21:20.807 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.2271ms
+2024-05-18 20:21:20.811 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.52ms
+2024-05-18 20:21:20.916 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:21:20.929 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.7875ms
+2024-05-18 20:22:05.578 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:22:05.585 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 7.6853ms
+2024-05-18 20:22:05.617 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:22:05.617 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:22:05.620 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 2.808ms
+2024-05-18 20:22:05.630 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.4453ms
+2024-05-18 20:22:05.687 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:22:05.699 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.8771ms
+2024-05-18 20:22:25.724 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:22:25.731 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 7.375ms
+2024-05-18 20:22:25.775 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:22:25.775 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:22:25.781 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.4707ms
+2024-05-18 20:22:25.785 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.9814ms
+2024-05-18 20:22:25.827 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:22:25.867 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.8101ms
+2024-05-18 20:23:16.651 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/identity-provider/User - application/x-www-form-urlencoded 119
+2024-05-18 20:23:16.657 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-18 20:23:16.661 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-05-18 20:23:16.661 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/identity-provider/User - 401 0 null 10.1572ms
+2024-05-18 20:24:10.581 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/identity_provider/User - application/x-www-form-urlencoded 119
+2024-05-18 20:24:10.585 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-18 20:24:10.586 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-05-18 20:24:10.586 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/identity_provider/User - 401 0 null 5.757ms
+2024-05-18 20:24:29.638 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/identity_provider//User - application/x-www-form-urlencoded 119
+2024-05-18 20:24:29.640 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-18 20:24:29.640 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-05-18 20:24:29.641 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/identity_provider//User - 401 0 null 3.3855ms
+2024-05-18 20:25:27.053 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/identity_provider//User - application/x-www-form-urlencoded 119
+2024-05-18 20:25:27.057 +02:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-18 20:25:27.057 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-05-18 20:25:27.058 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/identity_provider//User - 401 0 null 4.6425ms
+2024-05-18 20:25:59.021 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/identity_provider//User - application/x-www-form-urlencoded 119
+2024-05-18 20:25:59.109 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/identity_provider//User - 404 0 null 87.8531ms
+2024-05-18 20:25:59.112 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7015/identity_provider//User, Response status code: 404
+2024-05-18 20:28:47.934 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals - null null
+2024-05-18 20:28:47.939 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 20:28:47.954 +02:00  INF  Route matched with {action = "GetAnimals", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Animal]]] GetAnimals() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-05-18 20:28:48.943 +02:00  INF  Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [s].[Id], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name], [s].[ScientificName]
+FROM [Animals] AS [a]
+INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+LEFT JOIN [AnimalImages] AS [a0] ON [a].[Id] = [a0].[IdAnimal]
+ORDER BY [a].[Id], [s].[Id]
+2024-05-18 20:28:49.031 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Animal, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-18 20:28:49.057 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia) in 1099.4371ms
+2024-05-18 20:28:49.058 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimals (API_Arcadia)'
+2024-05-18 20:28:49.064 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals - 200 null application/json; charset=utf-8 1129.8623ms
+2024-05-18 20:28:49.174 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-05-18 20:28:49.174 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - null null
+2024-05-18 20:28:49.175 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - null null
+2024-05-18 20:28:49.175 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - null null
+2024-05-18 20:28:49.175 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-05-18 20:28:49.178 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - null null
+2024-05-18 20:28:49.178 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - null null
+2024-05-18 20:28:49.182 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-05-18 20:28:49.188 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - null null
+2024-05-18 20:28:49.190 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - null null
+2024-05-18 20:28:49.194 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - null null
+2024-05-18 20:28:49.198 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - null null
+2024-05-18 20:28:49.201 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - null null
+2024-05-18 20:28:49.205 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - null null
+2024-05-18 20:28:49.205 +02:00  INF  The file /images/animals/la_loutre1.jpg was not modified
+2024-05-18 20:28:49.205 +02:00  INF  The file /images/animals/la_panthere1.jpg was not modified
+2024-05-18 20:28:49.205 +02:00  INF  The file /images/animals/638496693873204536_Mufasa.jpg was not modified
+2024-05-18 20:28:49.205 +02:00  INF  The file /images/animals/638496693869536018_Mufasa.jpg was not modified
+2024-05-18 20:28:49.207 +02:00  INF  The file /images/animals/la_loutre2.jpg was not modified
+2024-05-18 20:28:49.208 +02:00  INF  The file /images/animals/le_rhino2.jpg was not modified
+2024-05-18 20:28:49.212 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre2.jpg - 304 null image/jpeg 33.7555ms
+2024-05-18 20:28:49.212 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 304 null image/jpeg 37.4122ms
+2024-05-18 20:28:49.212 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 304 null image/jpeg 37.5611ms
+2024-05-18 20:28:49.222 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_loutre1.jpg - 304 null image/jpeg 47.5317ms
+2024-05-18 20:28:49.223 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere1.jpg - 304 null image/jpeg 48.0542ms
+2024-05-18 20:28:49.223 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino2.jpg - 304 null image/jpeg 48.6511ms
+2024-05-18 20:28:49.225 +02:00  INF  The file /images/animals/la_panthere2.jpg was not modified
+2024-05-18 20:28:49.226 +02:00  INF  The file /images/animals/l_orang_outan1.jpg was not modified
+2024-05-18 20:28:49.227 +02:00  INF  The file /images/animals/l_orang_outan2.jpg was not modified
+2024-05-18 20:28:49.229 +02:00  INF  The file /images/animals/le_rhino1.jpeg was not modified
+2024-05-18 20:28:49.230 +02:00  INF  The file /images/animals/le_heron1.jpg was not modified
+2024-05-18 20:28:49.231 +02:00  INF  The file /images/animals/le_gorille2.jpg was not modified
+2024-05-18 20:28:49.232 +02:00  INF  The file /images/animals/le_gorille1.jpg was not modified
+2024-05-18 20:28:49.233 +02:00  INF  The file /images/animals/le_heron2.jpg was not modified
+2024-05-18 20:28:49.238 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/la_panthere2.jpg - 304 null image/jpeg 60.0861ms
+2024-05-18 20:28:49.239 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 304 null image/jpeg 57.2795ms
+2024-05-18 20:28:49.239 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan2.jpg - 304 null image/jpeg 52.1217ms
+2024-05-18 20:28:49.240 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_rhino1.jpeg - 304 null image/jpeg 49.8593ms
+2024-05-18 20:28:49.241 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron1.jpg - 304 null image/jpeg 46.3846ms
+2024-05-18 20:28:49.242 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille2.jpg - 304 null image/jpeg 43.7826ms
+2024-05-18 20:28:49.242 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_gorille1.jpg - 304 null image/jpeg 41.2528ms
+2024-05-18 20:28:49.243 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/le_heron2.jpg - 304 null image/jpeg 38.3561ms
+2024-05-18 20:29:05.961 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 20:29:06.131 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 20:29:06.132 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 20:29:06.134 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 20:29:06.135 +02:00  INF  Hosting environment: Development
+2024-05-18 20:29:06.135 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 20:29:06.904 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:29:07.121 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 222.4658ms
+2024-05-18 20:29:07.176 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:29:07.176 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:29:07.181 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.3022ms
+2024-05-18 20:29:07.213 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.7038ms
+2024-05-18 20:29:07.277 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:29:07.383 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.3981ms
+2024-05-18 20:30:54.435 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 20:30:54.623 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 20:30:54.624 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 20:30:54.627 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 20:30:54.628 +02:00  INF  Hosting environment: Development
+2024-05-18 20:30:54.628 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 20:30:55.342 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:30:55.586 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 246.3692ms
+2024-05-18 20:30:55.652 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:30:55.652 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:30:55.772 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 120.1849ms
+2024-05-18 20:30:55.804 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.28ms
+2024-05-18 20:30:55.847 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:30:56.069 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 223.2221ms
+2024-05-18 20:48:01.125 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-18 20:48:01.332 +02:00  INF  Now listening on: https://localhost:7015
+2024-05-18 20:48:01.333 +02:00  INF  Now listening on: http://localhost:5131
+2024-05-18 20:48:01.335 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-05-18 20:48:01.336 +02:00  INF  Hosting environment: Development
+2024-05-18 20:48:01.337 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\API_Arcadia
+2024-05-18 20:48:02.101 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:48:02.345 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 246.9451ms
+2024-05-18 20:48:02.406 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:48:02.406 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:48:02.467 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 62.0737ms
+2024-05-18 20:48:02.529 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.2455ms
+2024-05-18 20:48:02.686 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:48:02.837 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.5721ms
+2024-05-18 20:50:33.715 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:50:33.739 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 22.6255ms
+2024-05-18 20:50:33.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:50:33.801 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:50:33.803 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 2.9248ms
+2024-05-18 20:50:33.813 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.859ms
+2024-05-18 20:50:33.876 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:50:33.910 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.6324ms
+2024-05-18 20:50:43.216 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:50:43.225 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 8.4586ms
+2024-05-18 20:50:43.257 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:50:43.258 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:50:43.262 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.9525ms
+2024-05-18 20:50:43.272 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.3974ms
+2024-05-18 20:50:43.322 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:50:43.339 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.1536ms
+2024-05-18 20:50:53.041 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:50:53.050 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 8.9905ms
+2024-05-18 20:50:53.083 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:50:53.083 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:50:53.090 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.6012ms
+2024-05-18 20:50:53.095 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.1244ms
+2024-05-18 20:50:53.140 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:50:53.152 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9194ms
+2024-05-18 20:51:20.369 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-05-18 20:51:20.378 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 9.3093ms
+2024-05-18 20:51:20.418 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-05-18 20:51:20.419 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-18 20:51:20.425 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6203ms
+2024-05-18 20:51:20.435 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.159ms
+2024-05-18 20:51:20.479 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-05-18 20:51:20.493 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.498ms

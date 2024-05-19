@@ -30,7 +30,8 @@ namespace API_Arcadia.Controllers
         // GET: api/Animals
         [HttpGet]
         [AllowAnonymous]
-        public async Task<ActionResult<IEnumerable<Animal>>> GetAnimals()
+		//[Authorize(Policy = "UpdateAnimal")]
+		public async Task<ActionResult<IEnumerable<Animal>>> GetAnimals()
         {        
             var animals = await _animalServ.GetAnimals();
             return Ok(animals);

@@ -98,21 +98,24 @@ app.MapControllers()
 
 // Mappe les points de terminaison de l'API externe sur l'API locale
 app.MapRemoteBffApiEndpoint("/Animals", builder.Configuration["ApiUrl"] + "Animals")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/Diets", builder.Configuration["ApiUrl"] + "Diets")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/Habitats", builder.Configuration["ApiUrl"] + "Habitats")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/Species", builder.Configuration["ApiUrl"] + "Species")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/ZooServices", builder.Configuration["ApiUrl"] + "ZooServices")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/Reviews", builder.Configuration["ApiUrl"] + "Reviews")
-       .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/OpeningHours", builder.Configuration["ApiUrl"] + "OpeningHours")
-   .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
 app.MapRemoteBffApiEndpoint("/VetVisits", builder.Configuration["ApiUrl"] + "VetVisits")
-   .RequireAccessToken(TokenType.User);
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
+app.MapRemoteBffApiEndpoint("/User", builder.Configuration["ArcadiaAuthServerUrlForUsersManagement"] + "User")
+       .RequireAccessToken(TokenType.User).RequireAuthorization();
+
 
 //TODO : Mapper ici les appels à l'api IdentityServerHost pour le CRUD sur les Users
 
