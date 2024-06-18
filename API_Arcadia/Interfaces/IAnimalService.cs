@@ -1,5 +1,6 @@
 ﻿using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Arcadia.Interfaces
@@ -15,5 +16,7 @@ namespace API_Arcadia.Interfaces
         Task<int> DeleteAnimal(int id);
 
         Task<int> UpdateAnimal(int id, AnimalDTO animal);
+
+        Task<List<Animal>?> GetAnimalsByHabitat(int habitatId);
     }
 }

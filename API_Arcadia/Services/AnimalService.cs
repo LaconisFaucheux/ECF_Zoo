@@ -64,6 +64,30 @@ namespace API_Arcadia.Services
 
         }
 
+        public async Task<List<Animal>?> GetAnimalsByHabitat(int habitatId)
+        {
+            //return await _context.Animals.FindAsync(id);
+            var req = from a in _context.Animals
+                        .Include(a => a.Pics)
+                        .Include(a => a.SpeciesData)
+                      where a.SpeciesData.Id == habitatId
+                      select a;
+            List<Animal>? animal = await req.ToListAsync();
+
+            //if (animal != null)
+            //animal.Image = File.ReadAllBytes(animal.Pics[0].MiniSlug);
+            //if (animal != null)
+            //{
+            //    foreach (var p in animal.Pics)
+            //    {
+            //        FileStream file = File.Open(p.MiniSlug, FileMode.Open);
+            //        animal.Images.Add(file);
+            //    }
+            //}
+            return animal;
+
+        }
+
         public async Task<Animal> PostAnimal(AnimalDTO animal)
         {
             Animal a = new Animal

@@ -52,6 +52,14 @@ namespace API_Arcadia.Controllers
             return Ok(animal);
         }
 
+        [HttpGet("byHabitat{habitatId}")]
+        //[AllowAnonymous]
+        public async Task<ActionResult<Animal>> GetAnimalsByHabitat(int habitatId)
+        {
+            var animals = await _animalServ.GetAnimalsByHabitat(habitatId);
+            return Ok(animals);
+        }
+
         // PUT: api/Animals/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]

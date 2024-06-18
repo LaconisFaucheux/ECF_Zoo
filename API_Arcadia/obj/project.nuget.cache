@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w5WZ9dON27XS0pKK9mSPWkOu2YKivhg1cB+quJqRWhIG6z80EIGSJrPjUhgj4CcxZ14N7T7Ufbz9fI5wk+p8KQ==",
+  "dgSpecHash": "kRGbT4n6+fRrhNBjK8kKfoawWsVY2JZUtl3JWdVHXaKLkK/4kDgiu0PUNX+S5enxwKQpAOwGMVZvd6BjWLtlKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo_Try2\\API_Arcadia\\API_Arcadia.csproj",
+  "projectFilePath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lacon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Lacon\\.nuget\\packages\\azure.identity\\1.11.2\\azure.identity.1.11.2.nupkg.sha512",
