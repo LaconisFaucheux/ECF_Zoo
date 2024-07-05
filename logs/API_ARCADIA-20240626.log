@@ -1,0 +1,36 @@
+2024-06-26 20:50:30.540 +02:00  INF  Now listening on: https://localhost:7015
+2024-06-26 20:50:30.575 +02:00  INF  Now listening on: http://localhost:5131
+2024-06-26 20:50:30.577 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-06-26 20:50:30.578 +02:00  INF  Hosting environment: Development
+2024-06-26 20:50:30.579 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia
+2024-06-26 20:50:31.020 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger - null null
+2024-06-26 20:50:31.286 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger - 301 0 null 270.0773ms
+2024-06-26 20:50:31.292 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-06-26 20:50:31.357 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 65.1565ms
+2024-06-26 20:50:31.366 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-06-26 20:50:31.378 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-26 20:50:31.378 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - null null
+2024-06-26 20:50:31.380 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-26 20:50:31.389 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.9328ms
+2024-06-26 20:50:31.392 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-06-26 20:50:31.412 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-26 20:50:31.412 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-26 20:50:31.416 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 38.7662ms
+2024-06-26 20:50:31.420 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 200 144929 text/css 54.2294ms
+2024-06-26 20:50:31.445 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-26 20:50:31.446 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 68.1653ms
+2024-06-26 20:50:31.464 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.4522ms
+2024-06-26 20:50:31.575 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-06-26 20:50:31.595 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-32x32.png - null null
+2024-06-26 20:50:31.597 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-26 20:50:31.599 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-32x32.png - 200 628 image/png 4.0639ms
+2024-06-26 20:50:31.685 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.7292ms
+2024-06-26 20:50:50.679 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-26 20:50:50.681 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 2.4411ms
+2024-06-26 20:50:50.684 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-26 20:50:53.411 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-26 20:50:53.413 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 2.1303ms
+2024-06-26 20:50:53.415 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-26 20:50:56.739 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-26 20:50:56.741 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 1.9724ms
+2024-06-26 20:50:56.742 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404

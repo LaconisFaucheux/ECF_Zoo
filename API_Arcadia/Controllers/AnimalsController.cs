@@ -52,12 +52,20 @@ namespace API_Arcadia.Controllers
             return Ok(animal);
         }
 
-        [HttpGet("byHabitat{habitatId}")]
+        [HttpGet("byHabitat/{habitatId}")]
         //[AllowAnonymous]
         public async Task<ActionResult<Animal>> GetAnimalsByHabitat(int habitatId)
         {
             var animals = await _animalServ.GetAnimalsByHabitat(habitatId);
             return Ok(animals);
+        }
+
+        [HttpGet("length")]
+        //[AllowAnonymous]
+        public async Task<ActionResult<int>> GetAnimalsListLength()
+        {
+            var length = await _animalServ.GetAnimalsListLength();
+            return Ok(length);
         }
 
         // PUT: api/Animals/5

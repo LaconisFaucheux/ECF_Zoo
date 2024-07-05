@@ -13,11 +13,11 @@ INSERT INTO Healths (State)
     VALUES
         ('En bonne santé'), ('Malade');
         
-INSERT INTO ZooServices (Name, Description, FullPrice, ChildPrice)
+INSERT INTO ZooServices (Name, Description, FullPrice, ChildPrice, Pic)
 	VALUES
-		('Restauration', 'Le Zoo Arcadia propose un espace de restauration convivial et familial pour vous restaurer au cours de votre visite', NULL, NULL),
-        ('Visite guidée', 'Le Zoo Arcadia vous propose une prestation de visite guidée', 0, 0),
-        ('Visite en petit train', 'Le Zoo Arcadia vous propose une visite en petit train pour les gros flemmards qui veulent pas marcher', 10, 5);
+		('Restauration', 'Le Zoo Arcadia propose un espace de restauration convivial et familial pour vous restaurer au cours de votre visite', NULL, NULL, 'images/zoo-services/restauration.jpg'),
+        ('Visite guidée', 'Le Zoo Arcadia vous propose une prestation de visite guidée', 0, 0, 'images/zoo-services/visite_guidee.jpg'),
+        ('Visite en petit train', 'Le Zoo Arcadia vous propose une visite en petit train pour les gros flemmards qui veulent pas marcher', 10, 5, 'images/zoo-services/petit_train.jpg');
         
 INSERT INTO Reviews (Pseudo, Content, IsValidated, Note)
 	VALUES
@@ -103,18 +103,18 @@ INSERT INTO AnimalImages (Slug, MiniSlug, IdAnimal)
     VALUES
         ('images/animals/638496693869536018_Mufasa.jpg', 'images/animals/638496693869536822_Mufasa_mini.jpg', 1), 
         ('images/animals/638496693873204536_Mufasa.jpg', 'images/animals/638496693873204641_Mufasa_mini.jpg', 2),
-        ('images/animals/l_orang_outan1.jpg', 'x', 3), ('images/animals/l_orang_outan2.jpg', 'x', 4),
-        ('images/animals/la_panthere1.jpg', 'x', 5), ('images/animals/la_panthere2.jpg', 'x', 6),
-        ('images/animals/la_loutre1.jpg', 'x', 7), ('images/animals/la_loutre2.jpg', 'x', 8),
-        ('images/animals/le_rhino1.jpeg', 'x', 9), ('images/animals/le_rhino2.jpg', 'x', 10),
-        ('images/animals/le_heron1.jpg', 'x', 11), ('images/animals/le_heron2.jpg', 'x', 12),
-        ('images/animals/le_gorille1.jpg', 'x', 13), ('images/animals/le_gorille2.jpg', 'x', 14)
+        ('images/animals/l_orang_outan1.jpg', 'images/animals/l_orang_outan1_mini.jpg', 3), ('images/animals/l_orang_outan2.jpg', 'images/animals/l_orang_outan2_mini.jpg', 4),
+        ('images/animals/la_panthere1.jpg', 'images/animals/la_panthere1_mini.jpg', 5), ('images/animals/la_panthere2.jpg', 'images/animals/la_panthere2_mini.jpg', 6),
+        ('images/animals/la_loutre1.jpg', 'images/animals/la_loutre1_mini.jpg', 7), ('images/animals/la_loutre2.jpg', 'images/animals/la_loutre2_mini.jpg', 8),
+        ('images/animals/le_rhino1.jpeg', 'images/animals/le_rhino1_mini.jpeg', 9), ('images/animals/le_rhino2.jpg', 'images/animals/le_rhino2_mini.jpg', 10),
+        ('images/animals/le_heron1.jpg', 'images/animals/le_heron1_mini.jpg', 11), ('images/animals/le_heron2.jpg', 'images/animals/le_heron2_mini.jpg', 12),
+        ('images/animals/le_gorille1.jpg', 'images/animals/le_gorille1_mini.jpg', 13), ('images/animals/le_gorille2.jpg', 'images/animals/le_gorille2_mini.jpg', 14)
 
 INSERT INTO HabitatImages (Slug, MiniSlug, IdHabitat)
     VALUES
-        ('images/habitats/Savane.jpg', 'x', 1),
-        ('images/habitats/Jungle.jpg', 'x', 2),
-        ('images/habitats/Marais.jpg', 'x', 3);
+        ('images/habitats/Savane.jpg', 'images/habitats/Savane_mini.jpg', 1),
+        ('images/habitats/Jungle.jpg', 'images/habitats/Jungle_mini.jpg', 2),
+        ('images/habitats/Marais.jpg', 'images/habitats/Marais_mini.jpg', 3);
 
 INSERT INTO VetVisits (Food, FoodWeight, IdWeightUnit, VisitDate, Observations, IdAnimal, IdVet)
     VALUES

@@ -124,3 +124,5 @@ namespace API_Arcadia.Controllers
         }
     }
 }
+
+//TODO: Créer un service ZooService et adapter les POST et PUT pour la gestion des photos

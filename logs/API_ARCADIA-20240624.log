@@ -1,0 +1,102 @@
+2024-06-24 08:59:28.489 +02:00  INF  Now listening on: https://localhost:7015
+2024-06-24 08:59:28.521 +02:00  INF  Now listening on: http://localhost:5131
+2024-06-24 08:59:28.523 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-06-24 08:59:28.524 +02:00  INF  Hosting environment: Development
+2024-06-24 08:59:28.524 +02:00  INF  Content root path: C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia
+2024-06-24 08:59:29.126 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger - null null
+2024-06-24 08:59:29.289 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger - 301 0 null 165.66ms
+2024-06-24 08:59:29.293 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-06-24 08:59:29.351 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 57.5969ms
+2024-06-24 08:59:29.357 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-06-24 08:59:29.368 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-24 08:59:29.368 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - null null
+2024-06-24 08:59:29.369 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-24 08:59:29.383 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-06-24 08:59:29.386 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.5805ms
+2024-06-24 08:59:29.389 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-24 08:59:29.403 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 200 144929 text/css 45.7288ms
+2024-06-24 08:59:29.407 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-24 08:59:29.408 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 39.5607ms
+2024-06-24 08:59:29.425 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-24 08:59:29.426 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 57.4596ms
+2024-06-24 08:59:29.439 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.9925ms
+2024-06-24 08:59:29.541 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-06-24 08:59:29.642 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.6344ms
+2024-06-24 15:26:43.157 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-06-24 15:26:43.249 +02:00  INF  Sending file. Request path: '/images/animals/l_orang_outan1.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\l_orang_outan1.jpg'
+2024-06-24 15:26:43.250 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 200 48419 image/jpeg 120.1724ms
+2024-06-24 15:28:51.920 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-06-24 15:28:51.951 +02:00  INF  Sending file. Request path: '/images/animals/638496693869536018_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693869536018_Mufasa.jpg'
+2024-06-24 15:28:51.953 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 200 643175 image/jpeg 33.6851ms
+2024-06-24 15:29:15.111 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-06-24 15:29:15.313 +02:00  INF  Sending file. Request path: '/images/animals/638496693873204536_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693873204536_Mufasa.jpg'
+2024-06-24 15:29:15.314 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 200 8273660 image/jpeg 203.7143ms
+2024-06-24 17:20:30.282 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-06-24 17:20:30.311 +02:00  INF  Sending file. Request path: '/images/animals/638496693869536018_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693869536018_Mufasa.jpg'
+2024-06-24 17:20:30.312 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 200 643175 image/jpeg 30.8722ms
+2024-06-24 17:22:49.300 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-06-24 17:22:49.410 +02:00  INF  Sending file. Request path: '/images/animals/638496693873204536_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693873204536_Mufasa.jpg'
+2024-06-24 17:22:49.411 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 200 8273660 image/jpeg 111.6267ms
+2024-06-24 17:24:23.128 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-06-24 17:24:23.140 +02:00  INF  Sending file. Request path: '/images/animals/l_orang_outan1.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\l_orang_outan1.jpg'
+2024-06-24 17:24:23.141 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 200 48419 image/jpeg 14.3772ms
+2024-06-24 21:24:02.584 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - null null
+2024-06-24 21:24:02.584 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - null null
+2024-06-24 21:24:02.585 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - null null
+2024-06-24 21:24:02.590 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536822_Mufasa_mini.jpg - null null
+2024-06-24 21:24:02.593 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204641_Mufasa_mini.jpg - null null
+2024-06-24 21:24:02.680 +02:00  INF  Sending file. Request path: '/images/animals/638496693869536822_Mufasa_mini.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693869536822_Mufasa_mini.jpg'
+2024-06-24 21:24:02.683 +02:00  INF  Sending file. Request path: '/images/habitats/Marais.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Marais.jpg'
+2024-06-24 21:24:02.684 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536822_Mufasa_mini.jpg - 200 80881 image/jpeg 93.1455ms
+2024-06-24 21:24:02.688 +02:00  INF  Sending file. Request path: '/images/animals/638496693873204641_Mufasa_mini.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693873204641_Mufasa_mini.jpg'
+2024-06-24 21:24:02.688 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - 200 166838 image/jpeg 102.9111ms
+2024-06-24 21:24:02.695 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204641_Mufasa_mini.jpg - 200 93587 image/jpeg 102.4109ms
+2024-06-24 21:24:02.706 +02:00  INF  Sending file. Request path: '/images/habitats/Savane.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Savane.jpg'
+2024-06-24 21:24:02.707 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - 200 801492 image/jpeg 123.6291ms
+2024-06-24 21:24:02.713 +02:00  INF  Sending file. Request path: '/images/habitats/Jungle.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Jungle.jpg'
+2024-06-24 21:24:02.714 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - 200 1124270 image/jpeg 130.0202ms
+2024-06-24 21:24:13.683 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:24:13.686 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 2.6376ms
+2024-06-24 21:24:13.689 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 21:34:24.822 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - null null
+2024-06-24 21:34:25.000 +02:00  INF  Sending file. Request path: '/images/animals/638496693873204536_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693873204536_Mufasa.jpg'
+2024-06-24 21:34:25.002 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204536_Mufasa.jpg - 200 8273660 image/jpeg 180.3874ms
+2024-06-24 21:34:29.826 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - null null
+2024-06-24 21:34:29.838 +02:00  INF  Sending file. Request path: '/images/animals/638496693869536018_Mufasa.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693869536018_Mufasa.jpg'
+2024-06-24 21:34:29.839 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536018_Mufasa.jpg - 200 643175 image/jpeg 13.3961ms
+2024-06-24 21:35:40.989 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693869536822_Mufasa_mini.jpg - null null
+2024-06-24 21:35:40.993 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:35:40.993 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/638496693873204641_Mufasa_mini.jpg - null null
+2024-06-24 21:35:41.004 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 11.2069ms
+2024-06-24 21:35:41.006 +02:00  INF  Sending file. Request path: '/images/animals/638496693869536822_Mufasa_mini.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693869536822_Mufasa_mini.jpg'
+2024-06-24 21:35:41.012 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 21:35:41.012 +02:00  INF  Sending file. Request path: '/images/animals/638496693873204641_Mufasa_mini.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\638496693873204641_Mufasa_mini.jpg'
+2024-06-24 21:35:41.013 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693869536822_Mufasa_mini.jpg - 200 80881 image/jpeg 24.1774ms
+2024-06-24 21:35:41.016 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/638496693873204641_Mufasa_mini.jpg - 200 93587 image/jpeg 22.7862ms
+2024-06-24 21:35:43.286 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - null null
+2024-06-24 21:35:43.290 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - null null
+2024-06-24 21:35:43.290 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - null null
+2024-06-24 21:35:43.304 +02:00  INF  Sending file. Request path: '/images/habitats/Marais.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Marais.jpg'
+2024-06-24 21:35:43.306 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Marais.jpg - 200 166838 image/jpeg 15.9283ms
+2024-06-24 21:35:43.307 +02:00  INF  Sending file. Request path: '/images/habitats/Savane.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Savane.jpg'
+2024-06-24 21:35:43.311 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Savane.jpg - 200 801492 image/jpeg 24.9481ms
+2024-06-24 21:35:43.320 +02:00  INF  Sending file. Request path: '/images/habitats/Jungle.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\habitats\Jungle.jpg'
+2024-06-24 21:35:43.321 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/habitats/Jungle.jpg - 200 1124270 image/jpeg 31.0312ms
+2024-06-24 21:35:44.763 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - null null
+2024-06-24 21:35:44.766 +02:00  INF  Sending file. Request path: '/images/animals/l_orang_outan1.jpg'. Physical path: 'C:\Users\Lacon\Desktop\DEVELOPPEMENT\ECF_Zoo\ECF_Zoo\API_Arcadia\wwwroot\images\animals\l_orang_outan1.jpg'
+2024-06-24 21:35:44.767 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/images/animals/l_orang_outan1.jpg - 200 48419 image/jpeg 4.8104ms
+2024-06-24 21:38:17.352 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:38:17.358 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 6.1915ms
+2024-06-24 21:38:17.359 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 21:38:49.863 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:38:49.867 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 4.4791ms
+2024-06-24 21:38:49.872 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 21:38:57.603 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:38:57.606 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 3.1235ms
+2024-06-24 21:38:57.609 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 21:46:56.923 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 21:46:56.928 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 4.869ms
+2024-06-24 21:46:56.932 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404
+2024-06-24 22:04:39.740 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/x - null null
+2024-06-24 22:04:39.745 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/x - 404 0 null 5.3469ms
+2024-06-24 22:04:39.751 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7015/x, Response status code: 404

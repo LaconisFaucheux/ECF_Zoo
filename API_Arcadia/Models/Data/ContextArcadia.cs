@@ -132,6 +132,7 @@ namespace API_Arcadia.Models.Data
             {
                 entity.HasKey(zs => zs.Id);
                 entity.Property(zs => zs.Name).HasMaxLength(100);
+                entity.Property(zs => zs.Pic).HasMaxLength(150);
             });
         }
     }

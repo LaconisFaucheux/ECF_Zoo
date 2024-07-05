@@ -18,5 +18,7 @@ namespace API_Arcadia.Interfaces
         Task<int> UpdateAnimal(int id, AnimalDTO animal);
 
         Task<List<Animal>?> GetAnimalsByHabitat(int habitatId);
+
+        Task<int> GetAnimalsListLength();
     }
 }

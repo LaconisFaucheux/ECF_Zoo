@@ -21,6 +21,7 @@ namespace API_Arcadia.Services
             var req = from a in _context.Animals
                       .Include(a => a.Pics)
                       .Include(a => a.SpeciesData)
+                        .ThenInclude(sd => sd.habitats)
                       where a != null
                       select a;
 
@@ -28,7 +29,6 @@ namespace API_Arcadia.Services
             l = await req.ToListAsync();
 
             return l;
-            // TODO inclure le SlugMini dans AnimalImage pour tous les animaux
         }
 
         public async Task<Animal?> GetAnimal(int id)
@@ -45,47 +45,28 @@ namespace API_Arcadia.Services
                             .ThenInclude(sd => sd.diet)
                         .Include(a => a.SpeciesData)
                             .ThenInclude(sd => sd.habitats)
-                                .ThenInclude(h => h.Pics)                         
+                                .ThenInclude(h => h.Pics)
                       where a.Id == id
                       select a;
             Animal? animal = await req.FirstOrDefaultAsync();
-
-            //if (animal != null)
-            //animal.Image = File.ReadAllBytes(animal.Pics[0].MiniSlug);
-            //if (animal != null)
-            //{
-            //    foreach (var p in animal.Pics)
-            //    {
-            //        FileStream file = File.Open(p.MiniSlug, FileMode.Open);
-            //        animal.Images.Add(file);
-            //    }
-            //}
             return animal;
-
         }
 
         public async Task<List<Animal>?> GetAnimalsByHabitat(int habitatId)
         {
-            //return await _context.Animals.FindAsync(id);
             var req = from a in _context.Animals
                         .Include(a => a.Pics)
                         .Include(a => a.SpeciesData)
-                      where a.SpeciesData.Id == habitatId
+                            .ThenInclude (sd => sd.habitats)
+                      where a.SpeciesData.habitats.Any(h => h.Id == habitatId)
                       select a;
             List<Animal>? animal = await req.ToListAsync();
-
-            //if (animal != null)
-            //animal.Image = File.ReadAllBytes(animal.Pics[0].MiniSlug);
-            //if (animal != null)
-            //{
-            //    foreach (var p in animal.Pics)
-            //    {
-            //        FileStream file = File.Open(p.MiniSlug, FileMode.Open);
-            //        animal.Images.Add(file);
-            //    }
-            //}
             return animal;
+        }
 
+        public async Task<int> GetAnimalsListLength()
+        {
+            return await _context.Animals.CountAsync();
         }
 
         public async Task<Animal> PostAnimal(AnimalDTO animal)
@@ -129,7 +110,7 @@ namespace API_Arcadia.Services
                     {
                         a.Pics.Add(ai);
                     }
-                    
+
                 }
 
             }
@@ -146,23 +127,23 @@ namespace API_Arcadia.Services
 
             //if (animal != null)
             //{
-                var req = from ai in _context.AnimalImages
-                          where (ai.IdAnimal == animal.Id)
-                          select ai;
-                List<AnimalImage> images = await req.ToListAsync();
-                foreach (var image in images)
-                {
-                    if (!String.IsNullOrEmpty(image.Slug)) File.Delete(image.Slug);
-                    if (!String.IsNullOrEmpty(image.MiniSlug)) File.Delete(image.MiniSlug);
-                }
+            var req = from ai in _context.AnimalImages
+                      where (ai.IdAnimal == animal.Id)
+                      select ai;
+            List<AnimalImage> images = await req.ToListAsync();
+            foreach (var image in images)
+            {
+                if (!String.IsNullOrEmpty(image.Slug)) File.Delete(image.Slug);
+                if (!String.IsNullOrEmpty(image.MiniSlug)) File.Delete(image.MiniSlug);
+            }
 
-                _context.Animals.Remove(animal);
+            _context.Animals.Remove(animal);
             //}
             //else
             //{
             //    throw new DbUpdateConcurrencyException();
             //}
-            
+
             return await _context.SaveChangesAsync();
         }
 
@@ -193,7 +174,7 @@ namespace API_Arcadia.Services
                     File.Delete(pic.Slug);
                     File.Delete(pic.MiniSlug);
                     dbAnimal.Pics.Remove(pic);
-                }                
+                }
             }
 
             foreach (var image in animal.images)
