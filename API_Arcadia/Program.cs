@@ -4,8 +4,11 @@ using API_Arcadia.Models.Data;
 using API_Arcadia.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using System.Text;
 
 namespace API_Arcadia
 {
@@ -21,11 +24,48 @@ namespace API_Arcadia
             builder.Services.AddDbContext<ContextArcadia>(
                 opt => opt.UseSqlServer(connect1));
 
+            builder.Services.AddDbContext<AuthDbContext>(
+                opt => opt.UseSqlServer(connect1));
+
             //Business Services
             builder.Services.AddScoped<IAnimalService, AnimalService>();
             builder.Services.AddScoped<IHabitatService, HabitatService>();
             builder.Services.AddScoped<ISpeciesService, SpeciesService>();
             builder.Services.AddScoped<IVetVisitService, VetVisitService>();
+
+            //Identity Config
+            builder.Services.AddIdentityCore<IdentityUser>()
+                .AddRoles<IdentityRole>()
+                .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Arcadia")
+                .AddEntityFrameworkStores<AuthDbContext>()
+                .AddDefaultTokenProviders();
+            builder.Services.Configure<IdentityOptions>(opt =>
+            {
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 6;
+                opt.Password.RequiredUniqueChars = 1;
+            });
+
+            //Authentication Config
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                    {
+                        AuthenticationType = "Jwt",
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        ValidAudience = builder.Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    };
+                });
+
 
             //Serilog
             var logger = new LoggerConfiguration()
@@ -131,7 +171,8 @@ namespace API_Arcadia
 
             app.UseStaticFiles();
 
-            //app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.MapControllers();
 

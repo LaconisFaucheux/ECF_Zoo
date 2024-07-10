@@ -45,7 +45,7 @@ namespace API_Arcadia.Services
                             .ThenInclude(sd => sd.diet)
                         .Include(a => a.SpeciesData)
                             .ThenInclude(sd => sd.habitats)
-                                .ThenInclude(h => h.Pics)
+                                //.ThenInclude(h => h.Pics)
                       where a.Id == id
                       select a;
             Animal? animal = await req.FirstOrDefaultAsync();
