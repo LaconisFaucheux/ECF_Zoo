@@ -22,16 +22,25 @@ namespace API_Arcadia.Controllers
         //[Authorize]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDTO r)
         {
-            // Create IdentityUser object
-            var user = new IdentityUser
+			IdentityResult IdentityResult;
+			// Create IdentityUser object
+			var user = new IdentityUser
             {
                 UserName = r.Email?.Trim(),
                 Email = r.Email?.Trim(),
-            };
+            };            
 
-
-
-            var IdentityResult = await _userManager.CreateAsync(user, r.Password);
+            if (!String.IsNullOrEmpty(r.Password) 
+                && !String.IsNullOrEmpty(r.Email) 
+                && !String.IsNullOrEmpty(r.Role))
+            {
+                IdentityResult = await _userManager.CreateAsync(user, r.Password);
+            }
+            else
+            {
+                return  BadRequest("Au moins un champ est invalide");
+            }
+			
 
 
 
@@ -45,25 +54,11 @@ namespace API_Arcadia.Controllers
                 }
                 else
                 {
-                    //if (IdentityResult.Errors.Any())
-                    //{
-                    //    foreach (var error in IdentityResult.Errors)
-                    //    {
-                    //        ModelState.AddModelError("", error.Description);
-                    //    }
-                    //}
                     IdentityResultChecking(IdentityResult);
                 }
             }
             else
             {
-                //if (IdentityResult.Errors.Any()) 
-                //{
-                //    foreach (var error in IdentityResult.Errors)
-                //    {
-                //        ModelState.AddModelError("", error.Description);
-                //    }
-                //}
                 IdentityResultChecking(IdentityResult);
             }
 
