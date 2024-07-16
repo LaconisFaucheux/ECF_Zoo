@@ -28,7 +28,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/ZooServices
         [HttpGet]
-        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<ZooService>>> GetZooServices()
         {
             return await _context.ZooServices.ToListAsync();
@@ -36,7 +35,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/ZooServices/5
         [HttpGet("{id}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<ZooService>> GetZooService(int id)
         {
             var zooService = await _context.ZooServices.FindAsync(id);
@@ -52,7 +50,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/ZooServices/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateZooService")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> PutZooService(int id, ZooService zooService)
         {
             if (id != zooService.Id)
@@ -84,7 +82,7 @@ namespace API_Arcadia.Controllers
         // POST: api/ZooServices
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-       // [Authorize(Policy = "CreateZooService")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<ZooService>> PostZooService(ZooService zooService)
         {
             try
@@ -103,7 +101,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/ZooServices/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteZooService")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteZooService(int id)
         {
             var zooService = await _context.ZooServices.FindAsync(id);

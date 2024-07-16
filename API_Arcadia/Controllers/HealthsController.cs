@@ -50,7 +50,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Healths/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateHealth")]
+        [Authorize(Roles = "Vet")]
         public async Task<IActionResult> PutHealth(int id, Health health)
         {
             if (id != health.Id)
@@ -82,7 +82,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Healths
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[Authorize(Policy = "CreateHealth")]
+        [Authorize(Roles = "Vet")]
         public async Task<ActionResult<Health>> PostHealth(Health health)
         {
             _context.Healths.Add(health);
@@ -93,7 +93,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Healths/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteHealth")]
+        [Authorize(Roles = "Vet")]
         public async Task<IActionResult> DeleteHealth(int id)
         {
             var health = await _context.Healths.FindAsync(id);

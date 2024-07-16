@@ -29,9 +29,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Animals
         [HttpGet]
-        //[AllowAnonymous]
-        //[Authorize(Policy = "UpdateAnimal")]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
 		public async Task<ActionResult<IEnumerable<Animal>>> GetAnimals()
         {        
             var animals = await _animalServ.GetAnimals();
@@ -40,7 +38,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Animals/5
         [HttpGet("{id}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<Animal>> GetAnimal(int id)
         {
             var animal = await _animalServ.GetAnimal(id);
@@ -54,7 +51,6 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpGet("byHabitat/{habitatId}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<Animal>> GetAnimalsByHabitat(int habitatId)
         {
             var animals = await _animalServ.GetAnimalsByHabitat(habitatId);
@@ -62,7 +58,6 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpGet("length")]
-        //[AllowAnonymous]
         public async Task<ActionResult<int>> GetAnimalsListLength()
         {
             var length = await _animalServ.GetAnimalsListLength();
@@ -72,7 +67,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Animals/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateAnimal")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> PutAnimal(int id, [FromForm]AnimalDTO animal)
         {
             if (id != animal.Id)
@@ -99,7 +94,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Animals
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[Authorize(Policy = "CreateAnimal")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<Animal>> PostAnimal([FromForm] AnimalDTO animal)
         {
             try
@@ -115,7 +110,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Animals/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteAnimal")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteAnimal(int id)
         {
 

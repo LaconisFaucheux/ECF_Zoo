@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pjqB9Y7aaPZyYLUxyftB7GHYC3kOl7lQn1xa5y7w9dA=",
+  "Hash": "IKjKKlR4E4eZ1XhrTCH9bmLyizh5MnI85IhqPaSu04w=",
   "Source": "API_Arcadia",
   "BasePath": "_content/API_Arcadia",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API_Arcadia\\wwwroot",
       "Source": "API_Arcadia",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
       "SourceId": "API_Arcadia",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "API_Arcadia.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/638496693869536018_Mufasa.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/638496693869536822_Mufasa_mini.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/638496693873204536_Mufasa.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/638496693873204641_Mufasa_mini.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/l_orang_outan1.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/l_orang_outan1_mini.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/l_orang_outan2.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/l_orang_outan2_mini.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_loutre1.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_loutre1_mini.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_loutre2.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_loutre2_mini.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_panthere1.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_panthere1_mini.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_panthere2.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/la_panthere2_mini.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_gorille1.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_gorille1_mini.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_gorille2.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_gorille2_mini.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_heron1.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_heron1_mini.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_heron2.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_heron2_mini.jpg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_rhino1.jpeg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_rhino1_mini.jpeg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino1_mini.jpeg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_rhino2.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/animals/le_rhino2_mini.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Jungle.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Jungle.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Jungle_mini.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Jungle_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Marais.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Marais.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Marais_mini.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Marais_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Montagne.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Montagne.png"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Montagne_mini.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Montagne_mini.png"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Savane.jpg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Savane.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/habitats/Savane_mini.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Savane_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/zoo-services/petit_train.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\petit_train.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/zoo-services/restauration.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\restauration.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
+      "Identity": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "RelativePath": "images/zoo-services/visite_guidee.jpg",
       "AssetKind": "All",

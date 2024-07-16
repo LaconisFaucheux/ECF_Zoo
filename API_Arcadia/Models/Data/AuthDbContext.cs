@@ -54,6 +54,7 @@ namespace API_Arcadia.Models.Data
             {
                 Id = AdminUserId,
                 UserName = "admin@arcadia.fr",
+                Email = "admin@arcadia.fr",
                 NormalizedEmail = "admin@arcadia.fr".ToUpper(),
                 NormalizedUserName = "admin@arcadia.fr".ToUpper()
             };

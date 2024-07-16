@@ -39,7 +39,7 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpGet("unfiltered")]
-        //[Authorize(Policy = "ReadUnfilteredReviews")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<IEnumerable<Review>>> GetUnfilteredReviews()
         {
             return await _context.Reviews.ToListAsync();
@@ -47,7 +47,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Reviews/5
         [HttpGet("{id}")]
-        //[Authorize(Policy = "ReadUnfilteredReviews")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<Review>> GetReview(int id)
         {
             var review = await _context.Reviews.FindAsync(id);
@@ -63,7 +63,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Reviews/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateReview")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> PutReview(int id, Review review)
         {
             if (id != review.Id)
@@ -95,7 +95,6 @@ namespace API_Arcadia.Controllers
         // POST: api/Reviews
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[AllowAnonymous]
         public async Task<ActionResult<Review>> PostReview(Review review)
         {
             try
@@ -115,7 +114,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Reviews/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteReview")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteReview(int id)
         {
             var review = await _context.Reviews.FindAsync(id);

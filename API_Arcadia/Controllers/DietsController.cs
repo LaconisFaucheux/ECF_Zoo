@@ -26,7 +26,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Diets
         [HttpGet]
-        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Diet>>> GetDiets()
         {
             return await _context.Diets.ToListAsync();
@@ -34,7 +33,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Diets/5
         [HttpGet("{id}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<Diet>> GetDiet(int id)
         {
             var diet = await _context.Diets.FindAsync(id);
@@ -50,7 +48,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Diets/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateDiet")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> PutDiet(int id, Diet diet)
         {
             if (id != diet.Id)
@@ -82,7 +80,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Diets
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[Authorize(Policy = "CreateDiet")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<Diet>> PostDiet(Diet diet)
         {
             _context.Diets.Add(diet);
@@ -93,7 +91,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Diets/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteDiet")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteDiet(int id)
         {
             var diet = await _context.Diets.FindAsync(id);

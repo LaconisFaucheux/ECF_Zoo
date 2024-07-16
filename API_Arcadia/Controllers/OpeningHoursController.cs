@@ -27,7 +27,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/OpeningHours
         [HttpGet]
-        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<OpeningHour>>> GetOpeningHours()
         {
             return await _context.OpeningHours.ToListAsync();
@@ -35,7 +34,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/OpeningHours/5
         [HttpGet("{id}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<OpeningHour>> GetOpeningHour(int id)
         {
             var openingHour = await _context.OpeningHours.FindAsync(id);
@@ -51,7 +49,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/OpeningHours/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "ModifHoraires")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> PutOpeningHour(int id, OpeningHour openingHour)
         {
             if (id != openingHour.Id)

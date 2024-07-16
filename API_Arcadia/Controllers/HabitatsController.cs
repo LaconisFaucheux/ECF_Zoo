@@ -29,7 +29,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Habitats
         [HttpGet]
-        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Habitat>>> GetHabitats()
         {
             return await _ServiceHab.GetHabitats();
@@ -37,7 +36,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Habitats/5
         [HttpGet("{id}")]
-        //[AllowAnonymous]
         public async Task<ActionResult<Habitat>> GetHabitat(int id)
         {
             var habitat = await _ServiceHab.GetHabitat(id);
@@ -53,7 +51,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/Habitats/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateHabitat")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> PutHabitat(int id, HabitatDTO habitat)
         {
             if (id != habitat.Id)
@@ -80,7 +78,7 @@ namespace API_Arcadia.Controllers
         // POST: api/Habitats
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[Authorize(Policy = "CreateHabitat")]
+        [Authorize(Roles = "Employee")]
         public async Task<ActionResult<Habitat>> PostHabitat([FromForm] HabitatDTO habitat)
         {
             try
@@ -97,7 +95,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/Habitats/5
         [HttpDelete("{id}")]
-       // [Authorize(Policy = "DeleteHabitat")]
+        [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteHabitat(int id)
         {
             try

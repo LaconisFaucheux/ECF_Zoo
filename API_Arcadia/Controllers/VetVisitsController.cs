@@ -29,7 +29,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/VetVisits
         [HttpGet]
-        //[Authorize(Policy = "ReadVetVisit")]
+        [Authorize(Roles = "Vet")]
         public async Task<ActionResult<IEnumerable<VetVisit>>> GetVetVisits()
         {
             return await _ServiceVetV.GetVetVisits();
@@ -37,7 +37,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/VetVisits/5
         [HttpGet("{id}")]
-        //[Authorize(Policy = "ReadVetVisit")]
+        [Authorize(Roles = "Vet")]
         public async Task<ActionResult<VetVisit>> GetVetVisit(int id)
         {
             var vetVisit = await _ServiceVetV.GetVetVisit(id);
@@ -53,7 +53,7 @@ namespace API_Arcadia.Controllers
         // PUT: api/VetVisits/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        //[Authorize(Policy = "UpdateVetVisit")]
+        [Authorize(Roles = "Vet")]
         public async Task<IActionResult> PutVetVisit(int id, [FromForm]VetVisitDTO vetVisit)
         {
             if (id != vetVisit.Id)
@@ -80,7 +80,7 @@ namespace API_Arcadia.Controllers
         // POST: api/VetVisits
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        //[Authorize(Policy = "CreateVetVisit")]
+        [Authorize(Roles = "Vet")]
         public async Task<ActionResult<VetVisit>> PostVetVisit([FromForm]VetVisitDTO vetVisit)
         {
             try
@@ -96,7 +96,7 @@ namespace API_Arcadia.Controllers
 
         // DELETE: api/VetVisits/5
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "DeleteVetVisit")]
+        [Authorize(Roles = "Vet")]
         public async Task<IActionResult> DeleteVetVisit(int id)
         {
             try
