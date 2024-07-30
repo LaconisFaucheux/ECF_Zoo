@@ -2,6 +2,7 @@
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Formats;
 using API_Arcadia.Models;
+using System.Text.RegularExpressions;
 
 namespace API_Arcadia
 {
@@ -89,6 +90,25 @@ namespace API_Arcadia
             else
             {
                 return null;
+            }
+        }
+
+        public static bool CheckEmailValidity(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return false;
+            }
+
+            try
+            {
+                return Regex.IsMatch(email,
+                    @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
+                    RegexOptions.IgnoreCase);
+            }
+            catch (RegexMatchTimeoutException)
+            {
+                return false;
             }
         }
     }

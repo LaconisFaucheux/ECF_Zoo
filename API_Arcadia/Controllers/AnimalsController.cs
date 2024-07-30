@@ -29,7 +29,6 @@ namespace API_Arcadia.Controllers
 
         // GET: api/Animals
         [HttpGet]
-        [Authorize(Roles = "Admin")]
 		public async Task<ActionResult<IEnumerable<Animal>>> GetAnimals()
         {        
             var animals = await _animalServ.GetAnimals();
