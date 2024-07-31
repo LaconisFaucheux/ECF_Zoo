@@ -106,8 +106,8 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> PutEmployee(string id, [FromForm] UserUpdateDTO employee)
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> PutEmployee(string id, [FromBody] UserUpdateDTO employee)
         {
             if (id != employee.id)
             {
@@ -232,7 +232,7 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpPost("register")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDTO r)
         {
             IdentityResult IdentityResult;
@@ -251,7 +251,7 @@ namespace API_Arcadia.Controllers
 
             if (!String.IsNullOrEmpty(r.Password)
                 && !String.IsNullOrEmpty(r.Email)
-                && !String.IsNullOrEmpty(r.Role))
+                && r.Roles.Count() > 0)
             {
                 IdentityResult = await _userManager.CreateAsync(user, r.Password);
             }
@@ -262,7 +262,8 @@ namespace API_Arcadia.Controllers
 
             if (IdentityResult.Succeeded)
             {
-                IdentityResult = await _userManager.AddToRoleAsync(user, r.Role);
+			    IdentityResult = await _userManager.AddToRolesAsync(user, r.Roles);
+                
 
                 if (IdentityResult.Succeeded)
                 {

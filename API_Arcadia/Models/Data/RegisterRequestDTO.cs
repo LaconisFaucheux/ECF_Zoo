@@ -9,6 +9,6 @@ namespace API_Arcadia.Models.Data
         [Required]
         public string Password { get; set; } = String.Empty;
         [Required]
-        public string Role { get; set; } = String.Empty ;
+        public List<string> Roles { get; set; }
     }
 }

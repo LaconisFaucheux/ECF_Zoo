@@ -9119,23 +9119,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lacon\\.nuget\\packages\\": {},
+    "C:\\Users\\nicolas.frotey\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
+      "projectUniqueName": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
       "projectName": "API_Arcadia",
-      "projectPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
-      "packagesPath": "C:\\Users\\Lacon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\obj\\",
+      "projectPath": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
+      "packagesPath": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lacon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicolas.frotey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9226,6 +9226,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9234,8 +9252,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'SixLabors.ImageSharp' 3.1.4 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-63p8-c4ww-9cg7.",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'SixLabors.ImageSharp' 3.1.4 présente une vulnérabilité de gravité moyenne connue, https://github.com/advisories/GHSA-qxrv-gp6x-rc23.",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

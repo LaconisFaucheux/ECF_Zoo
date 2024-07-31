@@ -2219,3 +2219,6 @@ C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\r
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\API_Arcadia.pdb
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\API_Arcadia.genruntimeconfig.cache
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\ref\API_Arcadia.dll
+C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\API_Arcadia.staticwebassets.endpoints.json
+C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\staticwebassets\msbuild.API_Arcadia.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
