@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rCmtJf2juPXq29qNZ3ZUW/ZoeLuovee2oVkJsAWvFy0=",
+  "Hash": "dy9EZyb2kSwlLK3APRQXOEXQW1ecrO5GGtwtqA2WuSs=",
   "Source": "API_Arcadia",
   "BasePath": "_content/API_Arcadia",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -56,7 +56,7 @@
       "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
     },
     {
       "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
@@ -902,7 +902,7 @@
   "Endpoints": [
     {
       "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -923,7 +923,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 May 2024 04:24:50 GMT"
+          "Value": "Fri, 14 Jun 2024 17:29:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -939,7 +939,7 @@
     },
     {
       "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -960,7 +960,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 May 2024 04:07:16 GMT"
+          "Value": "Fri, 14 Jun 2024 17:10:18 GMT"
         },
         {
           "Name": "Cache-Control",

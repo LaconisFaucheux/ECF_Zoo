@@ -2222,3 +2222,4 @@ C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\r
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\API_Arcadia.staticwebassets.endpoints.json
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\staticwebassets\msbuild.API_Arcadia.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\System.Text.Json.dll

@@ -50,8 +50,7 @@
               "RelativeToolTip": "Models\\Data\\RegisterRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:46:16.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T13:46:16.587Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Models\\Data\\UserUpdateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:39:33.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T13:39:33.989Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Models\\Data\\AuthDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:08:12.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T13:08:12.156Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "Services\\TokenService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T12:43:01.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T12:43:01.864Z"
             },
             {
               "$type": "Document",
@@ -100,7 +96,7 @@
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAPMAAAAAAAAAAAAIwAgBAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T10:49:49.773Z",
               "EditorCaption": ""
