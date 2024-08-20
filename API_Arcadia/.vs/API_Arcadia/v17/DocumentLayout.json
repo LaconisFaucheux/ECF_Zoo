@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\models\\data\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\data\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\lacon\\desktop\\developpement\\ecf_zoo\\ecf_zoo\\api_arcadia\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAgwMEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:23:45.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Utils.cs",
               "RelativeDocumentMoniker": "Utils.cs",
@@ -74,33 +91,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AnimalDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Models\\Data\\AnimalDTO.cs",
               "RelativeDocumentMoniker": "Models\\Data\\AnimalDTO.cs",
               "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Models\\Data\\AnimalDTO.cs",
               "RelativeToolTip": "Models\\Data\\AnimalDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:40:44.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AnimalService.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
               "RelativeDocumentMoniker": "Services\\AnimalService.cs",
               "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
               "RelativeToolTip": "Services\\AnimalService.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAmwK4AAAAuAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwGsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:39:10.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SpeciesController.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Controllers\\SpeciesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SpeciesController.cs",
@@ -112,20 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AnimalsController.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AnimalsController.cs",
               "ToolTip": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeToolTip": "Controllers\\AnimalsController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAowHAAAAA9AAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAowEYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T11:41:44.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Models\\Data\\RegisterRequestDTO.cs",
               "RelativeDocumentMoniker": "Models\\Data\\RegisterRequestDTO.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Models\\Data\\UserUpdateDTO.cs",
               "RelativeDocumentMoniker": "Models\\Data\\UserUpdateDTO.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Models\\Data\\AuthDbContext.cs",
               "RelativeDocumentMoniker": "Models\\Data\\AuthDbContext.cs",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
@@ -173,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",

@@ -58,8 +58,10 @@ namespace API_Arcadia
 
             string fileName = $"{DateTime.Now.Ticks}_{entityName}{fileExtension}";
             string fileNameMini = $"{DateTime.Now.Ticks}_{entityName}_mini{fileExtension}";
-            string storagePath = Path.Combine("wwwroot", "Images", folderName, fileName);
-            string storagePathMini = Path.Combine("wwwroot", "Images", folderName, fileNameMini);
+            string slug = Path.Combine("images", folderName, fileName);
+            string miniSlug = Path.Combine("images", folderName, fileNameMini);
+            string storagePath = Path.Combine("wwwroot", slug);
+            string storagePathMini = Path.Combine("wwwroot", miniSlug);
             using (var stream = new FileStream(storagePath, FileMode.Create))
             {
                 await image.CopyToAsync(stream);
@@ -71,8 +73,8 @@ namespace API_Arcadia
             {
                 var animalImage = new AnimalImage
                 {
-                    Slug = storagePath,
-                    MiniSlug = storagePathMini,
+                    Slug = slug,
+                    MiniSlug = miniSlug,
                     IdAnimal = entityId
                 };
                 return animalImage as T;
@@ -81,8 +83,8 @@ namespace API_Arcadia
             {
                 var habitatImage = new HabitatImage
                 {
-                    Slug = storagePath,
-                    MiniSlug = storagePathMini,
+                    Slug = slug,
+                    MiniSlug = miniSlug,
                     IdHabitat = entityId
                 };
                 return habitatImage as T;

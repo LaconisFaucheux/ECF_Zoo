@@ -67,7 +67,7 @@ namespace API_Arcadia.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         [Authorize(Roles = "Employee")]
-        public async Task<IActionResult> PutAnimal(int id, [FromBody]AnimalDTO animal)
+        public async Task<IActionResult> PutAnimal(int id, [FromForm]AnimalDTO animal)
         {
             if (id != animal.Id)
             {
