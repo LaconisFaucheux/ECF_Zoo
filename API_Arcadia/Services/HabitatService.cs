@@ -130,9 +130,9 @@ namespace API_Arcadia.Services
 
                 if (pic != null)
                 {
-                    if (!String.IsNullOrEmpty(pic.Slug)) File.Delete(pic.Slug);
-                    if (!String.IsNullOrEmpty(pic.MiniSlug)) File.Delete(pic.MiniSlug);
-                    //dbHabitat.Pics.Remove(pic);
+                    if (!String.IsNullOrEmpty(pic.Slug)) File.Delete(Path.Combine("wwwroot", pic.Slug));
+                    if (!String.IsNullOrEmpty(pic.MiniSlug)) File.Delete(Path.Combine("wwwroot", pic.MiniSlug));
+                    dbHabitat.Pics.Remove(pic);
                 }
             }
 
