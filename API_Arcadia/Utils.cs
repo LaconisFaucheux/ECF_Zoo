@@ -46,7 +46,8 @@ namespace API_Arcadia
             IFormFile image, 
             string folderName, 
             string entityName, 
-            int entityId ) where T:class
+            int entityId,
+            bool needsMini = true) where T:class
         {
             string[] SupportedExtensions = [".jpg", ".jpeg", ".png"];
             var fileExtension = Path.GetExtension(image.FileName);
@@ -57,17 +58,23 @@ namespace API_Arcadia
             }
 
             string fileName = $"{DateTime.Now.Ticks}_{entityName}{fileExtension}";
-            string fileNameMini = $"{DateTime.Now.Ticks}_{entityName}_mini{fileExtension}";
             string slug = Path.Combine("images", folderName, fileName);
-            string miniSlug = Path.Combine("images", folderName, fileNameMini);
             string storagePath = Path.Combine("wwwroot", slug);
+
+
+            string fileNameMini = $"{DateTime.Now.Ticks}_{entityName}_mini{fileExtension}";            
+            string miniSlug = Path.Combine("images", folderName, fileNameMini);            
             string storagePathMini = Path.Combine("wwwroot", miniSlug);
+
             using (var stream = new FileStream(storagePath, FileMode.Create))
             {
                 await image.CopyToAsync(stream);
             }
 
-            Utils.ResizeImage(storagePath, storagePathMini, 300, 300);
+            if (needsMini)
+            {
+                ResizeImage(storagePath, storagePathMini, 300, 300);
+            }            
 
             if (typeof(T) == typeof(AnimalImage))
             {
@@ -88,6 +95,10 @@ namespace API_Arcadia
                     IdHabitat = entityId
                 };
                 return habitatImage as T;
+            }
+            else if (typeof(T) == typeof(string))
+            {
+                return slug as T;
             }
             else
             {

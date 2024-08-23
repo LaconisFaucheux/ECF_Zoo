@@ -10,6 +10,7 @@ using API_Arcadia.Models;
 using API_Arcadia.Models.Data;
 using API_Arcadia.Migrations;
 using Microsoft.AspNetCore.Authorization;
+using API_Arcadia.Interfaces;
 
 namespace API_Arcadia.Controllers
 {
@@ -17,12 +18,12 @@ namespace API_Arcadia.Controllers
     [ApiController]
     public class ZooServicesController : ControllerBase
     {
-        private readonly ContextArcadia _context;
+        private readonly IZooServiceService _zooService;
         private readonly ILogger<ZooServicesController> _logger;
 
-        public ZooServicesController(ContextArcadia context, ILogger<ZooServicesController> logger)
+        public ZooServicesController(IZooServiceService zss, ILogger<ZooServicesController> logger)
         {
-            _context = context;
+            _zooService = zss;
             _logger = logger;
         }
 
@@ -30,50 +31,43 @@ namespace API_Arcadia.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ZooService>>> GetZooServices()
         {
-            return await _context.ZooServices.ToListAsync();
+            var zooServices = await _zooService.GetServices();
+            return Ok(zooServices);
         }
 
         // GET: api/ZooServices/5
         [HttpGet("{id}")]
         public async Task<ActionResult<ZooService>> GetZooService(int id)
         {
-            var zooService = await _context.ZooServices.FindAsync(id);
+            var zooService = await _zooService.GetService(id);
 
             if (zooService == null)
             {
                 return NotFound();
             }
 
-            return zooService;
+            return Ok(zooService);
         }
 
         // PUT: api/ZooServices/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         [Authorize(Roles = "Employee")]
-        public async Task<IActionResult> PutZooService(int id, ZooService zooService)
+        public async Task<IActionResult> PutZooService(int id, [FromForm]ServiceDTO zooService)
         {
-            if (id != zooService.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(zooService).State = EntityState.Modified;
+            if (id != zooService.Id) return BadRequest();
 
             try
             {
-                await _context.SaveChangesAsync();
+                var updateResult = await _zooService.UpdateService(id, zooService);
+                if(updateResult == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Services'");
+                }
             }
-            catch (DbUpdateConcurrencyException)
+            catch (Exception e)
             {
-                if (!ZooServiceExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return this.CustomErrorResponse<ZooService>(e, null, _logger);
             }
 
             return NoContent();
@@ -83,18 +77,16 @@ namespace API_Arcadia.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         [Authorize(Roles = "Employee")]
-        public async Task<ActionResult<ZooService>> PostZooService(ZooService zooService)
+        public async Task<ActionResult<ZooService>> PostZooService([FromForm]ServiceDTO zooService)
         {
             try
             {
-                _context.ZooServices.Add(zooService);
-                await _context.SaveChangesAsync();
-                return CreatedAtAction("GetZooService", new { id = zooService.Id }, zooService);
+                ZooService zs = await _zooService.PostService(zooService);
+                return Ok(zs);
             }
-            catch(DbUpdateException e)
+            catch(Exception e)
             {
-                ProblemDetails pb = e.ConvertToProblemDetails();
-                return Problem(pb.Detail, null, pb.Status, pb.Title);
+                return this.CustomErrorResponse(e, zooService, _logger);
             }
 
         }
@@ -104,21 +96,19 @@ namespace API_Arcadia.Controllers
         [Authorize(Roles = "Employee")]
         public async Task<IActionResult> DeleteZooService(int id)
         {
-            var zooService = await _context.ZooServices.FindAsync(id);
-            if (zooService == null)
+            try
             {
-                return NotFound();
+                int delCode = await _zooService.DeleteService(id);
+                if (delCode == 0)
+                {
+                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'Services'");
+                }
+                return NoContent();
             }
-
-            _context.ZooServices.Remove(zooService);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool ZooServiceExists(int id)
-        {
-            return _context.ZooServices.Any(e => e.Id == id);
+            catch(Exception e)
+            {
+                return this.CustomErrorResponse<ZooService>(e, null, _logger);
+            }
         }
     }
 }

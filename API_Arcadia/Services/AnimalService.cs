@@ -124,8 +124,8 @@ namespace API_Arcadia.Services
             List<AnimalImage> images = await req.ToListAsync();
             foreach (var image in images)
             {
-                if (!String.IsNullOrEmpty(image.Slug)) File.Delete(image.Slug);
-                if (!String.IsNullOrEmpty(image.MiniSlug)) File.Delete(image.MiniSlug);
+                if (!String.IsNullOrEmpty(image.Slug)) File.Delete(Path.Combine("wwwroot", image.Slug));
+                if (!String.IsNullOrEmpty(image.MiniSlug)) File.Delete(Path.Combine("wwwroot", image.MiniSlug));
             }
 
             _context.Animals.Remove(animal);

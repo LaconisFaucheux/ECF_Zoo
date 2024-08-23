@@ -49,6 +49,14 @@
       "PackagePath": "staticwebassets\\images\\animals\\638597880853948285_Scar_mini.jpg"
     },
     {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638599568333743883_Leto2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638599568333743883_Leto2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638599568333743912_Leto2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638599568333743912_Leto2_mini.jpg"
+    },
+    {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
       "PackagePath": "staticwebassets\\images\\animals\\l_orang_outan1.jpg"
     },
@@ -151,6 +159,14 @@
     {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\638599551851883759_Arrakis_mini.jpg",
       "PackagePath": "staticwebassets\\images\\habitats\\638599551851883759_Arrakis_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\638599563993516893_Caladan.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\638599563993516893_Caladan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\638599563993517245_Caladan_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\638599563993517245_Caladan_mini.jpg"
     },
     {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",

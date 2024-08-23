@@ -32,6 +32,7 @@ namespace API_Arcadia
             //Business Services
             builder.Services.AddScoped<IAnimalService, AnimalService>();
             builder.Services.AddScoped<IHabitatService, HabitatService>();
+            builder.Services.AddScoped<IZooServiceService, ZooServiceService>();
             builder.Services.AddScoped<ISpeciesService, SpeciesService>();
             builder.Services.AddScoped<IVetVisitService, VetVisitService>();
             builder.Services.AddScoped<ITokenService, TokenService>();

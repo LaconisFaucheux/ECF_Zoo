@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Arcadia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac2eed8aaa1ea598172d6f2d8730254bdc2997b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17da7a3ef9fd4c666e08d63a302ce45b2e8b104e")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Arcadia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Arcadia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
