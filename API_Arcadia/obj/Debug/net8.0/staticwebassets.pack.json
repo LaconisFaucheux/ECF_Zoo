@@ -41,14 +41,6 @@
       "PackagePath": "staticwebassets\\images\\animals\\638597878726203624_Scar_mini.jpg"
     },
     {
-      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638597880853948227_Scar.jpg",
-      "PackagePath": "staticwebassets\\images\\animals\\638597880853948227_Scar.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638597880853948285_Scar_mini.jpg",
-      "PackagePath": "staticwebassets\\images\\animals\\638597880853948285_Scar_mini.jpg"
-    },
-    {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638599568333743883_Leto2.jpg",
       "PackagePath": "staticwebassets\\images\\animals\\638599568333743883_Leto2.jpg"
     },
@@ -161,14 +153,6 @@
       "PackagePath": "staticwebassets\\images\\habitats\\638599551851883759_Arrakis_mini.jpg"
     },
     {
-      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\638599563993516893_Caladan.jpg",
-      "PackagePath": "staticwebassets\\images\\habitats\\638599563993516893_Caladan.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\638599563993517245_Caladan_mini.jpg",
-      "PackagePath": "staticwebassets\\images\\habitats\\638599563993517245_Caladan_mini.jpg"
-    },
-    {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
       "PackagePath": "staticwebassets\\images\\habitats\\Jungle.jpg"
     },
@@ -199,6 +183,10 @@
     {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
       "PackagePath": "staticwebassets\\images\\habitats\\Savane_mini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
+      "PackagePath": "staticwebassets\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg"
     },
     {
       "Id": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",

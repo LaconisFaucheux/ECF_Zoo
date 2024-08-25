@@ -80,7 +80,7 @@ namespace API_Arcadia.Services
             var species = await _context.Speciess.FindAsync(id);
             if (species != null)
             {
-                _context.Remove(species);
+                _context.Speciess.Remove(species);
             }
             else
             {

@@ -4,6 +4,7 @@ using API_Arcadia.Models.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_Arcadia.Migrations
 {
     [DbContext(typeof(ContextArcadia))]
-    partial class ContextArcadiaModelSnapshot : ModelSnapshot
+    [Migration("20240825080916_ModifTypeIdVetForVetVisit")]
+    partial class ModifTypeIdVetForVetVisit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

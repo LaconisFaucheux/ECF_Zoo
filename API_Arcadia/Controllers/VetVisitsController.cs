@@ -50,32 +50,33 @@ namespace API_Arcadia.Controllers
             return vetVisit;
         }
 
+        //Rapporte vet non modifiables pour une meilleure protection des animaux (pas de modif après coup pour camoufler des erreurs)
         // PUT: api/VetVisits/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        [Authorize(Roles = "Vet")]
-        public async Task<IActionResult> PutVetVisit(int id, [FromForm]VetVisitDTO vetVisit)
-        {
-            if (id != vetVisit.Id)
-            {
-                return BadRequest();
-            }
+        //[HttpPut("{id}")]
+        //[Authorize(Roles = "Vet")]
+        //public async Task<IActionResult> PutVetVisit(int id, [FromForm]VetVisitDTO vetVisit)
+        //{
+        //    if (id != vetVisit.Id)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            try
-            {
-                var updateResult = await _ServiceVetV.UpdateVetVisit(id, vetVisit);
-                if (updateResult == 0)
-                {
-                    return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'VetVisits'");
-                }
-            }
-            catch (Exception e)
-            {
-                return this.CustomErrorResponse<Animal>(e, null, _logger);
-            }
+        //    try
+        //    {
+        //        var updateResult = await _ServiceVetV.UpdateVetVisit(id, vetVisit);
+        //        if (updateResult == 0)
+        //        {
+        //            return NotFound($"Aucun enregistrement pour l'ID {id} dans la table 'VetVisits'");
+        //        }
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        return this.CustomErrorResponse<Animal>(e, null, _logger);
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         // POST: api/VetVisits
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -86,7 +87,7 @@ namespace API_Arcadia.Controllers
             try
             {
                 await _ServiceVetV.PostVetVisit(vetVisit);
-                return CreatedAtAction("GetVetVisit", new { id = vetVisit.Id }, vetVisit);
+                return Ok();
             }
             catch (DbUpdateException e)
             {
@@ -94,9 +95,10 @@ namespace API_Arcadia.Controllers
             }
         }
 
-        // DELETE: api/VetVisits/5
+        
+        //DELETE: api/VetVisits/5
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Vet")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteVetVisit(int id)
         {
             try
@@ -109,10 +111,5 @@ namespace API_Arcadia.Controllers
                 return this.CustomErrorResponse<VetVisit>(e, null, _logger);
             }
         }
-
-        //private bool VetVisitExists(int id)
-        //{
-        //    return _ServiceVetV.VetVisits.Any(e => e.Id == id);
-        //}
     }
 }

@@ -38,11 +38,15 @@ namespace API_Arcadia.Controllers
             return await req.ToListAsync();
         }
 
-        [HttpGet("unfiltered")]
+        [HttpGet("unvalidated")]
         [Authorize(Roles = "Employee")]
         public async Task<ActionResult<IEnumerable<Review>>> GetUnfilteredReviews()
         {
-            return await _context.Reviews.ToListAsync();
+            var req = from r in _context.Reviews
+                      where !r.IsValidated
+                      select r;
+
+            return await req.ToListAsync();
         }
 
         // GET: api/Reviews/5

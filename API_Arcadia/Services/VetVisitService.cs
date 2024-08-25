@@ -100,7 +100,7 @@ namespace API_Arcadia.Services
                 Food = vetVisit.Food,
                 FoodWeight = vetVisit.FoodWeight,
                 IdWeightUnit = vetVisit.IdWeightUnit,
-                VisitDate = vetVisit.VisitDate,
+                VisitDate = DateTime.Now,
                 Observations = vetVisit.Observations,
                 IdAnimal = vetVisit.IdAnimal
             };
@@ -123,7 +123,7 @@ namespace API_Arcadia.Services
             return vv;
         }
 
-        public async Task<int> UpdateVetVisit(int id, VetVisitDTO vetVisit)
+        public async Task<int> UpdateVetVisit(int id, [FromForm]VetVisitDTO vetVisit)
         {
             var req = from vv in _context.VetVisits
                       .Include(vv => vv.animal)
@@ -136,7 +136,7 @@ namespace API_Arcadia.Services
             currentVetVisit.Food = vetVisit.Food;
             currentVetVisit.FoodWeight = vetVisit.FoodWeight;
             currentVetVisit.IdWeightUnit = vetVisit.IdWeightUnit;
-            currentVetVisit.VisitDate = vetVisit.VisitDate;
+            currentVetVisit.VisitDate = DateTime.Now;
             currentVetVisit.Observations = vetVisit.Observations;
             currentVetVisit.IdAnimal = vetVisit.IdAnimal;
 

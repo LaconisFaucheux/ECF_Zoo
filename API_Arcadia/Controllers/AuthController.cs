@@ -341,7 +341,8 @@ namespace API_Arcadia.Controllers
                 return ValidationProblem(ModelState);
             }
 
-            return Ok("Utilisateur supprimé avec succès");
+             return Ok("Utilisateur supprimé avec succès");
+           //return NoContent();
         }
 
         private void IdentityResultChecking(IdentityResult ir)

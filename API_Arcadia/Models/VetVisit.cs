@@ -9,7 +9,7 @@
         public DateTime VisitDate { get; set; }
         public string Observations { get; set; } = string.Empty;
         public int IdAnimal { get; set; }
-        public int? IdVet { get; set; }
+        public string IdVet { get; set; } = string.Empty;
 
         //nav prop
         public virtual Animal animal { get; set; } = new();

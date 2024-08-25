@@ -50,7 +50,7 @@ namespace API_Arcadia.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> PutOpeningHour(int id, OpeningHour openingHour)
+        public async Task<IActionResult> PutOpeningHour(int id, [FromForm]OpeningHour openingHour)
         {
             if (id != openingHour.Id)
             {
