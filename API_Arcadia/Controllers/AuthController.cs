@@ -165,7 +165,8 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpPut("password/{id}")]
-        public async Task<IActionResult> UpdatePassword(string id, [FromBody] UpdatePasswordDTO u)
+        [Authorize(Roles = "Admin, Employee, Vet")]
+        public async Task<IActionResult> UpdatePassword(string id, [FromForm] UpdatePasswordDTO u)
         {
             if (id != u.Id)
             {
@@ -178,25 +179,38 @@ namespace API_Arcadia.Controllers
             }
 
             var user = await _userManager.FindByIdAsync(id);
+
             if (user == null)
             {
                 return NotFound($"Aucun utilisateur trouvé avec l'ID {id}");
             }
 
-            IdentityResult result;
-
-            if (!string.IsNullOrEmpty(u.OldPassword))
+            if (user.Email != u.Email)
             {
-                //Old pwd is known => Regular Pwd Change
-                result = await _userManager.ChangePasswordAsync(user, u.OldPassword, u.NewPassword);
+                return BadRequest("Echec de la mise à jour du mot de passe");
             }
 
-            return Ok("Mot de passe mis à jour avec succès.");
+            IdentityResult result;
+
+            //Old pwd is known => Regular Pwd Change
+            result = await _userManager.ChangePasswordAsync(user, u.OldPassword, u.NewPassword);
+
+
+            if (result.Succeeded)
+            {
+                return Ok("Mot de passe mis à jour avec succès.");
+            }
+            else
+            {
+                return BadRequest("Echec de la mise à jour du mot de passe");
+            }
+
+
         }
 
         [HttpPut("forgotten-password/{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> ForgottenPassword(string id, [FromBody] UpdatePasswordDTO u)
+        public async Task<IActionResult> ForgottenPassword(string id, [FromForm] UpdatePasswordDTO u)
         {
             if (id != u.Id)
             {
@@ -214,11 +228,18 @@ namespace API_Arcadia.Controllers
             {
                 // Old Pwd !known => forgotten pwd
                 result = await _userManager.RemovePasswordAsync(user);
-                if (result.Succeeded)
+                if (!result.Succeeded)
                 {
-                    result = await _userManager.AddPasswordAsync(user, u.NewPassword);
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return ValidationProblem(ModelState);
+
                 }
-                else
+
+                result = await _userManager.AddPasswordAsync(user, u.NewPassword);
+                if (!result.Succeeded)
                 {
                     foreach (var error in result.Errors)
                     {
@@ -230,6 +251,8 @@ namespace API_Arcadia.Controllers
 
             return Ok("Mot de passe mis à jour avec succès.");
         }
+
+
 
         [HttpPost("register")]
         //[Authorize(Roles = "Admin")]
@@ -262,8 +285,8 @@ namespace API_Arcadia.Controllers
 
             if (IdentityResult.Succeeded)
             {
-			    IdentityResult = await _userManager.AddToRolesAsync(user, r.Roles);
-                
+                IdentityResult = await _userManager.AddToRolesAsync(user, r.Roles);
+
 
                 if (IdentityResult.Succeeded)
                 {
@@ -306,6 +329,7 @@ namespace API_Arcadia.Controllers
 
                     var response = new LoginResponseDTO()
                     {
+                        userId = IdentityUser.Id,
                         Email = l.Email,
                         Roles = roles.ToList(),
                         Token = token
@@ -341,8 +365,8 @@ namespace API_Arcadia.Controllers
                 return ValidationProblem(ModelState);
             }
 
-             return Ok("Utilisateur supprimé avec succès");
-           //return NoContent();
+            return Ok("Utilisateur supprimé avec succès");
+            //return NoContent();
         }
 
         private void IdentityResultChecking(IdentityResult ir)
