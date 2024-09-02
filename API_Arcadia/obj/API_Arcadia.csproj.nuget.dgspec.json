@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj": {}
+    "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj": {
+    "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
+        "projectUniqueName": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
         "projectName": "API_Arcadia",
-        "projectPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
+        "projectPath": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\API_Arcadia.csproj",
         "packagesPath": "C:\\Users\\Lacon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lacon\\Desktop\\DEVELOPPEMENT\\ECF_Zoo\\ECF_Zoo\\API_Arcadia\\obj\\",
+        "outputPath": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -116,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

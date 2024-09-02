@@ -1,0 +1,69 @@
+2024-09-01 21:57:10.501 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 21:57:10.718 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-01 21:57:10.718 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-01 21:57:10.755 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-01 21:57:10.756 +02:00  INF  Hosting environment: Development
+2024-09-01 21:57:10.757 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-01 21:57:11.106 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger - null null
+2024-09-01 21:57:11.236 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger - 301 0 null 132.9831ms
+2024-09-01 21:57:11.245 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-01 21:57:11.290 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 44.3739ms
+2024-09-01 21:57:11.330 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-09-01 21:57:11.330 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-01 21:57:11.330 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - null null
+2024-09-01 21:57:11.331 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-01 21:57:11.334 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 21:57:11.383 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 48.704ms
+2024-09-01 21:57:11.390 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-01 21:57:11.390 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-01 21:57:11.393 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-01 21:57:11.393 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 200 152034 text/css 63.5255ms
+2024-09-01 21:57:11.393 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 63.3455ms
+2024-09-01 21:57:11.394 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 64.186ms
+2024-09-01 21:57:11.420 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.7909ms
+2024-09-01 21:57:11.505 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-01 21:57:11.507 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-01 21:57:11.508 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 200 665 image/png 3.4675ms
+2024-09-01 21:57:11.561 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-01 21:57:11.670 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.6743ms
+2024-09-01 22:02:07.349 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats - null null
+2024-09-01 22:02:08.630 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-01 22:02:08.645 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-01 22:03:46.043 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 22:03:46.194 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-01 22:03:46.195 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-01 22:03:46.231 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-01 22:03:46.232 +02:00  INF  Hosting environment: Development
+2024-09-01 22:03:46.233 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-01 22:03:46.545 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-01 22:03:46.691 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 149.2434ms
+2024-09-01 22:03:46.732 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 22:03:46.733 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-01 22:03:46.743 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.2622ms
+2024-09-01 22:03:46.768 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.6001ms
+2024-09-01 22:03:46.897 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-01 22:03:46.984 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.212ms
+2024-09-01 22:03:53.946 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats - null null
+2024-09-01 22:03:53.991 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-01 22:03:54.005 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-01 22:07:15.394 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-01 22:07:15.584 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-01 22:07:15.585 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-01 22:07:15.629 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-01 22:07:15.630 +02:00  INF  Hosting environment: Development
+2024-09-01 22:07:15.631 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-01 22:07:16.020 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-01 22:07:16.161 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 146.8939ms
+2024-09-01 22:07:16.200 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 22:07:16.200 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-01 22:07:16.206 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2013ms
+2024-09-01 22:07:16.239 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.9238ms
+2024-09-01 22:07:16.393 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-01 22:07:16.487 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.3525ms
+2024-09-01 22:07:23.336 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats - null null
+2024-09-01 22:07:23.387 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-01 22:07:23.401 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-01 22:07:23.675 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.AnimalStats, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 22:07:23.684 +02:00  INF  Executed action API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia) in 279.9943ms
+2024-09-01 22:07:23.685 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-01 22:07:23.686 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Stats - 200 null application/json; charset=utf-8 350.653ms
