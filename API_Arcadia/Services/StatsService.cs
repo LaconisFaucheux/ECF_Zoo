@@ -27,7 +27,7 @@ namespace API_Arcadia.Services
 
         //ANIMALS
         public async Task<List<AnimalStats>> GetAnimalStatsAsync() =>
-            await _animalsStatsCollection.Find(_ => true).ToListAsync();
+            await _animalsStatsCollection.Find(_ => true).SortByDescending(s => s.NbClics).ToListAsync();
 
         public async Task<byte> CreateAnimalStatsAsync(AnimalStats animalStat)
         {
@@ -54,7 +54,7 @@ namespace API_Arcadia.Services
 
         //HABITATS
         public async Task<List<HabitatStats>> GetHabitatStatsAsync() =>
-            await _habitatsStatsCollection.Find(_ => true).ToListAsync();
+            await _habitatsStatsCollection.Find(_ => true).SortByDescending(s => s.NbClics).ToListAsync();
 
         public async Task<byte> CreateHabitatStatsAsync(HabitatStats habitatStat)
         {
@@ -67,8 +67,7 @@ namespace API_Arcadia.Services
             else
             {
                 return 1;
-            }
-            
+            }            
         }            
 
         public async Task UpdateHabitatStats(string id, HabitatStats statUpdate) =>

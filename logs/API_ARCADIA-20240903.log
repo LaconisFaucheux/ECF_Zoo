@@ -1,0 +1,60 @@
+2024-09-03 11:54:50.304 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 11:54:50.474 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-03 11:54:50.475 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-03 11:54:50.513 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-03 11:54:50.514 +02:00  INF  Hosting environment: Development
+2024-09-03 11:54:50.514 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-03 11:54:51.070 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger - null null
+2024-09-03 11:54:51.183 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger - 301 0 null 115.3153ms
+2024-09-03 11:54:51.187 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-03 11:54:51.229 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 41.9765ms
+2024-09-03 11:54:51.241 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-09-03 11:54:51.241 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - null null
+2024-09-03 11:54:51.241 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-03 11:54:51.241 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 11:54:51.259 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-03 11:54:51.270 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 29.4601ms
+2024-09-03 11:54:51.277 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-03 11:54:51.277 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-03 11:54:51.282 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 200 152034 text/css 41.4903ms
+2024-09-03 11:54:51.282 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 41.0752ms
+2024-09-03 11:54:51.287 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-03 11:54:51.289 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 47.9537ms
+2024-09-03 11:54:51.314 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.3059ms
+2024-09-03 11:54:51.445 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-03 11:54:51.533 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.6492ms
+2024-09-03 11:57:25.379 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats/animals - null null
+2024-09-03 11:57:26.709 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:57:26.728 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-03 11:57:27.139 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.AnimalStats, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 11:57:27.149 +02:00  INF  Executed action API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia) in 417.3207ms
+2024-09-03 11:57:27.150 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:57:27.151 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Stats/animals - 200 null application/json; charset=utf-8 1773.9282ms
+2024-09-03 11:58:00.716 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats/animals - null null
+2024-09-03 11:58:00.720 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:58:00.724 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-03 11:58:00.729 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.AnimalStats, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 11:58:00.730 +02:00  INF  Executed action API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia) in 5.199ms
+2024-09-03 11:58:00.731 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:58:00.732 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Stats/animals - 200 null application/json; charset=utf-8 16.4519ms
+2024-09-03 11:58:49.841 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 11:58:50.025 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-03 11:58:50.026 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-03 11:58:50.061 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-03 11:58:50.062 +02:00  INF  Hosting environment: Development
+2024-09-03 11:58:50.063 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-03 11:58:50.472 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-03 11:58:50.599 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 130.0469ms
+2024-09-03 11:58:50.619 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 11:58:50.624 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-03 11:58:50.626 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.8369ms
+2024-09-03 11:58:50.653 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.0795ms
+2024-09-03 11:58:50.794 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-03 11:58:50.880 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.6241ms
+2024-09-03 11:59:01.964 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Stats/animals - null null
+2024-09-03 11:59:02.010 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:59:02.022 +02:00  INF  Route matched with {action = "GetAnimalsStats", controller = "Stats"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[API_Arcadia.Models.AnimalStats]] GetAnimalsStats() on controller API_Arcadia.Controllers.StatsController (API_Arcadia).
+2024-09-03 11:59:02.262 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.AnimalStats, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 11:59:02.273 +02:00  INF  Executed action API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia) in 247.0716ms
+2024-09-03 11:59:02.274 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.StatsController.GetAnimalsStats (API_Arcadia)'
+2024-09-03 11:59:02.275 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Stats/animals - 200 null application/json; charset=utf-8 311.7482ms
