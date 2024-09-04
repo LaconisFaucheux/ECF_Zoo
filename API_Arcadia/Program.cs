@@ -119,16 +119,35 @@ namespace API_Arcadia
     });
             });
 
-            //A MODIFIER AVANT MISE EN PROD
+
+
+            //builder.Services.AddCors(policy =>
+            //{
+            //    policy.AddPolicy("CorsPolicy",
+            //        builder => builder
+            //            .AllowAnyMethod()
+            //            .AllowCredentials()
+            //            .SetIsOriginAllowed((host) => true)
+            //            .AllowAnyHeader());
+            //});
 #if DEBUG
-            builder.Services.AddCors(policy =>
+            builder.Services.AddCors(options =>
+			{
+				options.AddDefaultPolicy(
+					policy =>
+					{
+						policy.WithOrigins("localhost:4200");
+					});
+			});
+#else
+
+            builder.Services.AddCors(options =>
             {
-                policy.AddPolicy("CorsPolicy",
-                    builder => builder
-                        .AllowAnyMethod()
-                        .AllowCredentials()
-                        .SetIsOriginAllowed((host) => true)
-                        .AllowAnyHeader());
+                options.AddDefaultPolicy(
+                    policy =>
+                    {
+                        policy.WithOrigins("https://jolly-hill-0cb85db03.5.azurestaticapps.net/");
+                    });
             });
 #endif
 
@@ -136,7 +155,7 @@ namespace API_Arcadia
 
             var app = builder.Build();
 
-            app.UseCors("CorsPolicy");
+            app.UseCors();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

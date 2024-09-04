@@ -1,44 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\",
+  "WorkspaceRootPath": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\habitatstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\models\\habitatstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\habitatstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\animalstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\models\\animalstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\animalstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\statsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|c:\\users\\nicolas.frotey\\documents\\5-perso\\ecf_zoo\\api_arcadia\\models\\statsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\statsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -49,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 147,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,33 +61,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.HabitatImages.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-02T13:43:31.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AnimalsController.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AnimalsController.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
               "RelativeToolTip": "Controllers\\AnimalsController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAIwF8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T12:07:24.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T12:07:24.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AnimalService.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
               "RelativeDocumentMoniker": "Services\\AnimalService.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
               "RelativeToolTip": "Services\\AnimalService.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,37 +85,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StatsController.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StatsController.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
               "RelativeToolTip": "Controllers\\StatsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAA3AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:54:05.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StatsService.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
               "RelativeDocumentMoniker": "Services\\StatsService.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
               "RelativeToolTip": "Services\\StatsService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:52:41.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T18:52:41.73Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "StatsDatabaseSettings.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
               "RelativeDocumentMoniker": "Models\\StatsDatabaseSettings.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
               "RelativeToolTip": "Models\\StatsDatabaseSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,9 +124,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\appsettings.json",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -145,11 +134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HabitatStats.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
               "RelativeDocumentMoniker": "Models\\HabitatStats.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
               "RelativeToolTip": "Models\\HabitatStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,27 +146,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAuwIEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:02:43.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.HabitatImages.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-02T13:43:31.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AnimalStats.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\AnimalStats.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\AnimalStats.cs",
               "RelativeDocumentMoniker": "Models\\AnimalStats.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\AnimalStats.cs",
+              "ToolTip": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\Models\\AnimalStats.cs",
               "RelativeToolTip": "Models\\AnimalStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T18:13:50.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:02:43.883Z"
             }
           ]
         },
@@ -192,10 +191,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
