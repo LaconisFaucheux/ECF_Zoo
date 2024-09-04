@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "ignored": "true",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/API-Arcadia/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsArcadiaConnect_B28DD6E083",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/arcadia-db-serverless/databases/arcadia-db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ArcadiaConnect",
+      "dynamicId": null
+    }
+  }
+}

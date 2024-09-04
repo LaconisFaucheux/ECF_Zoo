@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\EFSQLScripts\API_Arcadia.Models.Data.AuthDbContext.sql" />
+  <dbfullsql path="D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\EFSQLScripts\API_Arcadia.Models.Data.ContextArcadia.sql" />
+</sitemanifest>

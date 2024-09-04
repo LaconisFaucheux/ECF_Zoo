@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="API-Arcadia" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="API_Arcadia.Models.Data.AuthDbContext" description="" value="Data Source=arcadia-db-serverless.database.windows.net,1433;Initial Catalog=arcadia-db;User ID=NicolasFrotey;Password=IO54X2aqj3z6er" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\API_Arcadia\.Models\.Data\.AuthDbContext\.sql$" />
+  </parameter>
+  <parameter name="API_Arcadia.Models.Data.ContextArcadia" description="" value="Data Source=arcadia-db-serverless.database.windows.net,1433;Initial Catalog=arcadia-db;User ID=NicolasFrotey;Password=IO54X2aqj3z6er" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\API_Arcadia\.Models\.Data\.ContextArcadia\.sql$" />
+  </parameter>
+</parameters>

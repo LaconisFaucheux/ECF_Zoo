@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2024-09-04T18:12:50.9219168Z||;True|2024-09-03T14:11:52.5262461+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ArcadiaConnect">
+      <Value>Data Source=arcadia-db-serverless.database.windows.net,1433%3bInitial Catalog=arcadia-db%3bUser ID=NicolasFrotey%3bPassword=IO54X2aqj3z6er</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="API_Arcadia.Models.Data.AuthDbContext">
+      <Value>Data Source=arcadia-db-serverless.database.windows.net,1433%3bInitial Catalog=arcadia-db%3bUser ID=NicolasFrotey%3bPassword=IO54X2aqj3z6er</Value>
+    </EFMigrations>
+    <EFMigrations Include="API_Arcadia.Models.Data.ContextArcadia">
+      <Value>Data Source=arcadia-db-serverless.database.windows.net,1433%3bInitial Catalog=arcadia-db%3bUser ID=NicolasFrotey%3bPassword=IO54X2aqj3z6er</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
