@@ -17,6 +17,8 @@ namespace API_Arcadia
 {
     public class Program
     {
+        readonly string AllowArcadiaFrontPolicy = "_allowArcadiaFrontPolicy";
+        
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -121,37 +123,44 @@ namespace API_Arcadia
 
 
 
-            //builder.Services.AddCors(policy =>
-            //{
-            //    policy.AddPolicy("CorsPolicy",
-            //        builder => builder
-            //            .AllowAnyMethod()
-            //            .AllowCredentials()
-            //            .SetIsOriginAllowed((host) => true)
-            //            .AllowAnyHeader());
-            //});
-#if DEBUG
-            builder.Services.AddCors(options =>
+            builder.Services.AddCors(policy =>
             {
-                options.AddPolicy("AllowArcadiaFront",
-                                  builder => builder
-                                  .WithOrigins("https://localhost:4200"));
+                policy.AddPolicy("CorsPolicy",
+                    builder => builder
+                        .AllowAnyMethod()
+                        .AllowCredentials()
+                        .SetIsOriginAllowed((host) => true)
+                        .AllowAnyHeader());
             });
-#else
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowArcadiaFront",
-                                  builder => builder
-                                  .WithOrigins("https://jolly-hill-0cb85db03.5.azurestaticapps.net/"));
-            });
-#endif
+
+
+            //#if DEBUG
+            //                        builder.Services.AddCors(options =>
+            //                        {
+            //                            options.AddPolicy("AllowArcadiaFront",
+            //                                              builder => builder
+            //                                              .WithOrigins("https://localhost:4200"));
+            //                        });
+            //#else
+
+            //            builder.Services.AddCors(options =>
+            //            {
+            //                options.AddPolicy("AllowOrigin",
+            //                    builder =>
+            //                    {
+            //                        builder.WithOrigins("https://jolly-hill-0cb85db03.5.azurestaticapps.net/")
+            //                               .AllowAnyHeader()
+            //                               .AllowAnyMethod();
+            //                    });
+            //            });
+            //#endif
 
 
 
             var app = builder.Build();
 
-            app.UseCors("AllowArcadiaFront");
+            app.UseCors("CorsPolicy");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

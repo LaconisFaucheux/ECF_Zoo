@@ -1,0 +1,189 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693869536018_Mufasa.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693869536822_Mufasa_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693873204536_Mufasa.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638496693873204641_Mufasa_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638602187295039518_Aliénor.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\638602187295039587_Aliénor_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\l_orang_outan1.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\l_orang_outan1_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\l_orang_outan2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\l_orang_outan2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_loutre1.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_loutre1_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_loutre2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_loutre2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_panthere1.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_panthere1_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_panthere2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\la_panthere2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_gorille1.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_gorille1_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_gorille2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_gorille2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_heron1.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_heron1_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_heron2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_heron2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_rhino1.jpeg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_rhino1_mini.jpeg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_rhino2.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\le_rhino2_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Jungle.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Jungle_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Marais.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Marais_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
+      "PackagePath": "staticwebassets\\images\\habitats\\Montagne.png"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
+      "PackagePath": "staticwebassets\\images\\habitats\\Montagne_mini.png"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Savane.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
+      "PackagePath": "staticwebassets\\images\\habitats\\Savane_mini.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
+      "PackagePath": "staticwebassets\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
+      "PackagePath": "staticwebassets\\images\\zoo-services\\petit_train.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
+      "PackagePath": "staticwebassets\\images\\zoo-services\\restauration.jpg"
+    },
+    {
+      "Id": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
+      "PackagePath": "staticwebassets\\images\\zoo-services\\visite_guidee.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API_Arcadia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API_Arcadia.props",
+      "PackagePath": "build\\API_Arcadia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API_Arcadia.props",
+      "PackagePath": "buildMultiTargeting\\API_Arcadia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API_Arcadia.props",
+      "PackagePath": "buildTransitive\\API_Arcadia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
