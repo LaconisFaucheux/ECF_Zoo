@@ -23,6 +23,10 @@ namespace API_Arcadia.Controllers
         public async Task<List<AnimalStats>> GetAnimalsStats() =>
             await _statsService.GetAnimalStatsAsync();
 
+        [HttpGet("animals/{id}")]
+        public async Task<AnimalStats> GetAnimalStat(int id) =>
+            await _statsService.GetAnimalStatAsync(id);
+
         [HttpPost("animals")]
         public async Task<ActionResult> CreateAnimalStat(AnimalStats animalStat)
         {
@@ -39,14 +43,13 @@ namespace API_Arcadia.Controllers
         }
             
 
-        [HttpPut("animals/{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task UpdateAnimalStat(string id, AnimalStats animalStat) =>
-            await _statsService.UpdateAnimalStats(id, animalStat);
+        [HttpGet("animalsUpdate/{id}")]
+        public async Task UpdateAnimalStat(int id) =>
+            await _statsService.UpdateAnimalStats(id);
 
         [HttpDelete("animals/{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task DeleteAnimalStat(string id) =>
+        public async Task DeleteAnimalStat(int id) =>
             await _statsService.DeleteAnimalStats(id);
 
 
@@ -56,13 +59,17 @@ namespace API_Arcadia.Controllers
         public async Task<List<HabitatStats>> GetHabitatsStats() =>
             await _statsService.GetHabitatStatsAsync();
 
+        [HttpGet("habitats/{id}")]
+        public async Task<HabitatStats> GetHabitatStat(int id) =>
+            await _statsService.GetHabitatStatAsync(id);
+
         [HttpPost("habitats")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult> CreateHabitatStat(HabitatStats habitatStat)
         {
             var result = await _statsService.CreateHabitatStatsAsync(habitatStat);
 
-            if (result == 1)
+            if (result == 0)
             {
                 return Ok();
             }
@@ -72,14 +79,13 @@ namespace API_Arcadia.Controllers
             }
         }            
 
-        [HttpPut("habitats/{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task UpdateHabitatStat(string id, HabitatStats habitatStat) =>
-            await _statsService.UpdateHabitatStats(id, habitatStat);
+        [HttpGet("habitatsUpdate/{id}")]
+        public async Task UpdateHabitatStat(int id) =>
+            await _statsService.UpdateHabitatStats(id);
 
         [HttpDelete("habitats/{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task DeleteHabitatStat(string id) =>
+        public async Task DeleteHabitatStat(int id) =>
             await _statsService.DeleteHabitatStats(id);
     }
 }
