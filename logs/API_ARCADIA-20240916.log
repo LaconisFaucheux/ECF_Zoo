@@ -1,0 +1,325 @@
+2024-09-16 20:53:25.804 +02:00  INF  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 20:53:25.842 +02:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 20:53:25.844 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 20:53:25.844 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 20:53:25.855 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 20:53:25.864 +02:00  INF  Applying migration '20240916185253_Adding_EmployeeFeeding'.
+2024-09-16 20:53:25.915 +02:00  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [EmployeeFeedings] (
+    [Id] int NOT NULL IDENTITY,
+    [EmployeeEmail] nvarchar(max) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    [Food] nvarchar(max) NOT NULL,
+    [Weight] float NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    CONSTRAINT [PK_EmployeeFeedings] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-16 20:53:25.916 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdAnimal] ON [EmployeeFeedings] ([IdAnimal]);
+2024-09-16 20:53:25.916 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdWeightUnit] ON [EmployeeFeedings] ([IdWeightUnit]);
+2024-09-16 20:53:25.917 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240916185253_Adding_EmployeeFeeding', N'8.0.8');
+2024-09-16 21:19:52.629 +02:00  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:19:52.664 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:19:52.665 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:19:52.665 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:19:52.675 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:19:52.683 +02:00  INF  Applying migration '20240916191945_Adding_EmployeeFeeding_Date'.
+2024-09-16 21:19:52.720 +02:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [EmployeeFeedings] ADD [Date] datetime2 NOT NULL DEFAULT '0001-01-01T00:00:00.0000000';
+2024-09-16 21:19:52.721 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240916191945_Adding_EmployeeFeeding_Date', N'8.0.8');
+2024-09-16 21:20:30.749 +02:00  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:20:30.784 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:20:30.786 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:20:30.786 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:20:30.794 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:20:30.802 +02:00  INF  No migrations were applied. The database is already up to date.
+2024-09-16 21:21:17.105 +02:00  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:21:17.139 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:21:17.141 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:21:17.141 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:21:17.149 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:21:17.158 +02:00  INF  Applying migration '20240916192111_Adding_EmployeeFeeding'.
+2024-09-16 21:21:17.188 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240916192111_Adding_EmployeeFeeding', N'8.0.8');
+2024-09-16 21:22:46.130 +02:00  INF  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:22:46.166 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:22:46.168 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:22:46.168 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:22:46.176 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:22:46.185 +02:00  INF  No migrations were applied. The database is already up to date.
+2024-09-16 21:27:40.209 +02:00  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:27:40.244 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:27:40.251 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:29:36.623 +02:00  INF  Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Arcadia];
+2024-09-16 21:29:36.692 +02:00  INF  Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Arcadia] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-16 21:29:36.703 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:29:36.743 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-16 21:29:36.744 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-16 21:29:36.753 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-16 21:29:36.756 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-16 21:29:36.765 +02:00  INF  Applying migration '20240417114152_DbCreation'.
+2024-09-16 21:29:36.806 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Diets] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Diets] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.807 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Habitats] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Habitats] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.808 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Healths] (
+    [Id] int NOT NULL IDENTITY,
+    [State] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Healths] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.808 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OpeningHours] (
+    [Id] int NOT NULL IDENTITY,
+    [DayOfWeek] nvarchar(10) NOT NULL,
+    [MorningOpening] time NULL,
+    [MorningClosing] time NULL,
+    [AfternoonOpening] time NULL,
+    [AfternoonClosing] time NULL,
+    CONSTRAINT [PK_OpeningHours] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.852 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Pseudo] nvarchar(100) NOT NULL,
+    [Content] nvarchar(max) NOT NULL,
+    [IsValidated] bit NOT NULL,
+    [Note] tinyint NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.852 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SizeUnits] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(20) NOT NULL,
+    [Abbr] nvarchar(2) NOT NULL,
+    CONSTRAINT [PK_SizeUnits] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.853 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WeightUnits] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(20) NOT NULL,
+    [Abbr] nvarchar(2) NOT NULL,
+    CONSTRAINT [PK_WeightUnits] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.855 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ZooServices] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [FullPrice] real NULL,
+    [ChildPrice] real NULL,
+    CONSTRAINT [PK_ZooServices] PRIMARY KEY ([Id])
+);
+2024-09-16 21:29:36.856 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [HabitatImages] (
+    [Id] int NOT NULL IDENTITY,
+    [Slug] nvarchar(150) NOT NULL,
+    [IdHabitat] int NOT NULL,
+    CONSTRAINT [PK_HabitatImages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_HabitatImages_Habitats_IdHabitat] FOREIGN KEY ([IdHabitat]) REFERENCES [Habitats] ([Id]) ON DELETE CASCADE
+);
+2024-09-16 21:29:36.857 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Speciess] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(150) NOT NULL,
+    [ScientificName] nvarchar(150) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [MaleMaxSize] real NOT NULL,
+    [FemaleMaxSize] real NULL,
+    [MaleMaxWeight] real NOT NULL,
+    [FemaleMaxWeight] real NULL,
+    [IdSizeUnit] int NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    [Lifespan] tinyint NOT NULL,
+    [IdDiet] int NOT NULL,
+    CONSTRAINT [PK_Speciess] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Speciess_Diets_IdDiet] FOREIGN KEY ([IdDiet]) REFERENCES [Diets] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Speciess_SizeUnits_IdSizeUnit] FOREIGN KEY ([IdSizeUnit]) REFERENCES [SizeUnits] ([Id]),
+    CONSTRAINT [FK_Speciess_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-16 21:29:38.575 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Animals] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [IsMale] bit NOT NULL,
+    [IdSpecies] int NOT NULL,
+    [IdHealth] int NOT NULL,
+    CONSTRAINT [PK_Animals] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Animals_Healths_IdHealth] FOREIGN KEY ([IdHealth]) REFERENCES [Healths] ([Id]),
+    CONSTRAINT [FK_Animals_Speciess_IdSpecies] FOREIGN KEY ([IdSpecies]) REFERENCES [Speciess] ([Id]) ON DELETE NO ACTION
+);
+2024-09-16 21:29:38.576 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SpeciesHabitats] (
+    [IdSpecies] int NOT NULL,
+    [IdHabitat] int NOT NULL,
+    CONSTRAINT [PK_SpeciesHabitats] PRIMARY KEY ([IdHabitat], [IdSpecies]),
+    CONSTRAINT [FK_SpeciesHabitats_Habitats_IdHabitat] FOREIGN KEY ([IdHabitat]) REFERENCES [Habitats] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_SpeciesHabitats_Speciess_IdSpecies] FOREIGN KEY ([IdSpecies]) REFERENCES [Speciess] ([Id]) ON DELETE CASCADE
+);
+2024-09-16 21:29:39.821 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AnimalImages] (
+    [Id] int NOT NULL IDENTITY,
+    [Slug] nvarchar(150) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    CONSTRAINT [PK_AnimalImages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AnimalImages_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]) ON DELETE CASCADE
+);
+2024-09-16 21:29:39.823 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VetVisits] (
+    [Id] int NOT NULL IDENTITY,
+    [Food] nvarchar(200) NOT NULL,
+    [FoodWeight] real NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    [VisitDate] datetime2 NOT NULL,
+    [Observations] nvarchar(max) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    [IdVet] int NULL,
+    CONSTRAINT [PK_VetVisits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_VetVisits_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_VetVisits_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-16 21:29:39.823 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AnimalImages_IdAnimal] ON [AnimalImages] ([IdAnimal]);
+2024-09-16 21:29:39.823 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Animals_IdHealth] ON [Animals] ([IdHealth]);
+2024-09-16 21:29:39.824 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Animals_IdSpecies] ON [Animals] ([IdSpecies]);
+2024-09-16 21:29:39.824 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_HabitatImages_IdHabitat] ON [HabitatImages] ([IdHabitat]);
+2024-09-16 21:29:39.825 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_SpeciesHabitats_IdSpecies] ON [SpeciesHabitats] ([IdSpecies]);
+2024-09-16 21:29:41.069 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdDiet] ON [Speciess] ([IdDiet]);
+2024-09-16 21:29:41.070 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdSizeUnit] ON [Speciess] ([IdSizeUnit]);
+2024-09-16 21:29:41.072 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdWeightUnit] ON [Speciess] ([IdWeightUnit]);
+2024-09-16 21:29:41.072 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VetVisits_IdAnimal] ON [VetVisits] ([IdAnimal]);
+2024-09-16 21:29:41.072 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VetVisits_IdWeightUnit] ON [VetVisits] ([IdWeightUnit]);
+2024-09-16 21:29:41.074 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240417114152_DbCreation', N'8.0.8');
+2024-09-16 21:29:41.077 +02:00  INF  Applying migration '20240423203332_AjoutMiniatureImage'.
+2024-09-16 21:29:41.093 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [HabitatImages] ADD [MiniSlug] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-16 21:29:41.094 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AnimalImages] ADD [MiniSlug] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-16 21:29:41.094 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240423203332_AjoutMiniatureImage', N'8.0.8');
+2024-09-16 21:29:41.095 +02:00  INF  Applying migration '20240703202629_Ajout_Images_ZooServices'.
+2024-09-16 21:29:41.110 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [ZooServices] ADD [Pic] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-16 21:29:42.108 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240703202629_Ajout_Images_ZooServices', N'8.0.8');
+2024-09-16 21:29:42.109 +02:00  INF  Applying migration '20240825080916_ModifTypeIdVetForVetVisit'.
+2024-09-16 21:29:42.160 +02:00  INF  Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[VetVisits]') AND [c].[name] = N'IdVet');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [VetVisits] DROP CONSTRAINT [' + @var0 + '];');
+UPDATE [VetVisits] SET [IdVet] = N'' WHERE [IdVet] IS NULL;
+ALTER TABLE [VetVisits] ALTER COLUMN [IdVet] nvarchar(max) NOT NULL;
+ALTER TABLE [VetVisits] ADD DEFAULT N'' FOR [IdVet];
+2024-09-16 21:29:42.161 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240825080916_ModifTypeIdVetForVetVisit', N'8.0.8');
+2024-09-16 21:29:42.161 +02:00  INF  Applying migration '20240916192918_Adding_EmployeeFeeding'.
+2024-09-16 21:29:42.179 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [EmployeeFeedings] (
+    [Id] int NOT NULL IDENTITY,
+    [EmployeeEmail] nvarchar(max) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    [Food] nvarchar(max) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [Weight] float NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    CONSTRAINT [PK_EmployeeFeedings] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-16 21:29:43.325 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdAnimal] ON [EmployeeFeedings] ([IdAnimal]);
+2024-09-16 21:29:43.326 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdWeightUnit] ON [EmployeeFeedings] ([IdWeightUnit]);
+2024-09-16 21:29:43.326 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240916192918_Adding_EmployeeFeeding', N'8.0.8');

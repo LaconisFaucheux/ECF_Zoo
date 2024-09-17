@@ -24,6 +24,7 @@ namespace API_Arcadia.Models.Data
         public virtual DbSet<SpeciesHabitat> SpeciesHabitats { get; set; }
         public virtual DbSet<VetVisit> VetVisits { get; set; }
         public virtual DbSet<ZooService> ZooServices { get; set; }
+        public virtual DbSet<EmployeeFeeding> EmployeeFeedings { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -133,6 +134,14 @@ namespace API_Arcadia.Models.Data
                 entity.HasKey(zs => zs.Id);
                 entity.Property(zs => zs.Name).HasMaxLength(100);
                 entity.Property(zs => zs.Pic).HasMaxLength(150);
+            });
+
+            modelBuilder.Entity<EmployeeFeeding>(entity =>
+            {
+                entity.HasKey(ef => ef.Id);
+                entity.HasOne(ef => ef.relatedAnimal).WithMany().HasForeignKey(ef => ef.IdAnimal).OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(ef => ef.weightUnit).WithMany().HasForeignKey(ef => ef.IdWeightUnit).OnDelete(DeleteBehavior.NoAction);
+
             });
         }
     }

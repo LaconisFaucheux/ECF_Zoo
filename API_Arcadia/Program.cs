@@ -45,6 +45,7 @@ namespace API_Arcadia
             builder.Services.AddScoped<ISpeciesService, SpeciesService>();
             builder.Services.AddScoped<IVetVisitService, VetVisitService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IEmployeeFeedingService, EmployeeFeedingService>();
 
             //Identity Config
             builder.Services.AddIdentityCore<IdentityUser>()

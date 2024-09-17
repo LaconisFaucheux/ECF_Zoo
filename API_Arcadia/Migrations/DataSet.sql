@@ -124,3 +124,10 @@ INSERT INTO VetVisits (Food, FoodWeight, IdWeightUnit, VisitDate, Observations, 
         ('Coktail de fruits', 400, 1, '2024-02-15 09:15:12.789', 'Berlewen est en parfaite santé', 3, 1),
         ('Chevreuil', 550, 1, '2024-03-21 11:04:28.456', 'Ecorchure sur la patte avant droite, à surveiller', 5, 1),
         ('Chevreuil', 450, 1, '2024-03-22 10:04:28.456', 'RAS Coya est en grande forme', 6, 1);
+
+INSERT INTO EmployeeFeedings (EmployeeEmail, IdAnimal, Food, Weight, IdWeightUnit, Date)
+    VALUES
+    ('admin@arcadia.fr', 1, 'Boeuf', 1500, 1, '2024-03-22 10:04:28.456'),
+    ('admin@arcadia.fr', 2, 'Boeuf', 1500, 1, '2024-03-22 10:04:28.456'),
+    ('admin@arcadia.fr', 3, 'Bananes', 2500, 1, '2024-03-22 10:04:28.456');
+

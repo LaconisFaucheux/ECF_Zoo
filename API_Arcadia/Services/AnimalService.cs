@@ -99,16 +99,6 @@ namespace API_Arcadia.Services
             await _context.SaveChangesAsync();
 
             return a;
-
-            //Animal a = new Animal
-            //{
-            //    Name = "Pouet",
-            //    IsMale = true,
-            //    IdSpecies = 1,
-            //    IdHealth = 1
-            //};
-
-            //return a;
         }
 
         public async Task<int> DeleteAnimal(int id)

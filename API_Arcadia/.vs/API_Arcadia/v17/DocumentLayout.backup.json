@@ -3,43 +3,64 @@
   "WorkspaceRootPath": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\habitatstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\habitatstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\data\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\data\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\employeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\employeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\statsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\statsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\employeefeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\employeefeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\interfaces\\iemployeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:interfaces\\iemployeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\employeefeedingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\employeefeedingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916185253_Adding_EmployeeFeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240916185253_Adding_EmployeeFeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916192918_Adding_EmployeeFeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240916192918_Adding_EmployeeFeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\data\\contextarcadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\data\\contextarcadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\habitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,8 +69,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 147,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 137,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,126 +82,204 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HabitatStats.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
-              "RelativeDocumentMoniker": "Models\\HabitatStats.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\HabitatStats.cs",
-              "RelativeToolTip": "Models\\HabitatStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T12:22:17.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatsController.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StatsController.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
-              "RelativeToolTip": "Controllers\\StatsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T19:54:05.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-01T18:25:17.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAgwKIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:02:43.883Z",
+              "WhenOpened": "2024-09-17T14:02:33.605Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatsService.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
-              "RelativeDocumentMoniker": "Services\\StatsService.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
-              "RelativeToolTip": "Services\\StatsService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAjwE4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:52:41.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StatsDatabaseSettings.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
-              "RelativeDocumentMoniker": "Models\\StatsDatabaseSettings.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\StatsDatabaseSettings.cs",
-              "RelativeToolTip": "Models\\StatsDatabaseSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:46:53.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginResponseDTO.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\LoginResponseDTO.cs",
-              "RelativeDocumentMoniker": "Models\\Data\\LoginResponseDTO.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\LoginResponseDTO.cs",
-              "RelativeToolTip": "Models\\Data\\LoginResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "IEmployeeFeedingService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Interfaces\\IEmployeeFeedingService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEmployeeFeedingService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Interfaces\\IEmployeeFeedingService.cs",
+              "RelativeToolTip": "Interfaces\\IEmployeeFeedingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T15:12:06.545Z",
+              "WhenOpened": "2024-09-17T13:58:49.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeFeedingService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\EmployeeFeedingService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeFeedingService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\EmployeeFeedingService.cs",
+              "RelativeToolTip": "Services\\EmployeeFeedingService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:37:31.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AnimalService.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
-              "RelativeDocumentMoniker": "Services\\AnimalService.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
-              "RelativeToolTip": "Services\\AnimalService.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Title": "EmployeeFeedingsController.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\EmployeeFeedingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeFeedingsController.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\EmployeeFeedingsController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeFeedingsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T09:49:36.135Z"
+              "WhenOpened": "2024-09-17T12:59:38.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnimalsController.cs",
-              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AnimalsController.cs",
-              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AnimalsController.cs",
-              "RelativeToolTip": "Controllers\\AnimalsController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwF8AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "20240916192918_Adding_EmployeeFeeding.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916192918_Adding_EmployeeFeeding.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240916192918_Adding_EmployeeFeeding.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916192918_Adding_EmployeeFeeding.cs",
+              "RelativeToolTip": "Migrations\\20240916192918_Adding_EmployeeFeeding.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T12:07:24.839Z"
+              "WhenOpened": "2024-09-16T19:29:18.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240916185253_Adding_EmployeeFeeding.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916185253_Adding_EmployeeFeeding.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240916185253_Adding_EmployeeFeeding.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Migrations\\20240916185253_Adding_EmployeeFeeding.cs",
+              "RelativeToolTip": "Migrations\\20240916185253_Adding_EmployeeFeeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:52:53.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContextArcadia.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\ContextArcadia.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\ContextArcadia.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\ContextArcadia.cs",
+              "RelativeToolTip": "Models\\Data\\ContextArcadia.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:22:44.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Habitat.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Habitat.cs",
+              "RelativeDocumentMoniker": "Models\\Habitat.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Habitat.cs",
+              "RelativeToolTip": "Models\\Habitat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:21:38.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Models\\Animal.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Animal.cs",
+              "RelativeToolTip": "Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:21:14.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Species.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Species.cs",
+              "RelativeDocumentMoniker": "Models\\Species.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Species.cs",
+              "RelativeToolTip": "Models\\Species.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:19:54.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 157,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeFeeding.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\EmployeeFeeding.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeFeeding.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\EmployeeFeeding.cs",
+              "RelativeToolTip": "Models\\EmployeeFeeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:15:23.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs",
+              "RelativeDocumentMoniker": "Services\\AnimalService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\AnimalService.cs*",
+              "RelativeToolTip": "Services\\AnimalService.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwGQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:53:43.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAnimalService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Interfaces\\IAnimalService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAnimalService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Interfaces\\IAnimalService.cs",
+              "RelativeToolTip": "Interfaces\\IAnimalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:58:54.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "dbo.HabitatImages.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Arcadia/True/SqlTable/dbo.HabitatImages.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-02T13:43:31.47Z"
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatsController.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "Controllers\\StatsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:22:29.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatsService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
+              "RelativeDocumentMoniker": "Services\\StatsService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\StatsService.cs",
+              "RelativeToolTip": "Services\\StatsService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:22:42.844Z",
+              "EditorCaption": ""
             }
           ]
         },

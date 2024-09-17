@@ -99,6 +99,43 @@ namespace API_Arcadia.Migrations
                     b.ToTable("Diets");
                 });
 
+            modelBuilder.Entity("API_Arcadia.Models.EmployeeFeeding", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmployeeEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Food")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("IdAnimal")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdWeightUnit")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Weight")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdAnimal");
+
+                    b.HasIndex("IdWeightUnit");
+
+                    b.ToTable("EmployeeFeedings");
+                });
+
             modelBuilder.Entity("API_Arcadia.Models.Habitat", b =>
                 {
                     b.Property<int>("Id")
@@ -444,6 +481,25 @@ namespace API_Arcadia.Migrations
                         .HasForeignKey("IdAnimal")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("API_Arcadia.Models.EmployeeFeeding", b =>
+                {
+                    b.HasOne("API_Arcadia.Models.Animal", "relatedAnimal")
+                        .WithMany()
+                        .HasForeignKey("IdAnimal")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("API_Arcadia.Models.WeightUnit", "weightUnit")
+                        .WithMany()
+                        .HasForeignKey("IdWeightUnit")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("relatedAnimal");
+
+                    b.Navigation("weightUnit");
                 });
 
             modelBuilder.Entity("API_Arcadia.Models.HabitatImage", b =>
