@@ -50,7 +50,7 @@ namespace API_Arcadia.Controllers
             return vetVisit;
         }
 
-        //Rapporte vet non modifiables pour une meilleure protection des animaux (pas de modif après coup pour camoufler des erreurs)
+        //Rapport vet non modifiables pour une meilleure protection des animaux (pas de modif après coup pour camoufler des erreurs)
         // PUT: api/VetVisits/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         //[HttpPut("{id}")]

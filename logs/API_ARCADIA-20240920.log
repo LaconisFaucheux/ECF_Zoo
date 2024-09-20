@@ -1,0 +1,1110 @@
+2024-09-20 10:36:01.357 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:36:01.582 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:36:01.583 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:36:01.628 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:36:01.629 +02:00  INF  Hosting environment: Development
+2024-09-20 10:36:01.629 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:36:02.197 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger - null null
+2024-09-20 10:36:02.319 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger - 301 0 null 125.4398ms
+2024-09-20 10:36:02.331 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:36:02.377 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 45.7325ms
+2024-09-20 10:36:02.420 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-09-20 10:36:02.420 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - null null
+2024-09-20 10:36:02.421 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-20 10:36:02.421 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:36:02.422 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:36:02.432 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.5335ms
+2024-09-20 10:36:02.483 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-20 10:36:02.483 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-20 10:36:02.485 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 200 152034 text/css 65.601ms
+2024-09-20 10:36:02.486 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 65.3111ms
+2024-09-20 10:36:02.491 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-20 10:36:02.493 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 73.0934ms
+2024-09-20 10:36:02.520 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.4193ms
+2024-09-20 10:36:02.659 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:36:02.748 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.7386ms
+2024-09-20 10:36:02.753 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-20 10:36:02.754 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-20 10:36:02.755 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 200 665 image/png 2.6923ms
+2024-09-20 10:36:09.588 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:36:11.022 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:36:11.034 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:36:13.807 +02:00  INF  Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:36:13.864 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:36:13.892 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 2853.7817ms
+2024-09-20 10:36:13.894 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:36:13.900 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 4312.2573ms
+2024-09-20 10:39:22.316 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 159
+2024-09-20 10:39:22.322 +02:00  INF  CORS policy execution successful.
+2024-09-20 10:39:22.324 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:39:22.330 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:39:22.588 +02:00  INF  Executed DbCommand (69ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 20), @p2='?' (Size = 2), @p3='?' (Size = 20), @p4='?' (Size = 2), @p5='?' (Size = 20), @p6='?' (Size = 2), @p7='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Diets] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+INSERT INTO [Healths] ([State])
+OUTPUT INSERTED.[Id]
+VALUES (@p1);
+INSERT INTO [SizeUnits] ([Abbr], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3);
+MERGE [WeightUnits] USING (
+VALUES (@p4, @p5, 0),
+(@p6, @p7, 1)) AS i ([Abbr], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Abbr], [Name])
+VALUES (i.[Abbr], i.[Name])
+OUTPUT INSERTED.[Id], i._Position;
+2024-09-20 10:39:22.604 +02:00  INF  Executed DbCommand (5ms) [Parameters=[@p8='?' (Size = 4000), @p9='?' (DbType = Single), @p10='?' (DbType = Single), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 1) (DbType = Byte), @p15='?' (DbType = Single), @p16='?' (DbType = Single), @p17='?' (Size = 150), @p18='?' (Size = 150)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Speciess] ([Description], [FemaleMaxSize], [FemaleMaxWeight], [IdDiet], [IdSizeUnit], [IdWeightUnit], [Lifespan], [MaleMaxSize], [MaleMaxWeight], [Name], [ScientificName])
+OUTPUT INSERTED.[Id]
+VALUES (@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-09-20 10:39:22.609 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Boolean), @p22='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Animals] ([IdHealth], [IdSpecies], [IsMale], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p19, @p20, @p21, @p22);
+2024-09-20 10:39:22.613 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p23='?' (DbType = DateTime2), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32), @p28='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EmployeeFeedings] ([Date], [EmployeeEmail], [Food], [IdAnimal], [IdWeightUnit], [Weight])
+OUTPUT INSERTED.[Id]
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28);
+2024-09-20 10:39:22.626 +02:00  INF  Executing CreatedAtActionResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 10:39:22.639 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 307.2315ms
+2024-09-20 10:39:22.640 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:39:22.641 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 201 null application/json; charset=utf-8 325.1707ms
+2024-09-20 10:40:10.743 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/WeightUnits - null null
+2024-09-20 10:40:10.748 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.WeightUnitsController.GetWeightUnits (API_Arcadia)'
+2024-09-20 10:40:10.751 +02:00  INF  Route matched with {action = "GetWeightUnits", controller = "WeightUnits"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.WeightUnit]]] GetWeightUnits() on controller API_Arcadia.Controllers.WeightUnitsController (API_Arcadia).
+2024-09-20 10:40:10.791 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Abbr], [w].[Name]
+FROM [WeightUnits] AS [w]
+2024-09-20 10:40:10.795 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.WeightUnit, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:40:10.797 +02:00  INF  Executed action API_Arcadia.Controllers.WeightUnitsController.GetWeightUnits (API_Arcadia) in 45.5685ms
+2024-09-20 10:40:10.798 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.WeightUnitsController.GetWeightUnits (API_Arcadia)'
+2024-09-20 10:40:10.799 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/WeightUnits - 200 null application/json; charset=utf-8 56.8028ms
+2024-09-20 10:45:26.225 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:45:26.383 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:45:26.384 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:45:26.421 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:45:26.422 +02:00  INF  Hosting environment: Development
+2024-09-20 10:45:26.422 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:45:26.960 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:45:27.099 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 142.5419ms
+2024-09-20 10:45:27.146 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:45:27.146 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:45:27.152 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2143ms
+2024-09-20 10:45:27.182 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.4277ms
+2024-09-20 10:45:27.266 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-20 10:45:27.277 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-20 10:45:27.279 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 499 665 image/png 12.9337ms
+2024-09-20 10:45:27.311 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:45:27.403 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.373ms
+2024-09-20 10:45:53.197 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:45:53.351 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:45:53.352 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:45:53.389 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:45:53.390 +02:00  INF  Hosting environment: Development
+2024-09-20 10:45:53.390 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:45:53.943 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:45:54.094 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 154.7539ms
+2024-09-20 10:45:54.139 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:45:54.139 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:45:54.149 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.4889ms
+2024-09-20 10:45:54.171 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.8547ms
+2024-09-20 10:45:54.308 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:45:54.395 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.2578ms
+2024-09-20 10:46:03.160 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:46:03.206 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:46:03.220 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:46:03.902 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 678.3911ms
+2024-09-20 10:46:03.903 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:46:03.906 +02:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: The expression 'ra.Name' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at API_Arcadia.Services.EmployeeFeedingService.GetEmployeeFeedings() in D:\DEV\back\ECF_Zoo\API_Arcadia\Services\EmployeeFeedingService.cs:line 51
+   at API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings() in D:\DEV\back\ECF_Zoo\API_Arcadia\Controllers\EmployeeFeedingsController.cs:line 33
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-20 10:46:03.935 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 500 null text/plain; charset=utf-8 775.9419ms
+2024-09-20 10:46:43.840 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/2 - null null
+2024-09-20 10:46:43.846 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:46:43.853 +02:00  INF  Route matched with {action = "GetEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] GetEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:46:43.908 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia) in 54.0217ms
+2024-09-20 10:46:43.910 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:46:43.911 +02:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: The expression 'ra.Name' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see https://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at API_Arcadia.Services.EmployeeFeedingService.GetEmployeeFeeding(Int32 id) in D:\DEV\back\ECF_Zoo\API_Arcadia\Services\EmployeeFeedingService.cs:line 33
+   at API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding(Int32 id) in D:\DEV\back\ECF_Zoo\API_Arcadia\Controllers\EmployeeFeedingsController.cs:line 41
+   at lambda_method29(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-20 10:46:43.918 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/2 - 500 null text/plain; charset=utf-8 78.2111ms
+2024-09-20 10:47:27.247 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:47:27.404 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:47:27.405 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:47:27.448 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:47:27.449 +02:00  INF  Hosting environment: Development
+2024-09-20 10:47:27.450 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:47:27.882 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:47:28.011 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 133.1074ms
+2024-09-20 10:47:28.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:47:28.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:47:28.053 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.8933ms
+2024-09-20 10:47:28.075 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.1174ms
+2024-09-20 10:47:28.230 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:47:28.317 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.2767ms
+2024-09-20 10:47:34.556 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:47:34.599 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:47:34.611 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:47:35.532 +02:00  INF  Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:47:35.585 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:47:35.610 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 995.2684ms
+2024-09-20 10:47:35.611 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:47:35.616 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1060.6816ms
+2024-09-20 10:49:18.341 +02:00  INF  Request starting HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/4 - null null
+2024-09-20 10:49:18.348 +02:00  INF  CORS policy execution successful.
+2024-09-20 10:49:18.350 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:49:18.357 +02:00  INF  Route matched with {action = "DeleteEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:49:18.472 +02:00  INF  Executed DbCommand (14ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+WHERE [e].[Id] = @__p_0
+2024-09-20 10:49:18.529 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [EmployeeFeedings]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-09-20 10:49:18.541 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 204
+2024-09-20 10:49:18.541 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia) in 182.8924ms
+2024-09-20 10:49:18.542 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 10:49:18.543 +02:00  INF  Request finished HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/4 - 204 null null 203.4937ms
+2024-09-20 10:49:28.470 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:49:28.474 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:49:28.475 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:49:28.513 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:49:28.515 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:49:28.516 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 40.1482ms
+2024-09-20 10:49:28.517 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:49:28.518 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 48.1884ms
+2024-09-20 10:51:53.818 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:51:53.833 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 15.7248ms
+2024-09-20 10:51:53.870 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:51:53.872 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.0709ms
+2024-09-20 10:51:53.875 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:51:53.891 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3021ms
+2024-09-20 10:51:53.985 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:51:54.010 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5857ms
+2024-09-20 10:52:32.190 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:52:32.192 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:52:32.193 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:52:32.196 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:52:32.199 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:52:32.199 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 5.1337ms
+2024-09-20 10:52:32.200 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:52:32.201 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 11.5483ms
+2024-09-20 10:52:50.283 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:52:50.461 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:52:50.463 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:52:50.526 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:52:50.526 +02:00  INF  Hosting environment: Development
+2024-09-20 10:52:50.527 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:52:51.134 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:52:51.276 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 146.4668ms
+2024-09-20 10:52:51.307 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:52:51.307 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:52:51.316 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.5032ms
+2024-09-20 10:52:51.340 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6181ms
+2024-09-20 10:52:51.411 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:52:51.498 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.3052ms
+2024-09-20 10:52:58.293 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:52:58.335 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:52:58.347 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:52:59.281 +02:00  INF  Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:52:59.340 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:52:59.366 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1015.0227ms
+2024-09-20 10:52:59.367 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:52:59.373 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1080.3872ms
+2024-09-20 10:55:40.252 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:55:40.444 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 10:55:40.444 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 10:55:40.482 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 10:55:40.483 +02:00  INF  Hosting environment: Development
+2024-09-20 10:55:40.483 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 10:55:41.148 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 10:55:41.291 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 148.535ms
+2024-09-20 10:55:41.334 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:55:41.336 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 10:55:41.341 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.9806ms
+2024-09-20 10:55:41.366 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.4573ms
+2024-09-20 10:55:41.450 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 10:55:41.537 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.8384ms
+2024-09-20 10:55:56.112 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 10:55:56.153 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:55:56.164 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 10:55:57.085 +02:00  INF  Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+2024-09-20 10:55:57.145 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 10:55:57.171 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1003.0792ms
+2024-09-20 10:55:57.172 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 10:55:57.178 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1066.1626ms
+2024-09-20 11:01:37.382 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:01:37.586 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 11:01:37.587 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 11:01:37.631 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 11:01:37.632 +02:00  INF  Hosting environment: Development
+2024-09-20 11:01:37.633 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 11:01:38.349 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:01:38.497 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 150.9996ms
+2024-09-20 11:01:38.541 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:01:38.541 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:01:38.551 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.5719ms
+2024-09-20 11:01:38.574 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.8147ms
+2024-09-20 11:01:38.623 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-20 11:01:38.630 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-20 11:01:38.631 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 499 665 image/png 8.3153ms
+2024-09-20 11:01:38.664 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:01:38.750 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.9204ms
+2024-09-20 11:01:44.208 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 11:01:44.254 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:01:44.267 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:01:45.379 +02:00  INF  Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+2024-09-20 11:01:45.467 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 11:01:45.503 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1232.8853ms
+2024-09-20 11:01:45.504 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:01:45.515 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1307.6786ms
+2024-09-20 11:02:53.551 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:02:53.702 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 11:02:53.702 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 11:02:53.739 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 11:02:53.740 +02:00  INF  Hosting environment: Development
+2024-09-20 11:02:53.740 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 11:02:54.377 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:02:54.505 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 131.5956ms
+2024-09-20 11:02:54.544 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:02:54.545 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:02:54.556 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.446ms
+2024-09-20 11:02:54.577 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.362ms
+2024-09-20 11:02:54.663 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:02:54.744 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.0554ms
+2024-09-20 11:03:11.470 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 11:03:11.511 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:03:11.523 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:03:12.497 +02:00  INF  Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+2024-09-20 11:03:12.580 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 11:03:12.606 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1080.3551ms
+2024-09-20 11:03:12.607 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:03:12.613 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1142.8438ms
+2024-09-20 11:13:28.338 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 11:13:28.342 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:13:28.343 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:13:28.417 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+2024-09-20 11:13:28.420 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 11:13:28.421 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 77.334ms
+2024-09-20 11:13:28.422 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:13:28.423 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 85.2322ms
+2024-09-20 11:13:39.483 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/1 - null null
+2024-09-20 11:13:39.486 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:13:39.493 +02:00  INF  Route matched with {action = "GetEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] GetEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:13:39.564 +02:00  INF  Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+WHERE [e].[Id] = @__id_0
+2024-09-20 11:13:39.566 +02:00  INF  Executing ObjectResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:13:39.567 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia) in 72.6237ms
+2024-09-20 11:13:39.568 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:13:39.568 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/1 - 200 null application/json; charset=utf-8 86.0176ms
+2024-09-20 11:13:45.850 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:13:45.865 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 15.6536ms
+2024-09-20 11:13:45.906 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:13:45.907 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:13:45.909 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.1063ms
+2024-09-20 11:13:45.927 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.133ms
+2024-09-20 11:13:46.005 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:13:46.037 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.0189ms
+2024-09-20 11:13:52.984 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/1 - null null
+2024-09-20 11:13:52.986 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:13:52.989 +02:00  INF  Route matched with {action = "GetEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] GetEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:13:53.002 +02:00  INF  Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+WHERE [e].[Id] = @__id_0
+2024-09-20 11:13:53.004 +02:00  INF  Executing ObjectResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:13:53.010 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia) in 18.9373ms
+2024-09-20 11:13:53.011 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:13:53.012 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/1 - 200 null application/json; charset=utf-8 27.9364ms
+2024-09-20 11:14:50.823 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 148
+2024-09-20 11:14:50.827 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:14:50.828 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:14:50.831 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:14:50.845 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-09-20 11:14:50.856 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 24.0164ms
+2024-09-20 11:14:50.859 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:14:50.860 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 400 null application/problem+json; charset=utf-8 37.3943ms
+2024-09-20 11:15:00.778 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 147
+2024-09-20 11:15:00.780 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:15:00.781 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:15:00.782 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:15:00.921 +02:00  INF  Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 20), @p2='?' (Size = 2), @p3='?' (Size = 20), @p4='?' (Size = 2), @p5='?' (Size = 20), @p6='?' (Size = 2), @p7='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Diets] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+INSERT INTO [Healths] ([State])
+OUTPUT INSERTED.[Id]
+VALUES (@p1);
+INSERT INTO [SizeUnits] ([Abbr], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3);
+MERGE [WeightUnits] USING (
+VALUES (@p4, @p5, 0),
+(@p6, @p7, 1)) AS i ([Abbr], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Abbr], [Name])
+VALUES (i.[Abbr], i.[Name])
+OUTPUT INSERTED.[Id], i._Position;
+2024-09-20 11:15:00.935 +02:00  INF  Executed DbCommand (4ms) [Parameters=[@p8='?' (Size = 4000), @p9='?' (DbType = Single), @p10='?' (DbType = Single), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 1) (DbType = Byte), @p15='?' (DbType = Single), @p16='?' (DbType = Single), @p17='?' (Size = 150), @p18='?' (Size = 150)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Speciess] ([Description], [FemaleMaxSize], [FemaleMaxWeight], [IdDiet], [IdSizeUnit], [IdWeightUnit], [Lifespan], [MaleMaxSize], [MaleMaxWeight], [Name], [ScientificName])
+OUTPUT INSERTED.[Id]
+VALUES (@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-09-20 11:15:00.938 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Boolean), @p22='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Animals] ([IdHealth], [IdSpecies], [IsMale], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p19, @p20, @p21, @p22);
+2024-09-20 11:15:00.943 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@p23='?' (DbType = DateTime2), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32), @p28='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EmployeeFeedings] ([Date], [EmployeeEmail], [Food], [IdAnimal], [IdWeightUnit], [Weight])
+OUTPUT INSERTED.[Id]
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28);
+2024-09-20 11:15:00.955 +02:00  INF  Executing CreatedAtActionResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:15:00.965 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 182.4262ms
+2024-09-20 11:15:00.966 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:15:00.967 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 201 null application/json; charset=utf-8 189.4966ms
+2024-09-20 11:15:47.325 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/5 - null null
+2024-09-20 11:15:47.328 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:15:47.329 +02:00  INF  Route matched with {action = "GetEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] GetEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:15:47.333 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+WHERE [e].[Id] = @__id_0
+2024-09-20 11:15:47.337 +02:00  INF  Executing ObjectResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:15:47.338 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia) in 7.9058ms
+2024-09-20 11:15:47.339 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:15:47.340 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings/5 - 200 null application/json; charset=utf-8 15.5382ms
+2024-09-20 11:17:35.315 +02:00  INF  Request starting HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/5 - null null
+2024-09-20 11:17:35.317 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:17:35.318 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:17:35.321 +02:00  INF  Route matched with {action = "DeleteEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:17:35.332 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+WHERE [e].[Id] = @__p_0
+2024-09-20 11:17:35.344 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [EmployeeFeedings]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-09-20 11:17:35.352 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 204
+2024-09-20 11:17:35.353 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia) in 30.8154ms
+2024-09-20 11:17:35.353 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:17:35.354 +02:00  INF  Request finished HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/5 - 204 null null 39.0159ms
+2024-09-20 11:17:58.321 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 147
+2024-09-20 11:17:58.323 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:17:58.324 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:17:58.324 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:21:42.576 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:21:42.727 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 11:21:42.728 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 11:21:42.763 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 11:21:42.764 +02:00  INF  Hosting environment: Development
+2024-09-20 11:21:42.764 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 11:21:43.400 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:21:43.537 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 140.8136ms
+2024-09-20 11:21:43.581 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:21:43.588 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.6048ms
+2024-09-20 11:21:43.589 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:21:43.628 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.7197ms
+2024-09-20 11:21:43.710 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:21:43.794 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.0853ms
+2024-09-20 11:21:51.246 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 11:21:51.289 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:21:51.301 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:21:52.287 +02:00  INF  Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+2024-09-20 11:21:52.369 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 11:21:52.395 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1090.3848ms
+2024-09-20 11:21:52.397 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:21:52.403 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1157.1541ms
+2024-09-20 11:22:44.600 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 144
+2024-09-20 11:22:44.605 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:22:44.607 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:22:44.613 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:22:44.811 +02:00  INF  Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 20), @p2='?' (Size = 2), @p3='?' (Size = 20), @p4='?' (Size = 2), @p5='?' (Size = 20), @p6='?' (Size = 2), @p7='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Diets] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+INSERT INTO [Healths] ([State])
+OUTPUT INSERTED.[Id]
+VALUES (@p1);
+INSERT INTO [SizeUnits] ([Abbr], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3);
+MERGE [WeightUnits] USING (
+VALUES (@p4, @p5, 0),
+(@p6, @p7, 1)) AS i ([Abbr], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Abbr], [Name])
+VALUES (i.[Abbr], i.[Name])
+OUTPUT INSERTED.[Id], i._Position;
+2024-09-20 11:22:44.828 +02:00  INF  Executed DbCommand (4ms) [Parameters=[@p8='?' (Size = 4000), @p9='?' (DbType = Single), @p10='?' (DbType = Single), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 1) (DbType = Byte), @p15='?' (DbType = Single), @p16='?' (DbType = Single), @p17='?' (Size = 150), @p18='?' (Size = 150)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Speciess] ([Description], [FemaleMaxSize], [FemaleMaxWeight], [IdDiet], [IdSizeUnit], [IdWeightUnit], [Lifespan], [MaleMaxSize], [MaleMaxWeight], [Name], [ScientificName])
+OUTPUT INSERTED.[Id]
+VALUES (@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-09-20 11:22:44.832 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Boolean), @p22='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Animals] ([IdHealth], [IdSpecies], [IsMale], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p19, @p20, @p21, @p22);
+2024-09-20 11:22:44.838 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@p23='?' (DbType = DateTime2), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32), @p28='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EmployeeFeedings] ([Date], [EmployeeEmail], [Food], [IdAnimal], [IdWeightUnit], [Weight])
+OUTPUT INSERTED.[Id]
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28);
+2024-09-20 11:22:44.852 +02:00  INF  Executing CreatedAtActionResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:22:44.866 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 251.4063ms
+2024-09-20 11:22:44.867 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:22:44.868 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 201 null application/json; charset=utf-8 268.5343ms
+2024-09-20 11:27:25.308 +02:00  INF  Request starting HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/6 - null null
+2024-09-20 11:27:25.310 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:27:25.313 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:27:25.316 +02:00  INF  Route matched with {action = "DeleteEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:27:25.367 +02:00  INF  Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+WHERE [e].[Id] = @__p_0
+2024-09-20 11:27:25.377 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [EmployeeFeedings]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-09-20 11:27:25.384 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 204
+2024-09-20 11:27:25.385 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia) in 67.1549ms
+2024-09-20 11:27:25.385 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:27:25.387 +02:00  INF  Request finished HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/6 - 204 null null 78.2384ms
+2024-09-20 11:29:32.376 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 143
+2024-09-20 11:29:32.378 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:29:32.378 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:29:32.379 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:29:32.385 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 20), @p2='?' (Size = 2), @p3='?' (Size = 20), @p4='?' (Size = 2), @p5='?' (Size = 20), @p6='?' (Size = 2), @p7='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Diets] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+INSERT INTO [Healths] ([State])
+OUTPUT INSERTED.[Id]
+VALUES (@p1);
+INSERT INTO [SizeUnits] ([Abbr], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p2, @p3);
+MERGE [WeightUnits] USING (
+VALUES (@p4, @p5, 0),
+(@p6, @p7, 1)) AS i ([Abbr], [Name], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Abbr], [Name])
+VALUES (i.[Abbr], i.[Name])
+OUTPUT INSERTED.[Id], i._Position;
+2024-09-20 11:29:32.390 +02:00  INF  Executed DbCommand (1ms) [Parameters=[@p8='?' (Size = 4000), @p9='?' (DbType = Single), @p10='?' (DbType = Single), @p11='?' (DbType = Int32), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 1) (DbType = Byte), @p15='?' (DbType = Single), @p16='?' (DbType = Single), @p17='?' (Size = 150), @p18='?' (Size = 150)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Speciess] ([Description], [FemaleMaxSize], [FemaleMaxWeight], [IdDiet], [IdSizeUnit], [IdWeightUnit], [Lifespan], [MaleMaxSize], [MaleMaxWeight], [Name], [ScientificName])
+OUTPUT INSERTED.[Id]
+VALUES (@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-09-20 11:29:32.392 +02:00  INF  Executed DbCommand (0ms) [Parameters=[@p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Boolean), @p22='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Animals] ([IdHealth], [IdSpecies], [IsMale], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p19, @p20, @p21, @p22);
+2024-09-20 11:29:32.394 +02:00  INF  Executed DbCommand (0ms) [Parameters=[@p23='?' (DbType = DateTime2), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32), @p28='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EmployeeFeedings] ([Date], [EmployeeEmail], [Food], [IdAnimal], [IdWeightUnit], [Weight])
+OUTPUT INSERTED.[Id]
+VALUES (@p23, @p24, @p25, @p26, @p27, @p28);
+2024-09-20 11:29:32.397 +02:00  INF  Executing CreatedAtActionResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:29:32.398 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 18.0104ms
+2024-09-20 11:29:32.399 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:29:32.400 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 201 null application/json; charset=utf-8 24.4278ms
+2024-09-20 11:29:58.217 +02:00  INF  Request starting HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/7 - null null
+2024-09-20 11:29:58.221 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:29:58.222 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:29:58.222 +02:00  INF  Route matched with {action = "DeleteEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeFeeding(Int32) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:29:58.229 +02:00  INF  Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight]
+FROM [EmployeeFeedings] AS [e]
+WHERE [e].[Id] = @__p_0
+2024-09-20 11:29:58.233 +02:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [EmployeeFeedings]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-09-20 11:29:58.235 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 204
+2024-09-20 11:29:58.235 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia) in 11.8967ms
+2024-09-20 11:29:58.236 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.DeleteEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:29:58.236 +02:00  INF  Request finished HTTP/2 DELETE https://localhost:7015/api/EmployeeFeedings/7 - 204 null null 19.2685ms
+2024-09-20 11:33:45.955 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:33:46.110 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 11:33:46.111 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 11:33:46.149 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 11:33:46.152 +02:00  INF  Hosting environment: Development
+2024-09-20 11:33:46.153 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 11:33:46.580 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:33:46.739 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 163.5542ms
+2024-09-20 11:33:46.790 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-09-20 11:33:46.790 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:33:46.794 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:33:46.801 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.2463ms
+2024-09-20 11:33:46.806 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-20 11:33:46.810 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 499 152034 text/css 19.8153ms
+2024-09-20 11:33:46.831 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9259ms
+2024-09-20 11:33:46.864 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-20 11:33:46.868 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-20 11:33:46.869 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 499 665 image/png 4.7989ms
+2024-09-20 11:33:46.909 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:33:47.006 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.5382ms
+2024-09-20 11:34:23.454 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - application/json 144
+2024-09-20 11:34:23.459 +02:00  INF  CORS policy execution successful.
+2024-09-20 11:34:23.496 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:34:23.511 +02:00  INF  Route matched with {action = "PostEmployeeFeeding", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.EmployeeFeeding]] PostEmployeeFeeding(API_Arcadia.Models.EmployeeFeeding) on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:34:24.409 +02:00  INF  Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EmployeeFeedings] ([Date], [EmployeeEmail], [Food], [IdAnimal], [IdWeightUnit], [Weight])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-20 11:34:24.442 +02:00  INF  Executing CreatedAtActionResult, writing value of type 'API_Arcadia.Models.EmployeeFeeding'.
+2024-09-20 11:34:24.461 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia) in 947.3855ms
+2024-09-20 11:34:24.463 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.PostEmployeeFeeding (API_Arcadia)'
+2024-09-20 11:34:24.470 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/EmployeeFeedings - 201 null application/json; charset=utf-8 1016.9587ms
+2024-09-20 11:37:18.035 +02:00  INF  Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Arcadia];
+2024-09-20 11:37:18.105 +02:00  INF  Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Arcadia] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-20 11:37:18.115 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 11:37:18.154 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-20 11:37:18.155 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 11:37:18.163 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-20 11:37:18.166 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-20 11:37:18.173 +02:00  INF  Applying migration '20240417114152_DbCreation'.
+2024-09-20 11:37:18.207 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Diets] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Diets] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.209 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Habitats] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Habitats] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.209 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Healths] (
+    [Id] int NOT NULL IDENTITY,
+    [State] nvarchar(20) NOT NULL,
+    CONSTRAINT [PK_Healths] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.210 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OpeningHours] (
+    [Id] int NOT NULL IDENTITY,
+    [DayOfWeek] nvarchar(10) NOT NULL,
+    [MorningOpening] time NULL,
+    [MorningClosing] time NULL,
+    [AfternoonOpening] time NULL,
+    [AfternoonClosing] time NULL,
+    CONSTRAINT [PK_OpeningHours] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.267 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Pseudo] nvarchar(100) NOT NULL,
+    [Content] nvarchar(max) NOT NULL,
+    [IsValidated] bit NOT NULL,
+    [Note] tinyint NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.267 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SizeUnits] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(20) NOT NULL,
+    [Abbr] nvarchar(2) NOT NULL,
+    CONSTRAINT [PK_SizeUnits] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.268 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WeightUnits] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(20) NOT NULL,
+    [Abbr] nvarchar(2) NOT NULL,
+    CONSTRAINT [PK_WeightUnits] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.270 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ZooServices] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [FullPrice] real NULL,
+    [ChildPrice] real NULL,
+    CONSTRAINT [PK_ZooServices] PRIMARY KEY ([Id])
+);
+2024-09-20 11:37:18.271 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [HabitatImages] (
+    [Id] int NOT NULL IDENTITY,
+    [Slug] nvarchar(150) NOT NULL,
+    [IdHabitat] int NOT NULL,
+    CONSTRAINT [PK_HabitatImages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_HabitatImages_Habitats_IdHabitat] FOREIGN KEY ([IdHabitat]) REFERENCES [Habitats] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:37:18.272 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Speciess] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(150) NOT NULL,
+    [ScientificName] nvarchar(150) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [MaleMaxSize] real NOT NULL,
+    [FemaleMaxSize] real NULL,
+    [MaleMaxWeight] real NOT NULL,
+    [FemaleMaxWeight] real NULL,
+    [IdSizeUnit] int NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    [Lifespan] tinyint NOT NULL,
+    [IdDiet] int NOT NULL,
+    CONSTRAINT [PK_Speciess] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Speciess_Diets_IdDiet] FOREIGN KEY ([IdDiet]) REFERENCES [Diets] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Speciess_SizeUnits_IdSizeUnit] FOREIGN KEY ([IdSizeUnit]) REFERENCES [SizeUnits] ([Id]),
+    CONSTRAINT [FK_Speciess_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-20 11:37:20.535 +02:00  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Animals] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [IsMale] bit NOT NULL,
+    [IdSpecies] int NOT NULL,
+    [IdHealth] int NOT NULL,
+    CONSTRAINT [PK_Animals] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Animals_Healths_IdHealth] FOREIGN KEY ([IdHealth]) REFERENCES [Healths] ([Id]),
+    CONSTRAINT [FK_Animals_Speciess_IdSpecies] FOREIGN KEY ([IdSpecies]) REFERENCES [Speciess] ([Id]) ON DELETE NO ACTION
+);
+2024-09-20 11:37:20.536 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SpeciesHabitats] (
+    [IdSpecies] int NOT NULL,
+    [IdHabitat] int NOT NULL,
+    CONSTRAINT [PK_SpeciesHabitats] PRIMARY KEY ([IdHabitat], [IdSpecies]),
+    CONSTRAINT [FK_SpeciesHabitats_Habitats_IdHabitat] FOREIGN KEY ([IdHabitat]) REFERENCES [Habitats] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_SpeciesHabitats_Speciess_IdSpecies] FOREIGN KEY ([IdSpecies]) REFERENCES [Speciess] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:37:22.184 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AnimalImages] (
+    [Id] int NOT NULL IDENTITY,
+    [Slug] nvarchar(150) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    CONSTRAINT [PK_AnimalImages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AnimalImages_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:37:22.185 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VetVisits] (
+    [Id] int NOT NULL IDENTITY,
+    [Food] nvarchar(200) NOT NULL,
+    [FoodWeight] real NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    [VisitDate] datetime2 NOT NULL,
+    [Observations] nvarchar(max) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    [IdVet] int NULL,
+    CONSTRAINT [PK_VetVisits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_VetVisits_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_VetVisits_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-20 11:37:22.186 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AnimalImages_IdAnimal] ON [AnimalImages] ([IdAnimal]);
+2024-09-20 11:37:22.186 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Animals_IdHealth] ON [Animals] ([IdHealth]);
+2024-09-20 11:37:22.187 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Animals_IdSpecies] ON [Animals] ([IdSpecies]);
+2024-09-20 11:37:22.187 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_HabitatImages_IdHabitat] ON [HabitatImages] ([IdHabitat]);
+2024-09-20 11:37:22.188 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_SpeciesHabitats_IdSpecies] ON [SpeciesHabitats] ([IdSpecies]);
+2024-09-20 11:37:23.427 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdDiet] ON [Speciess] ([IdDiet]);
+2024-09-20 11:37:23.428 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdSizeUnit] ON [Speciess] ([IdSizeUnit]);
+2024-09-20 11:37:23.430 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Speciess_IdWeightUnit] ON [Speciess] ([IdWeightUnit]);
+2024-09-20 11:37:23.431 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VetVisits_IdAnimal] ON [VetVisits] ([IdAnimal]);
+2024-09-20 11:37:23.431 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VetVisits_IdWeightUnit] ON [VetVisits] ([IdWeightUnit]);
+2024-09-20 11:37:23.432 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240417114152_DbCreation', N'8.0.8');
+2024-09-20 11:37:23.436 +02:00  INF  Applying migration '20240423203332_AjoutMiniatureImage'.
+2024-09-20 11:37:23.452 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [HabitatImages] ADD [MiniSlug] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-20 11:37:23.452 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AnimalImages] ADD [MiniSlug] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-20 11:37:23.452 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240423203332_AjoutMiniatureImage', N'8.0.8');
+2024-09-20 11:37:23.453 +02:00  INF  Applying migration '20240703202629_Ajout_Images_ZooServices'.
+2024-09-20 11:37:23.466 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [ZooServices] ADD [Pic] nvarchar(150) NOT NULL DEFAULT N'';
+2024-09-20 11:37:24.514 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240703202629_Ajout_Images_ZooServices', N'8.0.8');
+2024-09-20 11:37:24.516 +02:00  INF  Applying migration '20240825080916_ModifTypeIdVetForVetVisit'.
+2024-09-20 11:37:24.567 +02:00  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[VetVisits]') AND [c].[name] = N'IdVet');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [VetVisits] DROP CONSTRAINT [' + @var0 + '];');
+UPDATE [VetVisits] SET [IdVet] = N'' WHERE [IdVet] IS NULL;
+ALTER TABLE [VetVisits] ALTER COLUMN [IdVet] nvarchar(max) NOT NULL;
+ALTER TABLE [VetVisits] ADD DEFAULT N'' FOR [IdVet];
+2024-09-20 11:37:24.567 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240825080916_ModifTypeIdVetForVetVisit', N'8.0.8');
+2024-09-20 11:37:24.568 +02:00  INF  Applying migration '20240916192918_Adding_EmployeeFeeding'.
+2024-09-20 11:37:24.586 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [EmployeeFeedings] (
+    [Id] int NOT NULL IDENTITY,
+    [EmployeeEmail] nvarchar(max) NOT NULL,
+    [IdAnimal] int NOT NULL,
+    [Food] nvarchar(max) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [Weight] float NOT NULL,
+    [IdWeightUnit] int NOT NULL,
+    CONSTRAINT [PK_EmployeeFeedings] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]),
+    CONSTRAINT [FK_EmployeeFeedings_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+);
+2024-09-20 11:37:25.580 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdAnimal] ON [EmployeeFeedings] ([IdAnimal]);
+2024-09-20 11:37:25.580 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_EmployeeFeedings_IdWeightUnit] ON [EmployeeFeedings] ([IdWeightUnit]);
+2024-09-20 11:37:25.581 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240916192918_Adding_EmployeeFeeding', N'8.0.8');
+2024-09-20 11:38:03.019 +02:00  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 11:38:03.054 +02:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-20 11:38:03.055 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 11:38:03.055 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-20 11:38:03.063 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-20 11:38:03.071 +02:00  INF  Applying migration '20240710192848_Initial Auth Migration'.
+2024-09-20 11:38:03.123 +02:00  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-20 11:38:03.125 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2024-09-20 11:38:03.126 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:38:03.127 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:38:03.462 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:38:03.464 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:38:03.466 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-20 11:38:03.480 +02:00  INF  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'2bc0d38d-b990-454c-91a5-95705251063c', N'2bc0d38d-b990-454c-91a5-95705251063c', N'Vet', N'VET'),
+(N'4dd3b707-837e-4ba5-b8b7-cc2a1f0aec49', N'4dd3b707-837e-4ba5-b8b7-cc2a1f0aec49', N'Employee', N'EMPLOYEE'),
+(N'92f3d9c7-ca7a-4032-b2e5-45f511eca19e', N'92f3d9c7-ca7a-4032-b2e5-45f511eca19e', N'Admin', N'ADMIN');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2024-09-20 11:38:05.155 +02:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (N'4d1f3651-74f6-4542-96a1-418e9b9ccb79', 0, N'7592232b-aec0-40e3-b00b-f2e39b27a532', NULL, CAST(0 AS bit), CAST(0 AS bit), NULL, N'ADMIN@ARCADIA.FR', N'ADMIN@ARCADIA.FR', N'AQAAAAIAAYagAAAAEP8bHHbP+ZoTZVI7bha8drXJXkYmHplJBem+pmA4ex+4EJyd3PvojttMovn6HEatCQ==', NULL, CAST(0 AS bit), N'9f0fd5b3-4bf7-42b2-823e-a5dd54413b91', CAST(0 AS bit), N'admin@arcadia.fr');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] OFF;
+2024-09-20 11:38:06.197 +02:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'RoleId', N'UserId') AND [object_id] = OBJECT_ID(N'[AspNetUserRoles]'))
+    SET IDENTITY_INSERT [AspNetUserRoles] ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (N'2bc0d38d-b990-454c-91a5-95705251063c', N'4d1f3651-74f6-4542-96a1-418e9b9ccb79'),
+(N'4dd3b707-837e-4ba5-b8b7-cc2a1f0aec49', N'4d1f3651-74f6-4542-96a1-418e9b9ccb79'),
+(N'92f3d9c7-ca7a-4032-b2e5-45f511eca19e', N'4d1f3651-74f6-4542-96a1-418e9b9ccb79');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'RoleId', N'UserId') AND [object_id] = OBJECT_ID(N'[AspNetUserRoles]'))
+    SET IDENTITY_INSERT [AspNetUserRoles] OFF;
+2024-09-20 11:38:06.197 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2024-09-20 11:38:06.199 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2024-09-20 11:38:06.200 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2024-09-20 11:38:06.200 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2024-09-20 11:38:06.201 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2024-09-20 11:38:06.694 +02:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2024-09-20 11:38:06.697 +02:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2024-09-20 11:38:06.697 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240710192848_Initial Auth Migration', N'8.0.8');
+2024-09-20 11:38:06.701 +02:00  INF  Applying migration '20240716111835_forgot admin email'.
+2024-09-20 11:38:06.714 +02:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [AspNetUsers] SET [ConcurrencyStamp] = N'21b9d3fd-622a-4a18-a2cd-9ddde5496129', [Email] = N'admin@arcadia.fr', [PasswordHash] = N'AQAAAAIAAYagAAAAED9gu63G1dY1SaqnGuV0oSMis/LOUlL4DRdsbhxudEeeunBbr09GrgZfc2eAuL99AA==', [SecurityStamp] = N'ae3f4748-94ba-438f-8944-5d02779bdff2'
+WHERE [Id] = N'4d1f3651-74f6-4542-96a1-418e9b9ccb79';
+SELECT @@ROWCOUNT;
+2024-09-20 11:38:06.714 +02:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240716111835_forgot admin email', N'8.0.8');
+2024-09-20 11:39:21.929 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:39:22.085 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 11:39:22.086 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 11:39:22.131 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 11:39:22.133 +02:00  INF  Hosting environment: Development
+2024-09-20 11:39:22.134 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 11:39:22.740 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 11:39:22.876 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 140.5504ms
+2024-09-20 11:39:22.918 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 11:39:22.918 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 11:39:22.927 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.9008ms
+2024-09-20 11:39:22.956 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2363ms
+2024-09-20 11:39:23.041 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 11:39:23.126 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.0221ms
+2024-09-20 11:39:29.815 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - null null
+2024-09-20 11:39:29.857 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:39:29.870 +02:00  INF  Route matched with {action = "GetEmployeeFeedings", controller = "EmployeeFeedings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.EmployeeFeeding]]] GetEmployeeFeedings() on controller API_Arcadia.Controllers.EmployeeFeedingsController (API_Arcadia).
+2024-09-20 11:39:30.861 +02:00  INF  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Date], [e].[EmployeeEmail], [e].[Food], [e].[IdAnimal], [e].[IdWeightUnit], [e].[Weight], [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [w].[Id], [w].[Abbr], [w].[Name]
+FROM [EmployeeFeedings] AS [e]
+INNER JOIN [Animals] AS [a] ON [e].[IdAnimal] = [a].[Id]
+INNER JOIN [WeightUnits] AS [w] ON [e].[IdWeightUnit] = [w].[Id]
+2024-09-20 11:39:30.941 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.EmployeeFeeding, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 11:39:30.966 +02:00  INF  Executed action API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia) in 1091.7576ms
+2024-09-20 11:39:30.967 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmployeeFeedingsController.GetEmployeeFeedings (API_Arcadia)'
+2024-09-20 11:39:30.972 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/EmployeeFeedings - 200 null application/json; charset=utf-8 1157.3008ms
+2024-09-20 13:24:10.678 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 13:24:10.881 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-20 13:24:10.881 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-20 13:24:10.943 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-20 13:24:10.944 +02:00  INF  Hosting environment: Development
+2024-09-20 13:24:10.945 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-20 13:24:11.924 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-20 13:24:12.076 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 155.6504ms
+2024-09-20 13:24:12.122 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - null null
+2024-09-20 13:24:12.122 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-20 13:24:12.122 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 13:24:12.140 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.9313ms
+2024-09-20 13:24:12.142 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-20 13:24:12.145 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/swagger-ui.css - 499 152034 text/css 22.8409ms
+2024-09-20 13:24:12.162 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.7222ms
+2024-09-20 13:24:12.207 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - null null
+2024-09-20 13:24:12.211 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-09-20 13:24:12.212 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/favicon-16x16.png - 499 665 image/png 5.1766ms
+2024-09-20 13:24:12.256 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-20 13:24:12.351 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.2295ms

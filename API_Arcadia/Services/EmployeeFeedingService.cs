@@ -21,18 +21,22 @@ namespace API_Arcadia.Services
             if (id != 0)
             {
                 var req = from ef in _context.EmployeeFeedings
+                            .Include(ef => ef.relatedAnimal)
+                            .Include(ef => ef.weightUnit)
                           where ef.Id == id
                           select ef;
 
                 result = await req.FirstOrDefaultAsync();
             }
-            
+
             return result;
         }
 
         public async Task<List<EmployeeFeeding>> GetEmployeeFeedings()
         {
             var req = from ef in _context.EmployeeFeedings
+                      .Include(ef => ef.relatedAnimal)
+                      .Include(ef => ef.weightUnit)                      
                       where ef != null
                       select ef;
             List<EmployeeFeeding> result = new List<EmployeeFeeding>();
@@ -45,13 +49,14 @@ namespace API_Arcadia.Services
         {
             EmployeeFeeding newEmployeeFeeding = new EmployeeFeeding
             {
-                Id = ef.Id,
                 EmployeeEmail = ef.EmployeeEmail,
                 IdAnimal = ef.IdAnimal,
                 Food = ef.Food,
                 Date = ef.Date,
                 Weight = ef.Weight,
                 IdWeightUnit = ef.IdWeightUnit,
+                relatedAnimal = null!,
+                weightUnit = null!
             };
 
             _context.EmployeeFeedings.Add(newEmployeeFeeding);
@@ -65,7 +70,8 @@ namespace API_Arcadia.Services
             var ef = await _context.EmployeeFeedings.FindAsync(id);
             if (ef == null) return 0;
             _context.Remove(ef);
-            return await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+            return 1;
         }
     }
 }
