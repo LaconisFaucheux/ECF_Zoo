@@ -29,7 +29,7 @@ namespace API_Arcadia.Controllers
 
         // GET: api/EmployeeFeedings
         [HttpGet]
-        [Authorize(Roles = "Vet, Employee")]
+        //[Authorize(Roles = "Vet, Employee")]
         public async Task<ActionResult<IEnumerable<EmployeeFeeding>>> GetEmployeeFeedings()
         {
             var ef = await _employeeFeedingService.GetEmployeeFeedings();

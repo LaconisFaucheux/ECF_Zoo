@@ -21,7 +21,7 @@ namespace API_Arcadia.Services
             if (id != 0)
             {
                 var req = from ef in _context.EmployeeFeedings
-                            .Include(ef => ef.relatedAnimal)
+                            .Include(ef => ef.relatedAnimal)                                
                             .Include(ef => ef.weightUnit)
                           where ef.Id == id
                           select ef;
@@ -36,6 +36,7 @@ namespace API_Arcadia.Services
         {
             var req = from ef in _context.EmployeeFeedings
                       .Include(ef => ef.relatedAnimal)
+                        .ThenInclude(ra => ra.SpeciesData)
                       .Include(ef => ef.weightUnit)                      
                       where ef != null
                       select ef;

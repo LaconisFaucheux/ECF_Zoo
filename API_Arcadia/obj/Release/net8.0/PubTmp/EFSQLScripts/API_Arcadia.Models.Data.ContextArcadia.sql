@@ -433,3 +433,57 @@ GO
 COMMIT;
 GO
 
+BEGIN TRANSACTION;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240916192918_Adding_EmployeeFeeding'
+)
+BEGIN
+    CREATE TABLE [EmployeeFeedings] (
+        [Id] int NOT NULL IDENTITY,
+        [EmployeeEmail] nvarchar(max) NOT NULL,
+        [IdAnimal] int NOT NULL,
+        [Food] nvarchar(max) NOT NULL,
+        [Date] datetime2 NOT NULL,
+        [Weight] float NOT NULL,
+        [IdWeightUnit] int NOT NULL,
+        CONSTRAINT [PK_EmployeeFeedings] PRIMARY KEY ([Id]),
+        CONSTRAINT [FK_EmployeeFeedings_Animals_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animals] ([Id]),
+        CONSTRAINT [FK_EmployeeFeedings_WeightUnits_IdWeightUnit] FOREIGN KEY ([IdWeightUnit]) REFERENCES [WeightUnits] ([Id])
+    );
+END;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240916192918_Adding_EmployeeFeeding'
+)
+BEGIN
+    CREATE INDEX [IX_EmployeeFeedings_IdAnimal] ON [EmployeeFeedings] ([IdAnimal]);
+END;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240916192918_Adding_EmployeeFeeding'
+)
+BEGIN
+    CREATE INDEX [IX_EmployeeFeedings_IdWeightUnit] ON [EmployeeFeedings] ([IdWeightUnit]);
+END;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240916192918_Adding_EmployeeFeeding'
+)
+BEGIN
+    INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+    VALUES (N'20240916192918_Adding_EmployeeFeeding', N'8.0.8');
+END;
+GO
+
+COMMIT;
+GO
+
