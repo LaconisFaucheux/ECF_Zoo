@@ -113,6 +113,10 @@ namespace API_Arcadia.Controllers
             {
                 return BadRequest("ID invalide");
             }
+            if (employee.roles.Contains("Admin"))
+            {
+                return BadRequest();
+            }
 
             if (!Utils.CheckEmailValidity(employee.email))
             {
@@ -264,6 +268,11 @@ namespace API_Arcadia.Controllers
             if (!Utils.CheckEmailValidity(r.Email))
             {
                 return BadRequest("Format d'email invalide");
+            }
+
+            if (r.Roles.Contains("Admin"))
+            {
+                return BadRequest();
             }
 
             var user = new IdentityUser

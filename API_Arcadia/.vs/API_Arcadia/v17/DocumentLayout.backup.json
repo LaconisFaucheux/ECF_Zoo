@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\models\\data\\userwithrolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:models\\data\\userwithrolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|d:\\dev\\back\\ecf_zoo\\api_arcadia\\services\\employeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5664351A-F78B-42E9-A2FF-D2A0F3E7A454}|API_Arcadia.csproj|solutionrelative:services\\employeefeedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +59,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAowGcBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T13:51:12.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T13:51:08.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserWithRolesDTO.cs",
+              "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\UserWithRolesDTO.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\UserWithRolesDTO.cs",
+              "ToolTip": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\UserWithRolesDTO.cs",
+              "RelativeToolTip": "Models\\Data\\UserWithRolesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T13:50:53.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EmployeeFeedingService.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Services\\EmployeeFeedingService.cs",
               "RelativeDocumentMoniker": "Services\\EmployeeFeedingService.cs",
@@ -54,12 +103,11 @@
               "RelativeToolTip": "Services\\EmployeeFeedingService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAwwCYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:23:22.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:23:22.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EmployeeFeeding.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\EmployeeFeeding.cs",
               "RelativeDocumentMoniker": "Models\\EmployeeFeeding.cs",
@@ -67,12 +115,11 @@
               "RelativeToolTip": "Models\\EmployeeFeeding.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:58:24.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T13:58:24.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ContextArcadia.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\Data\\ContextArcadia.cs",
               "RelativeDocumentMoniker": "Models\\Data\\ContextArcadia.cs",
@@ -84,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "VetVisitsController.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\VetVisitsController.cs",
               "RelativeDocumentMoniker": "Controllers\\VetVisitsController.cs",
@@ -96,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EmployeeFeedingsController.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Controllers\\EmployeeFeedingsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeFeedingsController.cs",
@@ -104,12 +151,11 @@
               "RelativeToolTip": "Controllers\\EmployeeFeedingsController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAwwB8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T09:40:08.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T09:40:08.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AnimalImage.cs",
               "DocumentMoniker": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\Models\\AnimalImage.cs",
               "RelativeDocumentMoniker": "Models\\AnimalImage.cs",
