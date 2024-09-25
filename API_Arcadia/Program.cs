@@ -17,7 +17,7 @@ namespace API_Arcadia
 {
     public class Program
     {
-        readonly string AllowArcadiaFrontPolicy = "_allowArcadiaFrontPolicy";
+        //readonly string AllowArcadiaFrontPolicy = "_allowArcadiaFrontPolicy";
         
         public static void Main(string[] args)
         {

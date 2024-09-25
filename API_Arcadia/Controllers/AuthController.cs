@@ -31,7 +31,7 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpGet("roles")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<IdentityRole>>> GetRoles()
         {
             var roles = await _authDbContext.Roles.ToListAsync();
@@ -39,7 +39,7 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<UserWithRolesDTO>>> GetEmployees()
         {
             var Employees = await _authDbContext.Users.ToListAsync();
@@ -106,7 +106,7 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpPut("{id}")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> PutEmployee(string id, [FromBody] UserUpdateDTO employee)
         {
             if (id != employee.id)
@@ -259,7 +259,7 @@ namespace API_Arcadia.Controllers
 
 
         [HttpPost("register")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDTO r)
         {
             IdentityResult IdentityResult;
@@ -270,7 +270,7 @@ namespace API_Arcadia.Controllers
                 return BadRequest("Format d'email invalide");
             }
 
-            if (r.Roles.Contains("Admin"))
+            if (r.Roles.Contains("Admin") || r.Roles.Contains("admin"))
             {
                 return BadRequest();
             }
