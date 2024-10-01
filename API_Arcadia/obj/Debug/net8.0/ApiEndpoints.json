@@ -557,6 +557,79 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_Arcadia.Controllers.EmailController",
+    "Method": "SendEmailAsAdmin",
+    "RelativePath": "api/Email/mail-as-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subject",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Arcadia.Controllers.EmailController",
+    "Method": "SendEmailAsEmployee",
+    "RelativePath": "api/Email/mail-as-employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subject",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Arcadia.Controllers.EmailController",
+    "Method": "SendEmailAsVisitor",
+    "RelativePath": "api/Email/mail-as-visitor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subject",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_Arcadia.Controllers.EmployeeFeedingsController",
     "Method": "GetEmployeeFeedings",
     "RelativePath": "api/EmployeeFeedings",

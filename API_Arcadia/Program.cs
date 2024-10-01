@@ -46,6 +46,7 @@ namespace API_Arcadia
             builder.Services.AddScoped<IVetVisitService, VetVisitService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IEmployeeFeedingService, EmployeeFeedingService>();
+            builder.Services.AddScoped<IEmailSender, EmailService>();
 
             //Identity Config
             builder.Services.AddIdentityCore<IdentityUser>()
@@ -64,6 +65,24 @@ namespace API_Arcadia
             });
 
             //Authentication Config
+#if DEBUG
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                    {
+                        AuthenticationType = "JwtDev",
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        ValidAudience = builder.Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    };
+                });
+#endif
+#if !DEBUG
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt =>
                 {
@@ -79,6 +98,7 @@ namespace API_Arcadia
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
                     };
                 });
+#endif
 
 
             //Serilog
@@ -124,15 +144,15 @@ namespace API_Arcadia
 
 
 
-            builder.Services.AddCors(policy =>
-            {
-                policy.AddPolicy("CorsPolicy",
-                    builder => builder
-                        .AllowAnyMethod()
-                        .AllowCredentials()
-                        .SetIsOriginAllowed((host) => true)
-                        .AllowAnyHeader());
-            });
+            //builder.Services.AddCors(policy =>
+            //{
+            //    policy.AddPolicy("CorsPolicy",
+            //        builder => builder
+            //            .AllowAnyMethod()
+            //            .AllowCredentials()
+            //            .SetIsOriginAllowed((host) => true)
+            //            .AllowAnyHeader());
+            //});
 
 
 
@@ -161,7 +181,7 @@ namespace API_Arcadia
 
             var app = builder.Build();
 
-            app.UseCors("CorsPolicy");
+            //app.UseCors("CorsPolicy");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

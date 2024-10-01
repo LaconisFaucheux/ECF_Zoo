@@ -8,8 +8,10 @@ D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\AWSSDK.Core.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\AWSSDK.SecurityToken.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\BouncyCastle.Cryptography.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\DnsClient.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Humanizer.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\MailKit.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Components.dll
@@ -68,6 +70,7 @@ D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.VisualSt
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\MongoDB.Bson.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\MongoDB.Driver.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\PubTmp\Out\MongoDB.Driver.Core.dll

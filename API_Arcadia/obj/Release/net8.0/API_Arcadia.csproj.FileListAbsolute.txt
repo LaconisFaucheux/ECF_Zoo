@@ -292,3 +292,6 @@ D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\refint\API_Arcadia.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\API_Arcadia.pdb
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\API_Arcadia.genruntimeconfig.cache
 D:\DEV\back\ECF_Zoo\API_Arcadia\obj\Release\net8.0\ref\API_Arcadia.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Release\net8.0\BouncyCastle.Cryptography.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Release\net8.0\MailKit.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Release\net8.0\MimeKit.dll

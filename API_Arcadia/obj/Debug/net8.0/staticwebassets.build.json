@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v4kV/zdy4yv9LpCPz0MX/PMYvyeAnxi92paXsTEw6Bo=",
+  "Hash": "oCaUlcCitFhkv3Shds7W4Xsf0GKzZ0B5txlWK5SFdF0=",
   "Source": "API_Arcadia",
   "BasePath": "_content/API_Arcadia",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API_Arcadia\\wwwroot",
       "Source": "API_Arcadia",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -31,17 +31,15 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "25o87uqmvr",
-      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,19 +50,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eu7w3d5g1a",
-      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Lacon\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
       "SourceId": "API_Arcadia",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "API_Arcadia#[.{fingerprint}]?.styles.css",
+      "RelativePath": "API_Arcadia.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -73,4503 +69,807 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "02jfxhbwsz",
-      "Integrity": "yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
+      "OriginalItemSpec": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638496693869536018_Mufasa#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638496693869536018_Mufasa.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n5yo7qot5f",
-      "Integrity": "65HBnBTDoqFzk1+g7Xtp5DJ7Q8o4IaaiqtwMpqpJl9E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638496693869536822_Mufasa_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638496693869536822_Mufasa_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y8g6wkc8qy",
-      "Integrity": "wkcmrfiuAao8U7aBS+Oo/qULLs8JMIs96b+x1YBVGl0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638496693873204536_Mufasa#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638496693873204536_Mufasa.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "05gql984zu",
-      "Integrity": "zLJGPq2ifE3u2+fBQdO0+tZxhCbjZUqkIWZ9ywidYCs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638496693873204641_Mufasa_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638496693873204641_Mufasa_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kvty3vb1hr",
-      "Integrity": "wHrg0fDkxMVfZgfa+ZV8P0DnZ2lFzhH6tQFWwdpH5s0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638602187295039518_Aliénor#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638602187295039518_Aliénor.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2qhu7k9tce",
-      "Integrity": "xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/638602187295039587_Aliénor_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/638602187295039587_Aliénor_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p5bddqzmb2",
-      "Integrity": "QwGJa5b+F4/wjx3dCHFmlpwYVaKRhxcXCplyAuQMZWM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/l_orang_outan1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/l_orang_outan1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r2q2e32hdy",
-      "Integrity": "gwquhZCd+GAUW88nMJqjaSEgYV/JW9NWGICXFIRYq68=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/l_orang_outan1_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/l_orang_outan1_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vjn4ecphvv",
-      "Integrity": "xWGA2aSt3j+5ACa88fhZ1985GV1htJqFwsw8cPBzzY0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/l_orang_outan2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/l_orang_outan2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ajfb1n3h89",
-      "Integrity": "mg8uwXGuKoSm+8ZNgCuTPNhD9ImOeinAxsDk0w/WhDA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/l_orang_outan2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/l_orang_outan2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o5bwqkeci5",
-      "Integrity": "hPUV0QF1PdDM2fVVxGYThKFh7FAmh18TokeetX/ch4s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\l_orang_outan2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_loutre1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_loutre1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hb3l33elzz",
-      "Integrity": "DfM4Dpg7u7tsp0nqYFemTW9P8R1l2ugcKGWiS6q5QEo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_loutre1_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_loutre1_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dcccsa4skt",
-      "Integrity": "fQ3kncekIEUlI2ZIkNQ+Sm9YlTxkvdD7HIdPgyX6Ru8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_loutre2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_loutre2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tvqjv4tsdd",
-      "Integrity": "JxLoe0CErzbUFqSz1wlK3d3b6DmIr8B4bRM3Etdzqj8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_loutre2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_loutre2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c6wl90bnvn",
-      "Integrity": "3FDRWiltqj2zvpv7dIrMPPEZVRMSnHIWw6ITlvk4Kt4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_loutre2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_panthere1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_panthere1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1rpqv7008y",
-      "Integrity": "3f8HxVyIOPw2K88ZC6MMHR+o+1T2SWmxy3PbrwjcXk8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_panthere1_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_panthere1_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8ajqb8evob",
-      "Integrity": "II8SFgiEGBtqV4hPtXSA25JVdCyPWrrZ9W/Lczs+SJU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_panthere2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_panthere2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y622p0hwvt",
-      "Integrity": "mkCdBzCKWidL2ZUZAj7VzU3NPpDiw5IcxRrZzPQgR5U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/la_panthere2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/la_panthere2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0kzj2yozza",
-      "Integrity": "QHs9ec0+8pLtIfz7V3hc/K1Xxc6etoIFOlAAPbm7eDs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\la_panthere2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_gorille1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_gorille1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6dyug7d7yk",
-      "Integrity": "eiUkb/VoNWYnwAmfX/kuBDICTSdp/mD8GvxE8/yDvTM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_gorille1_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_gorille1_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0hnov9tp20",
-      "Integrity": "LCD55/WTJv/LcGviYzy14gWxzg9jIB9fKOlVCzvzlxk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_gorille2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_gorille2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iy95m8le1n",
-      "Integrity": "qoctin8D+6UT4fHiCZn4Jrdck2VmcSFcmRcNr4LyzBI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_gorille2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_gorille2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n5y9wl83qp",
-      "Integrity": "1RYkWK+khk3dLEtcUUczQdaZ0BPtCm8fdDbl42WiOJk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_gorille2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_heron1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_heron1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hxy1kz9qlw",
-      "Integrity": "64g6cLPq4ZPy9hq4442gLe7Ox7Zomz++nSiXeY/VFM8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_heron1_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_heron1_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ysmrr90ewf",
-      "Integrity": "Musq6d1MKWtJiRG6KxIQJ/lahV/WpiZftm66SNLppf4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron1_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_heron2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_heron2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ovlbi10izm",
-      "Integrity": "hLm7Z1LUKzJKCZ2FrPyOxHOpeu4R8uc8lAKfuLuAWJ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_heron2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_heron2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nu4vpofu51",
-      "Integrity": "T7O800aymhgIbiQMavqmtdV274++oM0aEoHEOivKRrM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_heron2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_rhino1#[.{fingerprint}]?.jpeg",
+      "RelativePath": "images/animals/le_rhino1.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3oiz3mxdwk",
-      "Integrity": "vWvFek2uomeUOCE6yc1t3liMfVopohAZzWeR1AjhD1E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_rhino1_mini#[.{fingerprint}]?.jpeg",
+      "RelativePath": "images/animals/le_rhino1_mini.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f9rpy0b6q3",
-      "Integrity": "vReFHgJcW9rGGDIcX6/TxvodDCx9gDy0M+NgPmMZsgY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino1_mini.jpeg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_rhino2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_rhino2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d2pmypq0z5",
-      "Integrity": "ZS5g7qWZ2jpdcCgJKkvJaUIb5Vy2moxwiN5xNArRgW8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/animals/le_rhino2_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/animals/le_rhino2_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d30y4mfwir",
-      "Integrity": "+cDwWX1zRhVbYOcK6fd3yk4NAFsp1Llxk8HDsJ5YnDI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\animals\\le_rhino2_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Jungle#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Jungle.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vc3vfnfcgu",
-      "Integrity": "vz1AbPw9EicmfUgkarzNoXZkqhBeAO2U186iLllU4hY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Jungle.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Jungle_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Jungle_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2ijlmdwo65",
-      "Integrity": "+n9/AVDzPEw6cfssW29DEPryX2hv5DeMVPAwBGAsEmg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Jungle_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Marais#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Marais.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wroumjhqlj",
-      "Integrity": "7GoX/o3jVWAcOTlYrE4woWrqJXAPzxePbbGJkQ/pTZE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Marais.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Marais_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Marais_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bxx8jvgz0n",
-      "Integrity": "QROJEFkPtVu4RZYxv47qXa1QU0yo9Lik6UHOs7/PBDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Marais_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Montagne#[.{fingerprint}]?.png",
+      "RelativePath": "images/habitats/Montagne.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eii7rr5ql7",
-      "Integrity": "dnC3nGmVPWYnH3gEM21kkuXwgLZNSQsgQhAJ75di3jU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Montagne.png"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Montagne_mini#[.{fingerprint}]?.png",
+      "RelativePath": "images/habitats/Montagne_mini.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "366mxex7xw",
-      "Integrity": "Ra7nefLpSyDJ0c0TAlSnRFMMZqhrFmHTGBTRA65NyuE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Montagne_mini.png"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Savane#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Savane.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3b9qf7gt2k",
-      "Integrity": "n9yt0Wz0XhNPIWOoLdAwnPcpKcWQfW88zJ3/3DTKvNc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Savane.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/habitats/Savane_mini#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/habitats/Savane_mini.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t0cod6z02t",
-      "Integrity": "I3jMDIHptg2CPhzIJb4jSXgJKw9uCTCGZnc9c8SICZk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\habitats\\Savane_mini.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/zoo-services/638602154836570936_Garde d'enfants#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/zoo-services/638602154836570936_Garde d'enfants.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2qhu7k9tce",
-      "Integrity": "xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/zoo-services/petit_train#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/zoo-services/petit_train.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jxj8gn1ake",
-      "Integrity": "53KebX62G9EVsVhuPyHsdaME2gSl+lVQq6hB5E2WfzQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\petit_train.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/zoo-services/restauration#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/zoo-services/restauration.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5jt72vjkby",
-      "Integrity": "vyC/YAxSLhTiFyyJOp6AroOujI+0JEhlPBTZcSydsUs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\restauration.jpg"
     },
     {
-      "Identity": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
+      "Identity": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
       "SourceId": "API_Arcadia",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
+      "ContentRoot": "D:\\DEV\\back\\ECF_Zoo\\API_Arcadia\\wwwroot\\",
       "BasePath": "_content/API_Arcadia",
-      "RelativePath": "images/zoo-services/visite_guidee#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/zoo-services/visite_guidee.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zznlv456w3",
-      "Integrity": "QbR+c8mEJNbB5klore5TRiIdQtFKfehbvqvTr28WGNU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\zoo-services\\visite_guidee.jpg"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8251"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Jun 2024 17:29:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
-        }
-      ]
-    },
-    {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2563"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Jun 2024 17:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
-        }
-      ]
-    },
-    {
-      "Route": "API_Arcadia.02jfxhbwsz.styles.css",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "02jfxhbwsz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI="
-        },
-        {
-          "Name": "label",
-          "Value": "API_Arcadia.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "API_Arcadia.styles.css",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API_Arcadia.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693869536018_Mufasa.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "643175"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"65HBnBTDoqFzk1+g7Xtp5DJ7Q8o4IaaiqtwMpqpJl9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-65HBnBTDoqFzk1+g7Xtp5DJ7Q8o4IaaiqtwMpqpJl9E="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693869536018_Mufasa.n5yo7qot5f.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536018_Mufasa.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "643175"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"65HBnBTDoqFzk1+g7Xtp5DJ7Q8o4IaaiqtwMpqpJl9E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n5yo7qot5f"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638496693869536018_Mufasa.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-65HBnBTDoqFzk1+g7Xtp5DJ7Q8o4IaaiqtwMpqpJl9E="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693869536822_Mufasa_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "80881"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wkcmrfiuAao8U7aBS+Oo/qULLs8JMIs96b+x1YBVGl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wkcmrfiuAao8U7aBS+Oo/qULLs8JMIs96b+x1YBVGl0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693869536822_Mufasa_mini.y8g6wkc8qy.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693869536822_Mufasa_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "80881"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wkcmrfiuAao8U7aBS+Oo/qULLs8JMIs96b+x1YBVGl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y8g6wkc8qy"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638496693869536822_Mufasa_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wkcmrfiuAao8U7aBS+Oo/qULLs8JMIs96b+x1YBVGl0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693873204536_Mufasa.05gql984zu.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8273660"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zLJGPq2ifE3u2+fBQdO0+tZxhCbjZUqkIWZ9ywidYCs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "05gql984zu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638496693873204536_Mufasa.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zLJGPq2ifE3u2+fBQdO0+tZxhCbjZUqkIWZ9ywidYCs="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693873204536_Mufasa.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204536_Mufasa.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8273660"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zLJGPq2ifE3u2+fBQdO0+tZxhCbjZUqkIWZ9ywidYCs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zLJGPq2ifE3u2+fBQdO0+tZxhCbjZUqkIWZ9ywidYCs="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693873204641_Mufasa_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "93587"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wHrg0fDkxMVfZgfa+ZV8P0DnZ2lFzhH6tQFWwdpH5s0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wHrg0fDkxMVfZgfa+ZV8P0DnZ2lFzhH6tQFWwdpH5s0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638496693873204641_Mufasa_mini.kvty3vb1hr.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638496693873204641_Mufasa_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "93587"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wHrg0fDkxMVfZgfa+ZV8P0DnZ2lFzhH6tQFWwdpH5s0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kvty3vb1hr"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638496693873204641_Mufasa_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wHrg0fDkxMVfZgfa+ZV8P0DnZ2lFzhH6tQFWwdpH5s0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638602187295039518_Aliénor.2qhu7k9tce.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881983"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2qhu7k9tce"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638602187295039518_Aliénor.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638602187295039518_Aliénor.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039518_Aliénor.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881983"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638602187295039587_Aliénor_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14081"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QwGJa5b+F4/wjx3dCHFmlpwYVaKRhxcXCplyAuQMZWM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QwGJa5b+F4/wjx3dCHFmlpwYVaKRhxcXCplyAuQMZWM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/638602187295039587_Aliénor_mini.p5bddqzmb2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\638602187295039587_Aliénor_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14081"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QwGJa5b+F4/wjx3dCHFmlpwYVaKRhxcXCplyAuQMZWM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p5bddqzmb2"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/638602187295039587_Aliénor_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QwGJa5b+F4/wjx3dCHFmlpwYVaKRhxcXCplyAuQMZWM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan1.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "48419"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gwquhZCd+GAUW88nMJqjaSEgYV/JW9NWGICXFIRYq68=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gwquhZCd+GAUW88nMJqjaSEgYV/JW9NWGICXFIRYq68="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan1.r2q2e32hdy.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "48419"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gwquhZCd+GAUW88nMJqjaSEgYV/JW9NWGICXFIRYq68=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r2q2e32hdy"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/l_orang_outan1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gwquhZCd+GAUW88nMJqjaSEgYV/JW9NWGICXFIRYq68="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan1_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16232"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xWGA2aSt3j+5ACa88fhZ1985GV1htJqFwsw8cPBzzY0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xWGA2aSt3j+5ACa88fhZ1985GV1htJqFwsw8cPBzzY0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan1_mini.vjn4ecphvv.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16232"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xWGA2aSt3j+5ACa88fhZ1985GV1htJqFwsw8cPBzzY0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vjn4ecphvv"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/l_orang_outan1_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xWGA2aSt3j+5ACa88fhZ1985GV1htJqFwsw8cPBzzY0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan2.ajfb1n3h89.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "904742"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mg8uwXGuKoSm+8ZNgCuTPNhD9ImOeinAxsDk0w/WhDA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ajfb1n3h89"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/l_orang_outan2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mg8uwXGuKoSm+8ZNgCuTPNhD9ImOeinAxsDk0w/WhDA="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "904742"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mg8uwXGuKoSm+8ZNgCuTPNhD9ImOeinAxsDk0w/WhDA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mg8uwXGuKoSm+8ZNgCuTPNhD9ImOeinAxsDk0w/WhDA="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "334701"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hPUV0QF1PdDM2fVVxGYThKFh7FAmh18TokeetX/ch4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hPUV0QF1PdDM2fVVxGYThKFh7FAmh18TokeetX/ch4s="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/l_orang_outan2_mini.o5bwqkeci5.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\l_orang_outan2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "334701"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hPUV0QF1PdDM2fVVxGYThKFh7FAmh18TokeetX/ch4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o5bwqkeci5"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/l_orang_outan2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hPUV0QF1PdDM2fVVxGYThKFh7FAmh18TokeetX/ch4s="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre1.hb3l33elzz.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92018"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DfM4Dpg7u7tsp0nqYFemTW9P8R1l2ugcKGWiS6q5QEo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hb3l33elzz"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_loutre1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DfM4Dpg7u7tsp0nqYFemTW9P8R1l2ugcKGWiS6q5QEo="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre1.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92018"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DfM4Dpg7u7tsp0nqYFemTW9P8R1l2ugcKGWiS6q5QEo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DfM4Dpg7u7tsp0nqYFemTW9P8R1l2ugcKGWiS6q5QEo="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre1_mini.dcccsa4skt.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37459"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fQ3kncekIEUlI2ZIkNQ+Sm9YlTxkvdD7HIdPgyX6Ru8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dcccsa4skt"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_loutre1_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fQ3kncekIEUlI2ZIkNQ+Sm9YlTxkvdD7HIdPgyX6Ru8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre1_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37459"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fQ3kncekIEUlI2ZIkNQ+Sm9YlTxkvdD7HIdPgyX6Ru8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fQ3kncekIEUlI2ZIkNQ+Sm9YlTxkvdD7HIdPgyX6Ru8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "299566"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JxLoe0CErzbUFqSz1wlK3d3b6DmIr8B4bRM3Etdzqj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JxLoe0CErzbUFqSz1wlK3d3b6DmIr8B4bRM3Etdzqj8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre2.tvqjv4tsdd.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "299566"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JxLoe0CErzbUFqSz1wlK3d3b6DmIr8B4bRM3Etdzqj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tvqjv4tsdd"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_loutre2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JxLoe0CErzbUFqSz1wlK3d3b6DmIr8B4bRM3Etdzqj8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre2_mini.c6wl90bnvn.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88248"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3FDRWiltqj2zvpv7dIrMPPEZVRMSnHIWw6ITlvk4Kt4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c6wl90bnvn"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_loutre2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3FDRWiltqj2zvpv7dIrMPPEZVRMSnHIWw6ITlvk4Kt4="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_loutre2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_loutre2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88248"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3FDRWiltqj2zvpv7dIrMPPEZVRMSnHIWw6ITlvk4Kt4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3FDRWiltqj2zvpv7dIrMPPEZVRMSnHIWw6ITlvk4Kt4="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere1.1rpqv7008y.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32849"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3f8HxVyIOPw2K88ZC6MMHR+o+1T2SWmxy3PbrwjcXk8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1rpqv7008y"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_panthere1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3f8HxVyIOPw2K88ZC6MMHR+o+1T2SWmxy3PbrwjcXk8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere1.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32849"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3f8HxVyIOPw2K88ZC6MMHR+o+1T2SWmxy3PbrwjcXk8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3f8HxVyIOPw2K88ZC6MMHR+o+1T2SWmxy3PbrwjcXk8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere1_mini.8ajqb8evob.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"II8SFgiEGBtqV4hPtXSA25JVdCyPWrrZ9W/Lczs+SJU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8ajqb8evob"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_panthere1_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-II8SFgiEGBtqV4hPtXSA25JVdCyPWrrZ9W/Lczs+SJU="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere1_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"II8SFgiEGBtqV4hPtXSA25JVdCyPWrrZ9W/Lczs+SJU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-II8SFgiEGBtqV4hPtXSA25JVdCyPWrrZ9W/Lczs+SJU="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "937599"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mkCdBzCKWidL2ZUZAj7VzU3NPpDiw5IcxRrZzPQgR5U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mkCdBzCKWidL2ZUZAj7VzU3NPpDiw5IcxRrZzPQgR5U="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere2.y622p0hwvt.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "937599"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mkCdBzCKWidL2ZUZAj7VzU3NPpDiw5IcxRrZzPQgR5U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y622p0hwvt"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_panthere2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mkCdBzCKWidL2ZUZAj7VzU3NPpDiw5IcxRrZzPQgR5U="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere2_mini.0kzj2yozza.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281435"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QHs9ec0+8pLtIfz7V3hc/K1Xxc6etoIFOlAAPbm7eDs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0kzj2yozza"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/la_panthere2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QHs9ec0+8pLtIfz7V3hc/K1Xxc6etoIFOlAAPbm7eDs="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/la_panthere2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\la_panthere2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281435"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QHs9ec0+8pLtIfz7V3hc/K1Xxc6etoIFOlAAPbm7eDs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QHs9ec0+8pLtIfz7V3hc/K1Xxc6etoIFOlAAPbm7eDs="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille1.6dyug7d7yk.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "340326"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eiUkb/VoNWYnwAmfX/kuBDICTSdp/mD8GvxE8/yDvTM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6dyug7d7yk"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_gorille1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eiUkb/VoNWYnwAmfX/kuBDICTSdp/mD8GvxE8/yDvTM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille1.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "340326"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eiUkb/VoNWYnwAmfX/kuBDICTSdp/mD8GvxE8/yDvTM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eiUkb/VoNWYnwAmfX/kuBDICTSdp/mD8GvxE8/yDvTM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille1_mini.0hnov9tp20.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101646"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LCD55/WTJv/LcGviYzy14gWxzg9jIB9fKOlVCzvzlxk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0hnov9tp20"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_gorille1_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LCD55/WTJv/LcGviYzy14gWxzg9jIB9fKOlVCzvzlxk="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille1_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101646"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LCD55/WTJv/LcGviYzy14gWxzg9jIB9fKOlVCzvzlxk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LCD55/WTJv/LcGviYzy14gWxzg9jIB9fKOlVCzvzlxk="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille2.iy95m8le1n.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "377787"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qoctin8D+6UT4fHiCZn4Jrdck2VmcSFcmRcNr4LyzBI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iy95m8le1n"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_gorille2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qoctin8D+6UT4fHiCZn4Jrdck2VmcSFcmRcNr4LyzBI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "377787"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qoctin8D+6UT4fHiCZn4Jrdck2VmcSFcmRcNr4LyzBI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qoctin8D+6UT4fHiCZn4Jrdck2VmcSFcmRcNr4LyzBI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "104211"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1RYkWK+khk3dLEtcUUczQdaZ0BPtCm8fdDbl42WiOJk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1RYkWK+khk3dLEtcUUczQdaZ0BPtCm8fdDbl42WiOJk="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_gorille2_mini.n5y9wl83qp.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_gorille2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "104211"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1RYkWK+khk3dLEtcUUczQdaZ0BPtCm8fdDbl42WiOJk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n5y9wl83qp"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_gorille2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1RYkWK+khk3dLEtcUUczQdaZ0BPtCm8fdDbl42WiOJk="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron1.hxy1kz9qlw.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100980"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"64g6cLPq4ZPy9hq4442gLe7Ox7Zomz++nSiXeY/VFM8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hxy1kz9qlw"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_heron1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-64g6cLPq4ZPy9hq4442gLe7Ox7Zomz++nSiXeY/VFM8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron1.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100980"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"64g6cLPq4ZPy9hq4442gLe7Ox7Zomz++nSiXeY/VFM8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-64g6cLPq4ZPy9hq4442gLe7Ox7Zomz++nSiXeY/VFM8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron1_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33918"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Musq6d1MKWtJiRG6KxIQJ/lahV/WpiZftm66SNLppf4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Musq6d1MKWtJiRG6KxIQJ/lahV/WpiZftm66SNLppf4="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron1_mini.ysmrr90ewf.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron1_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33918"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Musq6d1MKWtJiRG6KxIQJ/lahV/WpiZftm66SNLppf4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ysmrr90ewf"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_heron1_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Musq6d1MKWtJiRG6KxIQJ/lahV/WpiZftm66SNLppf4="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "350414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hLm7Z1LUKzJKCZ2FrPyOxHOpeu4R8uc8lAKfuLuAWJ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hLm7Z1LUKzJKCZ2FrPyOxHOpeu4R8uc8lAKfuLuAWJ0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron2.ovlbi10izm.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "350414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hLm7Z1LUKzJKCZ2FrPyOxHOpeu4R8uc8lAKfuLuAWJ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ovlbi10izm"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_heron2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hLm7Z1LUKzJKCZ2FrPyOxHOpeu4R8uc8lAKfuLuAWJ0="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T7O800aymhgIbiQMavqmtdV274++oM0aEoHEOivKRrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-T7O800aymhgIbiQMavqmtdV274++oM0aEoHEOivKRrM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_heron2_mini.nu4vpofu51.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_heron2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T7O800aymhgIbiQMavqmtdV274++oM0aEoHEOivKRrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nu4vpofu51"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_heron2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T7O800aymhgIbiQMavqmtdV274++oM0aEoHEOivKRrM="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino1.3oiz3mxdwk.jpeg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165404"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vWvFek2uomeUOCE6yc1t3liMfVopohAZzWeR1AjhD1E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3oiz3mxdwk"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_rhino1.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vWvFek2uomeUOCE6yc1t3liMfVopohAZzWeR1AjhD1E="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino1.jpeg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165404"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vWvFek2uomeUOCE6yc1t3liMfVopohAZzWeR1AjhD1E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vWvFek2uomeUOCE6yc1t3liMfVopohAZzWeR1AjhD1E="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino1_mini.f9rpy0b6q3.jpeg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55012"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vReFHgJcW9rGGDIcX6/TxvodDCx9gDy0M+NgPmMZsgY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f9rpy0b6q3"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_rhino1_mini.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vReFHgJcW9rGGDIcX6/TxvodDCx9gDy0M+NgPmMZsgY="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino1_mini.jpeg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino1_mini.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55012"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vReFHgJcW9rGGDIcX6/TxvodDCx9gDy0M+NgPmMZsgY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vReFHgJcW9rGGDIcX6/TxvodDCx9gDy0M+NgPmMZsgY="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino2.d2pmypq0z5.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "846176"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZS5g7qWZ2jpdcCgJKkvJaUIb5Vy2moxwiN5xNArRgW8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d2pmypq0z5"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_rhino2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZS5g7qWZ2jpdcCgJKkvJaUIb5Vy2moxwiN5xNArRgW8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino2.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "846176"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZS5g7qWZ2jpdcCgJKkvJaUIb5Vy2moxwiN5xNArRgW8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZS5g7qWZ2jpdcCgJKkvJaUIb5Vy2moxwiN5xNArRgW8="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino2_mini.d30y4mfwir.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243047"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+cDwWX1zRhVbYOcK6fd3yk4NAFsp1Llxk8HDsJ5YnDI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d30y4mfwir"
-        },
-        {
-          "Name": "label",
-          "Value": "images/animals/le_rhino2_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+cDwWX1zRhVbYOcK6fd3yk4NAFsp1Llxk8HDsJ5YnDI="
-        }
-      ]
-    },
-    {
-      "Route": "images/animals/le_rhino2_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\animals\\le_rhino2_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "243047"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+cDwWX1zRhVbYOcK6fd3yk4NAFsp1Llxk8HDsJ5YnDI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+cDwWX1zRhVbYOcK6fd3yk4NAFsp1Llxk8HDsJ5YnDI="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Jungle.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vz1AbPw9EicmfUgkarzNoXZkqhBeAO2U186iLllU4hY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vz1AbPw9EicmfUgkarzNoXZkqhBeAO2U186iLllU4hY="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Jungle.vc3vfnfcgu.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vz1AbPw9EicmfUgkarzNoXZkqhBeAO2U186iLllU4hY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vc3vfnfcgu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Jungle.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vz1AbPw9EicmfUgkarzNoXZkqhBeAO2U186iLllU4hY="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Jungle_mini.2ijlmdwo65.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "303093"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+n9/AVDzPEw6cfssW29DEPryX2hv5DeMVPAwBGAsEmg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2ijlmdwo65"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Jungle_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+n9/AVDzPEw6cfssW29DEPryX2hv5DeMVPAwBGAsEmg="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Jungle_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Jungle_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "303093"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+n9/AVDzPEw6cfssW29DEPryX2hv5DeMVPAwBGAsEmg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+n9/AVDzPEw6cfssW29DEPryX2hv5DeMVPAwBGAsEmg="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Marais.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "166838"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7GoX/o3jVWAcOTlYrE4woWrqJXAPzxePbbGJkQ/pTZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7GoX/o3jVWAcOTlYrE4woWrqJXAPzxePbbGJkQ/pTZE="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Marais.wroumjhqlj.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "166838"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7GoX/o3jVWAcOTlYrE4woWrqJXAPzxePbbGJkQ/pTZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wroumjhqlj"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Marais.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7GoX/o3jVWAcOTlYrE4woWrqJXAPzxePbbGJkQ/pTZE="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Marais_mini.bxx8jvgz0n.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49910"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QROJEFkPtVu4RZYxv47qXa1QU0yo9Lik6UHOs7/PBDg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bxx8jvgz0n"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Marais_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QROJEFkPtVu4RZYxv47qXa1QU0yo9Lik6UHOs7/PBDg="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Marais_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Marais_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49910"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QROJEFkPtVu4RZYxv47qXa1QU0yo9Lik6UHOs7/PBDg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QROJEFkPtVu4RZYxv47qXa1QU0yo9Lik6UHOs7/PBDg="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Montagne.eii7rr5ql7.png",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661956"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dnC3nGmVPWYnH3gEM21kkuXwgLZNSQsgQhAJ75di3jU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eii7rr5ql7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Montagne.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dnC3nGmVPWYnH3gEM21kkuXwgLZNSQsgQhAJ75di3jU="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Montagne.png",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661956"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dnC3nGmVPWYnH3gEM21kkuXwgLZNSQsgQhAJ75di3jU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dnC3nGmVPWYnH3gEM21kkuXwgLZNSQsgQhAJ75di3jU="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Montagne_mini.366mxex7xw.png",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91820"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ra7nefLpSyDJ0c0TAlSnRFMMZqhrFmHTGBTRA65NyuE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "366mxex7xw"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Montagne_mini.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ra7nefLpSyDJ0c0TAlSnRFMMZqhrFmHTGBTRA65NyuE="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Montagne_mini.png",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Montagne_mini.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91820"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ra7nefLpSyDJ0c0TAlSnRFMMZqhrFmHTGBTRA65NyuE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ra7nefLpSyDJ0c0TAlSnRFMMZqhrFmHTGBTRA65NyuE="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Savane.3b9qf7gt2k.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801492"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9yt0Wz0XhNPIWOoLdAwnPcpKcWQfW88zJ3/3DTKvNc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3b9qf7gt2k"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Savane.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-n9yt0Wz0XhNPIWOoLdAwnPcpKcWQfW88zJ3/3DTKvNc="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Savane.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801492"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9yt0Wz0XhNPIWOoLdAwnPcpKcWQfW88zJ3/3DTKvNc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Jun 2024 06:33:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-n9yt0Wz0XhNPIWOoLdAwnPcpKcWQfW88zJ3/3DTKvNc="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Savane_mini.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "223469"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I3jMDIHptg2CPhzIJb4jSXgJKw9uCTCGZnc9c8SICZk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-I3jMDIHptg2CPhzIJb4jSXgJKw9uCTCGZnc9c8SICZk="
-        }
-      ]
-    },
-    {
-      "Route": "images/habitats/Savane_mini.t0cod6z02t.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\habitats\\Savane_mini.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "223469"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I3jMDIHptg2CPhzIJb4jSXgJKw9uCTCGZnc9c8SICZk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t0cod6z02t"
-        },
-        {
-          "Name": "label",
-          "Value": "images/habitats/Savane_mini.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I3jMDIHptg2CPhzIJb4jSXgJKw9uCTCGZnc9c8SICZk="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/638602154836570936_Garde d'enfants.2qhu7k9tce.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881983"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2qhu7k9tce"
-        },
-        {
-          "Name": "label",
-          "Value": "images/zoo-services/638602154836570936_Garde d'enfants.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/638602154836570936_Garde d'enfants.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\638602154836570936_Garde d'enfants.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881983"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Sep 2024 11:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xkNZkdiODmHemii2YVTdD/9Qte9b+xwV71TOk8aI3hI="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/petit_train.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "212544"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"53KebX62G9EVsVhuPyHsdaME2gSl+lVQq6hB5E2WfzQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-53KebX62G9EVsVhuPyHsdaME2gSl+lVQq6hB5E2WfzQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/petit_train.jxj8gn1ake.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\petit_train.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "212544"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"53KebX62G9EVsVhuPyHsdaME2gSl+lVQq6hB5E2WfzQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jxj8gn1ake"
-        },
-        {
-          "Name": "label",
-          "Value": "images/zoo-services/petit_train.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-53KebX62G9EVsVhuPyHsdaME2gSl+lVQq6hB5E2WfzQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/restauration.5jt72vjkby.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115823"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vyC/YAxSLhTiFyyJOp6AroOujI+0JEhlPBTZcSydsUs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5jt72vjkby"
-        },
-        {
-          "Name": "label",
-          "Value": "images/zoo-services/restauration.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vyC/YAxSLhTiFyyJOp6AroOujI+0JEhlPBTZcSydsUs="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/restauration.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\restauration.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115823"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vyC/YAxSLhTiFyyJOp6AroOujI+0JEhlPBTZcSydsUs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vyC/YAxSLhTiFyyJOp6AroOujI+0JEhlPBTZcSydsUs="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/visite_guidee.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "178933"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QbR+c8mEJNbB5klore5TRiIdQtFKfehbvqvTr28WGNU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QbR+c8mEJNbB5klore5TRiIdQtFKfehbvqvTr28WGNU="
-        }
-      ]
-    },
-    {
-      "Route": "images/zoo-services/visite_guidee.zznlv456w3.jpg",
-      "AssetFile": "C:\\Users\\nicolas.frotey\\Documents\\5-PERSO\\ECF_Zoo\\API_Arcadia\\wwwroot\\images\\zoo-services\\visite_guidee.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "178933"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QbR+c8mEJNbB5klore5TRiIdQtFKfehbvqvTr28WGNU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 11 Jul 2024 05:56:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zznlv456w3"
-        },
-        {
-          "Name": "label",
-          "Value": "images/zoo-services/visite_guidee.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QbR+c8mEJNbB5klore5TRiIdQtFKfehbvqvTr28WGNU="
-        }
-      ]
     }
   ]
 }

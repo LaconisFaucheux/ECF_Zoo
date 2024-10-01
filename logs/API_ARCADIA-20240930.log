@@ -1,0 +1,69 @@
+2024-09-30 20:58:21.174 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-30 20:58:21.346 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-30 20:58:21.347 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-30 20:58:21.384 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-30 20:58:21.384 +02:00  INF  Hosting environment: Development
+2024-09-30 20:58:21.385 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-30 20:58:21.959 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-30 20:58:22.113 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 156.938ms
+2024-09-30 20:58:22.141 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-30 20:58:22.147 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.9514ms
+2024-09-30 20:58:22.148 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-30 20:58:22.191 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.9454ms
+2024-09-30 20:58:22.273 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-30 20:58:22.363 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.2161ms
+2024-09-30 20:58:32.483 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=kutgdfiuygtuioytfol. - null 0
+2024-09-30 20:58:32.489 +02:00  INF  CORS policy execution successful.
+2024-09-30 20:58:33.953 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-09-30 20:58:33.965 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-09-30 21:00:51.008 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 137038.8981ms
+2024-09-30 21:00:51.009 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-09-30 21:00:51.010 +02:00  ERR  An unhandled exception has occurred while executing the request.MailKit.Net.Smtp.SmtpProtocolException: The SMTP server has unexpectedly disconnected.
+   at MailKit.Net.Smtp.SmtpStream.ReadAhead(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponse(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.PostConnect(Stream stream, String host, Int32 port, SecureSocketOptions options, Boolean starttls, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at API_Arcadia.Controllers.EmailController.SendEmail(String body) in D:\DEV\back\ECF_Zoo\API_Arcadia\Controllers\EmailController.cs:line 23
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-30 21:00:51.031 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=kutgdfiuygtuioytfol. - 500 null text/plain; charset=utf-8 138548.7463ms
+2024-09-30 21:05:48.122 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-30 21:05:48.293 +02:00  INF  Now listening on: https://localhost:7015
+2024-09-30 21:05:48.294 +02:00  INF  Now listening on: http://localhost:5131
+2024-09-30 21:05:48.336 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-09-30 21:05:48.337 +02:00  INF  Hosting environment: Development
+2024-09-30 21:05:48.337 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-09-30 21:05:48.862 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-09-30 21:05:48.997 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 137.6155ms
+2024-09-30 21:05:49.023 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-30 21:05:49.029 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.4357ms
+2024-09-30 21:05:49.037 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-09-30 21:05:49.070 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.7215ms
+2024-09-30 21:05:49.164 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-09-30 21:05:49.263 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.6735ms
+2024-09-30 21:05:56.025 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=vgghukvhjkl - null 0
+2024-09-30 21:05:56.035 +02:00  INF  CORS policy execution successful.
+2024-09-30 21:05:56.076 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-09-30 21:05:56.089 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-09-30 21:05:56.673 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-09-30 21:05:56.676 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 584.2436ms
+2024-09-30 21:05:56.677 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-09-30 21:05:56.678 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=vgghukvhjkl - 200 0 null 653.5119ms

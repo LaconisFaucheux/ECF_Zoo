@@ -1,0 +1,6 @@
+.vs
+.vscode
+.idea
+
+API_Arcadia/appsettings.Development.json
+API_Arcadia/appsettings.json

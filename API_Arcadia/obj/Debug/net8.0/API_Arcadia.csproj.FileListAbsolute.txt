@@ -590,3 +590,6 @@ C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\r
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\API_Arcadia.pdb
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\API_Arcadia.genruntimeconfig.cache
 C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\ref\API_Arcadia.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\MailKit.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\MimeKit.dll

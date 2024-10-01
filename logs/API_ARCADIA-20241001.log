@@ -1,0 +1,492 @@
+2024-10-01 08:31:44.245 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 08:31:44.422 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 08:31:44.423 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 08:31:44.466 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 08:31:44.467 +02:00  INF  Hosting environment: Development
+2024-10-01 08:31:44.468 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 08:31:45.102 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 08:31:45.256 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 157.3733ms
+2024-10-01 08:31:45.276 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 08:31:45.282 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.837ms
+2024-10-01 08:31:45.288 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 08:31:45.330 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.1754ms
+2024-10-01 08:31:45.412 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 08:31:45.507 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.8166ms
+2024-10-01 08:38:03.808 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=tut%20tut%20pouet%20pouet%20la%20voil%C3%A0%2C%20la%20totomobiiiiileuh - null 0
+2024-10-01 08:38:03.822 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:38:04.593 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:38:04.613 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:38:06.186 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 08:38:06.189 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 1572.8991ms
+2024-10-01 08:38:06.190 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:38:06.192 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=tut%20tut%20pouet%20pouet%20la%20voil%C3%A0%2C%20la%20totomobiiiiileuh - 200 0 null 2384.4689ms
+2024-10-01 08:39:11.647 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 08:39:11.795 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 08:39:11.796 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 08:39:11.831 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 08:39:11.832 +02:00  INF  Hosting environment: Development
+2024-10-01 08:39:11.832 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 08:39:12.511 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 08:39:12.641 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 133.1184ms
+2024-10-01 08:39:12.660 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 08:39:12.665 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.1994ms
+2024-10-01 08:39:12.671 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 08:39:12.697 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.4655ms
+2024-10-01 08:39:12.805 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 08:39:12.899 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.7608ms
+2024-10-01 08:39:31.172 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=vhiklvhiklfh&to=nicolas.frotey%40gmail.com - null 0
+2024-10-01 08:39:31.181 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:39:31.222 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:39:31.234 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:39:31.766 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 08:39:31.769 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 531.2853ms
+2024-10-01 08:39:31.770 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:39:31.772 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=vhiklvhiklfh&to=nicolas.frotey%40gmail.com - 200 0 null 599.8887ms
+2024-10-01 08:40:23.536 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 08:40:23.700 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 08:40:23.701 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 08:40:23.739 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 08:40:23.740 +02:00  INF  Hosting environment: Development
+2024-10-01 08:40:23.740 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 08:40:24.157 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 08:40:24.283 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 129.5621ms
+2024-10-01 08:40:24.303 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 08:40:24.308 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.846ms
+2024-10-01 08:40:24.316 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 08:40:24.343 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.9926ms
+2024-10-01 08:40:24.433 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 08:40:24.534 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.5167ms
+2024-10-01 08:41:31.534 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=ftuifytu&to=nicolas.frotey%40gmail.com&from=direction%40arcadia-zoo-broceliande.fr - null 0
+2024-10-01 08:41:31.550 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:41:31.588 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:41:31.603 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:41:32.126 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 08:41:32.129 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 522.2834ms
+2024-10-01 08:41:32.130 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:41:32.131 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=ftuifytu&to=nicolas.frotey%40gmail.com&from=direction%40arcadia-zoo-broceliande.fr - 200 0 null 597.5986ms
+2024-10-01 08:42:14.327 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=ftuifytu&to=contact%40arcadia-zoo-broceliande.fr&from=nicolas.frotey%40gmail.com - null 0
+2024-10-01 08:42:14.333 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:42:14.334 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:42:14.368 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:42:14.806 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 08:42:14.807 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 437.3199ms
+2024-10-01 08:42:14.808 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:42:14.809 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=ftuifytu&to=contact%40arcadia-zoo-broceliande.fr&from=nicolas.frotey%40gmail.com - 200 0 null 482.1216ms
+2024-10-01 08:43:43.148 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 08:43:43.317 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 08:43:43.318 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 08:43:43.356 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 08:43:43.357 +02:00  INF  Hosting environment: Development
+2024-10-01 08:43:43.357 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 08:43:43.669 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 08:43:43.799 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 132.7319ms
+2024-10-01 08:43:43.818 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 08:43:43.823 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.7534ms
+2024-10-01 08:43:43.832 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 08:43:43.861 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.5045ms
+2024-10-01 08:43:43.956 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 08:43:44.047 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.4382ms
+2024-10-01 08:44:08.485 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=fgyhyufkyrf&to=direction%40arcadia-zoo-broceliande.fr&from=nicolas.frotey%40gmail.com - null 0
+2024-10-01 08:44:08.496 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:44:08.533 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:44:08.548 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:44:26.990 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 08:44:27.182 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 08:44:27.182 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 08:44:27.235 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 08:44:27.236 +02:00  INF  Hosting environment: Development
+2024-10-01 08:44:27.236 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 08:44:28.013 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 08:44:28.144 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 134.4395ms
+2024-10-01 08:44:28.164 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 08:44:28.169 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.2602ms
+2024-10-01 08:44:28.178 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 08:44:28.207 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8454ms
+2024-10-01 08:44:28.300 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 08:44:28.396 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.7351ms
+2024-10-01 08:45:25.643 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email?body=dafghasd&to=contact%40arcadia-zoo-broceliande.fr&from=direction%40arcadia-zoo-broceliande.fr - null 0
+2024-10-01 08:45:25.652 +02:00  INF  CORS policy execution successful.
+2024-10-01 08:45:25.690 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:45:25.702 +02:00  INF  Route matched with {action = "SendEmail", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmail(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 08:45:26.231 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 08:45:26.235 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia) in 528.3408ms
+2024-10-01 08:45:26.236 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmail (API_Arcadia)'
+2024-10-01 08:45:26.237 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email?body=dafghasd&to=contact%40arcadia-zoo-broceliande.fr&from=direction%40arcadia-zoo-broceliande.fr - 200 0 null 594.5905ms
+2024-10-01 11:46:33.784 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 11:46:33.960 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 11:46:33.961 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 11:46:34.000 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 11:46:34.001 +02:00  INF  Hosting environment: Development
+2024-10-01 11:46:34.002 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 11:46:34.184 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 11:46:34.325 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 144.064ms
+2024-10-01 11:46:34.348 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 11:46:34.354 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.9716ms
+2024-10-01 11:46:34.363 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 11:46:34.394 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.19ms
+2024-10-01 11:46:34.482 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 11:46:34.581 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.0247ms
+2024-10-01 11:46:54.910 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fsyhtfdyhj&to=nicolas.frotey%40gmail.com&subject=fsdghjtyiu - null 0
+2024-10-01 11:46:54.921 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:46:55.618 +02:00  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-01 11:46:55.621 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-10-01 11:46:55.622 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fsyhtfdyhj&to=nicolas.frotey%40gmail.com&subject=fsdghjtyiu - 401 0 null 712.9837ms
+2024-10-01 11:47:15.297 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 11:47:15.493 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 11:47:15.494 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 11:47:15.535 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 11:47:15.535 +02:00  INF  Hosting environment: Development
+2024-10-01 11:47:15.536 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 11:47:15.943 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 11:47:16.080 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 139.1831ms
+2024-10-01 11:47:16.102 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 11:47:16.108 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.0337ms
+2024-10-01 11:47:16.113 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 11:47:16.141 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.577ms
+2024-10-01 11:47:16.247 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 11:47:16.338 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.6098ms
+2024-10-01 11:47:40.278 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=dtghrt68j&to=nicolas.frotey%40gmail.com&subject=tfyujty8i8iok - null 0
+2024-10-01 11:47:40.289 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:47:40.327 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:47:40.344 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 11:47:40.585 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 11:47:40.588 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia) in 239.9294ms
+2024-10-01 11:47:40.589 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:47:40.590 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=dtghrt68j&to=nicolas.frotey%40gmail.com&subject=tfyujty8i8iok - 200 0 null 311.8646ms
+2024-10-01 11:49:37.015 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 11:49:37.203 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 11:49:37.204 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 11:49:37.252 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 11:49:37.253 +02:00  INF  Hosting environment: Development
+2024-10-01 11:49:37.253 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 11:49:37.696 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 11:49:37.837 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 144.2391ms
+2024-10-01 11:49:37.864 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 11:49:37.870 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7795ms
+2024-10-01 11:49:37.875 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 11:49:37.907 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.2483ms
+2024-10-01 11:49:38.002 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 11:49:38.095 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.6478ms
+2024-10-01 11:49:53.083 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fgujujkfgcu&to=nicolas.frotey%40gmail.com&subject=fgujkujfghu - null 0
+2024-10-01 11:49:53.089 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:49:53.127 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:49:53.140 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 11:49:53.172 +02:00  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-01 11:49:53.187 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia) in 43.1983ms
+2024-10-01 11:49:53.188 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:49:53.188 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fgujujkfgcu&to=nicolas.frotey%40gmail.com&subject=fgujkujfghu - 400 null application/problem+json; charset=utf-8 105.9124ms
+2024-10-01 11:50:13.624 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fgujujkfgcu&to=nicolas.frotey%40gmail.com&subject=fgujkujfghu - null 0
+2024-10-01 11:50:13.631 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:50:13.637 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:50:13.641 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 11:52:43.497 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 11:52:43.680 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 11:52:43.680 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 11:52:43.722 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 11:52:43.722 +02:00  INF  Hosting environment: Development
+2024-10-01 11:52:43.723 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 11:52:44.301 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 11:52:44.439 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 140.7442ms
+2024-10-01 11:52:44.459 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 11:52:44.465 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.6108ms
+2024-10-01 11:52:44.474 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 11:52:44.504 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.0896ms
+2024-10-01 11:52:44.597 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 11:52:44.695 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.5727ms
+2024-10-01 11:53:05.489 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fyhhikg&to=nicolas.frotey%40gmail.com&subject=sdthdr - null 0
+2024-10-01 11:53:05.496 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:53:05.535 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:53:05.550 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 11:53:08.944 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 11:53:08.947 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia) in 3393.5136ms
+2024-10-01 11:53:08.948 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 11:53:08.949 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=fyhhikg&to=nicolas.frotey%40gmail.com&subject=sdthdr - 200 0 null 3460.807ms
+2024-10-01 11:57:42.766 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 11:57:42.927 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 11:57:42.928 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 11:57:42.967 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 11:57:42.968 +02:00  INF  Hosting environment: Development
+2024-10-01 11:57:42.968 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 11:57:43.327 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 11:57:43.468 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 144.1249ms
+2024-10-01 11:57:43.488 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 11:57:43.493 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.2268ms
+2024-10-01 11:57:43.501 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 11:57:43.532 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.7068ms
+2024-10-01 11:57:43.625 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 11:57:43.724 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.7801ms
+2024-10-01 11:58:31.392 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=%20gvbgjkvcgh&to=nicolas.frotey%40gmail.com&subject=dcghdfgyuj - null 0
+2024-10-01 11:58:31.400 +02:00  INF  CORS policy execution successful.
+2024-10-01 11:58:31.437 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 11:58:31.450 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 11:58:31.983 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 11:58:31.986 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia) in 532.3505ms
+2024-10-01 11:58:31.986 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 11:58:31.988 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=%20gvbgjkvcgh&to=nicolas.frotey%40gmail.com&subject=dcghdfgyuj - 200 0 null 596.1528ms
+2024-10-01 12:00:39.538 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=%20gvbgjkvcgh&to=nicolas.frotey%40gmail.com&subject=dcghdfgyuj - null 0
+2024-10-01 12:00:39.545 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:00:39.547 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:00:39.548 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:00:40.027 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 12:00:40.029 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia) in 479.4258ms
+2024-10-01 12:00:40.030 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:00:40.031 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=%20gvbgjkvcgh&to=nicolas.frotey%40gmail.com&subject=dcghdfgyuj - 200 0 null 493.6666ms
+2024-10-01 12:00:55.775 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=%20gvbgjkvcgh&to=nicolas.frotey%40gmail.com&subject=dcghdfgyuj - null 0
+2024-10-01 12:00:55.777 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:00:55.779 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:00:55.780 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:01:53.356 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 12:01:53.564 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 12:01:53.565 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 12:01:53.620 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 12:01:53.621 +02:00  INF  Hosting environment: Development
+2024-10-01 12:01:53.622 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 12:01:54.302 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 12:01:54.439 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 140.2641ms
+2024-10-01 12:01:54.461 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 12:01:54.467 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.2182ms
+2024-10-01 12:01:54.475 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 12:01:54.507 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.3067ms
+2024-10-01 12:01:54.599 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 12:01:54.704 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.1377ms
+2024-10-01 12:02:19.901 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=jl%2Chgvk.jb&to=nicolas.frotey%40gmail.com&subject=hjlhgl - null 0
+2024-10-01 12:02:19.907 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:02:19.947 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:02:19.963 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:04:11.250 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 12:04:11.408 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 12:04:11.409 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 12:04:11.450 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 12:04:11.451 +02:00  INF  Hosting environment: Development
+2024-10-01 12:04:11.452 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 12:04:11.811 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 12:04:12.017 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 211.4012ms
+2024-10-01 12:04:12.047 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 12:04:12.060 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 12:04:12.061 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 14.2977ms
+2024-10-01 12:04:12.100 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.8526ms
+2024-10-01 12:04:12.212 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 12:04:12.324 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.8709ms
+2024-10-01 12:05:13.792 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=ikliyhfgkuiy&to=nicolas.frotey%40gmail.fr&subject=uytl - null 0
+2024-10-01 12:05:13.800 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:05:13.841 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:05:13.856 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:09:40.231 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 12:09:40.455 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 12:09:40.456 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 12:09:40.499 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 12:09:40.501 +02:00  INF  Hosting environment: Development
+2024-10-01 12:09:40.501 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 12:09:40.948 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 12:09:41.089 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 146.3543ms
+2024-10-01 12:09:41.109 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 12:09:41.114 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0196ms
+2024-10-01 12:09:41.120 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 12:09:41.150 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6148ms
+2024-10-01 12:09:41.250 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 12:09:41.356 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.7048ms
+2024-10-01 12:10:03.581 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=e4r6yu6we45r6&to=nicolas.frotey%40gmail.com&subject=e6uer7 - null 0
+2024-10-01 12:10:03.593 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:10:03.631 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:10:03.644 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:10:04.196 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 12:10:04.199 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia) in 551.2012ms
+2024-10-01 12:10:04.200 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 12:10:04.202 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=e4r6yu6we45r6&to=nicolas.frotey%40gmail.com&subject=e6uer7 - 200 0 null 620.948ms
+2024-10-01 12:15:15.669 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-visitor?body=e567u45&to=nicolas.frotey%40gmail.com&subject=6578467 - null 0
+2024-10-01 12:15:15.676 +02:00  INF  CORS policy execution successful.
+2024-10-01 12:15:15.677 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsVisitor (API_Arcadia)'
+2024-10-01 12:15:15.682 +02:00  INF  Route matched with {action = "SendEmailAsVisitor", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsVisitor(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 12:15:16.129 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 12:15:16.130 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsVisitor (API_Arcadia) in 446.7919ms
+2024-10-01 12:15:16.131 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsVisitor (API_Arcadia)'
+2024-10-01 12:15:16.132 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-visitor?body=e567u45&to=nicolas.frotey%40gmail.com&subject=6578467 - 200 0 null 464.4082ms
+2024-10-01 14:36:14.811 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 14:36:14.974 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 14:36:14.974 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 14:36:15.016 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 14:36:15.017 +02:00  INF  Hosting environment: Development
+2024-10-01 14:36:15.018 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 14:36:15.679 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 14:36:15.835 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 161.2333ms
+2024-10-01 14:36:15.863 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 14:36:15.869 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.6039ms
+2024-10-01 14:36:15.871 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 14:36:15.903 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0954ms
+2024-10-01 14:36:16.059 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 14:36:16.153 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.6806ms
+2024-10-01 14:37:15.590 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=%20vhnjikklvhil&to=nicolas.frotey%40gmail.com&subject=thertyuuj - null 0
+2024-10-01 14:37:15.600 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:37:15.641 +02:00  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-01 14:37:15.644 +02:00  INF  AuthenticationScheme: Bearer was challenged.
+2024-10-01 14:37:15.645 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=%20vhnjikklvhil&to=nicolas.frotey%40gmail.com&subject=thertyuuj - 401 0 null 55.3608ms
+2024-10-01 14:38:38.523 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 14:38:38.759 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 14:38:38.760 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 14:38:38.800 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 14:38:38.801 +02:00  INF  Hosting environment: Development
+2024-10-01 14:38:38.801 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 14:38:39.422 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 14:38:39.558 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 139.03ms
+2024-10-01 14:38:39.576 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 14:38:39.581 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.7209ms
+2024-10-01 14:38:39.587 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 14:38:39.620 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.4075ms
+2024-10-01 14:38:39.789 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 14:38:39.850 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-10-01 14:38:39.869 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 79.7861ms
+2024-10-01 14:39:06.343 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 14:39:06.518 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 14:39:06.518 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 14:39:06.572 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 14:39:06.574 +02:00  INF  Hosting environment: Development
+2024-10-01 14:39:06.574 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 14:39:06.859 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 14:39:06.987 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 130.4576ms
+2024-10-01 14:39:07.005 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 14:39:07.011 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0346ms
+2024-10-01 14:39:07.021 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 14:39:07.058 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7117ms
+2024-10-01 14:39:07.146 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 14:39:07.247 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.551ms
+2024-10-01 14:39:53.699 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=ti7rt7ui7&to=nicolas.frotey%40gmail.com&subject=dtherty - null 0
+2024-10-01 14:39:53.709 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:39:53.750 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 14:39:53.766 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 14:39:54.343 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 14:39:54.346 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia) in 575.9606ms
+2024-10-01 14:39:54.347 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 14:39:54.348 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=ti7rt7ui7&to=nicolas.frotey%40gmail.com&subject=dtherty - 200 0 null 648.7709ms
+2024-10-01 14:40:22.667 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=r657ity8o&to=nicolas.frotey%40gmail.com&subject=edtyurt - null 0
+2024-10-01 14:40:22.671 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:40:22.673 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 14:40:22.678 +02:00  INF  Route matched with {action = "SendEmailAsEmployee", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsEmployee(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 14:40:23.138 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 14:40:23.139 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia) in 459.1237ms
+2024-10-01 14:40:23.140 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsEmployee (API_Arcadia)'
+2024-10-01 14:40:23.141 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-employee?body=r657ity8o&to=nicolas.frotey%40gmail.com&subject=edtyurt - 200 0 null 473.6785ms
+2024-10-01 14:41:19.297 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=test%20Arcadia%20Mail&to=nicolas.frotey%40gmail.com&subject=test%20Arcadia%20Mail - null 0
+2024-10-01 14:41:19.300 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:41:19.303 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 14:41:19.304 +02:00  INF  Route matched with {action = "SendEmailAsAdmin", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendEmailAsAdmin(System.String, System.String, System.String) on controller API_Arcadia.Controllers.EmailController (API_Arcadia).
+2024-10-01 14:41:19.760 +02:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-10-01 14:41:19.761 +02:00  INF  Executed action API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia) in 455.3471ms
+2024-10-01 14:41:19.762 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.EmailController.SendEmailAsAdmin (API_Arcadia)'
+2024-10-01 14:41:19.763 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/Email/mail-as-admin?body=test%20Arcadia%20Mail&to=nicolas.frotey%40gmail.com&subject=test%20Arcadia%20Mail - 200 0 null 466.4205ms
+2024-10-01 14:55:30.774 +02:00  INF  User profile is available. Using 'C:\Users\Lacon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-01 14:55:30.952 +02:00  INF  Now listening on: https://localhost:7015
+2024-10-01 14:55:30.953 +02:00  INF  Now listening on: http://localhost:5131
+2024-10-01 14:55:30.995 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-10-01 14:55:30.997 +02:00  INF  Hosting environment: Development
+2024-10-01 14:55:30.998 +02:00  INF  Content root path: D:\DEV\back\ECF_Zoo\API_Arcadia
+2024-10-01 14:55:31.660 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/index.html - null null
+2024-10-01 14:55:31.828 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/index.html - 200 null text/html;charset=utf-8 172.9612ms
+2024-10-01 14:55:31.857 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 14:55:31.868 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.0423ms
+2024-10-01 14:55:31.871 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/_vs/browserLink - null null
+2024-10-01 14:55:31.924 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.0617ms
+2024-10-01 14:55:32.025 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - null null
+2024-10-01 14:55:32.165 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.864ms
+2024-10-01 14:55:50.735 +02:00  INF  Request starting HTTP/2 OPTIONS https://localhost:7015/api/Animals/length - null null
+2024-10-01 14:55:50.736 +02:00  INF  Request starting HTTP/2 OPTIONS https://localhost:7015/api/Reviews - null null
+2024-10-01 14:55:50.737 +02:00  INF  Request starting HTTP/2 OPTIONS https://localhost:7015/api/OpeningHours - null null
+2024-10-01 14:55:50.744 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.744 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.744 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.746 +02:00  INF  Request finished HTTP/2 OPTIONS https://localhost:7015/api/Reviews - 204 null null 11.8527ms
+2024-10-01 14:55:50.746 +02:00  INF  Request finished HTTP/2 OPTIONS https://localhost:7015/api/Animals/length - 204 null null 11.8925ms
+2024-10-01 14:55:50.746 +02:00  INF  Request finished HTTP/2 OPTIONS https://localhost:7015/api/OpeningHours - 204 null null 11.8544ms
+2024-10-01 14:55:50.751 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Reviews - null null
+2024-10-01 14:55:50.751 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/length - null null
+2024-10-01 14:55:50.752 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/OpeningHours - null null
+2024-10-01 14:55:50.761 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.766 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.768 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:50.847 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia)'
+2024-10-01 14:55:50.847 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.ReviewsController.GetReviews (API_Arcadia)'
+2024-10-01 14:55:50.847 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimalsListLength (API_Arcadia)'
+2024-10-01 14:55:50.871 +02:00  INF  Route matched with {action = "GetReviews", controller = "Reviews"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.Review]]] GetReviews() on controller API_Arcadia.Controllers.ReviewsController (API_Arcadia).
+2024-10-01 14:55:50.871 +02:00  INF  Route matched with {action = "GetAnimalsListLength", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] GetAnimalsListLength() on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-10-01 14:55:50.871 +02:00  INF  Route matched with {action = "GetOpeningHours", controller = "OpeningHours"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Arcadia.Models.OpeningHour]]] GetOpeningHours() on controller API_Arcadia.Controllers.OpeningHoursController (API_Arcadia).
+2024-10-01 14:55:53.400 +02:00  INF  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Animals] AS [a]
+2024-10-01 14:55:53.400 +02:00  INF  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Content], [r].[IsValidated], [r].[Note], [r].[Pseudo]
+FROM [Reviews] AS [r]
+WHERE [r].[IsValidated] = CAST(1 AS bit)
+2024-10-01 14:55:53.400 +02:00  INF  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[AfternoonClosing], [o].[AfternoonOpening], [o].[DayOfWeek], [o].[MorningClosing], [o].[MorningOpening]
+FROM [OpeningHours] AS [o]
+2024-10-01 14:55:53.429 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-10-01 14:55:53.442 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimalsListLength (API_Arcadia) in 2564.3438ms
+2024-10-01 14:55:53.444 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimalsListLength (API_Arcadia)'
+2024-10-01 14:55:53.450 +02:00  INF  Request starting HTTP/2 OPTIONS https://localhost:7015/api/Animals/9 - null null
+2024-10-01 14:55:53.452 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:53.453 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/length - 200 null application/json; charset=utf-8 2701.3709ms
+2024-10-01 14:55:53.453 +02:00  INF  Request finished HTTP/2 OPTIONS https://localhost:7015/api/Animals/9 - 204 null null 3.0228ms
+2024-10-01 14:55:53.453 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.Review, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-01 14:55:53.453 +02:00  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API_Arcadia.Models.OpeningHour, API_Arcadia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-01 14:55:53.455 +02:00  INF  Request starting HTTP/2 GET https://localhost:7015/api/Animals/9 - null null
+2024-10-01 14:55:53.461 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:55:53.463 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-10-01 14:55:53.470 +02:00  INF  Executed action API_Arcadia.Controllers.ReviewsController.GetReviews (API_Arcadia) in 2596.8613ms
+2024-10-01 14:55:53.471 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.ReviewsController.GetReviews (API_Arcadia)'
+2024-10-01 14:55:53.471 +02:00  INF  Executed action API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia) in 2595.7009ms
+2024-10-01 14:55:53.472 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Reviews - 200 null application/json; charset=utf-8 2720.7149ms
+2024-10-01 14:55:53.472 +02:00  INF  Route matched with {action = "GetAnimal", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Arcadia.Models.Animal]] GetAnimal(Int32) on controller API_Arcadia.Controllers.AnimalsController (API_Arcadia).
+2024-10-01 14:55:53.472 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.OpeningHoursController.GetOpeningHours (API_Arcadia)'
+2024-10-01 14:55:53.475 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/OpeningHours - 200 null application/json; charset=utf-8 2723.938ms
+2024-10-01 14:55:53.608 +02:00  WRN  Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-10-01 14:55:53.660 +02:00  INF  Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdHealth], [t].[IdSpecies], [t].[IsMale], [t].[Name], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [a0].[IdAnimal], [a0].[MiniSlug], [a0].[Slug], [t].[State], [t].[Description], [t].[FemaleMaxSize], [t].[FemaleMaxWeight], [t].[IdDiet], [t].[IdSizeUnit], [t].[IdWeightUnit], [t].[Lifespan], [t].[MaleMaxSize], [t].[MaleMaxWeight], [t].[Name0], [t].[ScientificName], [t].[Abbr], [t].[Name1], [t].[Abbr0], [t].[Name2], [t].[Name3], [t0].[IdHabitat], [t0].[IdSpecies], [t0].[Id], [t0].[Description], [t0].[Name]
+FROM (
+    SELECT TOP(1) [a].[Id], [a].[IdHealth], [a].[IdSpecies], [a].[IsMale], [a].[Name], [h].[Id] AS [Id0], [h].[State], [s].[Id] AS [Id1], [s].[Description], [s].[FemaleMaxSize], [s].[FemaleMaxWeight], [s].[IdDiet], [s].[IdSizeUnit], [s].[IdWeightUnit], [s].[Lifespan], [s].[MaleMaxSize], [s].[MaleMaxWeight], [s].[Name] AS [Name0], [s].[ScientificName], [s0].[Id] AS [Id2], [s0].[Abbr], [s0].[Name] AS [Name1], [w].[Id] AS [Id3], [w].[Abbr] AS [Abbr0], [w].[Name] AS [Name2], [d].[Id] AS [Id4], [d].[Name] AS [Name3]
+    FROM [Animals] AS [a]
+    INNER JOIN [Healths] AS [h] ON [a].[IdHealth] = [h].[Id]
+    INNER JOIN [Speciess] AS [s] ON [a].[IdSpecies] = [s].[Id]
+    INNER JOIN [SizeUnits] AS [s0] ON [s].[IdSizeUnit] = [s0].[Id]
+    INNER JOIN [WeightUnits] AS [w] ON [s].[IdWeightUnit] = [w].[Id]
+    INNER JOIN [Diets] AS [d] ON [s].[IdDiet] = [d].[Id]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [AnimalImages] AS [a0] ON [t].[Id] = [a0].[IdAnimal]
+LEFT JOIN (
+    SELECT [s1].[IdHabitat], [s1].[IdSpecies], [h0].[Id], [h0].[Description], [h0].[Name]
+    FROM [SpeciesHabitats] AS [s1]
+    INNER JOIN [Habitats] AS [h0] ON [s1].[IdHabitat] = [h0].[Id]
+) AS [t0] ON [t].[Id1] = [t0].[IdSpecies]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1], [t].[Id2], [t].[Id3], [t].[Id4], [a0].[Id], [t0].[IdHabitat], [t0].[IdSpecies]
+2024-10-01 14:55:53.738 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Animal'.
+2024-10-01 14:55:53.757 +02:00  INF  Executed action API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia) in 281.7552ms
+2024-10-01 14:55:53.758 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AnimalsController.GetAnimal (API_Arcadia)'
+2024-10-01 14:55:53.758 +02:00  INF  Request finished HTTP/2 GET https://localhost:7015/api/Animals/9 - 200 null application/json; charset=utf-8 303.652ms
+2024-10-01 14:56:01.879 +02:00  INF  Request starting HTTP/2 OPTIONS https://localhost:7015/api/auth/login - null null
+2024-10-01 14:56:01.882 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:56:01.882 +02:00  INF  Request finished HTTP/2 OPTIONS https://localhost:7015/api/auth/login - 204 null null 3.2263ms
+2024-10-01 14:56:01.884 +02:00  INF  Request starting HTTP/2 POST https://localhost:7015/api/auth/login - application/json 52
+2024-10-01 14:56:01.887 +02:00  INF  CORS policy execution successful.
+2024-10-01 14:56:01.887 +02:00  INF  Executing endpoint 'API_Arcadia.Controllers.AuthController.Login (API_Arcadia)'
+2024-10-01 14:56:01.892 +02:00  INF  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(API_Arcadia.Models.Data.LoginRequestDTO) on controller API_Arcadia.Controllers.AuthController (API_Arcadia).
+2024-10-01 14:56:02.038 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-10-01 14:56:02.116 +02:00  INF  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-01 14:56:02.163 +02:00  INF  Executing OkObjectResult, writing value of type 'API_Arcadia.Models.Data.LoginResponseDTO'.
+2024-10-01 14:56:02.165 +02:00  INF  Executed action API_Arcadia.Controllers.AuthController.Login (API_Arcadia) in 272.4844ms
+2024-10-01 14:56:02.166 +02:00  INF  Executed endpoint 'API_Arcadia.Controllers.AuthController.Login (API_Arcadia)'
+2024-10-01 14:56:02.167 +02:00  INF  Request finished HTTP/2 POST https://localhost:7015/api/auth/login - 200 null application/json; charset=utf-8 283.5633ms
