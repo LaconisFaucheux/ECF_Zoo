@@ -143,16 +143,17 @@ namespace API_Arcadia
             });
 
 
-
-            //builder.Services.AddCors(policy =>
-            //{
-            //    policy.AddPolicy("CorsPolicy",
-            //        builder => builder
-            //            .AllowAnyMethod()
-            //            .AllowCredentials()
-            //            .SetIsOriginAllowed((host) => true)
-            //            .AllowAnyHeader());
-            //});
+#if DEBUG
+            builder.Services.AddCors(policy =>
+            {
+                policy.AddPolicy("CorsPolicy",
+                    builder => builder
+                        .AllowAnyMethod()
+                        .AllowCredentials()
+                        .SetIsOriginAllowed((host) => true)
+                        .AllowAnyHeader());
+            });
+#endif
 
 
 
@@ -181,7 +182,9 @@ namespace API_Arcadia
 
             var app = builder.Build();
 
-            //app.UseCors("CorsPolicy");
+#if DEBUG
+            app.UseCors("CorsPolicy");
+#endif
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

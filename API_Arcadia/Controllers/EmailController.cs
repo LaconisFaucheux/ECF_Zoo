@@ -1,4 +1,5 @@
 ﻿using API_Arcadia.Interfaces;
+using API_Arcadia.Models.Data;
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.AspNetCore.Authorization;
@@ -22,9 +23,9 @@ namespace API_Arcadia.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost("mail-as-admin")]
-        public IActionResult SendEmailAsAdmin(string body, string to, string subject)
+        public IActionResult SendEmailAsAdmin(EmailDTO mail)
         {
-            if (_emailSender.SendEmailAsAdminAsync(body, to, subject))
+            if (_emailSender.SendEmailAsAdminAsync(mail.body, mail.to, mail.subject))
             {
                 return Ok();
             }
@@ -36,9 +37,9 @@ namespace API_Arcadia.Controllers
 
         [Authorize(Roles = "Employee")]
         [HttpPost("mail-as-employee")]
-        public IActionResult SendEmailAsEmployee(string body, string to, string subject)
+        public IActionResult SendEmailAsEmployee(EmailDTO mail)
         {
-            if (_emailSender.SendEmailAsEmployeeAsync(body, to, subject))
+            if (_emailSender.SendEmailAsEmployeeAsync(mail.body, mail.to, mail.subject))
             {
                 return Ok();
             }
@@ -49,9 +50,9 @@ namespace API_Arcadia.Controllers
         }
 
         [HttpPost("mail-as-visitor")]
-        public IActionResult SendEmailAsVisitor(string body, string subject)
+        public IActionResult SendEmailAsVisitor(EmailDTO mail)
         {
-            if (_emailSender.SendEmailAsVisitorAsync(body, subject))
+            if (_emailSender.SendEmailAsVisitorAsync(mail.body, mail.subject))
             {
                 return Ok();
             }

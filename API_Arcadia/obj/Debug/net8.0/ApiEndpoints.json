@@ -565,19 +565,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "body",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "to",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "subject",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "mail",
+        "Type": "API_Arcadia.Models.Data.EmailDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -591,19 +581,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "body",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "to",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "subject",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "mail",
+        "Type": "API_Arcadia.Models.Data.EmailDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -617,14 +597,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "body",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "subject",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "mail",
+        "Type": "API_Arcadia.Models.Data.EmailDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

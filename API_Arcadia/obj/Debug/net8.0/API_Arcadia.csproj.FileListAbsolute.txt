@@ -1,5 +1,4 @@
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\appsettings.Development.json
-D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\appsettings.json
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\API_Arcadia.staticwebassets.runtime.json
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\API_Arcadia.exe
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\API_Arcadia.deps.json
@@ -593,3 +592,4 @@ C:\Users\nicolas.frotey\Documents\5-PERSO\ECF_Zoo\API_Arcadia\obj\Debug\net8.0\r
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\MailKit.dll
 D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\MimeKit.dll
+D:\DEV\back\ECF_Zoo\API_Arcadia\bin\Debug\net8.0\appsettings.json
