@@ -6,16 +6,21 @@ namespace API_Arcadia.Models.Data
 {
     public class AuthDbContext : IdentityDbContext
     {
-        public AuthDbContext(DbContextOptions options) : base(options)
+        private readonly IConfiguration _configuration;
+        public AuthDbContext(DbContextOptions options, IConfiguration configuration) : base(options)
         {
-
+            _configuration = configuration;
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            var AdminRoleId = "92f3d9c7-ca7a-4032-b2e5-45f511eca19e";
-            var EmployeeRoleId = "4dd3b707-837e-4ba5-b8b7-cc2a1f0aec49";
-            var VetRoleId = "2bc0d38d-b990-454c-91a5-95705251063c";
+            var cfg = _configuration.GetSection("AuthDbContextConfig").Get<AuthDbContextConfig>();
+            var mailCfg = _configuration.GetSection("EmailConfig").Get<EmailServiceConfig>();
+            if (cfg == null) return;
+            if(mailCfg == null) return;
+            var AdminRoleId = cfg.AdminRoleId;
+            var EmployeeRoleId = cfg.EmployeeRoleId;
+            var VetRoleId = cfg.VetRoleId;
 
             base.OnModelCreating(builder);
 
@@ -49,16 +54,17 @@ namespace API_Arcadia.Models.Data
             builder.Entity<IdentityRole>().HasData(roles);
 
             //create admin user
-            var AdminUserId = "4d1f3651-74f6-4542-96a1-418e9b9ccb79";
+            if (mailCfg.AsAdmin == null) return;
+            var AdminUserId = cfg.AdminUserId;
             var Admin = new IdentityUser()
             {
                 Id = AdminUserId,
-                UserName = "admin@arcadia.fr",
-                Email = "admin@arcadia.fr",
-                NormalizedEmail = "admin@arcadia.fr".ToUpper(),
-                NormalizedUserName = "admin@arcadia.fr".ToUpper()
+                UserName = mailCfg.AsAdmin.id,
+                Email = mailCfg.AsAdmin.id,
+                NormalizedEmail = mailCfg.AsAdmin.id.ToUpper(),
+                NormalizedUserName = mailCfg.AsAdmin.id.ToUpper()
             };
-            Admin.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(Admin, "Admin`@123");
+            Admin.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(Admin, cfg.AdminInitialPassword);
 
             builder.Entity<IdentityUser>().HasData(Admin);
 
